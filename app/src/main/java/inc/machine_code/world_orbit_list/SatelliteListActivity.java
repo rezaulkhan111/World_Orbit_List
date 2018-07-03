@@ -28,8 +28,8 @@ public class SatelliteListActivity extends AppCompatActivity implements Satellit
         mRecyclerView.setHasFixedSize(true);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
         Intent intent = getIntent();
-        List<Satellite> satelllistRe = (ArrayList<Satellite>) intent.getSerializableExtra("savedUser");
-        satellieList = satelllistRe;
+        List<Satellite> satellite=(ArrayList<Satellite>) intent.getSerializableExtra("savedUser");
+        satellieList = satellite;
 
         SatelliteAdapter adapter = new SatelliteAdapter(this, satellieList);
         mRecyclerView.setAdapter(adapter);

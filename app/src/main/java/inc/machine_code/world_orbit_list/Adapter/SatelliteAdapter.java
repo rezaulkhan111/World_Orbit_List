@@ -6,10 +6,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import java.util.List;
+
 import inc.machine_code.world_orbit_list.Country.Satellite;
 import inc.machine_code.world_orbit_list.R;
 
@@ -69,10 +69,9 @@ public class SatelliteAdapter extends RecyclerView.Adapter<SatelliteAdapter.View
 
     class SatelliteViewHolder extends RecyclerView.ViewHolder {
         ImageView p_satellite_photo;
-
         TextView p_satellite_name,
-                p_code_name,
-                p_launch_date;
+                 p_launch_date,
+                 p_satellite_type;
 
 
         public SatelliteViewHolder(View view) {
@@ -80,8 +79,8 @@ public class SatelliteAdapter extends RecyclerView.Adapter<SatelliteAdapter.View
 
             p_satellite_photo = view.findViewById(R.id.iv_satellite_photo);
             p_satellite_name = view.findViewById(R.id.tv_satellite_name);
-            p_code_name = view.findViewById(R.id.tv_code_name);
             p_launch_date = view.findViewById(R.id.tv_launch_date);
+            p_satellite_type = view.findViewById(R.id.tv_satellite_type);
         }
     }
 
@@ -89,30 +88,27 @@ public class SatelliteAdapter extends RecyclerView.Adapter<SatelliteAdapter.View
         ImageView satellite_photo;
 
         TextView satellite_name,
-                code_name,
-                launch_date;
-
-        LinearLayout linearLayout;
-
+                 launch_date,
+                 satellite_type;
 
         public ViewHolder(View v) {
             super(v);
-             satellite_photo = v.findViewById(R.id.iv_satellite_photo);
+            satellite_photo = v.findViewById(R.id.iv_satellite_photo);
             satellite_name = v.findViewById(R.id.tv_satellite_name);
-            code_name = v.findViewById(R.id.tv_code_name);
-              launch_date = v.findViewById(R.id.tv_launch_date);
-            //linearLayout.findViewById(R.id.linearLayout);
+            launch_date = v.findViewById(R.id.tv_launch_date);
+            satellite_type = v.findViewById(R.id.tv_satellite_type);
+
         }
 
         public void onBind(int position) {
 
 
             Satellite satellite = SatelliteList.get(position);
-
             satellite_photo.setImageResource(SatelliteList.get(position).getImage());
             satellite_name.setText(String.valueOf(satellite.getName()));
-            code_name.setText(String.valueOf(satellite.getCode_Name()));
             launch_date.setText(String.valueOf(satellite.getDate()));
+            satellite_type.setText(String.valueOf(satellite.getSatellite_Type()));
+
         }
 
     }

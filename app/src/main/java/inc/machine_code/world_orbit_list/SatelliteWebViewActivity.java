@@ -16,12 +16,12 @@ public class SatelliteWebViewActivity extends AppCompatActivity {
         setContentView(R.layout.activity_satellite_web_view);
         Bundle bundle = getIntent().getExtras();
         String a = String.valueOf(bundle.get("WEB_LINK"));
-        progressDialog=new ProgressDialog(this);
+        progressDialog = new ProgressDialog(this);
         progressDialog.setMessage("Loading...");
         progressDialog.show();
 
         _Satellite_Show = findViewById(R.id.wb_satellite_show);
-        _Satellite_Show.getSettings().setJavaScriptEnabled(true);
+
         _Satellite_Show.loadUrl(a);
         _Satellite_Show.setWebViewClient(new WebViewClient());
     }
