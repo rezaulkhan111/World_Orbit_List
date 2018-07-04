@@ -17,7 +17,66 @@ import inc.machine_code.world_orbit_list.Country.Satellite;
 public class MainActivity extends AppCompatActivity implements CountryAdapter.ICallback {
 
     List<Country> countryList = new ArrayList<>();
-    List<Satellite> satellieList = new ArrayList<Satellite>();
+    List<Satellite> ALGERIA_Sat_Obj,
+            ARGENTINA_Sat_Obj,
+            AUSTRALIA_Sat_Obj,
+            AZERBAIJAN_Sat_Obj,
+            BELARUS_Sat_Obj,
+            BOLIVIA_Sat_Obj,
+            BRAZIL_Sat_Obj,
+            BULGARIA_Sat_Obj,
+            CANADA_Sat_Obj,
+            CHILE_Sat_Obj,
+            CHINA_Sat_Obj,
+            CZECH_Sat_Obj,
+            DENMARK_Sat_Obj,
+            ECUADOR_Sat_Obj,
+            EGYPT_Sat_Obj,
+            ESTONIA_Sat_Obj,
+            FRANCE_Sat_Obj,
+            GERMANY_Sat_Obj,
+            GREECE_Sat_Obj,
+            INDIA_Sat_Obj,
+            INDONESIA_Sat_Obj,
+            IRAN_Sat_Obj,
+            IRAQ_Sat_Obj,
+            ISRAEL_Sat_Obj,
+            ITALY_Sat_Obj,
+            JAPAN_Sat_Obj,
+            KAZAKHSTAN_Sat_Obj,
+            LAOS_Sat_Obj,
+            LATVIA_Sat_Obj,
+            LITHUANIA_Sat_Obj,
+            LUXEMBOURG_Sat_Obj,
+            MALAYSIA_Sat_Obj,
+            MEXICO_Sat_Obj,
+            MOROCCO_Sat_Obj,
+            NETHERLANDS_Sat_Obj,
+            NIGERIA_Sat_Obj,
+            NORTH_KOREA_Sat_Obj,
+            NORWAY_Sat_Obj,
+            PAKISTAN_Sat_Obj,
+            PERU_Sat_Obj,
+            PHILIPPINES_Sat_Obj,
+            POLAND_Sat_Obj,
+            PORTUGAL_Sat_Obj,
+            RUSSIA_Sat_Obj,
+            SAUDI_ARABIA_Sat_Obj,
+            SINGAPORE_Sat_Obj,
+            SLOVAKIA_Sat_Obj,
+            SOUTH_AFRICA_Sat_Obj,
+            SOUTH_KOREA_Sat_Obj,
+            SPAIN_Sat_Obj,
+            SWEDEN_Sat_Obj,
+            TAIWAN_Sat_Obj,
+            THAILAND_Sat_Obj,
+            TURKEY_Sat_Obj,
+            UNITED_ARAB_EMIRATES_Sat_Obj,
+            UNITED_KINGDOM_Sat_Obj,
+            USA_Sat_Obj,
+            URUGUAY_Sat_Obj,
+            VENEZUELA_Sat_Obj,
+            VIETNAM_Sat_Obj;
     private RecyclerView mRecyclerView;
 
     @Override
@@ -101,249 +160,310 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
 
     public List<Satellite> ALGERIA_Satellite_List() {
 
-        satellieList.add(new Satellite(43039,"ALCOMSAT-1","Communication","Dec-10-2017",R.mipmap.ic_algeria_foreground));
-        satellieList.add(new Satellite(41789,"ALSAT 1N","Technology","Sep-26-2016",R.mipmap.ic_algeria_foreground));
-        satellieList.add(new Satellite(41786,"ALSAT 2B","army","Sep-26-2016",R.mipmap.ic_algeria_foreground));
-        satellieList.add(new Satellite(41785,"ALSAT 1B","army","Sep-26-2016",R.mipmap.ic_algeria_foreground));
-        satellieList.add(new Satellite(36798,"ALSAT 2A","army","July-12-2010",R.mipmap.ic_algeria_foreground));
-        satellieList.add(new Satellite(27559,"ALSAT 1","army","Nov-28-2002",R.mipmap.ic_algeria_foreground));
-        return satellieList;
+        ALGERIA_Sat_Obj = new ArrayList<>();
+        ALGERIA_Sat_Obj.add(new Satellite(43039, "ALCOMSAT-1", "Communication", "Dec-10-2017", R.mipmap.ic_algeria_foreground));
+        ALGERIA_Sat_Obj.add(new Satellite(41789, "ALSAT 1N", "Technology", "Sep-26-2016", R.mipmap.ic_algeria_foreground));
+        ALGERIA_Sat_Obj.add(new Satellite(41786, "ALSAT 2B", "army", "Sep-26-2016", R.mipmap.ic_algeria_foreground));
+        ALGERIA_Sat_Obj.add(new Satellite(41785, "ALSAT 1B", "army", "Sep-26-2016", R.mipmap.ic_algeria_foreground));
+        ALGERIA_Sat_Obj.add(new Satellite(36798, "ALSAT 2A", "army", "July-12-2010", R.mipmap.ic_algeria_foreground));
+        ALGERIA_Sat_Obj.add(new Satellite(27559, "ALSAT 1", "army", "Nov-28-2002", R.mipmap.ic_algeria_foreground));
+        return ALGERIA_Sat_Obj;
     }
+
     public List<Satellite> ARGENTINA_Satellite_List() {
 
-        return satellieList;
+        return ARGENTINA_Sat_Obj;
     }
+
     public List<Satellite> AUSTRALIA_Satellite_List() {
 
-        return satellieList;
+        return AUSTRALIA_Sat_Obj;
     }
+
     public List<Satellite> AZERBAIJAN_Satellite_List() {
 
-        return satellieList;
+        return AZERBAIJAN_Sat_Obj;
     }
-    public List<Satellite> BELARUS_Satellite_List() {
 
-        return satellieList;
+    public List<Satellite> BELARUS_Satellite_List() {
+        BELARUS_Sat_Obj = new ArrayList<>();
+        BELARUS_Sat_Obj.add(new Satellite(10, "fedfdfd", "cccc", "101010", R.mipmap.ic_algeria_foreground));
+        return BELARUS_Sat_Obj;
     }
+
     public List<Satellite> BOLIVIA_Satellite_List() {
 
-        return satellieList;
+        return BOLIVIA_Sat_Obj;
     }
+
     public List<Satellite> BRAZIL_Satellite_List() {
 
-        return satellieList;
+        return BRAZIL_Sat_Obj;
     }
+
     public List<Satellite> BULGARIA_Satellite_List() {
 
-        return satellieList;
+        return BULGARIA_Sat_Obj;
     }
+
     public List<Satellite> CANADA_Satellite_List() {
 
-        return satellieList;
+        return CANADA_Sat_Obj;
     }
+
     public List<Satellite> CHILE_Satellite_List() {
 
-        return satellieList;
+        return CHILE_Sat_Obj;
     }
+
     public List<Satellite> CHINA_Satellite_List() {
 
-        return satellieList;
+        return CHINA_Sat_Obj;
     }
+
     public List<Satellite> CZECH_Satellite_List() {
 
-        return satellieList;
+        return CZECH_Sat_Obj;
     }
+
     public List<Satellite> DENMARK_Satellite_List() {
 
-        return satellieList;
+        return DENMARK_Sat_Obj;
     }
+
     public List<Satellite> ECUADOR_Satellite_List() {
 
-        return satellieList;
+        return ECUADOR_Sat_Obj;
     }
+
     public List<Satellite> EGYPT_Satellite_List() {
 
-        return satellieList;
+        return EGYPT_Sat_Obj;
     }
+
     public List<Satellite> ESTONIA_Satellite_List() {
 
-        return satellieList;
+        return ESTONIA_Sat_Obj;
     }
+
     public List<Satellite> FRANCE_Satellite_List() {
 
-        return satellieList;
+        return FRANCE_Sat_Obj;
     }
+
     public List<Satellite> GERMANY_Satellite_List() {
 
-        return satellieList;
+        return GERMANY_Sat_Obj;
     }
+
     public List<Satellite> GREECE_Satellite_List() {
 
-        return satellieList;
+        return GREECE_Sat_Obj;
     }
+
     public List<Satellite> INDIA_Satellite_List() {
 
-        return satellieList;
+        return INDIA_Sat_Obj;
     }
+
     public List<Satellite> INDONESIA_Satellite_List() {
 
-        return satellieList;
+        return INDONESIA_Sat_Obj;
     }
+
     public List<Satellite> IRAN_Satellite_List() {
 
-        return satellieList;
+        return IRAN_Sat_Obj;
     }
+
     public List<Satellite> IRAQ_Satellite_List() {
 
-        return satellieList;
+        return IRAQ_Sat_Obj;
     }
+
     public List<Satellite> ISRAEL_Satellite_List() {
 
-        return satellieList;
+        return ISRAEL_Sat_Obj;
     }
+
     public List<Satellite> ITALY_Satellite_List() {
 
-        return satellieList;
+        return ITALY_Sat_Obj;
     }
+
     public List<Satellite> JAPAN_Satellite_List() {
 
-        return satellieList;
+        return JAPAN_Sat_Obj;
     }
+
     public List<Satellite> KAZAKHSTAN_Satellite_List() {
 
-        return satellieList;
+        return KAZAKHSTAN_Sat_Obj;
     }
+
     public List<Satellite> LAOS_Satellite_List() {
 
-        return satellieList;
+        return LAOS_Sat_Obj;
     }
+
     public List<Satellite> LATVIA_Satellite_List() {
 
-        return satellieList;
+        return LATVIA_Sat_Obj;
     }
+
     public List<Satellite> LITHUANIA_Satellite_List() {
 
-        return satellieList;
+        return LITHUANIA_Sat_Obj;
     }
+
     public List<Satellite> LUXEMBOURG_Satellite_List() {
 
-        return satellieList;
+        return LUXEMBOURG_Sat_Obj;
     }
+
     public List<Satellite> MALAYSIA_Satellite_List() {
 
-        return satellieList;
+        return MALAYSIA_Sat_Obj;
     }
+
     public List<Satellite> MEXICO_Satellite_List() {
 
-        return satellieList;
+        return MEXICO_Sat_Obj;
     }
+
     public List<Satellite> MOROCCO_Satellite_List() {
 
-        return satellieList;
+        return MOROCCO_Sat_Obj;
     }
+
     public List<Satellite> NETHERLANDS_Satellite_List() {
 
-        return satellieList;
+        return NETHERLANDS_Sat_Obj;
     }
+
     public List<Satellite> NIGERIA_Satellite_List() {
 
-        return satellieList;
+        return NIGERIA_Sat_Obj;
     }
+
     public List<Satellite> NORTH_KOREA_Satellite_List() {
 
-        return satellieList;
+        return NORTH_KOREA_Sat_Obj;
     }
+
     public List<Satellite> NORWAY_Satellite_List() {
 
-        return satellieList;
+        return NORWAY_Sat_Obj;
     }
+
     public List<Satellite> PAKISTAN_Satellite_List() {
 
-        return satellieList;
+        return PAKISTAN_Sat_Obj;
     }
+
     public List<Satellite> PERU_Satellite_List() {
 
-        return satellieList;
+        return PERU_Sat_Obj;
     }
+
     public List<Satellite> PHILIPPINES_Satellite_List() {
 
-        return satellieList;
+        return PHILIPPINES_Sat_Obj;
     }
+
     public List<Satellite> POLAND_Satellite_List() {
 
-        return satellieList;
+        return POLAND_Sat_Obj;
     }
+
     public List<Satellite> PORTUGAL_Satellite_List() {
 
-        return satellieList;
+        return PORTUGAL_Sat_Obj;
     }
+
     public List<Satellite> RUSSIA_Satellite_List() {
 
-        return satellieList;
+        return RUSSIA_Sat_Obj;
     }
+
     public List<Satellite> SAUDI_ARABIA_Satellite_List() {
 
-        return satellieList;
+        return SAUDI_ARABIA_Sat_Obj;
     }
+
     public List<Satellite> SINGAPORE_Satellite_List() {
 
-        return satellieList;
+        return SINGAPORE_Sat_Obj;
     }
+
     public List<Satellite> SLOVAKIA_Satellite_List() {
 
-        return satellieList;
+        return SLOVAKIA_Sat_Obj;
     }
+
     public List<Satellite> SOUTH_AFRICA_Satellite_List() {
 
-        return satellieList;
+        return SOUTH_AFRICA_Sat_Obj;
     }
+
     public List<Satellite> SOUTH_KOREA_Satellite_List() {
 
-        return satellieList;
+        return SOUTH_KOREA_Sat_Obj;
     }
+
     public List<Satellite> SPAIN_Satellite_List() {
 
-        return satellieList;
+        return SPAIN_Sat_Obj;
     }
+
     public List<Satellite> SWEDEN_Satellite_List() {
 
-        return satellieList;
+        return SWEDEN_Sat_Obj;
     }
+
     public List<Satellite> TAIWAN_Satellite_List() {
 
-        return satellieList;
+        return TAIWAN_Sat_Obj;
     }
+
     public List<Satellite> THAILAND_Satellite_List() {
 
-        return satellieList;
+        return THAILAND_Sat_Obj;
     }
+
     public List<Satellite> TURKEY_Satellite_List() {
 
-        return satellieList;
+        return TURKEY_Sat_Obj;
     }
+
     public List<Satellite> UNITED_ARAB_EMIRATES_Satellite_List() {
 
-        return satellieList;
+        return UNITED_ARAB_EMIRATES_Sat_Obj;
     }
+
     public List<Satellite> UNITED_KINGDOM_Satellite_List() {
 
-        return satellieList;
+        return UNITED_KINGDOM_Sat_Obj;
     }
+
     public List<Satellite> USA_Satellite_List() {
 
-        return satellieList;
+        return USA_Sat_Obj;
     }
+
     public List<Satellite> URUGUAY_Satellite_List() {
 
-        return satellieList;
+        return URUGUAY_Sat_Obj;
     }
+
     public List<Satellite> VENEZUELA_Satellite_List() {
 
-        return satellieList;
+        return VENEZUELA_Sat_Obj;
     }
+
     public List<Satellite> VIETNAM_Satellite_List() {
 
-        return satellieList;
+        return VIETNAM_Sat_Obj;
     }
 
     public void inClickEvent(Country country) {
