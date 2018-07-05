@@ -23,7 +23,7 @@
         android:autoText="false"
         android:maxWidth="150dp"
         android:text="@string/R_name"
-        android:maxLength="10"
+        android:maxLength="20"
         android:textAlignment="center"
         android:textColor="@android:color/background_dark" />
 
@@ -39,7 +39,7 @@
         android:layout_marginStart="93dp"
         android:maxWidth="150dp"
         android:text="@string/R_satellite_type"
-        android:maxLength="10"
+        android:maxLength="20"
         android:textAlignment="center"
         android:textColor="@android:color/background_dark" />
 
