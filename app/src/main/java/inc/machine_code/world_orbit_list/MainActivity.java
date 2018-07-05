@@ -543,6 +543,10 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         CHINA_Sat_Obj.add(new Satellite(10,"","","",R.mipmap.ic_china_foreground));
         CHINA_Sat_Obj.add(new Satellite(10,"","","",R.mipmap.ic_china_foreground));
         CHINA_Sat_Obj.add(new Satellite(10,"","","",R.mipmap.ic_china_foreground));
+        CHINA_Sat_Obj.add(new Satellite(10,"","","",R.mipmap.ic_china_foreground));
+        CHINA_Sat_Obj.add(new Satellite(10,"","","",R.mipmap.ic_china_foreground));
+        CHINA_Sat_Obj.add(new Satellite(10,"","","",R.mipmap.ic_china_foreground));
+        CHINA_Sat_Obj.add(new Satellite(10,"","","",R.mipmap.ic_china_foreground));
 
 
 
