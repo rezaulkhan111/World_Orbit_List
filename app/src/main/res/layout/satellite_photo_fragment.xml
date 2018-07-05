@@ -39,7 +39,7 @@
         android:layout_marginStart="93dp"
         android:maxWidth="150dp"
         android:text="@string/R_satellite_type"
-        android:maxLength="20"
+        android:maxLength="25"
         android:textAlignment="center"
         android:textColor="@android:color/background_dark" />
 
