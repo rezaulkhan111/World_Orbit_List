@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">World_Orbit_List</string>
+    <string name="app_name">Track All Satellite</string>
     <string name="R_launch_date">Launch Date</string>
     <string name="R_date">Date</string>
     <string name="R_photo">Photo</string>
