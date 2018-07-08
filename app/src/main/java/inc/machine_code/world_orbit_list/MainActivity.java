@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
             ARGENTINA_Sat_Obj,
             AUSTRALIA_Sat_Obj,
             AZERBAIJAN_Sat_Obj,
+            BANGLADESH_Sat_Obj,
             BELARUS_Sat_Obj,
             BOLIVIA_Sat_Obj,
             BRAZIL_Sat_Obj,
@@ -44,6 +45,7 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
             ITALY_Sat_Obj,
             JAPAN_Sat_Obj,
             KAZAKHSTAN_Sat_Obj,
+            KENIA_Sat_Obj,
             LAOS_Sat_Obj,
             LATVIA_Sat_Obj,
             LITHUANIA_Sat_Obj,
@@ -99,6 +101,7 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         countryList.add(new Country(2, "ARGENTINA", "18", R.mipmap.ic_argentina_foreground));
         countryList.add(new Country(3, "AUSTRALIA", "21", R.mipmap.ic_australia_foreground));
         countryList.add(new Country(4, "AZERBAIJAN", "1", R.mipmap.ic_azerbaijan_foreground));
+        countryList.add(new Country(61, "BANGLADESH", "1", R.mipmap.ic_bangladesh_foreground));
         countryList.add(new Country(5, "BELARUS", "2", R.mipmap.ic_belarus_foreground));
         countryList.add(new Country(6, "BOLIVIA", "1", R.mipmap.ic_bolivia_foreground));
         countryList.add(new Country(7, "BRAZIL", "17", R.mipmap.ic_brazil_foreground));
@@ -224,6 +227,12 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         AZERBAIJAN_Sat_Obj = new ArrayList<>();
         AZERBAIJAN_Sat_Obj.add(new Satellite(39079, "AZERSPACE 1", "", "Feb-7-2013", R.mipmap.ic_azerbaijan_foreground));
         return AZERBAIJAN_Sat_Obj;
+    }
+
+    public List<Satellite> BANGLADESH_Satellite_List() {
+        BANGLADESH_Sat_Obj = new ArrayList<>();
+        BANGLADESH_Sat_Obj.add(new Satellite(43463, "BANGABANDHUSAT-1", "Communication", "May-11-2018",R.mipmap.ic_bangladesh_foreground));
+        return BANGLADESH_Sat_Obj;
     }
 
     public List<Satellite> BELARUS_Satellite_List() {
@@ -953,83 +962,270 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
 
     public List<Satellite> IRAN_Satellite_List() {
         IRAN_Sat_Obj = new ArrayList<>();
-        IRAN_Sat_Obj.add(new Satellite(28893,"SINAH 1","telecom & Research","Oct-27-2005",R.mipmap.ic_iran_foreground));
+        IRAN_Sat_Obj.add(new Satellite(28893, "SINAH 1", "telecom & Research", "Oct-27-2005", R.mipmap.ic_iran_foreground));
         return IRAN_Sat_Obj;
     }
 
     public List<Satellite> ISRAEL_Satellite_List() {
-        ISRAEL_Sat_Obj=new ArrayList<>();
-        ISRAEL_Sat_Obj.add(new Satellite(42901,"VENUS","","Aug-2-2017",R.mipmap.ic_israel_foreground));
-        ISRAEL_Sat_Obj.add(new Satellite(42000,"DIDO 2","","Feb-15-2017",R.mipmap.ic_israel_foreground));
-        ISRAEL_Sat_Obj.add(new Satellite(41999,"BGUSAT","","Feb-15-2017",R.mipmap.ic_israel_foreground));
-        ISRAEL_Sat_Obj.add(new Satellite(41759,"OFEQ 11","","Sep-13-2016",R.mipmap.ic_israel_foreground));
-        ISRAEL_Sat_Obj.add(new Satellite(40021,"DUCHIFAT-1","","Jun-19-2014",R.mipmap.ic_israel_foreground));
-        ISRAEL_Sat_Obj.add(new Satellite(39650,"OFEQ 10","","Apr-9-2014",R.mipmap.ic_israel_foreground));
-        ISRAEL_Sat_Obj.add(new Satellite(39237,"AMOS-4","","Aug-31-2013",R.mipmap.ic_israel_foreground));
-        ISRAEL_Sat_Obj.add(new Satellite(37950,"AMOS 5","","Dec-11-2011",R.mipmap.ic_israel_foreground));
-        ISRAEL_Sat_Obj.add(new Satellite(36608,"OFEQ 9","","Jun-22-2010",R.mipmap.ic_israel_foreground));
-        ISRAEL_Sat_Obj.add(new Satellite(32794,"AMOS 3","","Apr-28-2008",R.mipmap.ic_israel_foreground));
-        ISRAEL_Sat_Obj.add(new Satellite(32476,"TECSAR","","Jan-21-2008",R.mipmap.ic_israel_foreground));
-        ISRAEL_Sat_Obj.add(new Satellite(31601,"OFEQ 7","","Jun-10-2007",R.mipmap.ic_israel_foreground));
-        ISRAEL_Sat_Obj.add(new Satellite(29079,"EROS B","","Apr-25-2006",R.mipmap.ic_israel_foreground));
-        ISRAEL_Sat_Obj.add(new Satellite(28132,"AMOS 2","","Dec-27-2003",R.mipmap.ic_israel_foreground));
-        ISRAEL_Sat_Obj.add(new Satellite(27434,"OFEQ 5","","May-28-2002",R.mipmap.ic_israel_foreground));
-        ISRAEL_Sat_Obj.add(new Satellite(25397,"TECHSAT 1B","","Jul-10-1998",R.mipmap.ic_israel_foreground));
-        ISRAEL_Sat_Obj.add(new Satellite(23723,"AMOS 5I (ASIASAT 2)","","Nov-28-1995",R.mipmap.ic_israel_foreground));
+        ISRAEL_Sat_Obj = new ArrayList<>();
+        ISRAEL_Sat_Obj.add(new Satellite(42901, "VENUS", "", "Aug-2-2017", R.mipmap.ic_israel_foreground));
+        ISRAEL_Sat_Obj.add(new Satellite(42000, "DIDO 2", "", "Feb-15-2017", R.mipmap.ic_israel_foreground));
+        ISRAEL_Sat_Obj.add(new Satellite(41999, "BGUSAT", "", "Feb-15-2017", R.mipmap.ic_israel_foreground));
+        ISRAEL_Sat_Obj.add(new Satellite(41759, "OFEQ 11", "", "Sep-13-2016", R.mipmap.ic_israel_foreground));
+        ISRAEL_Sat_Obj.add(new Satellite(40021, "DUCHIFAT-1", "", "Jun-19-2014", R.mipmap.ic_israel_foreground));
+        ISRAEL_Sat_Obj.add(new Satellite(39650, "OFEQ 10", "", "Apr-9-2014", R.mipmap.ic_israel_foreground));
+        ISRAEL_Sat_Obj.add(new Satellite(39237, "AMOS-4", "", "Aug-31-2013", R.mipmap.ic_israel_foreground));
+        ISRAEL_Sat_Obj.add(new Satellite(37950, "AMOS 5", "", "Dec-11-2011", R.mipmap.ic_israel_foreground));
+        ISRAEL_Sat_Obj.add(new Satellite(36608, "OFEQ 9", "", "Jun-22-2010", R.mipmap.ic_israel_foreground));
+        ISRAEL_Sat_Obj.add(new Satellite(32794, "AMOS 3", "", "Apr-28-2008", R.mipmap.ic_israel_foreground));
+        ISRAEL_Sat_Obj.add(new Satellite(32476, "TECSAR", "", "Jan-21-2008", R.mipmap.ic_israel_foreground));
+        ISRAEL_Sat_Obj.add(new Satellite(31601, "OFEQ 7", "", "Jun-10-2007", R.mipmap.ic_israel_foreground));
+        ISRAEL_Sat_Obj.add(new Satellite(29079, "EROS B", "", "Apr-25-2006", R.mipmap.ic_israel_foreground));
+        ISRAEL_Sat_Obj.add(new Satellite(28132, "AMOS 2", "", "Dec-27-2003", R.mipmap.ic_israel_foreground));
+        ISRAEL_Sat_Obj.add(new Satellite(27434, "OFEQ 5", "", "May-28-2002", R.mipmap.ic_israel_foreground));
+        ISRAEL_Sat_Obj.add(new Satellite(25397, "TECHSAT 1B", "", "Jul-10-1998", R.mipmap.ic_israel_foreground));
+        ISRAEL_Sat_Obj.add(new Satellite(23723, "AMOS 5I (ASIASAT 2)", "", "Nov-28-1995", R.mipmap.ic_israel_foreground));
 
 
         return ISRAEL_Sat_Obj;
     }
 
     public List<Satellite> ITALY_Satellite_List() {
-        ITALY_Sat_Obj=new ArrayList<>();
-        ITALY_Sat_Obj.add(new Satellite(42900,"OPTSAT 3000","","Aug-2-2017",R.mipmap.ic_italy_foreground));
-        ITALY_Sat_Obj.add(new Satellite(42794,"DSAT","","Jun-23-2017",R.mipmap.ic_italy_foreground));
-        ITALY_Sat_Obj.add(new Satellite(42778,"MAX VALIER SAT","","Jun-23-2017",R.mipmap.ic_italy_foreground));
-        ITALY_Sat_Obj.add(new Satellite(42776,"URSA MAIOR","","Jun-23-2017",R.mipmap.ic_italy_foreground));
-        ITALY_Sat_Obj.add(new Satellite(41459,"E-ST@R-II","","Apr-25-2016",R.mipmap.ic_italy_foreground));
-        ITALY_Sat_Obj.add(new Satellite(40012,"UNISAT 6","","Jun-19-2014",R.mipmap.ic_italy_foreground));
-        ITALY_Sat_Obj.add(new Satellite(39421,"UNISAT 5","","Nov-21-2013",R.mipmap.ic_italy_foreground));
-        ITALY_Sat_Obj.add(new Satellite(38078,"ALMASAT-1","","Feb-13-2012",R.mipmap.ic_italy_foreground));
-        ITALY_Sat_Obj.add(new Satellite(38077,"LARES","","Feb-13-2012",R.mipmap.ic_italy_foreground));
-        ITALY_Sat_Obj.add(new Satellite(37788,"EDUSAT","","Aug-17-2011",R.mipmap.ic_italy_foreground));
-        ITALY_Sat_Obj.add(new Satellite(37216,"SKYMED 4","","Nov-6-2010",R.mipmap.ic_italy_foreground));
-        ITALY_Sat_Obj.add(new Satellite(34810,"SICRAL 1B","","Apr-20-2009",R.mipmap.ic_italy_foreground));
-        ITALY_Sat_Obj.add(new Satellite(33412,"SKYMED 3","","Oct-25-2008",R.mipmap.ic_italy_foreground));
-        ITALY_Sat_Obj.add(new Satellite(32376,"SKYMED 2","","Dec-9-2007",R.mipmap.ic_italy_foreground));
-        ITALY_Sat_Obj.add(new Satellite(31598,"SKYMED 1","","Jun-8-2007",R.mipmap.ic_italy_foreground));
-        ITALY_Sat_Obj.add(new Satellite(31135,"AGILE","","Apr-23-2007",R.mipmap.ic_italy_foreground));
-        ITALY_Sat_Obj.add(new Satellite(28373,"UNISAT 3","","Jun-29-2004",R.mipmap.ic_italy_foreground));
-        ITALY_Sat_Obj.add(new Satellite(27608,"UNISAT 2","","Dec-20-2002",R.mipmap.ic_italy_foreground));
-        ITALY_Sat_Obj.add(new Satellite(26694,"SICRAL 1","","Feb-7-2001",R.mipmap.ic_italy_foreground));
-        ITALY_Sat_Obj.add(new Satellite(26547,"UNISAT","","Sep-26-2000",R.mipmap.ic_italy_foreground));
-        ITALY_Sat_Obj.add(new Satellite(26546,"MEGSAT 1","","Sep-26-2000",R.mipmap.ic_italy_foreground));
-        ITALY_Sat_Obj.add(new Satellite(24208,"ITALSAT 2","","Aug-8-1996",R.mipmap.ic_italy_foreground));
-        ITALY_Sat_Obj.add(new Satellite(22828,"KITSAT 2","","Sep-26-1993",R.mipmap.ic_italy_foreground));
-        ITALY_Sat_Obj.add(new Satellite(22783,"TEMISAT","","Aug-31-1993",R.mipmap.ic_italy_foreground));
-        ITALY_Sat_Obj.add(new Satellite(22195,"LAGEOS 2","","Oct-22-1992",R.mipmap.ic_italy_foreground));
-        ITALY_Sat_Obj.add(new Satellite(21055,"ITALSAT 1","","Jan-15-1991",R.mipmap.ic_italy_foreground));
-        ITALY_Sat_Obj.add(new Satellite(10294,"SIRIO","","Aug-25-1977",R.mipmap.ic_italy_foreground));
+        ITALY_Sat_Obj = new ArrayList<>();
+        ITALY_Sat_Obj.add(new Satellite(42900, "OPTSAT 3000", "", "Aug-2-2017", R.mipmap.ic_italy_foreground));
+        ITALY_Sat_Obj.add(new Satellite(42794, "DSAT", "", "Jun-23-2017", R.mipmap.ic_italy_foreground));
+        ITALY_Sat_Obj.add(new Satellite(42778, "MAX VALIER SAT", "", "Jun-23-2017", R.mipmap.ic_italy_foreground));
+        ITALY_Sat_Obj.add(new Satellite(42776, "URSA MAIOR", "", "Jun-23-2017", R.mipmap.ic_italy_foreground));
+        ITALY_Sat_Obj.add(new Satellite(41459, "E-ST@R-II", "", "Apr-25-2016", R.mipmap.ic_italy_foreground));
+        ITALY_Sat_Obj.add(new Satellite(40012, "UNISAT 6", "", "Jun-19-2014", R.mipmap.ic_italy_foreground));
+        ITALY_Sat_Obj.add(new Satellite(39421, "UNISAT 5", "", "Nov-21-2013", R.mipmap.ic_italy_foreground));
+        ITALY_Sat_Obj.add(new Satellite(38078, "ALMASAT-1", "", "Feb-13-2012", R.mipmap.ic_italy_foreground));
+        ITALY_Sat_Obj.add(new Satellite(38077, "LARES", "", "Feb-13-2012", R.mipmap.ic_italy_foreground));
+        ITALY_Sat_Obj.add(new Satellite(37788, "EDUSAT", "", "Aug-17-2011", R.mipmap.ic_italy_foreground));
+        ITALY_Sat_Obj.add(new Satellite(37216, "SKYMED 4", "", "Nov-6-2010", R.mipmap.ic_italy_foreground));
+        ITALY_Sat_Obj.add(new Satellite(34810, "SICRAL 1B", "", "Apr-20-2009", R.mipmap.ic_italy_foreground));
+        ITALY_Sat_Obj.add(new Satellite(33412, "SKYMED 3", "", "Oct-25-2008", R.mipmap.ic_italy_foreground));
+        ITALY_Sat_Obj.add(new Satellite(32376, "SKYMED 2", "", "Dec-9-2007", R.mipmap.ic_italy_foreground));
+        ITALY_Sat_Obj.add(new Satellite(31598, "SKYMED 1", "", "Jun-8-2007", R.mipmap.ic_italy_foreground));
+        ITALY_Sat_Obj.add(new Satellite(31135, "AGILE", "", "Apr-23-2007", R.mipmap.ic_italy_foreground));
+        ITALY_Sat_Obj.add(new Satellite(28373, "UNISAT 3", "", "Jun-29-2004", R.mipmap.ic_italy_foreground));
+        ITALY_Sat_Obj.add(new Satellite(27608, "UNISAT 2", "", "Dec-20-2002", R.mipmap.ic_italy_foreground));
+        ITALY_Sat_Obj.add(new Satellite(26694, "SICRAL 1", "", "Feb-7-2001", R.mipmap.ic_italy_foreground));
+        ITALY_Sat_Obj.add(new Satellite(26547, "UNISAT", "", "Sep-26-2000", R.mipmap.ic_italy_foreground));
+        ITALY_Sat_Obj.add(new Satellite(26546, "MEGSAT 1", "", "Sep-26-2000", R.mipmap.ic_italy_foreground));
+        ITALY_Sat_Obj.add(new Satellite(24208, "ITALSAT 2", "", "Aug-8-1996", R.mipmap.ic_italy_foreground));
+        ITALY_Sat_Obj.add(new Satellite(22828, "KITSAT 2", "", "Sep-26-1993", R.mipmap.ic_italy_foreground));
+        ITALY_Sat_Obj.add(new Satellite(22783, "TEMISAT", "", "Aug-31-1993", R.mipmap.ic_italy_foreground));
+        ITALY_Sat_Obj.add(new Satellite(22195, "LAGEOS 2", "", "Oct-22-1992", R.mipmap.ic_italy_foreground));
+        ITALY_Sat_Obj.add(new Satellite(21055, "ITALSAT 1", "", "Jan-15-1991", R.mipmap.ic_italy_foreground));
+        ITALY_Sat_Obj.add(new Satellite(10294, "SIRIO", "", "Aug-25-1977", R.mipmap.ic_italy_foreground));
         return ITALY_Sat_Obj;
     }
 
     public List<Satellite> JAPAN_Satellite_List() {
-
+        JAPAN_Sat_Obj = new ArrayList<>();
+        JAPAN_Sat_Obj.add(new Satellite(43495, "IGS R-6", "", "June 12, 2018", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(43223, "IGS O-6", "", "February 27, 2018", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(43201, "TRICOM-1R (TASUKI)", "", "February 3, 2018", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(43152, "ASNARO-2", "", "January 17, 2018", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(43066, "SLATS", "", "December 23, 2017", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(43065, "GCOM-C", "", "December 23, 2017", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(42965, "QZS-4(MICHIBIKI-4)", "", "October 9, 2017", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(42951, "BSAT-4A", "", "September 29, 2017", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(42917, "QZS-3(MICHIBIKI-3)", "", "August 19, 2017", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(42835, "WNISAT 1R", "", "July 14, 2017", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(42820, "BIRD JJ", "", "November 20, 1998", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(42769, "CE-SAT 1", "", "June 23, 2017", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(42738, "QZS-2 (MICHIBIKI-2)", "", "June 1, 2017", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(42072, "IGS RADAR-5", "", "March 17, 2017", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(41940, "DSN-2", "", "January 24, 2017", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(41935, "AOBA-VELOX 3", "", "November 20, 1998", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(41933, "WASEDA-SAT3", "", "November 20, 1998", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(41932, "ITF-2", "", "November 20, 1998", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(41903, "JCSAT 15", "", "December 21, 2016", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(41896, "ARASE (ERG)", "", "December 20, 2016", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(41836, "HIMAWARI 9", "", "November 2, 2016", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(41729, "JCSAT 16", "", "August 14, 2016", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(41471, "JCSAT-14", "", "May 6, 2016", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(41340, "HORYU 4", "", "February 17, 2016", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(41339, "CHUBUSAT 3", "", "February 17, 2016", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(41338, "CHUBUSAT 2", "", "February 17, 2016", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(41337, "ASTRO H", "", "February 17, 2016", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(40538, "IGS OPTICAL 5", "", "March 26, 2015", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(40381, "IGS 9A", "", "February 1, 2015", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(40322, "PROCYON", "", "December 3, 2014", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(40321, "DESPATCH(ARTSAT 2,FO-81)", "", "December 3, 2014", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(40320, "SHIN EN 2", "", "December 3, 2014", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(40319, "HAYABUSA 2", "", "December 3, 2014", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(40302, "TSUBAME", "", "November 6, 2014", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(40301, "QSAT-EOS", "", "November 6, 2014", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(40300, "CHUBUSAT-1", "", "November 6, 2014", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(40299, "HODOYOSHI-1", "", "November 6, 2014", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(40298, "ASNARO", "", "November 6, 2014", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(40267, "HIMAWARI 8", "", "October 6, 2014", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(40015, "HODOYOSHI 3", "", "June 19, 2014", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(40011, "HODOYOSHI 4", "", "June 19, 2014", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(39770, "SPROUT", "", "May 24, 2014", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(39769, "RISING 2", "", "May 24, 2014", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(39768, "SOCRATES", "", "May 24, 2014", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(39767, "UNIFORM 1", "", "May 24, 2014", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(39766, "ALOS 2", "", "May 24, 2014", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(39574, "GPM", "", "February 27, 2014", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(39423, "WNISAT 1", "", "November 21, 2013", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(39253, "SPRINT-A (HISAKI)", "", "September 14, 2013", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(39062, "IGS 8B (DEMO)", "", "January 27, 2013", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(39061, "IGS 8A", "", "January 27, 2013", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(38756, "PROITERES", "", "September 9, 2012", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(38340, "HORYU 2", "", "May 17, 2012", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(38339, "SDS-4", "", "May 17, 2012", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(38337, "GCOM W1", "", "May 17, 2012", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(38331, "JCSAT 13", "", "May 15, 2012", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(37954, "IGS 7A", "", "December 12, 2011", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(37813, "IGS 6A", "", "September 23, 2011", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(37776, "BSAT-3C", "", "August 6, 2011", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(37207, "BSAT-3B", "", "October 28, 2010", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(37158, "QZS-1 (MICHIBIKI)", "", "September 11, 2010", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(36588, "SERVIS 2", "", "June 2, 2010", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(36578, "UNITEC-1", "", "May 20, 2010", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(36577, "IKAROS", "", "May 20, 2010", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(36576, "AKATSUKI (PLANET-C)", "", "May 20, 2010", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(36104, "IGS 5A", "", "November 28, 2009", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(35755, "JCSAT 12", "", "August 21, 2009", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(33499, "KKS-1 (KISEKI)", "", "January 23, 2009", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(33498, "STARS (KUKAI)", "", "January 23, 2009", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(33497, "SDS-1", "", "January 23, 2009", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(33496, "SOHLA-1 (MAIDO-1)", "", "January 23, 2009", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(33495, "KAGAYAKI", "", "January 23, 2009", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(33494, "SPRITE-SAT (RISING)", "", "January 23, 2009", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(33493, "PRISM (HITOMI)", "", "January 23, 2009", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(33492, "GOSAT (IBUKI)", "", "January 23, 2009", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(33274, "SUPERBIRD 7", "", "August 14, 2008", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(32791, "SEEDS", "", "April 28, 2008", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(32785, "CUTE-1.7+APD II", "", "April 28, 2008", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(32500, "WINDS (KIZUNA)", "", "February 23, 2008", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(32019, "BSAT-3A", "", "August 14, 2007", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(29656, "ETS 8", "", "December 18, 2006", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(29479, "HINODE (SOLAR B)", "", "September 22, 2006", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(29272, "JCSAT 10", "", "August 11, 2006", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(29045, "JCSAT 9", "", "April 12, 2006", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(28939, "ASTRO F (AKARI)", "", "February 21, 2006", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(28937, "MTSAT-2", "", "February 18, 2006", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(28931, "ALOS", "", "January 24, 2006", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(28895, "CUBESAT XI-V", "", "October 27, 2005", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(28810, "INDEX", "", "August 23, 2005", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(28809, "OICETS", "", "August 23, 2005", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(28773, "ASTRO E2", "", "July 10, 2005", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(28622, "MTSAT-1R", "", "February 26, 2005", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(28455, "RITE TARGET 2", "", "December 14, 2002", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(28454, "RITE TARGET 1", "", "December 14, 2002", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(28218, "SUPERBIRD 6", "", "April 16, 2004", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(28184, "MBSAT", "", "March 13, 2004", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(28060, "SERVIS 1", "", "October 30, 2003", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(27848, "CUBESAT XI-IV", "", "June 30, 2003", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(27844, "CUTE-1", "", "June 30, 2003", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(27830, "BSAT-2C", "", "June 11, 2003", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(27600, "MICRO LABSAT", "", "December 14, 2002", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(27599, "WEOS", "", "December 14, 2002", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(27597, "ADEOS 2", "", "December 14, 2002", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(27516, "DRTS", "", "September 10, 2002", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(27461, "NSTAR C", "", "July 5, 2002", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(27399, "JCSAT 8", "", "March 29, 2002", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(27368, "DASH/VEP 3", "", "February 4, 2002", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(27367, "MDS 1", "", "February 4, 2002", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(26898, "LRE", "", "August 29, 2001", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(26720, "BSAT-2A", "", "March 8, 2001", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(26559, "NSAT 110", "", "October 6, 2000", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(26095, "SUPERBIRD 4", "", "February 18, 2000", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(25630, "JCSAT 6", "", "February 16, 1999", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(25424, "ETS 7 TARGET", "", "November 27, 1997", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(25383, "NOZOMI (PLANET-B)", "", "July 3, 1998", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(25312, "BSAT-1B", "", "April 28, 1998", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(25175, "COMETS", "", "February 21, 1998", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(25067, "JCSAT 5", "", "December 2, 1997", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(24880, "SUPERBIRD C", "", "July 28, 1997", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(24769, "BSAT-1A", "", "April 16, 1997", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(24720, "HALCA (MUSES B)", "", "February 12, 1997", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(24278, "JAS 2 (FO-29)", "", "August 17, 1996", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(24277, "ADEOS", "", "August 17, 1996", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(23781, "NSTAR B", "", "February 5, 1996", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(23651, "NSTAR A", "", "August 29, 1995", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(23649, "JCSAT 3", "", "August 29, 1995", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(23522, "HIMAWARI 5 (GMS 5)", "", "March 18, 1995", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(23230, "ETS 6", "", "August 28, 1994", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(23176, "BS-3N", "", "July 8, 1994", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(22979, "VEP", "", "February 3, 1994", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(22253, "SUPERBIRD A1", "", "December 1, 1992", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(22049, "GEOTAIL", "", "July 24, 1992", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(21893, "SUPERBIRD B1", "", "February 26, 1992", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(21668, "BS-3B (YURI 3B)", "", "August 25, 1991", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(20771, "BS-3A (YURI 3A)", "", "August 28, 1990", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(20618, "HAGOROMO", "", "January 24, 1990", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(20480, "JAS 1B (FUJI 2)", "", "February 7, 1990", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(20479, "DEBUT (ORIZURU)", "", "February 7, 1990", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(20478, "MOS 1B (MOMO 1B)", "", "February 7, 1990", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(20402, "JCSAT 2", "", "January 1, 1990", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(20217, "HIMAWARI 4 (GMS 4)", "", "September 5, 1989", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(20040, "SUPERBIRD A", "", "June 5, 1989", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(19874, "JCSAT 1", "", "March 6, 1989", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(19822, "EXOS D (AKEBONO)", "", "February 21, 1989", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(19508, "CS 3B", "", "September 16, 1988", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(18877, "CS 3A", "", "February 19, 1988", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(18316, "KIKU 5 (ETS 5)", "", "August 27, 1987", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(17527, "MOS 1A (MOMO 1)", "", "February 19, 1987", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(16909, "JAS 1 (FUJI 1)", "", "August 12, 1986", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(16908, "EGS (AJISAI)", "", "August 12, 1986", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(16597, "BS-2B (YURI 2B)", "", "February 12, 1986", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(15967, "SUISEI", "", "August 18, 1985", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(15464, "SAKIGAKE", "", "January 7, 1985", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(15152, "HIMAWARI 3 (GMS 3)", "", "August 2, 1984", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(14659, "YURI 2A (BS-2A)", "", "January 23, 1984", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(14248, "SAKURA 2B (CS-2B)", "", "August 5, 1983", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(13782, "SAKURA 2A (CS-2A)", "", "February 4, 1983", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(13492, "KIKU 4 (ETS 3)", "", "September 3, 1982", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(12677, "HIMAWARI 2 (GMS 2)", "", "August 10, 1981", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(12295, "KIKU 3 (ETS 4)", "", "February 11, 1981", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(11715, "AYAME 2 (ECS-2)", "", "February 22, 1980", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(11261, "AYAME 1 (ECS 1)", "", "February 6, 1979", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(10792, "YURI (BSE)", "", "April 7, 1978", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(10674, "UME 2 (ISS-B)", "", "February 16, 1978", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(10664, "KYOKKO 1 (EXOS A)", "", "February 4, 1978", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(10516, "SAKURA 1A (CS-1A)", "", "December 15, 1977", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(10143, "HIMAWARI 1 (GMS 1)", "", "July 14, 1977", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(9852, "KIKU 2 (ETS 2)", "", "February 23, 1977", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(9841, "TANSEI 3 (MS-T3)", "", "February 19, 1977", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(8709, "UME 1 (ISS 1)", "", "February 29, 1976", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(8197, "KIKU 1 (ETS 1)", "", "September 9, 1975", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(5485, "SHINSEI (MS-F2)", "", "September 28, 1971", R.mipmap.ic_japan_foreground));
+        JAPAN_Sat_Obj.add(new Satellite(4952, "TANSEI 1 (MS-T1)", "", "February 16, 1971", R.mipmap.ic_japan_foreground));
         return JAPAN_Sat_Obj;
     }
 
     public List<Satellite> KAZAKHSTAN_Satellite_List() {
-
+        KAZAKHSTAN_Sat_Obj = new ArrayList<>();
+        KAZAKHSTAN_Sat_Obj.add(new Satellite(42016, "AL-FARABI 1", "", "Feb-15-2017", R.mipmap.ic_kazakhstan_foreground));
+        KAZAKHSTAN_Sat_Obj.add(new Satellite(40010, "KAZEOSAT 2", "", "Jun-19-2014", R.mipmap.ic_kazakhstan_foreground));
+        KAZAKHSTAN_Sat_Obj.add(new Satellite(39731, "KAZEOSAT 1", "", "Apr-30-2014", R.mipmap.ic_kazakhstan_foreground));
+        KAZAKHSTAN_Sat_Obj.add(new Satellite(39728, "KAZSAT 3", "", "Apr-28-2014", R.mipmap.ic_kazakhstan_foreground));
+        KAZAKHSTAN_Sat_Obj.add(new Satellite(37749, "KAZSAT 2", "", "Jul-15-2011", R.mipmap.ic_kazakhstan_foreground));
+        KAZAKHSTAN_Sat_Obj.add(new Satellite(29230, "KAZSAT 1", "", "Jun-17-2006", R.mipmap.ic_kazakhstan_foreground));
         return KAZAKHSTAN_Sat_Obj;
     }
 
-    public List<Satellite> LAOS_Satellite_List() {
+    public List<Satellite> KENIA_Satellite_List() {
+        KENIA_Sat_Obj = new ArrayList<>();
+        KENIA_Sat_Obj.add(new Satellite(43467, "1KUNS-PE", "Earth Observation", "Nov-30-1998", R.mipmap.ic_kenya_foreground));
+        return KENIA_Sat_Obj;
+    }
 
+    public List<Satellite> LAOS_Satellite_List() {
+        LAOS_Sat_Obj = new ArrayList<>();
+        LAOS_Sat_Obj.add(new Satellite(41034, "LAOSAT 1", "", "Nov-20-2015", R.mipmap.ic_laos_foreground));
         return LAOS_Sat_Obj;
     }
 
     public List<Satellite> LATVIA_Satellite_List() {
-
+        LATVIA_Sat_Obj=new ArrayList<>();
+        LATVIA_Sat_Obj.add(new Satellite(42791,"VENTA 1","","June-23-2017",R.mipmap.ic_latvia_foreground));
         return LATVIA_Sat_Obj;
     }
 
@@ -1431,6 +1627,14 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
                 break;
             case 61:
                 intent.putExtra("savedUser", (Serializable) VIETNAM_Satellite_List());
+                startActivity(intent);
+                break;
+            case 62:
+                intent.putExtra("savedUser", (Serializable) KENIA_Satellite_List());
+                startActivity(intent);
+                break;
+            case 63:
+                intent.putExtra("savedUser", (Serializable) BANGLADESH_Satellite_List());
                 startActivity(intent);
                 break;
         }

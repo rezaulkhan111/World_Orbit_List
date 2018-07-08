@@ -1,5 +1,4 @@
 package inc.machine_code.world_orbit_list;
-
 import android.app.ProgressDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
