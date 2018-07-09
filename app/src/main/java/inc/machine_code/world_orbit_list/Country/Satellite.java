@@ -6,14 +6,14 @@ import java.io.Serializable;
 
 public class Satellite extends LauncherActivity.ListItem implements Serializable {
 
-    private int Code_No;
+    private int SatCat_No;
     private String Name;
     private String Satellite_Type;
     private String Date;
     private int image;
 
-    public Satellite(int code_No, String name, String satellite_Type, String date, int image) {
-        Code_No = code_No;
+    public Satellite(int SatCat_No, String name, String satellite_Type, String date, int image) {
+        SatCat_No = SatCat_No;
         Name = name;
 
         Satellite_Type = satellite_Type;
@@ -22,11 +22,11 @@ public class Satellite extends LauncherActivity.ListItem implements Serializable
     }
 
     public int getCode_No() {
-        return Code_No;
+        return SatCat_No;
     }
 
-    public void setCode_No(int code_No) {
-        Code_No = code_No;
+    public void setCode_No(int SatCat_No) {
+        SatCat_No = SatCat_No;
     }
 
     public String getName() {
