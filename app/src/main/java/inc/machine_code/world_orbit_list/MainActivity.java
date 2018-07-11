@@ -101,63 +101,63 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         countryList.add(new Country(2, "ARGENTINA", "18", R.mipmap.ic_argentina_foreground));
         countryList.add(new Country(3, "AUSTRALIA", "21", R.mipmap.ic_australia_foreground));
         countryList.add(new Country(4, "AZERBAIJAN", "1", R.mipmap.ic_azerbaijan_foreground));
-        countryList.add(new Country(61, "BANGLADESH", "1", R.mipmap.ic_bangladesh_foreground));
-        countryList.add(new Country(5, "BELARUS", "2", R.mipmap.ic_belarus_foreground));
-        countryList.add(new Country(6, "BOLIVIA", "1", R.mipmap.ic_bolivia_foreground));
-        countryList.add(new Country(7, "BRAZIL", "17", R.mipmap.ic_brazil_foreground));
-        countryList.add(new Country(8, "BULGARIA", "1", R.mipmap.ic_bulgaria_foreground));
-        countryList.add(new Country(9, "CANADA", "48", R.mipmap.ic_canada_foreground));
-        countryList.add(new Country(10, "CHILE", "3", R.mipmap.ic_chile_foreground));
-        countryList.add(new Country(11, "CHINA", "296", R.mipmap.ic_china_foreground));
-        countryList.add(new Country(12, "CZECH", "3", R.mipmap.ic_czechia_foreground));
-        countryList.add(new Country(13, "DENMARK", "9", R.mipmap.ic_denmark_foreground));
-        countryList.add(new Country(14, "ECUADOR", "2", R.mipmap.ic_ecuador_foreground));
-        countryList.add(new Country(15, "EGYPT", "5", R.mipmap.ic_egypt_foreground));
-        countryList.add(new Country(16, "ESTONIA", "1", R.mipmap.ic_estonia_foreground));
-        countryList.add(new Country(17, "FRANCE", "68", R.mipmap.ic_france_foreground));
-        countryList.add(new Country(18, "GERMANY", "52", R.mipmap.ic_germany_foreground));
-        countryList.add(new Country(19, "GREECE", "4", R.mipmap.ic_greece_foreground));
-        countryList.add(new Country(20, "INDIA", "88", R.mipmap.ic_india_foreground));
-        countryList.add(new Country(21, "INDONESIA", "16", R.mipmap.ic_indonesia_foreground));
-        countryList.add(new Country(22, "IRAN", "1", R.mipmap.ic_iran_foreground));
-        countryList.add(new Country(23, "IRAQ", "1", R.mipmap.ic_iraq_foreground));
-        countryList.add(new Country(24, "ISRAEL", "17", R.mipmap.ic_israel_foreground));
-        countryList.add(new Country(25, "ITALY", "27", R.mipmap.ic_italy_foreground));
+        countryList.add(new Country(5, "BANGLADESH", "1", R.mipmap.ic_bangladesh_foreground));
+        countryList.add(new Country(6, "BELARUS", "2", R.mipmap.ic_belarus_foreground));
+        countryList.add(new Country(7, "BOLIVIA", "1", R.mipmap.ic_bolivia_foreground));
+        countryList.add(new Country(8, "BRAZIL", "17", R.mipmap.ic_brazil_foreground));
+        countryList.add(new Country(9, "BULGARIA", "1", R.mipmap.ic_bulgaria_foreground));
+        countryList.add(new Country(10, "CANADA", "48", R.mipmap.ic_canada_foreground));
+        countryList.add(new Country(11, "CHILE", "3", R.mipmap.ic_chile_foreground));
+        countryList.add(new Country(12, "CHINA", "296", R.mipmap.ic_china_foreground));
+        countryList.add(new Country(13, "CZECH", "3", R.mipmap.ic_czechia_foreground));
+        countryList.add(new Country(14, "DENMARK", "9", R.mipmap.ic_denmark_foreground));
+        countryList.add(new Country(15, "ECUADOR", "2", R.mipmap.ic_ecuador_foreground));
+        countryList.add(new Country(16, "EGYPT", "5", R.mipmap.ic_egypt_foreground));
+        countryList.add(new Country(17, "ESTONIA", "1", R.mipmap.ic_estonia_foreground));
+        countryList.add(new Country(18, "FRANCE", "68", R.mipmap.ic_france_foreground));
+        countryList.add(new Country(19, "GERMANY", "52", R.mipmap.ic_germany_foreground));
+        countryList.add(new Country(20, "GREECE", "4", R.mipmap.ic_greece_foreground));
+        countryList.add(new Country(21, "INDIA", "88", R.mipmap.ic_india_foreground));
+        countryList.add(new Country(22, "INDONESIA", "16", R.mipmap.ic_indonesia_foreground));
+        countryList.add(new Country(23, "IRAN", "1", R.mipmap.ic_iran_foreground));
+        countryList.add(new Country(24, "IRAQ", "1", R.mipmap.ic_iraq_foreground));
+        countryList.add(new Country(25, "ISRAEL", "17", R.mipmap.ic_israel_foreground));
+        countryList.add(new Country(26, "ITALY", "27", R.mipmap.ic_italy_foreground));
         countryList.add(new Country(26, "JAPAN", "173", R.mipmap.ic_japan_foreground));
-        countryList.add(new Country(27, "KAZAKHSTAN", "6", R.mipmap.ic_kazakhstan_foreground));
-        countryList.add(new Country(28, "LAOS", "1", R.mipmap.ic_laos_foreground));
-        countryList.add(new Country(29, "LATVIA", "1", R.mipmap.ic_latvia_foreground));
-        countryList.add(new Country(30, "LITHUANIA", "1", R.mipmap.ic_lithuania_foreground));
-        countryList.add(new Country(31, "LUXEMBOURG", "4", R.mipmap.ic_luxembourg_foreground));
-        countryList.add(new Country(32, "MALAYSIA", "7", R.mipmap.ic_malaysia_foreground));
-        countryList.add(new Country(33, "MEXICO", "12", R.mipmap.ic_mexico_foreground));
-        countryList.add(new Country(34, "MOROCCO", "1", R.mipmap.ic_morocco_foreground));
-        countryList.add(new Country(35, "NETHERLANDS", "6", R.mipmap.ic_netherlands_foreground));
-        countryList.add(new Country(36, "NIGERIA", "6", R.mipmap.ic_nigeria_foreground));
-        countryList.add(new Country(37, "NORTH KOREA", "2", R.mipmap.ic_north_korea_foreground));
-        countryList.add(new Country(38, "NORWAY", "2", R.mipmap.ic_norway_foreground));
-        countryList.add(new Country(39, "PAKISTAN", "3", R.mipmap.ic_pakistan_foreground));
-        countryList.add(new Country(40, "PERU", "1", R.mipmap.ic_peru_foreground));
-        countryList.add(new Country(41, "PHILIPPINES", "2", R.mipmap.ic_philippines_foreground));
-        countryList.add(new Country(42, "POLAND", "2", R.mipmap.ic_poland_foreground));
-        countryList.add(new Country(43, "PORTUGAL", "2", R.mipmap.ic_portugal_foreground));
-        countryList.add(new Country(44, "RUSSIA", "1505", R.mipmap.ic_russia_foreground));
-        countryList.add(new Country(45, "SAUDI ARABIA", "13", R.mipmap.ic_saudi_arabia_foreground));
-        countryList.add(new Country(46, "SINGAPORE", "9", R.mipmap.ic_singapore_foreground));
-        countryList.add(new Country(47, "SLOVAKIA", "1", R.mipmap.ic_slovakia_foreground));
-        countryList.add(new Country(48, "SOUTH AFRICA", "6", R.mipmap.ic_south_africa_foreground));
-        countryList.add(new Country(49, "SOUTH KOREA", "24", R.mipmap.ic_south_korea_foreground));
-        countryList.add(new Country(50, "SPAIN", "23", R.mipmap.ic_spain_foreground));
-        countryList.add(new Country(51, "SWEDEN", "12", R.mipmap.ic_sweden_foreground));
-        countryList.add(new Country(52, "TAIWAN", "9", R.mipmap.ic_taiwan_foreground));
-        countryList.add(new Country(53, "THAILAND", "9", R.mipmap.ic_thailand_foreground));
-        countryList.add(new Country(54, "TURKEY", "14", R.mipmap.ic_turkey_foreground));
-        countryList.add(new Country(55, "UNITED ARAB EMIRATES", "9", R.mipmap.ic_united_arab_emirates_foreground));
-        countryList.add(new Country(56, "UNITED KINGDOM", "42", R.mipmap.ic_united_kingdom_foreground));
-        countryList.add(new Country(57, "USA", "1619", R.mipmap.ic_united_states_of_america_foreground));
-        countryList.add(new Country(58, "URUGUAY", "1", R.mipmap.ic_uruguay_foreground));
-        countryList.add(new Country(59, "VENEZUELA", "3", R.mipmap.ic_venezuela_foreground));
-        countryList.add(new Country(60, "VIETNAM", "3", R.mipmap.ic_vietnam_foreground));
+        countryList.add(new Country(28, "KAZAKHSTAN", "6", R.mipmap.ic_kazakhstan_foreground));
+        countryList.add(new Country(29, "LAOS", "1", R.mipmap.ic_laos_foreground));
+        countryList.add(new Country(30, "LATVIA", "1", R.mipmap.ic_latvia_foreground));
+        countryList.add(new Country(31, "LITHUANIA", "1", R.mipmap.ic_lithuania_foreground));
+        countryList.add(new Country(32, "LUXEMBOURG", "4", R.mipmap.ic_luxembourg_foreground));
+        countryList.add(new Country(33, "MALAYSIA", "7", R.mipmap.ic_malaysia_foreground));
+        countryList.add(new Country(34, "MEXICO", "12", R.mipmap.ic_mexico_foreground));
+        countryList.add(new Country(35, "MOROCCO", "1", R.mipmap.ic_morocco_foreground));
+        countryList.add(new Country(36, "NETHERLANDS", "6", R.mipmap.ic_netherlands_foreground));
+        countryList.add(new Country(37, "NIGERIA", "6", R.mipmap.ic_nigeria_foreground));
+        countryList.add(new Country(38, "NORTH KOREA", "2", R.mipmap.ic_north_korea_foreground));
+        countryList.add(new Country(39, "NORWAY", "2", R.mipmap.ic_norway_foreground));
+        countryList.add(new Country(40, "PAKISTAN", "3", R.mipmap.ic_pakistan_foreground));
+        countryList.add(new Country(41, "PERU", "1", R.mipmap.ic_peru_foreground));
+        countryList.add(new Country(42, "PHILIPPINES", "2", R.mipmap.ic_philippines_foreground));
+        countryList.add(new Country(43, "POLAND", "2", R.mipmap.ic_poland_foreground));
+        countryList.add(new Country(44, "PORTUGAL", "2", R.mipmap.ic_portugal_foreground));
+        countryList.add(new Country(45, "RUSSIA", "1505", R.mipmap.ic_russia_foreground));
+        countryList.add(new Country(46, "SAUDI ARABIA", "13", R.mipmap.ic_saudi_arabia_foreground));
+        countryList.add(new Country(47, "SINGAPORE", "9", R.mipmap.ic_singapore_foreground));
+        countryList.add(new Country(48, "SLOVAKIA", "1", R.mipmap.ic_slovakia_foreground));
+        countryList.add(new Country(49, "SOUTH AFRICA", "6", R.mipmap.ic_south_africa_foreground));
+        countryList.add(new Country(50, "SOUTH KOREA", "24", R.mipmap.ic_south_korea_foreground));
+        countryList.add(new Country(51, "SPAIN", "23", R.mipmap.ic_spain_foreground));
+        countryList.add(new Country(52, "SWEDEN", "12", R.mipmap.ic_sweden_foreground));
+        countryList.add(new Country(53, "TAIWAN", "9", R.mipmap.ic_taiwan_foreground));
+        countryList.add(new Country(54, "THAILAND", "9", R.mipmap.ic_thailand_foreground));
+        countryList.add(new Country(55, "TURKEY", "14", R.mipmap.ic_turkey_foreground));
+        countryList.add(new Country(56, "UNITED ARAB EMIRATES", "9", R.mipmap.ic_united_arab_emirates_foreground));
+        countryList.add(new Country(57, "UNITED KINGDOM", "42", R.mipmap.ic_united_kingdom_foreground));
+        countryList.add(new Country(58, "USA", "1619", R.mipmap.ic_united_states_of_america_foreground));
+        countryList.add(new Country(59, "URUGUAY", "1", R.mipmap.ic_uruguay_foreground));
+        countryList.add(new Country(60, "VENEZUELA", "3", R.mipmap.ic_venezuela_foreground));
+        countryList.add(new Country(61, "VIETNAM", "3", R.mipmap.ic_vietnam_foreground));
 
     }
 
@@ -231,7 +231,7 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
 
     public List<Satellite> BANGLADESH_Satellite_List() {
         BANGLADESH_Sat_Obj = new ArrayList<>();
-        BANGLADESH_Sat_Obj.add(new Satellite(43463, "BANGABANDHUSAT-1", "Communication", "May-11-2018",R.mipmap.ic_bangladesh_foreground));
+        BANGLADESH_Sat_Obj.add(new Satellite(43463, "BANGABANDHU", "Communication", "May-11-2018", R.mipmap.ic_bangabandhu1_foreground));
         return BANGLADESH_Sat_Obj;
     }
 
@@ -985,8 +985,6 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         ISRAEL_Sat_Obj.add(new Satellite(27434, "OFEQ 5", "", "May-28-2002", R.mipmap.ic_israel_foreground));
         ISRAEL_Sat_Obj.add(new Satellite(25397, "TECHSAT 1B", "", "Jul-10-1998", R.mipmap.ic_israel_foreground));
         ISRAEL_Sat_Obj.add(new Satellite(23723, "AMOS 5I (ASIASAT 2)", "", "Nov-28-1995", R.mipmap.ic_israel_foreground));
-
-
         return ISRAEL_Sat_Obj;
     }
 
@@ -1224,138 +1222,138 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
     }
 
     public List<Satellite> LATVIA_Satellite_List() {
-        LATVIA_Sat_Obj=new ArrayList<>();
-        LATVIA_Sat_Obj.add(new Satellite(42791,"VENTA 1","Education","June-23-2017",R.mipmap.ic_latvia_foreground));
+        LATVIA_Sat_Obj = new ArrayList<>();
+        LATVIA_Sat_Obj.add(new Satellite(42791, "VENTA 1", "Education", "June-23-2017", R.mipmap.ic_latvia_foreground));
         return LATVIA_Sat_Obj;
     }
 
     public List<Satellite> LITHUANIA_Satellite_List() {
-        LITHUANIA_Sat_Obj=new ArrayList<>();
-        LITHUANIA_Sat_Obj.add(new Satellite(42768,"LITUANICASAT 2","Education","Jun-23-2017",R.mipmap.ic_lithuania_foreground));
+        LITHUANIA_Sat_Obj = new ArrayList<>();
+        LITHUANIA_Sat_Obj.add(new Satellite(42768, "LITUANICASAT 2", "Education", "Jun-23-2017", R.mipmap.ic_lithuania_foreground));
         return LITHUANIA_Sat_Obj;
     }
 
     public List<Satellite> LUXEMBOURG_Satellite_List() {
-        LUXEMBOURG_Sat_Obj=new ArrayList<>();
-        LUXEMBOURG_Sat_Obj.add(new Satellite(37840,"VESSELSAT 1","","Oct-12-2011",R.mipmap.ic_luxembourg_foreground));
-        LUXEMBOURG_Sat_Obj.add(new Satellite(23331,"ASTRA 1D","","Nov-1-1994",R.mipmap.ic_luxembourg_foreground));
-        LUXEMBOURG_Sat_Obj.add(new Satellite(21139,"ASTRA 1B","","Mar-2-1991",R.mipmap.ic_luxembourg_foreground));
-        LUXEMBOURG_Sat_Obj.add(new Satellite(19688,"ASTRA 1A","","Dec-11-1988",R.mipmap.ic_luxembourg_foreground));
+        LUXEMBOURG_Sat_Obj = new ArrayList<>();
+        LUXEMBOURG_Sat_Obj.add(new Satellite(37840, "VESSELSAT 1", "", "Oct-12-2011", R.mipmap.ic_luxembourg_foreground));
+        LUXEMBOURG_Sat_Obj.add(new Satellite(23331, "ASTRA 1D", "", "Nov-1-1994", R.mipmap.ic_luxembourg_foreground));
+        LUXEMBOURG_Sat_Obj.add(new Satellite(21139, "ASTRA 1B", "", "Mar-2-1991", R.mipmap.ic_luxembourg_foreground));
+        LUXEMBOURG_Sat_Obj.add(new Satellite(19688, "ASTRA 1A", "", "Dec-11-1988", R.mipmap.ic_luxembourg_foreground));
         return LUXEMBOURG_Sat_Obj;
     }
 
     public List<Satellite> MALAYSIA_Satellite_List() {
-        MALAYSIA_Sat_Obj=new ArrayList<>();
-        MALAYSIA_Sat_Obj.add(new Satellite(40147,"MEASAT 3B","","Sep-11-2014",R.mipmap.ic_malaysia_foreground));
-        MALAYSIA_Sat_Obj.add(new Satellite(35578,"RAZAKSAT","","Jul-14-2009",R.mipmap.ic_malaysia_foreground));
-        MALAYSIA_Sat_Obj.add(new Satellite(35362,"MEASAT 3A","","Jun-21-2009",R.mipmap.ic_malaysia_foreground));
-        MALAYSIA_Sat_Obj.add(new Satellite(29648,"MEASAT 3","","Dec-11-2006",R.mipmap.ic_malaysia_foreground));
-        MALAYSIA_Sat_Obj.add(new Satellite(26548,"TIUNGSAT 1","","Sep-26-2000",R.mipmap.ic_malaysia_foreground));
-        MALAYSIA_Sat_Obj.add(new Satellite(24653,"MEASAT 2","","Nov-13-1996",R.mipmap.ic_malaysia_foreground));
-        MALAYSIA_Sat_Obj.add(new Satellite(23765,"AFRICASAT 1 (MEASAT 1)","","Jan-12-1996",R.mipmap.ic_malaysia_foreground));
+        MALAYSIA_Sat_Obj = new ArrayList<>();
+        MALAYSIA_Sat_Obj.add(new Satellite(40147, "MEASAT 3B", "", "Sep-11-2014", R.mipmap.ic_malaysia_foreground));
+        MALAYSIA_Sat_Obj.add(new Satellite(35578, "RAZAKSAT", "", "Jul-14-2009", R.mipmap.ic_malaysia_foreground));
+        MALAYSIA_Sat_Obj.add(new Satellite(35362, "MEASAT 3A", "", "Jun-21-2009", R.mipmap.ic_malaysia_foreground));
+        MALAYSIA_Sat_Obj.add(new Satellite(29648, "MEASAT 3", "", "Dec-11-2006", R.mipmap.ic_malaysia_foreground));
+        MALAYSIA_Sat_Obj.add(new Satellite(26548, "TIUNGSAT 1", "", "Sep-26-2000", R.mipmap.ic_malaysia_foreground));
+        MALAYSIA_Sat_Obj.add(new Satellite(24653, "MEASAT 2", "", "Nov-13-1996", R.mipmap.ic_malaysia_foreground));
+        MALAYSIA_Sat_Obj.add(new Satellite(23765, "AFRICASAT 1 (MEASAT 1)", "", "Jan-12-1996", R.mipmap.ic_malaysia_foreground));
         return MALAYSIA_Sat_Obj;
     }
 
     public List<Satellite> MEXICO_Satellite_List() {
-        MEXICO_Sat_Obj=new ArrayList<>();
-        MEXICO_Sat_Obj.add(new Satellite(40946,"MORELOS 3","","Oct-2-2015",R.mipmap.ic_mexico_foreground));
-        MEXICO_Sat_Obj.add(new Satellite(40664,"SKY MEXICO-1","","May-27-2015",R.mipmap.ic_mexico_foreground));
-        MEXICO_Sat_Obj.add(new Satellite(39122,"SATMEX 8","","Mar-26-2013",R.mipmap.ic_mexico_foreground));
-        MEXICO_Sat_Obj.add(new Satellite(39035,"MEXSAT 3","","Dec-19-2012",R.mipmap.ic_mexico_foreground));
-        MEXICO_Sat_Obj.add(new Satellite(37826,"QUETZSAT 1","","Sep-29-2011",R.mipmap.ic_mexico_foreground));
-        MEXICO_Sat_Obj.add(new Satellite(29162,"SATMEX 6","","May-27-2006",R.mipmap.ic_mexico_foreground));
-        MEXICO_Sat_Obj.add(new Satellite(25558,"SATMEX 5","","Dec-6-1998",R.mipmap.ic_mexico_foreground));
-        MEXICO_Sat_Obj.add(new Satellite(24305,"UNAMSAT","","Sep-5-1996",R.mipmap.ic_mexico_foreground));
-        MEXICO_Sat_Obj.add(new Satellite(23313,"SOLIDARIDAD 2","","Oct-8-1994",R.mipmap.ic_mexico_foreground));
-        MEXICO_Sat_Obj.add(new Satellite(22911,"SOLIDARIDAD 1","","Nov-20-1993",R.mipmap.ic_mexico_foreground));
-        MEXICO_Sat_Obj.add(new Satellite(16274,"MORELOS 2","","Nov-27-1985",R.mipmap.ic_mexico_foreground));
-        MEXICO_Sat_Obj.add(new Satellite(15824,"MORELOS 1","","Jun-17-1985",R.mipmap.ic_mexico_foreground));
+        MEXICO_Sat_Obj = new ArrayList<>();
+        MEXICO_Sat_Obj.add(new Satellite(40946, "MORELOS 3", "", "Oct-2-2015", R.mipmap.ic_mexico_foreground));
+        MEXICO_Sat_Obj.add(new Satellite(40664, "SKY MEXICO-1", "", "May-27-2015", R.mipmap.ic_mexico_foreground));
+        MEXICO_Sat_Obj.add(new Satellite(39122, "SATMEX 8", "", "Mar-26-2013", R.mipmap.ic_mexico_foreground));
+        MEXICO_Sat_Obj.add(new Satellite(39035, "MEXSAT 3", "", "Dec-19-2012", R.mipmap.ic_mexico_foreground));
+        MEXICO_Sat_Obj.add(new Satellite(37826, "QUETZSAT 1", "", "Sep-29-2011", R.mipmap.ic_mexico_foreground));
+        MEXICO_Sat_Obj.add(new Satellite(29162, "SATMEX 6", "", "May-27-2006", R.mipmap.ic_mexico_foreground));
+        MEXICO_Sat_Obj.add(new Satellite(25558, "SATMEX 5", "", "Dec-6-1998", R.mipmap.ic_mexico_foreground));
+        MEXICO_Sat_Obj.add(new Satellite(24305, "UNAMSAT", "", "Sep-5-1996", R.mipmap.ic_mexico_foreground));
+        MEXICO_Sat_Obj.add(new Satellite(23313, "SOLIDARIDAD 2", "", "Oct-8-1994", R.mipmap.ic_mexico_foreground));
+        MEXICO_Sat_Obj.add(new Satellite(22911, "SOLIDARIDAD 1", "", "Nov-20-1993", R.mipmap.ic_mexico_foreground));
+        MEXICO_Sat_Obj.add(new Satellite(16274, "MORELOS 2", "", "Nov-27-1985", R.mipmap.ic_mexico_foreground));
+        MEXICO_Sat_Obj.add(new Satellite(15824, "MORELOS 1", "", "Jun-17-1985", R.mipmap.ic_mexico_foreground));
         return MEXICO_Sat_Obj;
     }
 
     public List<Satellite> MOROCCO_Satellite_List() {
-        MOROCCO_Sat_Obj=new ArrayList<>();
-        MOROCCO_Sat_Obj.add(new Satellite(43005,"MOHAMMED VI-A","Monitoring","Nov-8-2017",R.mipmap.ic_morocco_foreground));
+        MOROCCO_Sat_Obj = new ArrayList<>();
+        MOROCCO_Sat_Obj.add(new Satellite(43005, "MOHAMMED VI-A", "Monitoring", "Nov-8-2017", R.mipmap.ic_morocco_foreground));
         return MOROCCO_Sat_Obj;
     }
 
     public List<Satellite> NETHERLANDS_Satellite_List() {
-        NETHERLANDS_Sat_Obj=new ArrayList<>();
-        NETHERLANDS_Sat_Obj.add(new Satellite(42015,"PEASSS","","Feb-15-2017",R.mipmap.ic_netherlands_foreground));
-        NETHERLANDS_Sat_Obj.add(new Satellite(39428,"DELFI-N3XT","","Nov-21-2013",R.mipmap.ic_netherlands_foreground));
-        NETHERLANDS_Sat_Obj.add(new Satellite(32789,"DELFI C3","","Apr-28-2008",R.mipmap.ic_netherlands_foreground));
-        NETHERLANDS_Sat_Obj.add(new Satellite(24957,"NSS 5(INTELSAT 803)","","Sep-23-1997",R.mipmap.ic_netherlands_foreground));
-        NETHERLANDS_Sat_Obj.add(new Satellite(21989,"NSS K(INTELSAT K)","","Jun-10-1992",R.mipmap.ic_netherlands_foreground));
-        NETHERLANDS_Sat_Obj.add(new Satellite(19121,"NSS 513(INTELSAT 513)","","May-17-1988",R.mipmap.ic_netherlands_foreground));
+        NETHERLANDS_Sat_Obj = new ArrayList<>();
+        NETHERLANDS_Sat_Obj.add(new Satellite(42015, "PEASSS", "", "Feb-15-2017", R.mipmap.ic_netherlands_foreground));
+        NETHERLANDS_Sat_Obj.add(new Satellite(39428, "DELFI-N3XT", "", "Nov-21-2013", R.mipmap.ic_netherlands_foreground));
+        NETHERLANDS_Sat_Obj.add(new Satellite(32789, "DELFI C3", "", "Apr-28-2008", R.mipmap.ic_netherlands_foreground));
+        NETHERLANDS_Sat_Obj.add(new Satellite(24957, "NSS 5(INTELSAT 803)", "", "Sep-23-1997", R.mipmap.ic_netherlands_foreground));
+        NETHERLANDS_Sat_Obj.add(new Satellite(21989, "NSS K(INTELSAT K)", "", "Jun-10-1992", R.mipmap.ic_netherlands_foreground));
+        NETHERLANDS_Sat_Obj.add(new Satellite(19121, "NSS 513(INTELSAT 513)", "", "May-17-1988", R.mipmap.ic_netherlands_foreground));
         return NETHERLANDS_Sat_Obj;
     }
 
     public List<Satellite> NIGERIA_Satellite_List() {
-        NIGERIA_Sat_Obj=new ArrayList<>();
-        NIGERIA_Sat_Obj.add(new Satellite(42824,"BIRD NN","","Nov-20-1998",R.mipmap.ic_nigeria_foreground));
-        NIGERIA_Sat_Obj.add(new Satellite(38014,"NIGCOMSAT 1R","","Dec-19-2011",R.mipmap.ic_nigeria_foreground));
-        NIGERIA_Sat_Obj.add(new Satellite(37790,"NIGERIASAT X","","Aug-17-2011",R.mipmap.ic_nigeria_foreground));
-        NIGERIA_Sat_Obj.add(new Satellite(37789,"NIGERIASAT 2","","Aug-17-2011",R.mipmap.ic_nigeria_foreground));
-        NIGERIA_Sat_Obj.add(new Satellite(31395,"NIGCOMSAT 1","","May-13-2007",R.mipmap.ic_nigeria_foreground));
-        NIGERIA_Sat_Obj.add(new Satellite(27941,"NIGERIASAT 1","","Sep-27-2003",R.mipmap.ic_nigeria_foreground));
+        NIGERIA_Sat_Obj = new ArrayList<>();
+        NIGERIA_Sat_Obj.add(new Satellite(42824, "BIRD NN", "", "Nov-20-1998", R.mipmap.ic_nigeria_foreground));
+        NIGERIA_Sat_Obj.add(new Satellite(38014, "NIGCOMSAT 1R", "", "Dec-19-2011", R.mipmap.ic_nigeria_foreground));
+        NIGERIA_Sat_Obj.add(new Satellite(37790, "NIGERIASAT X", "", "Aug-17-2011", R.mipmap.ic_nigeria_foreground));
+        NIGERIA_Sat_Obj.add(new Satellite(37789, "NIGERIASAT 2", "", "Aug-17-2011", R.mipmap.ic_nigeria_foreground));
+        NIGERIA_Sat_Obj.add(new Satellite(31395, "NIGCOMSAT 1", "", "May-13-2007", R.mipmap.ic_nigeria_foreground));
+        NIGERIA_Sat_Obj.add(new Satellite(27941, "NIGERIASAT 1", "", "Sep-27-2003", R.mipmap.ic_nigeria_foreground));
         return NIGERIA_Sat_Obj;
     }
 
     public List<Satellite> NORTH_KOREA_Satellite_List() {
-        NORTH_KOREA_Sat_Obj=new ArrayList<>();
-        NORTH_KOREA_Sat_Obj.add(new Satellite(41332,"KMS-4","Earth Observation","Feb-7-2016",R.mipmap.ic_north_korea_foreground));
-        NORTH_KOREA_Sat_Obj.add(new Satellite(39026,"KMS 3-2","Earth Observation","Dec-12-2012",R.mipmap.ic_north_korea_foreground));
+        NORTH_KOREA_Sat_Obj = new ArrayList<>();
+        NORTH_KOREA_Sat_Obj.add(new Satellite(41332, "KMS-4", "Earth Observation", "Feb-7-2016", R.mipmap.ic_north_korea_foreground));
+        NORTH_KOREA_Sat_Obj.add(new Satellite(39026, "KMS 3-2", "Earth Observation", "Dec-12-2012", R.mipmap.ic_north_korea_foreground));
         return NORTH_KOREA_Sat_Obj;
     }
 
     public List<Satellite> NORWAY_Satellite_List() {
-        NORWAY_Sat_Obj=new ArrayList<>();
-        NORWAY_Sat_Obj.add(new Satellite(40613,"THOR 7","","Ap-26-2015",R.mipmap.ic_norway_foreground));
-        NORWAY_Sat_Obj.add(new Satellite(40075,"AISSAT 2","","Jul-8-2014",R.mipmap.ic_norway_foreground));
-        NORWAY_Sat_Obj.add(new Satellite(39445,"HINCUBE","","Nov-21-2013",R.mipmap.ic_norway_foreground));
-        NORWAY_Sat_Obj.add(new Satellite(36797,"AISSAT 1","","Jul-12-2010",R.mipmap.ic_norway_foreground));
-        NORWAY_Sat_Obj.add(new Satellite(36033,"THOR 6","","Oct-29-2009",R.mipmap.ic_norway_foreground));
-        NORWAY_Sat_Obj.add(new Satellite(32487,"THOR 5","","Feb-11-2008",R.mipmap.ic_norway_foreground));
-        NORWAY_Sat_Obj.add(new Satellite(25358,"THOR 3","","Jun-10-1998",R.mipmap.ic_norway_foreground));
-        NORWAY_Sat_Obj.add(new Satellite(24808,"THOR 2A","","May-20-1997",R.mipmap.ic_norway_foreground));
-        NORWAY_Sat_Obj.add(new Satellite(20762,"THOR 1(MARCOPOLO 2)","Aug-18-1990","",R.mipmap.ic_norway_foreground));
+        NORWAY_Sat_Obj = new ArrayList<>();
+        NORWAY_Sat_Obj.add(new Satellite(40613, "THOR 7", "", "Ap-26-2015", R.mipmap.ic_norway_foreground));
+        NORWAY_Sat_Obj.add(new Satellite(40075, "AISSAT 2", "", "Jul-8-2014", R.mipmap.ic_norway_foreground));
+        NORWAY_Sat_Obj.add(new Satellite(39445, "HINCUBE", "", "Nov-21-2013", R.mipmap.ic_norway_foreground));
+        NORWAY_Sat_Obj.add(new Satellite(36797, "AISSAT 1", "", "Jul-12-2010", R.mipmap.ic_norway_foreground));
+        NORWAY_Sat_Obj.add(new Satellite(36033, "THOR 6", "", "Oct-29-2009", R.mipmap.ic_norway_foreground));
+        NORWAY_Sat_Obj.add(new Satellite(32487, "THOR 5", "", "Feb-11-2008", R.mipmap.ic_norway_foreground));
+        NORWAY_Sat_Obj.add(new Satellite(25358, "THOR 3", "", "Jun-10-1998", R.mipmap.ic_norway_foreground));
+        NORWAY_Sat_Obj.add(new Satellite(24808, "THOR 2A", "", "May-20-1997", R.mipmap.ic_norway_foreground));
+        NORWAY_Sat_Obj.add(new Satellite(20762, "THOR 1(MARCOPOLO 2)", "Aug-18-1990", "", R.mipmap.ic_norway_foreground));
         return NORWAY_Sat_Obj;
     }
 
     public List<Satellite> PAKISTAN_Satellite_List() {
-        PAKISTAN_Sat_Obj=new ArrayList<>();
-        PAKISTAN_Sat_Obj.add(new Satellite(39432,"ICUBE 1","","Nov-21-2013",R.mipmap.ic_pakistan_foreground));
-        PAKISTAN_Sat_Obj.add(new Satellite(37779,"PAKSAT 1R","","Aug-11-2011",R.mipmap.ic_pakistan_foreground));
-        PAKISTAN_Sat_Obj.add(new Satellite(27003,"BADR B","","Dec-10-2001",R.mipmap.ic_pakistan_foreground));
-        PAKISTAN_Sat_Obj.add(new Satellite(23779,"PAKSAT 1(ANATOLIA 1)","","Feb-1-1996",R.mipmap.ic_pakistan_foreground));
+        PAKISTAN_Sat_Obj = new ArrayList<>();
+        PAKISTAN_Sat_Obj.add(new Satellite(39432, "ICUBE 1", "", "Nov-21-2013", R.mipmap.ic_pakistan_foreground));
+        PAKISTAN_Sat_Obj.add(new Satellite(37779, "PAKSAT 1R", "", "Aug-11-2011", R.mipmap.ic_pakistan_foreground));
+        PAKISTAN_Sat_Obj.add(new Satellite(27003, "BADR B", "", "Dec-10-2001", R.mipmap.ic_pakistan_foreground));
+        PAKISTAN_Sat_Obj.add(new Satellite(23779, "PAKSAT 1(ANATOLIA 1)", "", "Feb-1-1996", R.mipmap.ic_pakistan_foreground));
         return PAKISTAN_Sat_Obj;
     }
 
     public List<Satellite> PERU_Satellite_List() {
-        PERU_Sat_Obj=new ArrayList<>();
-        PERU_Sat_Obj.add(new Satellite(41770,"PERUSAT 1","Earth Observation","Sep-16-2016",R.mipmap.ic_peru_foreground));
-        PERU_Sat_Obj.add(new Satellite(39442,"PUCP-SAT 1","Research","Nov-21-2013",R.mipmap.ic_peru_foreground));
+        PERU_Sat_Obj = new ArrayList<>();
+        PERU_Sat_Obj.add(new Satellite(41770, "PERUSAT 1", "Earth Observation", "Sep-16-2016", R.mipmap.ic_peru_foreground));
+        PERU_Sat_Obj.add(new Satellite(39442, "PUCP-SAT 1", "Research", "Nov-21-2013", R.mipmap.ic_peru_foreground));
         return PERU_Sat_Obj;
     }
 
     public List<Satellite> PHILIPPINES_Satellite_List() {
-        PHILIPPINES_Sat_Obj=new ArrayList<>();
-        PHILIPPINES_Sat_Obj.add(new Satellite(41463,"DIWATA-1","Earth Observation","Nov-20-1998",R.mipmap.ic_philippines_foreground));
-        PHILIPPINES_Sat_Obj.add(new Satellite(17706,"AGILA 1(PALAPA B2P)","Communication","Mar-20-1987",R.mipmap.ic_philippines_foreground));
+        PHILIPPINES_Sat_Obj = new ArrayList<>();
+        PHILIPPINES_Sat_Obj.add(new Satellite(41463, "DIWATA-1", "Earth Observation", "Nov-20-1998", R.mipmap.ic_philippines_foreground));
+        PHILIPPINES_Sat_Obj.add(new Satellite(17706, "AGILA 1(PALAPA B2P)", "Communication", "Mar-20-1987", R.mipmap.ic_philippines_foreground));
         return PHILIPPINES_Sat_Obj;
     }
 
     public List<Satellite> POLAND_Satellite_List() {
-        POLAND_Sat_Obj=new ArrayList<>();
-        POLAND_Sat_Obj.add(new Satellite(40119,"BRITE-PL 2","Astronomy","Aug-19-2014",R.mipmap.ic_poland_foreground));
-        POLAND_Sat_Obj.add(new Satellite(39431,"BRITE-PL","","Nov-21-2013",R.mipmap.ic_poland_foreground));
+        POLAND_Sat_Obj = new ArrayList<>();
+        POLAND_Sat_Obj.add(new Satellite(40119, "BRITE-PL 2", "Astronomy", "Aug-19-2014", R.mipmap.ic_poland_foreground));
+        POLAND_Sat_Obj.add(new Satellite(39431, "BRITE-PL", "", "Nov-21-2013", R.mipmap.ic_poland_foreground));
         return POLAND_Sat_Obj;
     }
 
     public List<Satellite> PORTUGAL_Satellite_List() {
-        PORTUGAL_Sat_Obj=new ArrayList<>();
-        PORTUGAL_Sat_Obj.add(new Satellite(22829,"POSAT 1","GPS","Sep-26-1993",R.mipmap.ic_portugal_foreground));
-        PORTUGAL_Sat_Obj.add(new Satellite(22826,"ITAMSAT","radio","Sep-26-1993",R.mipmap.ic_portugal_foreground));
+        PORTUGAL_Sat_Obj = new ArrayList<>();
+        PORTUGAL_Sat_Obj.add(new Satellite(22829, "POSAT 1", "GPS", "Sep-26-1993", R.mipmap.ic_portugal_foreground));
+        PORTUGAL_Sat_Obj.add(new Satellite(22826, "ITAMSAT", "radio", "Sep-26-1993", R.mipmap.ic_portugal_foreground));
         return PORTUGAL_Sat_Obj;
     }
 
@@ -1365,238 +1363,238 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
     }
 
     public List<Satellite> SAUDI_ARABIA_Satellite_List() {
-        SAUDI_ARABIA_Sat_Obj=new ArrayList<>();
-        SAUDI_ARABIA_Sat_Obj.add(new Satellite(40016,"SAUDISAT 4","","Jun-19-2014",R.mipmap.ic_saudi_arabia_foreground));
-        SAUDI_ARABIA_Sat_Obj.add(new Satellite(31127,"SAUDICOMSAT 4","","Apr-17-2007",R.mipmap.ic_saudi_arabia_foreground));
-        SAUDI_ARABIA_Sat_Obj.add(new Satellite(31125,"SAUDICOMSAT 3","","Apr-17-2007",R.mipmap.ic_saudi_arabia_foreground));
-        SAUDI_ARABIA_Sat_Obj.add(new Satellite(31124,"SAUDICOMSAT 5","","Apr-17-2007",R.mipmap.ic_saudi_arabia_foreground));
-        SAUDI_ARABIA_Sat_Obj.add(new Satellite(31121,"SAUDICOMSAT 6","","Apr-17-2007",R.mipmap.ic_saudi_arabia_foreground));
-        SAUDI_ARABIA_Sat_Obj.add(new Satellite(31119,"SAUDICOMSAT 7","","Apr-17-2007",R.mipmap.ic_saudi_arabia_foreground));
-        SAUDI_ARABIA_Sat_Obj.add(new Satellite(31118,"SAUDISAT 3","","Apr-17-2007",R.mipmap.ic_saudi_arabia_foreground));
-        SAUDI_ARABIA_Sat_Obj.add(new Satellite(28371,"SAUDISAT 2","","Jun-29-2004",R.mipmap.ic_saudi_arabia_foreground));
-        SAUDI_ARABIA_Sat_Obj.add(new Satellite(28370,"SAUDICOMSAT 2","","Jun-29-2004",R.mipmap.ic_saudi_arabia_foreground));
-        SAUDI_ARABIA_Sat_Obj.add(new Satellite(28369,"SAUDICOMSAT 1","","Jun-29-2004",R.mipmap.ic_saudi_arabia_foreground));
-        SAUDI_ARABIA_Sat_Obj.add(new Satellite(27607,"SAUDISAT 1C","","Dec-20-2002",R.mipmap.ic_saudi_arabia_foreground));
-        SAUDI_ARABIA_Sat_Obj.add(new Satellite(26549,"SAUDISAT 1B","","Sep-26-2000",R.mipmap.ic_saudi_arabia_foreground));
-        SAUDI_ARABIA_Sat_Obj.add(new Satellite(26545,"SAUDISAT 1A","","Sep-26-2000",R.mipmap.ic_saudi_arabia_foreground));
+        SAUDI_ARABIA_Sat_Obj = new ArrayList<>();
+        SAUDI_ARABIA_Sat_Obj.add(new Satellite(40016, "SAUDISAT 4", "", "Jun-19-2014", R.mipmap.ic_saudi_arabia_foreground));
+        SAUDI_ARABIA_Sat_Obj.add(new Satellite(31127, "SAUDICOMSAT 4", "", "Apr-17-2007", R.mipmap.ic_saudi_arabia_foreground));
+        SAUDI_ARABIA_Sat_Obj.add(new Satellite(31125, "SAUDICOMSAT 3", "", "Apr-17-2007", R.mipmap.ic_saudi_arabia_foreground));
+        SAUDI_ARABIA_Sat_Obj.add(new Satellite(31124, "SAUDICOMSAT 5", "", "Apr-17-2007", R.mipmap.ic_saudi_arabia_foreground));
+        SAUDI_ARABIA_Sat_Obj.add(new Satellite(31121, "SAUDICOMSAT 6", "", "Apr-17-2007", R.mipmap.ic_saudi_arabia_foreground));
+        SAUDI_ARABIA_Sat_Obj.add(new Satellite(31119, "SAUDICOMSAT 7", "", "Apr-17-2007", R.mipmap.ic_saudi_arabia_foreground));
+        SAUDI_ARABIA_Sat_Obj.add(new Satellite(31118, "SAUDISAT 3", "", "Apr-17-2007", R.mipmap.ic_saudi_arabia_foreground));
+        SAUDI_ARABIA_Sat_Obj.add(new Satellite(28371, "SAUDISAT 2", "", "Jun-29-2004", R.mipmap.ic_saudi_arabia_foreground));
+        SAUDI_ARABIA_Sat_Obj.add(new Satellite(28370, "SAUDICOMSAT 2", "", "Jun-29-2004", R.mipmap.ic_saudi_arabia_foreground));
+        SAUDI_ARABIA_Sat_Obj.add(new Satellite(28369, "SAUDICOMSAT 1", "", "Jun-29-2004", R.mipmap.ic_saudi_arabia_foreground));
+        SAUDI_ARABIA_Sat_Obj.add(new Satellite(27607, "SAUDISAT 1C", "", "Dec-20-2002", R.mipmap.ic_saudi_arabia_foreground));
+        SAUDI_ARABIA_Sat_Obj.add(new Satellite(26549, "SAUDISAT 1B", "", "Sep-26-2000", R.mipmap.ic_saudi_arabia_foreground));
+        SAUDI_ARABIA_Sat_Obj.add(new Satellite(26545, "SAUDISAT 1A", "", "Sep-26-2000", R.mipmap.ic_saudi_arabia_foreground));
         return SAUDI_ARABIA_Sat_Obj;
     }
 
     public List<Satellite> SINGAPORE_Satellite_List() {
-        SINGAPORE_Sat_Obj=new ArrayList<>();
-        SINGAPORE_Sat_Obj.add(new Satellite(41171,"VELOX 2","","Dec-16-2015",R.mipmap.ic_singapore_foreground));
-        SINGAPORE_Sat_Obj.add(new Satellite(41170,"GALASSIA","","Dec-16-2015",R.mipmap.ic_singapore_foreground));
-        SINGAPORE_Sat_Obj.add(new Satellite(41169,"TELEOS 1","","Dec-16-2015",R.mipmap.ic_singapore_foreground));
-        SINGAPORE_Sat_Obj.add(new Satellite(41168,"ATHENOXAT-1","","Dec-16-2015",R.mipmap.ic_singapore_foreground));
-        SINGAPORE_Sat_Obj.add(new Satellite(41167,"KENT RIDGE 1","","Dec-16-2015",R.mipmap.ic_singapore_foreground));
-        SINGAPORE_Sat_Obj.add(new Satellite(41166,"VELOX C1","","Dec-16-2015",R.mipmap.ic_singapore_foreground));
-        SINGAPORE_Sat_Obj.add(new Satellite(40057,"VELOX 1","","Jun-30-2014",R.mipmap.ic_singapore_foreground));
-        SINGAPORE_Sat_Obj.add(new Satellite(40028,"POPSAT HIP 1","","Jun-19-2014",R.mipmap.ic_singapore_foreground));
-        SINGAPORE_Sat_Obj.add(new Satellite(39438,"VELOX-P 2","","Nov-21-2013",R.mipmap.ic_singapore_foreground));
-        SINGAPORE_Sat_Obj.add(new Satellite(37389,"XSAT","","Apr-20-2011",R.mipmap.ic_singapore_foreground));
+        SINGAPORE_Sat_Obj = new ArrayList<>();
+        SINGAPORE_Sat_Obj.add(new Satellite(41171, "VELOX 2", "", "Dec-16-2015", R.mipmap.ic_singapore_foreground));
+        SINGAPORE_Sat_Obj.add(new Satellite(41170, "GALASSIA", "", "Dec-16-2015", R.mipmap.ic_singapore_foreground));
+        SINGAPORE_Sat_Obj.add(new Satellite(41169, "TELEOS 1", "", "Dec-16-2015", R.mipmap.ic_singapore_foreground));
+        SINGAPORE_Sat_Obj.add(new Satellite(41168, "ATHENOXAT-1", "", "Dec-16-2015", R.mipmap.ic_singapore_foreground));
+        SINGAPORE_Sat_Obj.add(new Satellite(41167, "KENT RIDGE 1", "", "Dec-16-2015", R.mipmap.ic_singapore_foreground));
+        SINGAPORE_Sat_Obj.add(new Satellite(41166, "VELOX C1", "", "Dec-16-2015", R.mipmap.ic_singapore_foreground));
+        SINGAPORE_Sat_Obj.add(new Satellite(40057, "VELOX 1", "", "Jun-30-2014", R.mipmap.ic_singapore_foreground));
+        SINGAPORE_Sat_Obj.add(new Satellite(40028, "POPSAT HIP 1", "", "Jun-19-2014", R.mipmap.ic_singapore_foreground));
+        SINGAPORE_Sat_Obj.add(new Satellite(39438, "VELOX-P 2", "", "Nov-21-2013", R.mipmap.ic_singapore_foreground));
+        SINGAPORE_Sat_Obj.add(new Satellite(37389, "XSAT", "", "Apr-20-2011", R.mipmap.ic_singapore_foreground));
         return SINGAPORE_Sat_Obj;
     }
 
     public List<Satellite> SLOVAKIA_Satellite_List() {
-        SLOVAKIA_Sat_Obj=new ArrayList<>();
-        SLOVAKIA_Sat_Obj.add(new Satellite(42789,"SKCUBE","Education ","Jun-23-2017",R.mipmap.ic_slovakia_foreground));
+        SLOVAKIA_Sat_Obj = new ArrayList<>();
+        SLOVAKIA_Sat_Obj.add(new Satellite(42789, "SKCUBE", "Education ", "Jun-23-2017", R.mipmap.ic_slovakia_foreground));
         return SLOVAKIA_Sat_Obj;
     }
 
     public List<Satellite> SOUTH_AFRICA_Satellite_List() {
-        SOUTH_AFRICA_Sat_Obj=new ArrayList<>();
-        SOUTH_AFRICA_Sat_Obj.add(new Satellite(42726,"NSIGHT-1","","Nov-20-1998",R.mipmap.ic_south_africa_foreground));
-        SOUTH_AFRICA_Sat_Obj.add(new Satellite(42713,"ZA-AEROSAT","","Nov-20-1998",R.mipmap.ic_south_africa_foreground));
-        SOUTH_AFRICA_Sat_Obj.add(new Satellite(40353,"KONDOR E","","Dec-19-2014",R.mipmap.ic_south_africa_foreground));
-        SOUTH_AFRICA_Sat_Obj.add(new Satellite(39417,"ZACUBE","","Nov-21-2013",R.mipmap.ic_south_africa_foreground));
-        SOUTH_AFRICA_Sat_Obj.add(new Satellite(35870,"SUMBANDILA","","Sep-17-2009",R.mipmap.ic_south_africa_foreground));
-        SOUTH_AFRICA_Sat_Obj.add(new Satellite(25636,"SUNSAT","","Feb-23-1999",R.mipmap.ic_south_africa_foreground));
+        SOUTH_AFRICA_Sat_Obj = new ArrayList<>();
+        SOUTH_AFRICA_Sat_Obj.add(new Satellite(42726, "NSIGHT-1", "", "Nov-20-1998", R.mipmap.ic_south_africa_foreground));
+        SOUTH_AFRICA_Sat_Obj.add(new Satellite(42713, "ZA-AEROSAT", "", "Nov-20-1998", R.mipmap.ic_south_africa_foreground));
+        SOUTH_AFRICA_Sat_Obj.add(new Satellite(40353, "KONDOR E", "", "Dec-19-2014", R.mipmap.ic_south_africa_foreground));
+        SOUTH_AFRICA_Sat_Obj.add(new Satellite(39417, "ZACUBE", "", "Nov-21-2013", R.mipmap.ic_south_africa_foreground));
+        SOUTH_AFRICA_Sat_Obj.add(new Satellite(35870, "SUMBANDILA", "", "Sep-17-2009", R.mipmap.ic_south_africa_foreground));
+        SOUTH_AFRICA_Sat_Obj.add(new Satellite(25636, "SUNSAT", "", "Feb-23-1999", R.mipmap.ic_south_africa_foreground));
         return SOUTH_AFRICA_Sat_Obj;
     }
 
     public List<Satellite> SOUTH_KOREA_Satellite_List() {
-        SOUTH_KOREA_Sat_Obj=new ArrayList<>();
-        SOUTH_KOREA_Sat_Obj.add(new Satellite(43138,"STEP CUBE LAB","","Jan-12-2018",R.mipmap.ic_south_korea_foreground));
-        SOUTH_KOREA_Sat_Obj.add(new Satellite(42984,"KOREASAT-5A","","Oct-30-2017",R.mipmap.ic_south_korea_foreground));
-        SOUTH_KOREA_Sat_Obj.add(new Satellite(42733,"SNUSAT-1B","","Nov-20-1998",R.mipmap.ic_south_korea_foreground));
-        SOUTH_KOREA_Sat_Obj.add(new Satellite(42727,"SNUSAT-1","","Nov-20-1998",R.mipmap.ic_south_korea_foreground));
-        SOUTH_KOREA_Sat_Obj.add(new Satellite(42714,"LINK","","Nov-20-1998",R.mipmap.ic_south_korea_foreground));
-        SOUTH_KOREA_Sat_Obj.add(new Satellite(42691,"KOREASAT 7","","May-4-2017",R.mipmap.ic_south_korea_foreground));
-        SOUTH_KOREA_Sat_Obj.add(new Satellite(40536,"KOMPSAT 3A","","Mar-25-2015",R.mipmap.ic_south_korea_foreground));
-        SOUTH_KOREA_Sat_Obj.add(new Satellite(39426,"CINEMA 3","","Nov-21-2013",R.mipmap.ic_south_korea_foreground));
-        SOUTH_KOREA_Sat_Obj.add(new Satellite(39422,"STSAT 3","","Nov-21-2013",R.mipmap.ic_south_korea_foreground));
-        SOUTH_KOREA_Sat_Obj.add(new Satellite(39227,"KOMPSAT 5","","Aug-22-2013",R.mipmap.ic_south_korea_foreground));
-        SOUTH_KOREA_Sat_Obj.add(new Satellite(39068,"STSAT 2C","","Jan-30-2013",R.mipmap.ic_south_korea_foreground));
-        SOUTH_KOREA_Sat_Obj.add(new Satellite(38338,"KOMPSAT 3","","May-17-2012",R.mipmap.ic_south_korea_foreground));
-        SOUTH_KOREA_Sat_Obj.add(new Satellite(37265,"KOREASAT 6","","Dec-29-2010",R.mipmap.ic_south_korea_foreground));
-        SOUTH_KOREA_Sat_Obj.add(new Satellite(36744,"COMS 1","","Jun-26-2010",R.mipmap.ic_south_korea_foreground));
-        SOUTH_KOREA_Sat_Obj.add(new Satellite(29349,"KOREASAT 5","","Aug-22-2006",R.mipmap.ic_south_korea_foreground));
-        SOUTH_KOREA_Sat_Obj.add(new Satellite(29268,"KOMPSAT 2","","Jul-28-2006",R.mipmap.ic_south_korea_foreground));
-        SOUTH_KOREA_Sat_Obj.add(new Satellite(27945,"KAISTSAT 4","","Sep-27-2003",R.mipmap.ic_south_korea_foreground));
-        SOUTH_KOREA_Sat_Obj.add(new Satellite(26032,"KOMPSAT","","Dec-21-1999",R.mipmap.ic_south_korea_foreground));
-        SOUTH_KOREA_Sat_Obj.add(new Satellite(25894,"ABS-7 (KOREASAT 3)","","Sep-4-1999",R.mipmap.ic_south_korea_foreground));
-        SOUTH_KOREA_Sat_Obj.add(new Satellite(25756,"KITSAT 3","","May-26-1999",R.mipmap.ic_south_korea_foreground));
-        SOUTH_KOREA_Sat_Obj.add(new Satellite(23768,"ABS-1A(KOREASAT 2)","","Jan-14-1996",R.mipmap.ic_south_korea_foreground));
-        SOUTH_KOREA_Sat_Obj.add(new Satellite(23639,"KOREASAT 1","","Aug-5-1995",R.mipmap.ic_south_korea_foreground));
-        SOUTH_KOREA_Sat_Obj.add(new Satellite(22825,"EYESAT-1","","Sept-26-1993",R.mipmap.ic_south_korea_foreground));
-        SOUTH_KOREA_Sat_Obj.add(new Satellite(22077,"OSCAR 23 (KITSAT 1)","","Aug-10-1992",R.mipmap.ic_south_korea_foreground));
+        SOUTH_KOREA_Sat_Obj = new ArrayList<>();
+        SOUTH_KOREA_Sat_Obj.add(new Satellite(43138, "STEP CUBE LAB", "", "Jan-12-2018", R.mipmap.ic_south_korea_foreground));
+        SOUTH_KOREA_Sat_Obj.add(new Satellite(42984, "KOREASAT-5A", "", "Oct-30-2017", R.mipmap.ic_south_korea_foreground));
+        SOUTH_KOREA_Sat_Obj.add(new Satellite(42733, "SNUSAT-1B", "", "Nov-20-1998", R.mipmap.ic_south_korea_foreground));
+        SOUTH_KOREA_Sat_Obj.add(new Satellite(42727, "SNUSAT-1", "", "Nov-20-1998", R.mipmap.ic_south_korea_foreground));
+        SOUTH_KOREA_Sat_Obj.add(new Satellite(42714, "LINK", "", "Nov-20-1998", R.mipmap.ic_south_korea_foreground));
+        SOUTH_KOREA_Sat_Obj.add(new Satellite(42691, "KOREASAT 7", "", "May-4-2017", R.mipmap.ic_south_korea_foreground));
+        SOUTH_KOREA_Sat_Obj.add(new Satellite(40536, "KOMPSAT 3A", "", "Mar-25-2015", R.mipmap.ic_south_korea_foreground));
+        SOUTH_KOREA_Sat_Obj.add(new Satellite(39426, "CINEMA 3", "", "Nov-21-2013", R.mipmap.ic_south_korea_foreground));
+        SOUTH_KOREA_Sat_Obj.add(new Satellite(39422, "STSAT 3", "", "Nov-21-2013", R.mipmap.ic_south_korea_foreground));
+        SOUTH_KOREA_Sat_Obj.add(new Satellite(39227, "KOMPSAT 5", "", "Aug-22-2013", R.mipmap.ic_south_korea_foreground));
+        SOUTH_KOREA_Sat_Obj.add(new Satellite(39068, "STSAT 2C", "", "Jan-30-2013", R.mipmap.ic_south_korea_foreground));
+        SOUTH_KOREA_Sat_Obj.add(new Satellite(38338, "KOMPSAT 3", "", "May-17-2012", R.mipmap.ic_south_korea_foreground));
+        SOUTH_KOREA_Sat_Obj.add(new Satellite(37265, "KOREASAT 6", "", "Dec-29-2010", R.mipmap.ic_south_korea_foreground));
+        SOUTH_KOREA_Sat_Obj.add(new Satellite(36744, "COMS 1", "", "Jun-26-2010", R.mipmap.ic_south_korea_foreground));
+        SOUTH_KOREA_Sat_Obj.add(new Satellite(29349, "KOREASAT 5", "", "Aug-22-2006", R.mipmap.ic_south_korea_foreground));
+        SOUTH_KOREA_Sat_Obj.add(new Satellite(29268, "KOMPSAT 2", "", "Jul-28-2006", R.mipmap.ic_south_korea_foreground));
+        SOUTH_KOREA_Sat_Obj.add(new Satellite(27945, "KAISTSAT 4", "", "Sep-27-2003", R.mipmap.ic_south_korea_foreground));
+        SOUTH_KOREA_Sat_Obj.add(new Satellite(26032, "KOMPSAT", "", "Dec-21-1999", R.mipmap.ic_south_korea_foreground));
+        SOUTH_KOREA_Sat_Obj.add(new Satellite(25894, "ABS-7 (KOREASAT 3)", "", "Sep-4-1999", R.mipmap.ic_south_korea_foreground));
+        SOUTH_KOREA_Sat_Obj.add(new Satellite(25756, "KITSAT 3", "", "May-26-1999", R.mipmap.ic_south_korea_foreground));
+        SOUTH_KOREA_Sat_Obj.add(new Satellite(23768, "ABS-1A(KOREASAT 2)", "", "Jan-14-1996", R.mipmap.ic_south_korea_foreground));
+        SOUTH_KOREA_Sat_Obj.add(new Satellite(23639, "KOREASAT 1", "", "Aug-5-1995", R.mipmap.ic_south_korea_foreground));
+        SOUTH_KOREA_Sat_Obj.add(new Satellite(22825, "EYESAT-1", "", "Sept-26-1993", R.mipmap.ic_south_korea_foreground));
+        SOUTH_KOREA_Sat_Obj.add(new Satellite(22077, "OSCAR 23 (KITSAT 1)", "", "Aug-10-1992", R.mipmap.ic_south_korea_foreground));
         return SOUTH_KOREA_Sat_Obj;
     }
 
     public List<Satellite> SPAIN_Satellite_List() {
-        SPAIN_Sat_Obj=new ArrayList<>();
-        SPAIN_Sat_Obj.add(new Satellite(43228,"HISPASAT 30W-6","","Mar-6-2018",R.mipmap.ic_spain_foreground));
-        SPAIN_Sat_Obj.add(new Satellite(43215,"PAZ","","Feb-22-2018",R.mipmap.ic_spain_foreground));
-        SPAIN_Sat_Obj.add(new Satellite(42934,"AMAZONAS 5","","Sep-11-2017",R.mipmap.ic_spain_foreground));
-        SPAIN_Sat_Obj.add(new Satellite(42728,"QBITO","","Nov-20-1998",R.mipmap.ic_spain_foreground));
-        SPAIN_Sat_Obj.add(new Satellite(41942,"HISPASAT 36W-1","","Jan-28-2017",R.mipmap.ic_spain_foreground));
-        SPAIN_Sat_Obj.add(new Satellite(41732,"3CAT-2","","Aug-15-2016",R.mipmap.ic_spain_foreground));
-        SPAIN_Sat_Obj.add(new Satellite(40013,"DEIMOS 2","","Jun-19-2014",R.mipmap.ic_spain_foreground));
-        SPAIN_Sat_Obj.add(new Satellite(39616,"AMAZONAS 4A","","Mar-22-2014",R.mipmap.ic_spain_foreground));
-        SPAIN_Sat_Obj.add(new Satellite(39433,"HUMSAT D","","Nov-21-2013",R.mipmap.ic_spain_foreground));
-        SPAIN_Sat_Obj.add(new Satellite(39420,"OPTOS","","Nov-21-2013",R.mipmap.ic_spain_foreground));
-        SPAIN_Sat_Obj.add(new Satellite(39078,"AMAZONAS 3","","Feb-7-2013",R.mipmap.ic_spain_foreground));
-        SPAIN_Sat_Obj.add(new Satellite(37264,"HISPASAT 1E","","Dec-29-2010",R.mipmap.ic_spain_foreground));
-        SPAIN_Sat_Obj.add(new Satellite(35942,"AMAZONAS 2","","Sep-30-2009",R.mipmap.ic_spain_foreground));
-        SPAIN_Sat_Obj.add(new Satellite(35685,"NANOSAT 1B","","Jul-29-2009",R.mipmap.ic_spain_foreground));
-        SPAIN_Sat_Obj.add(new Satellite(35681,"DEIMOS 1","","Jul-29-2009",R.mipmap.ic_spain_foreground));
-        SPAIN_Sat_Obj.add(new Satellite(28945,"SPAINSAT","","Mar-11-2006",R.mipmap.ic_spain_foreground));
-        SPAIN_Sat_Obj.add(new Satellite(28493,"NANOSAT(1)","","Dec-18-2004",R.mipmap.ic_spain_foreground));
-        SPAIN_Sat_Obj.add(new Satellite(28393,"AMAZONAS","","Aug-4-2004",R.mipmap.ic_spain_foreground));
-        SPAIN_Sat_Obj.add(new Satellite(27528,"HISPASAT 1D","","Sep-18-2002",R.mipmap.ic_spain_foreground));
-        SPAIN_Sat_Obj.add(new Satellite(26071,"HISPASAT 1C","","Feb-3-2000",R.mipmap.ic_spain_foreground));
-        SPAIN_Sat_Obj.add(new Satellite(23607,"UPM/LBSAT","","Jul-7-1995",R.mipmap.ic_spain_foreground));
-        SPAIN_Sat_Obj.add(new Satellite(22723,"HISPASAT 1B","","Jul-22-1993",R.mipmap.ic_spain_foreground));
-        SPAIN_Sat_Obj.add(new Satellite(22116,"HISPASAT 1A","","Sep-10-1992",R.mipmap.ic_spain_foreground));
-        SPAIN_Sat_Obj.add(new Satellite(7531,"INTASAT","","Nov-15-1974",R.mipmap.ic_spain_foreground));
+        SPAIN_Sat_Obj = new ArrayList<>();
+        SPAIN_Sat_Obj.add(new Satellite(43228, "HISPASAT 30W-6", "", "Mar-6-2018", R.mipmap.ic_spain_foreground));
+        SPAIN_Sat_Obj.add(new Satellite(43215, "PAZ", "", "Feb-22-2018", R.mipmap.ic_spain_foreground));
+        SPAIN_Sat_Obj.add(new Satellite(42934, "AMAZONAS 5", "", "Sep-11-2017", R.mipmap.ic_spain_foreground));
+        SPAIN_Sat_Obj.add(new Satellite(42728, "QBITO", "", "Nov-20-1998", R.mipmap.ic_spain_foreground));
+        SPAIN_Sat_Obj.add(new Satellite(41942, "HISPASAT 36W-1", "", "Jan-28-2017", R.mipmap.ic_spain_foreground));
+        SPAIN_Sat_Obj.add(new Satellite(41732, "3CAT-2", "", "Aug-15-2016", R.mipmap.ic_spain_foreground));
+        SPAIN_Sat_Obj.add(new Satellite(40013, "DEIMOS 2", "", "Jun-19-2014", R.mipmap.ic_spain_foreground));
+        SPAIN_Sat_Obj.add(new Satellite(39616, "AMAZONAS 4A", "", "Mar-22-2014", R.mipmap.ic_spain_foreground));
+        SPAIN_Sat_Obj.add(new Satellite(39433, "HUMSAT D", "", "Nov-21-2013", R.mipmap.ic_spain_foreground));
+        SPAIN_Sat_Obj.add(new Satellite(39420, "OPTOS", "", "Nov-21-2013", R.mipmap.ic_spain_foreground));
+        SPAIN_Sat_Obj.add(new Satellite(39078, "AMAZONAS 3", "", "Feb-7-2013", R.mipmap.ic_spain_foreground));
+        SPAIN_Sat_Obj.add(new Satellite(37264, "HISPASAT 1E", "", "Dec-29-2010", R.mipmap.ic_spain_foreground));
+        SPAIN_Sat_Obj.add(new Satellite(35942, "AMAZONAS 2", "", "Sep-30-2009", R.mipmap.ic_spain_foreground));
+        SPAIN_Sat_Obj.add(new Satellite(35685, "NANOSAT 1B", "", "Jul-29-2009", R.mipmap.ic_spain_foreground));
+        SPAIN_Sat_Obj.add(new Satellite(35681, "DEIMOS 1", "", "Jul-29-2009", R.mipmap.ic_spain_foreground));
+        SPAIN_Sat_Obj.add(new Satellite(28945, "SPAINSAT", "", "Mar-11-2006", R.mipmap.ic_spain_foreground));
+        SPAIN_Sat_Obj.add(new Satellite(28493, "NANOSAT(1)", "", "Dec-18-2004", R.mipmap.ic_spain_foreground));
+        SPAIN_Sat_Obj.add(new Satellite(28393, "AMAZONAS", "", "Aug-4-2004", R.mipmap.ic_spain_foreground));
+        SPAIN_Sat_Obj.add(new Satellite(27528, "HISPASAT 1D", "", "Sep-18-2002", R.mipmap.ic_spain_foreground));
+        SPAIN_Sat_Obj.add(new Satellite(26071, "HISPASAT 1C", "", "Feb-3-2000", R.mipmap.ic_spain_foreground));
+        SPAIN_Sat_Obj.add(new Satellite(23607, "UPM/LBSAT", "", "Jul-7-1995", R.mipmap.ic_spain_foreground));
+        SPAIN_Sat_Obj.add(new Satellite(22723, "HISPASAT 1B", "", "Jul-22-1993", R.mipmap.ic_spain_foreground));
+        SPAIN_Sat_Obj.add(new Satellite(22116, "HISPASAT 1A", "", "Sep-10-1992", R.mipmap.ic_spain_foreground));
+        SPAIN_Sat_Obj.add(new Satellite(7531, "INTASAT", "", "Nov-15-1974", R.mipmap.ic_spain_foreground));
         return SPAIN_Sat_Obj;
     }
 
     public List<Satellite> SWEDEN_Satellite_List() {
-        SWEDEN_Sat_Obj=new ArrayList<>();
-        SWEDEN_Sat_Obj.add(new Satellite(42708,"QBEE50-LTU-OC","","Nov-20-1998",R.mipmap.ic_sweden_foreground));
-        SWEDEN_Sat_Obj.add(new Satellite(36827,"PRISMA(TANGO)","","Jun-15-2010",R.mipmap.ic_sweden_foreground));
-        SWEDEN_Sat_Obj.add(new Satellite(36599,"PRISMA(MANGO)","","Jun-15-2010",R.mipmap.ic_sweden_foreground));
-        SWEDEN_Sat_Obj.add(new Satellite(26702,"ODIN","","Feb-20-2001",R.mipmap.ic_sweden_foreground));
-        SWEDEN_Sat_Obj.add(new Satellite(26621,"MUNIN","","Nov-21-2000",R.mipmap.ic_sweden_foreground));
-        SWEDEN_Sat_Obj.add(new Satellite(25568,"ASTRID 2","","Dec-10-1998",R.mipmap.ic_sweden_foreground));
-        SWEDEN_Sat_Obj.add(new Satellite(25049,"SIRIUS 2(GE-1E)","","Nov-11-1997",R.mipmap.ic_sweden_foreground));
-        SWEDEN_Sat_Obj.add(new Satellite(23464,"ASTRID","","Jan-24-1995",R.mipmap.ic_sweden_foreground));
-        SWEDEN_Sat_Obj.add(new Satellite(22161,"FREJA","","Oct-6-1992",R.mipmap.ic_sweden_foreground));
-        SWEDEN_Sat_Obj.add(new Satellite(20193,"SIRIUS W(MARCOPOLO 1)","","Aug-27-1989",R.mipmap.ic_sweden_foreground));
-        SWEDEN_Sat_Obj.add(new Satellite(19919,"TELE-X","","Apr-2-1989",R.mipmap.ic_sweden_foreground));
-        SWEDEN_Sat_Obj.add(new Satellite(16614,"VIKING","","Feb-22-1986",R.mipmap.ic_sweden_foreground));
+        SWEDEN_Sat_Obj = new ArrayList<>();
+        SWEDEN_Sat_Obj.add(new Satellite(42708, "QBEE50-LTU-OC", "", "Nov-20-1998", R.mipmap.ic_sweden_foreground));
+        SWEDEN_Sat_Obj.add(new Satellite(36827, "PRISMA(TANGO)", "", "Jun-15-2010", R.mipmap.ic_sweden_foreground));
+        SWEDEN_Sat_Obj.add(new Satellite(36599, "PRISMA(MANGO)", "", "Jun-15-2010", R.mipmap.ic_sweden_foreground));
+        SWEDEN_Sat_Obj.add(new Satellite(26702, "ODIN", "", "Feb-20-2001", R.mipmap.ic_sweden_foreground));
+        SWEDEN_Sat_Obj.add(new Satellite(26621, "MUNIN", "", "Nov-21-2000", R.mipmap.ic_sweden_foreground));
+        SWEDEN_Sat_Obj.add(new Satellite(25568, "ASTRID 2", "", "Dec-10-1998", R.mipmap.ic_sweden_foreground));
+        SWEDEN_Sat_Obj.add(new Satellite(25049, "SIRIUS 2(GE-1E)", "", "Nov-11-1997", R.mipmap.ic_sweden_foreground));
+        SWEDEN_Sat_Obj.add(new Satellite(23464, "ASTRID", "", "Jan-24-1995", R.mipmap.ic_sweden_foreground));
+        SWEDEN_Sat_Obj.add(new Satellite(22161, "FREJA", "", "Oct-6-1992", R.mipmap.ic_sweden_foreground));
+        SWEDEN_Sat_Obj.add(new Satellite(20193, "SIRIUS W(MARCOPOLO 1)", "", "Aug-27-1989", R.mipmap.ic_sweden_foreground));
+        SWEDEN_Sat_Obj.add(new Satellite(19919, "TELE-X", "", "Apr-2-1989", R.mipmap.ic_sweden_foreground));
+        SWEDEN_Sat_Obj.add(new Satellite(16614, "VIKING", "", "Feb-22-1986", R.mipmap.ic_sweden_foreground));
         return SWEDEN_Sat_Obj;
     }
 
     public List<Satellite> TAIWAN_Satellite_List() {
-        TAIWAN_Sat_Obj=new ArrayList<>();
-        TAIWAN_Sat_Obj.add(new Satellite(42920,"FORMOSAT-5","","Aug-24-2017",R.mipmap.ic_taiwan_foreground));
-        TAIWAN_Sat_Obj.add(new Satellite(40022,"PACE","","Jun-19-2014",R.mipmap.ic_taiwan_foreground));
-        TAIWAN_Sat_Obj.add(new Satellite(29052,"FORMOSAT 3F","","Ap-15-2006",R.mipmap.ic_taiwan_foreground));
-        TAIWAN_Sat_Obj.add(new Satellite(29051,"FORMOSAT 3E","","Ap-15-2006",R.mipmap.ic_taiwan_foreground));
-        TAIWAN_Sat_Obj.add(new Satellite(29050,"FORMOSAT 3D","","Ap-15-2006",R.mipmap.ic_taiwan_foreground));
-        TAIWAN_Sat_Obj.add(new Satellite(29049,"FORMOSAT 3C","","Ap-15-2006",R.mipmap.ic_taiwan_foreground));
-        TAIWAN_Sat_Obj.add(new Satellite(29048,"FORMOSAT 3B","","Ap-15-2006",R.mipmap.ic_taiwan_foreground));
-        TAIWAN_Sat_Obj.add(new Satellite(29047,"FORMOSAT 3A","","Ap-15-2006",R.mipmap.ic_taiwan_foreground));
-        TAIWAN_Sat_Obj.add(new Satellite(28254,"ROCSAT 2","","May-20-2004",R.mipmap.ic_taiwan_foreground));
-        TAIWAN_Sat_Obj.add(new Satellite(25616,"ROCSAT 1","","Jan-27-1999",R.mipmap.ic_taiwan_foreground));
+        TAIWAN_Sat_Obj = new ArrayList<>();
+        TAIWAN_Sat_Obj.add(new Satellite(42920, "FORMOSAT-5", "", "Aug-24-2017", R.mipmap.ic_taiwan_foreground));
+        TAIWAN_Sat_Obj.add(new Satellite(40022, "PACE", "", "Jun-19-2014", R.mipmap.ic_taiwan_foreground));
+        TAIWAN_Sat_Obj.add(new Satellite(29052, "FORMOSAT 3F", "", "Ap-15-2006", R.mipmap.ic_taiwan_foreground));
+        TAIWAN_Sat_Obj.add(new Satellite(29051, "FORMOSAT 3E", "", "Ap-15-2006", R.mipmap.ic_taiwan_foreground));
+        TAIWAN_Sat_Obj.add(new Satellite(29050, "FORMOSAT 3D", "", "Ap-15-2006", R.mipmap.ic_taiwan_foreground));
+        TAIWAN_Sat_Obj.add(new Satellite(29049, "FORMOSAT 3C", "", "Ap-15-2006", R.mipmap.ic_taiwan_foreground));
+        TAIWAN_Sat_Obj.add(new Satellite(29048, "FORMOSAT 3B", "", "Ap-15-2006", R.mipmap.ic_taiwan_foreground));
+        TAIWAN_Sat_Obj.add(new Satellite(29047, "FORMOSAT 3A", "", "Ap-15-2006", R.mipmap.ic_taiwan_foreground));
+        TAIWAN_Sat_Obj.add(new Satellite(28254, "ROCSAT 2", "", "May-20-2004", R.mipmap.ic_taiwan_foreground));
+        TAIWAN_Sat_Obj.add(new Satellite(25616, "ROCSAT 1", "", "Jan-27-1999", R.mipmap.ic_taiwan_foreground));
         return TAIWAN_Sat_Obj;
     }
 
     public List<Satellite> THAILAND_Satellite_List() {
-        THAILAND_Sat_Obj=new ArrayList<>();
-        THAILAND_Sat_Obj.add(new Satellite(41552,"THAICOM 8","","May-27-2016",R.mipmap.ic_thailand_foreground));
-        THAILAND_Sat_Obj.add(new Satellite(39500,"THAICOM 6","","Jan-6-2014",R.mipmap.ic_thailand_foreground));
-        THAILAND_Sat_Obj.add(new Satellite(33396,"THEOS","","Oct-1-2008",R.mipmap.ic_thailand_foreground));
-        THAILAND_Sat_Obj.add(new Satellite(29163,"THAICOM 5","","May-27-2006",R.mipmap.ic_thailand_foreground));
-        THAILAND_Sat_Obj.add(new Satellite(28786,"IPSTAR 1","","Aug-11-2005",R.mipmap.ic_thailand_foreground));
-        THAILAND_Sat_Obj.add(new Satellite(25396,"TMSAT","","Jul-10-1998",R.mipmap.ic_thailand_foreground));
-        THAILAND_Sat_Obj.add(new Satellite(24768,"THAICOM 3","","Apr-16-1997",R.mipmap.ic_thailand_foreground));
-        THAILAND_Sat_Obj.add(new Satellite(23314,"THAICOM 2","","Oct-8-1994",R.mipmap.ic_thailand_foreground));
-        THAILAND_Sat_Obj.add(new Satellite(22931,"THAICOM 1","","Dec-18-1993",R.mipmap.ic_thailand_foreground));
+        THAILAND_Sat_Obj = new ArrayList<>();
+        THAILAND_Sat_Obj.add(new Satellite(41552, "THAICOM 8", "", "May-27-2016", R.mipmap.ic_thailand_foreground));
+        THAILAND_Sat_Obj.add(new Satellite(39500, "THAICOM 6", "", "Jan-6-2014", R.mipmap.ic_thailand_foreground));
+        THAILAND_Sat_Obj.add(new Satellite(33396, "THEOS", "", "Oct-1-2008", R.mipmap.ic_thailand_foreground));
+        THAILAND_Sat_Obj.add(new Satellite(29163, "THAICOM 5", "", "May-27-2006", R.mipmap.ic_thailand_foreground));
+        THAILAND_Sat_Obj.add(new Satellite(28786, "IPSTAR 1", "", "Aug-11-2005", R.mipmap.ic_thailand_foreground));
+        THAILAND_Sat_Obj.add(new Satellite(25396, "TMSAT", "", "Jul-10-1998", R.mipmap.ic_thailand_foreground));
+        THAILAND_Sat_Obj.add(new Satellite(24768, "THAICOM 3", "", "Apr-16-1997", R.mipmap.ic_thailand_foreground));
+        THAILAND_Sat_Obj.add(new Satellite(23314, "THAICOM 2", "", "Oct-8-1994", R.mipmap.ic_thailand_foreground));
+        THAILAND_Sat_Obj.add(new Satellite(22931, "THAICOM 1", "", "Dec-18-1993", R.mipmap.ic_thailand_foreground));
         return THAILAND_Sat_Obj;
     }
 
     public List<Satellite> TURKEY_Satellite_List() {
-        TURKEY_Sat_Obj=new ArrayList<>();
-        TURKEY_Sat_Obj.add(new Satellite(43466,"UBAKUSAT","","Nov-30-1998",R.mipmap.ic_turkey_foreground));
-        TURKEY_Sat_Obj.add(new Satellite(42736,"BEEAGLESAT","","Nov-20-1998",R.mipmap.ic_turkey_foreground));
-        TURKEY_Sat_Obj.add(new Satellite(42700,"HAVELSAT","","Nov-20-1998",R.mipmap.ic_turkey_foreground));
-        TURKEY_Sat_Obj.add(new Satellite(41875,"GOKTURK-1A","","Dec-5-2016",R.mipmap.ic_turkey_foreground));
-        TURKEY_Sat_Obj.add(new Satellite(40984,"TURKSAT 4B","","Oct-16-2015",R.mipmap.ic_turkey_foreground));
-        TURKEY_Sat_Obj.add(new Satellite(39522,"TURKSAT 4A","","Feb-14-2014",R.mipmap.ic_turkey_foreground));
-        TURKEY_Sat_Obj.add(new Satellite(39152,"TURKSAT 3U","","Apr-26-2013",R.mipmap.ic_turkey_foreground));
-        TURKEY_Sat_Obj.add(new Satellite(39030,"GOKTURK 2","","Dec-18-2012",R.mipmap.ic_turkey_foreground));
-        TURKEY_Sat_Obj.add(new Satellite(37791,"RASAT","","Aug-17-2011",R.mipmap.ic_turkey_foreground));
-        TURKEY_Sat_Obj.add(new Satellite(35935,"ITUPSAT 1","","Sep-23-2009",R.mipmap.ic_turkey_foreground));
-        TURKEY_Sat_Obj.add(new Satellite(33056,"TURKSAT 3A","","Jun-12-2008",R.mipmap.ic_turkey_foreground));
-        TURKEY_Sat_Obj.add(new Satellite(27943,"BILSAT 1","","Sep-27-2003",R.mipmap.ic_turkey_foreground));
-        TURKEY_Sat_Obj.add(new Satellite(26666,"TURKSAT 2A","","Jan-10-2001",R.mipmap.ic_turkey_foreground));
-        TURKEY_Sat_Obj.add(new Satellite(23949,"TURKSAT 1C","","Jul-9-1996",R.mipmap.ic_turkey_foreground));
-        TURKEY_Sat_Obj.add(new Satellite(23200,"TURKSAT 1B","","Aug-10-1994",R.mipmap.ic_turkey_foreground));
+        TURKEY_Sat_Obj = new ArrayList<>();
+        TURKEY_Sat_Obj.add(new Satellite(43466, "UBAKUSAT", "", "Nov-30-1998", R.mipmap.ic_turkey_foreground));
+        TURKEY_Sat_Obj.add(new Satellite(42736, "BEEAGLESAT", "", "Nov-20-1998", R.mipmap.ic_turkey_foreground));
+        TURKEY_Sat_Obj.add(new Satellite(42700, "HAVELSAT", "", "Nov-20-1998", R.mipmap.ic_turkey_foreground));
+        TURKEY_Sat_Obj.add(new Satellite(41875, "GOKTURK-1A", "", "Dec-5-2016", R.mipmap.ic_turkey_foreground));
+        TURKEY_Sat_Obj.add(new Satellite(40984, "TURKSAT 4B", "", "Oct-16-2015", R.mipmap.ic_turkey_foreground));
+        TURKEY_Sat_Obj.add(new Satellite(39522, "TURKSAT 4A", "", "Feb-14-2014", R.mipmap.ic_turkey_foreground));
+        TURKEY_Sat_Obj.add(new Satellite(39152, "TURKSAT 3U", "", "Apr-26-2013", R.mipmap.ic_turkey_foreground));
+        TURKEY_Sat_Obj.add(new Satellite(39030, "GOKTURK 2", "", "Dec-18-2012", R.mipmap.ic_turkey_foreground));
+        TURKEY_Sat_Obj.add(new Satellite(37791, "RASAT", "", "Aug-17-2011", R.mipmap.ic_turkey_foreground));
+        TURKEY_Sat_Obj.add(new Satellite(35935, "ITUPSAT 1", "", "Sep-23-2009", R.mipmap.ic_turkey_foreground));
+        TURKEY_Sat_Obj.add(new Satellite(33056, "TURKSAT 3A", "", "Jun-12-2008", R.mipmap.ic_turkey_foreground));
+        TURKEY_Sat_Obj.add(new Satellite(27943, "BILSAT 1", "", "Sep-27-2003", R.mipmap.ic_turkey_foreground));
+        TURKEY_Sat_Obj.add(new Satellite(26666, "TURKSAT 2A", "", "Jan-10-2001", R.mipmap.ic_turkey_foreground));
+        TURKEY_Sat_Obj.add(new Satellite(23949, "TURKSAT 1C", "", "Jul-9-1996", R.mipmap.ic_turkey_foreground));
+        TURKEY_Sat_Obj.add(new Satellite(23200, "TURKSAT 1B", "", "Aug-10-1994", R.mipmap.ic_turkey_foreground));
         return TURKEY_Sat_Obj;
     }
 
     public List<Satellite> UNITED_ARAB_EMIRATES_Satellite_List() {
-        UNITED_ARAB_EMIRATES_Sat_Obj=new ArrayList<>();
-        UNITED_ARAB_EMIRATES_Sat_Obj.add(new Satellite(43174,"AL YAH 3","","Jan-25-2018",R.mipmap.ic_united_arab_emirates_foreground));
-        UNITED_ARAB_EMIRATES_Sat_Obj.add(new Satellite(42017,"NAYIF (EO-88)","","Feb-15-2017",R.mipmap.ic_united_arab_emirates_foreground));
-        UNITED_ARAB_EMIRATES_Sat_Obj.add(new Satellite(39419,"DUBSAISAT 2","","Nov-21-2013",R.mipmap.ic_united_arab_emirates_foreground));
-        UNITED_ARAB_EMIRATES_Sat_Obj.add(new Satellite(38245,"YAHSAT 1B","","Apr-23-2012",R.mipmap.ic_united_arab_emirates_foreground));
-        UNITED_ARAB_EMIRATES_Sat_Obj.add(new Satellite(37393,"YAHSAT 1A","","Apr-22-2011",R.mipmap.ic_united_arab_emirates_foreground));
-        UNITED_ARAB_EMIRATES_Sat_Obj.add(new Satellite(35682,"DUBAISAT 1","","Jul-29-2009",R.mipmap.ic_united_arab_emirates_foreground));
-        UNITED_ARAB_EMIRATES_Sat_Obj.add(new Satellite(32404,"THURAYA 3","","Jan-15-2008",R.mipmap.ic_united_arab_emirates_foreground));
-        UNITED_ARAB_EMIRATES_Sat_Obj.add(new Satellite(27825,"THURAYA 2","","Jun-10-2003",R.mipmap.ic_united_arab_emirates_foreground));
-        UNITED_ARAB_EMIRATES_Sat_Obj.add(new Satellite(26578,"THURAYA 1","","Oct-21-2000",R.mipmap.ic_united_arab_emirates_foreground));
+        UNITED_ARAB_EMIRATES_Sat_Obj = new ArrayList<>();
+        UNITED_ARAB_EMIRATES_Sat_Obj.add(new Satellite(43174, "AL YAH 3", "", "Jan-25-2018", R.mipmap.ic_united_arab_emirates_foreground));
+        UNITED_ARAB_EMIRATES_Sat_Obj.add(new Satellite(42017, "NAYIF (EO-88)", "", "Feb-15-2017", R.mipmap.ic_united_arab_emirates_foreground));
+        UNITED_ARAB_EMIRATES_Sat_Obj.add(new Satellite(39419, "DUBSAISAT 2", "", "Nov-21-2013", R.mipmap.ic_united_arab_emirates_foreground));
+        UNITED_ARAB_EMIRATES_Sat_Obj.add(new Satellite(38245, "YAHSAT 1B", "", "Apr-23-2012", R.mipmap.ic_united_arab_emirates_foreground));
+        UNITED_ARAB_EMIRATES_Sat_Obj.add(new Satellite(37393, "YAHSAT 1A", "", "Apr-22-2011", R.mipmap.ic_united_arab_emirates_foreground));
+        UNITED_ARAB_EMIRATES_Sat_Obj.add(new Satellite(35682, "DUBAISAT 1", "", "Jul-29-2009", R.mipmap.ic_united_arab_emirates_foreground));
+        UNITED_ARAB_EMIRATES_Sat_Obj.add(new Satellite(32404, "THURAYA 3", "", "Jan-15-2008", R.mipmap.ic_united_arab_emirates_foreground));
+        UNITED_ARAB_EMIRATES_Sat_Obj.add(new Satellite(27825, "THURAYA 2", "", "Jun-10-2003", R.mipmap.ic_united_arab_emirates_foreground));
+        UNITED_ARAB_EMIRATES_Sat_Obj.add(new Satellite(26578, "THURAYA 1", "", "Oct-21-2000", R.mipmap.ic_united_arab_emirates_foreground));
         return UNITED_ARAB_EMIRATES_Sat_Obj;
     }
 
     public List<Satellite> UNITED_KINGDOM_Satellite_List() {
-        UNITED_KINGDOM_Sat_Obj=new ArrayList<>();
-        UNITED_KINGDOM_Sat_Obj.add(new Satellite(43510,"REMOVEDEBRIS","","November 20, 1998",R.mipmap.ic_united_kingdom_foreground));
-        UNITED_KINGDOM_Sat_Obj.add(new Satellite(43115,"CARBONITE 2","","January 12, 2018",R.mipmap.ic_united_kingdom_foreground));
-        UNITED_KINGDOM_Sat_Obj.add(new Satellite(42765,"UCLSAT","","June 23, 2017",R.mipmap.ic_united_kingdom_foreground));
-        UNITED_KINGDOM_Sat_Obj.add(new Satellite(40719,"DEORBITSAIL","","July 10, 2015",R.mipmap.ic_united_kingdom_foreground));
-        UNITED_KINGDOM_Sat_Obj.add(new Satellite(40718,"CARBONITE 1 (CBNT-1)","","July 10, 2015",R.mipmap.ic_united_kingdom_foreground));
-        UNITED_KINGDOM_Sat_Obj.add(new Satellite(40717,"DMC 3-FM3","","July 10, 2015",R.mipmap.ic_united_kingdom_foreground));
-        UNITED_KINGDOM_Sat_Obj.add(new Satellite(40716,"DMC 3-FM2","","July 10, 2015",R.mipmap.ic_united_kingdom_foreground));
-        UNITED_KINGDOM_Sat_Obj.add(new Satellite(40715,"DMC 3-FM1","","July 10, 2015",R.mipmap.ic_united_kingdom_foreground));
-        UNITED_KINGDOM_Sat_Obj.add(new Satellite(40076,"TDS 1","","July 8, 2014",R.mipmap.ic_united_kingdom_foreground));
-        UNITED_KINGDOM_Sat_Obj.add(new Satellite(40074,"UKUBE 1","","July 8, 2014",R.mipmap.ic_united_kingdom_foreground));
-        UNITED_KINGDOM_Sat_Obj.add(new Satellite(39444,"FUNCUBE 1 (AO-73)","","November 21, 2013",R.mipmap.ic_united_kingdom_foreground));
-        UNITED_KINGDOM_Sat_Obj.add(new Satellite(39427,"TRITON 1","","November 21, 2013",R.mipmap.ic_united_kingdom_foreground));
-        UNITED_KINGDOM_Sat_Obj.add(new Satellite(39090,"STRAND 1","","February 25, 2013",R.mipmap.ic_united_kingdom_foreground));
-        UNITED_KINGDOM_Sat_Obj.add(new Satellite(39034,"SKYNET 5D","","December 19, 2012",R.mipmap.ic_united_kingdom_foreground));
-        UNITED_KINGDOM_Sat_Obj.add(new Satellite(38741,"HYLAS 2","","August 2, 2012",R.mipmap.ic_united_kingdom_foreground));
-        UNITED_KINGDOM_Sat_Obj.add(new Satellite(37237,"HYLAS 1","","November 26, 2010",R.mipmap.ic_united_kingdom_foreground));
-        UNITED_KINGDOM_Sat_Obj.add(new Satellite(35683,"DMC 2","","July 29, 2009",R.mipmap.ic_united_kingdom_foreground));
-        UNITED_KINGDOM_Sat_Obj.add(new Satellite(33055,"SKYNET 5C","","June 12, 2008",R.mipmap.ic_united_kingdom_foreground));
-        UNITED_KINGDOM_Sat_Obj.add(new Satellite(32294,"SKYNET 5B","","November 14, 2007",R.mipmap.ic_united_kingdom_foreground));
-        UNITED_KINGDOM_Sat_Obj.add(new Satellite(30794,"SKYNET 5A","","March 11, 2007",R.mipmap.ic_united_kingdom_foreground));
-        UNITED_KINGDOM_Sat_Obj.add(new Satellite(28891,"TOPSAT","","October 27, 2005",R.mipmap.ic_united_kingdom_foreground));
-        UNITED_KINGDOM_Sat_Obj.add(new Satellite(27942,"UK-DMC","","September 27, 2003",R.mipmap.ic_united_kingdom_foreground));
-        UNITED_KINGDOM_Sat_Obj.add(new Satellite(26695,"SKYNET 4F","","February 7, 2001",R.mipmap.ic_united_kingdom_foreground));
-        UNITED_KINGDOM_Sat_Obj.add(new Satellite(26611,"STRV 1D","","November 16, 2000",R.mipmap.ic_united_kingdom_foreground));
-        UNITED_KINGDOM_Sat_Obj.add(new Satellite(26610,"STRV 1C","","November 16, 2000",R.mipmap.ic_united_kingdom_foreground));
-        UNITED_KINGDOM_Sat_Obj.add(new Satellite(26386,"SNAP 1","","June 28, 2000",R.mipmap.ic_united_kingdom_foreground));
-        UNITED_KINGDOM_Sat_Obj.add(new Satellite(25693,"OSCAR 36 (UOSAT 12)","","April 21, 1999",R.mipmap.ic_united_kingdom_foreground));
-        UNITED_KINGDOM_Sat_Obj.add(new Satellite(25639,"SKYNET 4E","","February 26, 1999",R.mipmap.ic_united_kingdom_foreground));
-        UNITED_KINGDOM_Sat_Obj.add(new Satellite(25134,"SKYNET 4D","","January 10, 1998",R.mipmap.ic_united_kingdom_foreground));
-        UNITED_KINGDOM_Sat_Obj.add(new Satellite(23126,"STRV 1B","","June 17, 1994",R.mipmap.ic_united_kingdom_foreground));
-        UNITED_KINGDOM_Sat_Obj.add(new Satellite(23125,"STRV 1A","","June 17, 1994",R.mipmap.ic_united_kingdom_foreground));
-        UNITED_KINGDOM_Sat_Obj.add(new Satellite(21575,"OSCAR 22 (UoSAT 5)","","June 17, 1994",R.mipmap.ic_united_kingdom_foreground));
-        UNITED_KINGDOM_Sat_Obj.add(new Satellite(20776,"SKYNET 4C","","",R.mipmap.ic_united_kingdom_foreground));
-        UNITED_KINGDOM_Sat_Obj.add(new Satellite(20438,"OSCAR 15 (UOSAT 4)","","",R.mipmap.ic_united_kingdom_foreground));
-        UNITED_KINGDOM_Sat_Obj.add(new Satellite(20437,"OSCAR 14 (UOSAT 3)","","",R.mipmap.ic_united_kingdom_foreground));
-        UNITED_KINGDOM_Sat_Obj.add(new Satellite(20401,"SKYNET 4A","","",R.mipmap.ic_united_kingdom_foreground));
-        UNITED_KINGDOM_Sat_Obj.add(new Satellite(19687,"SKYNET 4B","","",R.mipmap.ic_united_kingdom_foreground));
-        UNITED_KINGDOM_Sat_Obj.add(new Satellite(14781,"OSCAR 11 (UoSAT 2)","","",R.mipmap.ic_united_kingdom_foreground));
-        UNITED_KINGDOM_Sat_Obj.add(new Satellite(7547,"SKYNET 2B","","",R.mipmap.ic_united_kingdom_foreground));
-        UNITED_KINGDOM_Sat_Obj.add(new Satellite(7213,"MIRANDA (X-4)","","",R.mipmap.ic_united_kingdom_foreground));
-        UNITED_KINGDOM_Sat_Obj.add(new Satellite(5580,"PROSPERO (BLACK ARROW)","","",R.mipmap.ic_united_kingdom_foreground));
-        UNITED_KINGDOM_Sat_Obj.add(new Satellite(4493,"SKYNET 1B","","",R.mipmap.ic_united_kingdom_foreground));
-        UNITED_KINGDOM_Sat_Obj.add(new Satellite(4250,"SKYNET 1","","",R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj = new ArrayList<>();
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(43510, "REMOVEDEBRIS", "", "Nov-20-1998", R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(43115, "CARBONITE 2", "", "Jan-12-2018", R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(42765, "UCLSAT", "", "Jun-23-2017", R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(40719, "DEORBITSAIL", "", "Jul-10-2015", R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(40718, "CARBONITE 1 (CBNT-1)", "", "Jul-10-2015", R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(40717, "DMC 3-FM3", "", "Jul-10-2015", R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(40716, "DMC 3-FM2", "", "Jul-10-2015", R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(40715, "DMC 3-FM1", "", "Jul-10-2015", R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(40076, "TDS 1", "", "Jul-8-2014", R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(40074, "UKUBE 1", "", "Jul-8-2014", R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(39444, "FUNCUBE 1 (AO-73)", "", "Nov-21-2013", R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(39427, "TRITON 1", "", "Nov-21-2013", R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(39090, "STRAND 1", "", "Feb-25-2013", R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(39034, "SKYNET 5D", "", "Dec-19-2012", R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(38741, "HYLAS 2", "", "Aug-2-2012", R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(37237, "HYLAS 1", "", "Nov-26-2010", R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(35683, "DMC 2", "", "Jul-29-2009", R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(33055, "SKYNET 5C", "", "Jun-12-2008", R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(32294, "SKYNET 5B", "", "Nov-14-2007", R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(30794, "SKYNET 5A", "", "Mar-11-2007", R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(28891, "TOPSAT", "", "Oct-27-2005", R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(27942, "UK-DMC", "", "Sep-27-2003", R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(26695, "SKYNET 4F", "", "Feb-7-2001", R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(26611, "STRV 1D", "", "Nov-16-2000", R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(26610, "STRV 1C", "", "Nov-16-2000", R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(26386, "SNAP 1", "", "Jun-28-2000", R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(25693, "OSCAR 36 (UOSAT 12)", "", "Apr-21-1999", R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(25639, "SKYNET 4E", "", "Feb-26-1999", R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(25134, "SKYNET 4D", "", "Jan-10-1998", R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(23126, "STRV 1B", "", "Jun-17-1994", R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(23125, "STRV 1A", "", "Jun-17-1994", R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(21575, "OSCAR 22 (UoSAT 5)", "", "Jun-17-1994", R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(20776, "SKYNET 4C", "", "Aug-30-1990", R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(20438, "OSCAR 15 (UOSAT 4)", "", "Jan-22-1990", R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(20437, "OSCAR 14 (UOSAT 3)", "", "Jan-22-1990", R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(20401, "SKYNET 4A", "", "Jan-1-1990", R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(19687, "SKYNET 4B", "", "Dec-11-1988", R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(14781, "OSCAR 11 (UoSAT 2)", "", "Mar-1-1984", R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(7547, "SKYNET 2B", "", "Nov-23-1974", R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(7213, "MIRANDA (X-4)", "", "Mar-9-1974", R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(5580, "PROSPERO (BLACK ARROW)", "", "Oct-28-1971", R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(4493, "SKYNET 1B", "", "Aug-19-1970", R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(4250, "SKYNET 1", "", "Nov-22-1969", R.mipmap.ic_united_kingdom_foreground));
         return UNITED_KINGDOM_Sat_Obj;
     }
 
@@ -1606,17 +1604,24 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
     }
 
     public List<Satellite> URUGUAY_Satellite_List() {
-
+        URUGUAY_Sat_Obj=new ArrayList<>();
+        URUGUAY_Sat_Obj.add(new Satellite(40034,"ANTELSAT","Communication","Jun-19-2014",R.mipmap.ic_uruguay_foreground));
         return URUGUAY_Sat_Obj;
     }
 
     public List<Satellite> VENEZUELA_Satellite_List() {
-
+        VENEZUELA_Sat_Obj=new ArrayList<>();
+        VENEZUELA_Sat_Obj.add(new Satellite(42954,"VRSS-2","Observation","Oct-9-2017",R.mipmap.ic_vrss1_foreground));
+        VENEZUELA_Sat_Obj.add(new Satellite(38782,"VRSS-1","Observation","Sep-29-2012",R.mipmap.ic_vrss2_foreground));
+        VENEZUELA_Sat_Obj.add(new Satellite(33414,"VENESAT-1","Communication","Oct-29-2008",R.mipmap.ic_venesat1_foreground));
         return VENEZUELA_Sat_Obj;
     }
 
     public List<Satellite> VIETNAM_Satellite_List() {
-
+        VIETNAM_Sat_Obj=new ArrayList<>();
+        VIETNAM_Sat_Obj.add(new Satellite(39160,"VNREDSAT 1","Observation","May-7-2013",R.mipmap.ic_vnredsat1_foreground));
+        VIETNAM_Sat_Obj.add(new Satellite(38332,"VINASAT 2","Communications","May-15-2012-",R.mipmap.ic_vinasat1_foreground));
+        VIETNAM_Sat_Obj.add(new Satellite(32767,"VINASAT 1","Communications","Apr-18-2008",R.mipmap.ic_vinasat1_foreground));
         return VIETNAM_Sat_Obj;
     }
 
@@ -1624,252 +1629,252 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
 
         Intent intent = new Intent(getApplicationContext(), SatelliteListActivity.class);
 
-        switch (country.getId()) {
-            case 1:
+        switch (country.getCountryName()) {
+            case "ALGERIA":
                 intent.putExtra("savedUser", (Serializable) ALGERIA_Satellite_List());
                 startActivity(intent);
                 break;
-            case 2:
+            case "AUSTRALIA":
                 intent.putExtra("savedUser", (Serializable) AUSTRALIA_Satellite_List());
                 startActivity(intent);
                 break;
-            case 3:
+            case "ARGENTINA":
                 intent.putExtra("savedUser", (Serializable) ARGENTINA_Satellite_List());
                 startActivity(intent);
                 break;
-            case 4:
+            case "AZERBAIJAN":
                 intent.putExtra("savedUser", (Serializable) AZERBAIJAN_Satellite_List());
                 startActivity(intent);
                 break;
-            case 5:
+            case "BELARUS":
                 intent.putExtra("savedUser", (Serializable) BELARUS_Satellite_List());
                 startActivity(intent);
                 break;
-            case 6:
+            case "BOLIVIA":
                 intent.putExtra("savedUser", (Serializable) BOLIVIA_Satellite_List());
                 startActivity(intent);
                 break;
-            case 7:
+            case "BRAZIL":
                 intent.putExtra("savedUser", (Serializable) BRAZIL_Satellite_List());
                 startActivity(intent);
                 break;
-            case 8:
+            case "BULGARIA":
                 intent.putExtra("savedUser", (Serializable) BULGARIA_Satellite_List());
                 startActivity(intent);
                 break;
-            case 9:
+            case "CANADA":
                 intent.putExtra("savedUser", (Serializable) CANADA_Satellite_List());
                 startActivity(intent);
                 break;
-            case 10:
+            case "CHILE":
                 intent.putExtra("savedUser", (Serializable) CHILE_Satellite_List());
                 startActivity(intent);
                 break;
-            case 11:
+            case "CHINA":
                 intent.putExtra("savedUser", (Serializable) CHINA_Satellite_List());
                 startActivity(intent);
                 break;
-            case 12:
+            case "CZECH":
                 intent.putExtra("savedUser", (Serializable) CZECH_Satellite_List());
                 startActivity(intent);
                 break;
-            case 13:
+            case "DENMARK":
                 intent.putExtra("savedUser", (Serializable) DENMARK_Satellite_List());
                 startActivity(intent);
                 break;
-            case 14:
+            case "ECUADOR":
                 intent.putExtra("savedUser", (Serializable) ECUADOR_Satellite_List());
                 startActivity(intent);
                 break;
-            case 15:
+            case "EGYPT":
                 intent.putExtra("savedUser", (Serializable) EGYPT_Satellite_List());
                 startActivity(intent);
                 break;
-            case 16:
+            case "ESTONIA":
                 intent.putExtra("savedUser", (Serializable) ESTONIA_Satellite_List());
                 startActivity(intent);
                 break;
-            case 17:
+            case "FRANCE":
                 intent.putExtra("savedUser", (Serializable) FRANCE_Satellite_List());
                 startActivity(intent);
                 break;
-            case 18:
+            case "GERMANY":
                 intent.putExtra("savedUser", (Serializable) GERMANY_Satellite_List());
                 startActivity(intent);
                 break;
-            case 19:
+            case "GREECE":
                 intent.putExtra("savedUser", (Serializable) GREECE_Satellite_List());
                 startActivity(intent);
                 break;
-            case 20:
+            case "INDIA":
                 intent.putExtra("savedUser", (Serializable) INDIA_Satellite_List());
                 startActivity(intent);
                 break;
-            case 21:
+            case "INDONESIA":
                 intent.putExtra("savedUser", (Serializable) INDONESIA_Satellite_List());
                 startActivity(intent);
                 break;
-            case 22:
+            case "IRAN":
                 intent.putExtra("savedUser", (Serializable) IRAN_Satellite_List());
                 startActivity(intent);
                 break;
-            case 23:
+            case "IRAQ":
                 intent.putExtra("savedUser", (Serializable) IRAQ_Satellite_List());
                 startActivity(intent);
                 break;
-            case 24:
+            case "ISRAEL":
                 intent.putExtra("savedUser", (Serializable) ISRAEL_Satellite_List());
                 startActivity(intent);
                 break;
-            case 25:
+            case "ITALY":
                 intent.putExtra("savedUser", (Serializable) ITALY_Satellite_List());
                 startActivity(intent);
                 break;
-            case 26:
+            case "JAPAN":
                 intent.putExtra("savedUser", (Serializable) JAPAN_Satellite_List());
                 startActivity(intent);
                 break;
-            case 27:
+            case "KAZAKHSTAN":
                 intent.putExtra("savedUser", (Serializable) KAZAKHSTAN_Satellite_List());
                 startActivity(intent);
                 break;
-            case 28:
+            case "LAOS":
                 intent.putExtra("savedUser", (Serializable) LAOS_Satellite_List());
                 startActivity(intent);
                 break;
-            case 29:
+            case "LATVIA":
                 intent.putExtra("savedUser", (Serializable) LATVIA_Satellite_List());
                 startActivity(intent);
                 break;
-            case 30:
+            case "LITHUANIA":
                 intent.putExtra("savedUser", (Serializable) LITHUANIA_Satellite_List());
                 startActivity(intent);
                 break;
-            case 31:
+            case "LUXEMBOURG":
                 intent.putExtra("savedUser", (Serializable) LUXEMBOURG_Satellite_List());
                 startActivity(intent);
                 break;
-            case 32:
+            case "MALAYSIA":
                 intent.putExtra("savedUser", (Serializable) MALAYSIA_Satellite_List());
                 startActivity(intent);
                 break;
-            case 33:
+            case "MEXICO":
                 intent.putExtra("savedUser", (Serializable) MEXICO_Satellite_List());
                 startActivity(intent);
                 break;
-            case 34:
+            case "MOROCCO":
                 intent.putExtra("savedUser", (Serializable) MOROCCO_Satellite_List());
                 startActivity(intent);
                 break;
-            case 35:
+            case "NETHERLANDS":
                 intent.putExtra("savedUser", (Serializable) NETHERLANDS_Satellite_List());
                 startActivity(intent);
                 break;
-            case 36:
+            case "NIGERIA":
                 intent.putExtra("savedUser", (Serializable) NIGERIA_Satellite_List());
                 startActivity(intent);
                 break;
-            case 37:
+            case "NORTH KOREA":
                 intent.putExtra("savedUser", (Serializable) NORTH_KOREA_Satellite_List());
                 startActivity(intent);
                 break;
-            case 38:
+            case "NORWAY":
                 intent.putExtra("savedUser", (Serializable) NORWAY_Satellite_List());
                 startActivity(intent);
                 break;
-            case 39:
+            case "PAKISTAN":
                 intent.putExtra("savedUser", (Serializable) PAKISTAN_Satellite_List());
                 startActivity(intent);
                 break;
-            case 40:
+            case "PERU":
                 intent.putExtra("savedUser", (Serializable) PERU_Satellite_List());
                 startActivity(intent);
                 break;
-            case 41:
+            case "PHILIPPINES":
                 intent.putExtra("savedUser", (Serializable) PHILIPPINES_Satellite_List());
                 startActivity(intent);
                 break;
-            case 42:
+            case "POLAND":
                 intent.putExtra("savedUser", (Serializable) POLAND_Satellite_List());
                 startActivity(intent);
                 break;
-            case 43:
+            case "PORTUGAL":
                 intent.putExtra("savedUser", (Serializable) PORTUGAL_Satellite_List());
                 startActivity(intent);
                 break;
-            case 44:
+            case "RUSSIA":
                 intent.putExtra("savedUser", (Serializable) RUSSIA_Satellite_List());
                 startActivity(intent);
                 break;
-            case 45:
+            case "SAUDI ARABIA":
                 intent.putExtra("savedUser", (Serializable) SAUDI_ARABIA_Satellite_List());
                 startActivity(intent);
                 break;
-            case 46:
+            case "SINGAPORE":
                 intent.putExtra("savedUser", (Serializable) SINGAPORE_Satellite_List());
                 startActivity(intent);
                 break;
-            case 47:
+            case "SLOVAKIA":
                 intent.putExtra("savedUser", (Serializable) SLOVAKIA_Satellite_List());
                 startActivity(intent);
                 break;
-            case 48:
+            case "SOUTH AFRICA":
                 intent.putExtra("savedUser", (Serializable) SOUTH_AFRICA_Satellite_List());
                 startActivity(intent);
                 break;
-            case 49:
+            case "SOUTH KOREA":
                 intent.putExtra("savedUser", (Serializable) SOUTH_KOREA_Satellite_List());
                 startActivity(intent);
                 break;
-            case 50:
+            case "SPAIN":
                 intent.putExtra("savedUser", (Serializable) SPAIN_Satellite_List());
                 startActivity(intent);
                 break;
-            case 51:
+            case "SWEDEN":
                 intent.putExtra("savedUser", (Serializable) SWEDEN_Satellite_List());
                 startActivity(intent);
                 break;
-            case 53:
+            case "TAIWAN":
                 intent.putExtra("savedUser", (Serializable) TAIWAN_Satellite_List());
                 startActivity(intent);
                 break;
-            case 54:
+            case "THAILAND_":
                 intent.putExtra("savedUser", (Serializable) THAILAND_Satellite_List());
                 startActivity(intent);
                 break;
-            case 55:
+            case "TURKEY":
                 intent.putExtra("savedUser", (Serializable) TURKEY_Satellite_List());
                 startActivity(intent);
                 break;
-            case 56:
+            case "UNITED ARAB EMIRATES":
                 intent.putExtra("savedUser", (Serializable) UNITED_ARAB_EMIRATES_Satellite_List());
                 startActivity(intent);
                 break;
-            case 57:
+            case "UNITED KINGDOM":
                 intent.putExtra("savedUser", (Serializable) UNITED_KINGDOM_Satellite_List());
                 startActivity(intent);
                 break;
-            case 58:
+            case "USA":
                 intent.putExtra("savedUser", (Serializable) USA_Satellite_List());
                 startActivity(intent);
                 break;
-            case 59:
+            case "URUGUAY":
                 intent.putExtra("savedUser", (Serializable) URUGUAY_Satellite_List());
                 startActivity(intent);
                 break;
-            case 60:
+            case "VENEZUELA":
                 intent.putExtra("savedUser", (Serializable) VENEZUELA_Satellite_List());
                 startActivity(intent);
                 break;
-            case 61:
+            case "VIETNAM":
                 intent.putExtra("savedUser", (Serializable) VIETNAM_Satellite_List());
                 startActivity(intent);
                 break;
-            case 62:
+            case "KENIA":
                 intent.putExtra("savedUser", (Serializable) KENIA_Satellite_List());
                 startActivity(intent);
                 break;
-            case 63:
+            case "BANGLADESH":
                 intent.putExtra("savedUser", (Serializable) BANGLADESH_Satellite_List());
                 startActivity(intent);
                 break;
