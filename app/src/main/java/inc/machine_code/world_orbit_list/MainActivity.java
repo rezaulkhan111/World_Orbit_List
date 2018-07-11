@@ -1520,31 +1520,87 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
 
     public List<Satellite> TURKEY_Satellite_List() {
         TURKEY_Sat_Obj=new ArrayList<>();
-        TURKEY_Sat_Obj.add(new Satellite(43466,"UBAKUSAT","","",R.mipmap.ic_turkey_foreground));
-        TURKEY_Sat_Obj.add(new Satellite(42736,"BEEAGLESAT","","",R.mipmap.ic_turkey_foreground));
-        TURKEY_Sat_Obj.add(new Satellite(42700,"HAVELSAT","","",R.mipmap.ic_turkey_foreground));
-        TURKEY_Sat_Obj.add(new Satellite(41875,"GOKTURK-1A","","",R.mipmap.ic_turkey_foreground));
-        TURKEY_Sat_Obj.add(new Satellite(40984,"TURKSAT 4B","","",R.mipmap.ic_turkey_foreground));
-        TURKEY_Sat_Obj.add(new Satellite(39522,"TURKSAT 4A","","",R.mipmap.ic_turkey_foreground));
-        TURKEY_Sat_Obj.add(new Satellite(39152,"TURKSAT 3U","","",R.mipmap.ic_turkey_foreground));
-        TURKEY_Sat_Obj.add(new Satellite(39030,"","","",R.mipmap.ic_turkey_foreground));
-        TURKEY_Sat_Obj.add(new Satellite(37791,"","","",R.mipmap.ic_turkey_foreground));
-        TURKEY_Sat_Obj.add(new Satellite(35935,"","","",R.mipmap.ic_turkey_foreground));
-        TURKEY_Sat_Obj.add(new Satellite(33056,"","","",R.mipmap.ic_turkey_foreground));
-        TURKEY_Sat_Obj.add(new Satellite(27943,"","","",R.mipmap.ic_turkey_foreground));
-        TURKEY_Sat_Obj.add(new Satellite(26666,"","","",R.mipmap.ic_turkey_foreground));
-        TURKEY_Sat_Obj.add(new Satellite(23949,"","","",R.mipmap.ic_turkey_foreground));
-        TURKEY_Sat_Obj.add(new Satellite(23200,"","","",R.mipmap.ic_turkey_foreground));
+        TURKEY_Sat_Obj.add(new Satellite(43466,"UBAKUSAT","","Nov-30-1998",R.mipmap.ic_turkey_foreground));
+        TURKEY_Sat_Obj.add(new Satellite(42736,"BEEAGLESAT","","Nov-20-1998",R.mipmap.ic_turkey_foreground));
+        TURKEY_Sat_Obj.add(new Satellite(42700,"HAVELSAT","","Nov-20-1998",R.mipmap.ic_turkey_foreground));
+        TURKEY_Sat_Obj.add(new Satellite(41875,"GOKTURK-1A","","Dec-5-2016",R.mipmap.ic_turkey_foreground));
+        TURKEY_Sat_Obj.add(new Satellite(40984,"TURKSAT 4B","","Oct-16-2015",R.mipmap.ic_turkey_foreground));
+        TURKEY_Sat_Obj.add(new Satellite(39522,"TURKSAT 4A","","Feb-14-2014",R.mipmap.ic_turkey_foreground));
+        TURKEY_Sat_Obj.add(new Satellite(39152,"TURKSAT 3U","","Apr-26-2013",R.mipmap.ic_turkey_foreground));
+        TURKEY_Sat_Obj.add(new Satellite(39030,"GOKTURK 2","","Dec-18-2012",R.mipmap.ic_turkey_foreground));
+        TURKEY_Sat_Obj.add(new Satellite(37791,"RASAT","","Aug-17-2011",R.mipmap.ic_turkey_foreground));
+        TURKEY_Sat_Obj.add(new Satellite(35935,"ITUPSAT 1","","Sep-23-2009",R.mipmap.ic_turkey_foreground));
+        TURKEY_Sat_Obj.add(new Satellite(33056,"TURKSAT 3A","","Jun-12-2008",R.mipmap.ic_turkey_foreground));
+        TURKEY_Sat_Obj.add(new Satellite(27943,"BILSAT 1","","Sep-27-2003",R.mipmap.ic_turkey_foreground));
+        TURKEY_Sat_Obj.add(new Satellite(26666,"TURKSAT 2A","","Jan-10-2001",R.mipmap.ic_turkey_foreground));
+        TURKEY_Sat_Obj.add(new Satellite(23949,"TURKSAT 1C","","Jul-9-1996",R.mipmap.ic_turkey_foreground));
+        TURKEY_Sat_Obj.add(new Satellite(23200,"TURKSAT 1B","","Aug-10-1994",R.mipmap.ic_turkey_foreground));
         return TURKEY_Sat_Obj;
     }
 
     public List<Satellite> UNITED_ARAB_EMIRATES_Satellite_List() {
-
+        UNITED_ARAB_EMIRATES_Sat_Obj=new ArrayList<>();
+        UNITED_ARAB_EMIRATES_Sat_Obj.add(new Satellite(43174,"AL YAH 3","","Jan-25-2018",R.mipmap.ic_united_arab_emirates_foreground));
+        UNITED_ARAB_EMIRATES_Sat_Obj.add(new Satellite(42017,"NAYIF (EO-88)","","Feb-15-2017",R.mipmap.ic_united_arab_emirates_foreground));
+        UNITED_ARAB_EMIRATES_Sat_Obj.add(new Satellite(39419,"DUBSAISAT 2","","Nov-21-2013",R.mipmap.ic_united_arab_emirates_foreground));
+        UNITED_ARAB_EMIRATES_Sat_Obj.add(new Satellite(38245,"YAHSAT 1B","","Apr-23-2012",R.mipmap.ic_united_arab_emirates_foreground));
+        UNITED_ARAB_EMIRATES_Sat_Obj.add(new Satellite(37393,"YAHSAT 1A","","Apr-22-2011",R.mipmap.ic_united_arab_emirates_foreground));
+        UNITED_ARAB_EMIRATES_Sat_Obj.add(new Satellite(35682,"DUBAISAT 1","","Jul-29-2009",R.mipmap.ic_united_arab_emirates_foreground));
+        UNITED_ARAB_EMIRATES_Sat_Obj.add(new Satellite(32404,"THURAYA 3","","Jan-15-2008",R.mipmap.ic_united_arab_emirates_foreground));
+        UNITED_ARAB_EMIRATES_Sat_Obj.add(new Satellite(27825,"THURAYA 2","","Jun-10-2003",R.mipmap.ic_united_arab_emirates_foreground));
+        UNITED_ARAB_EMIRATES_Sat_Obj.add(new Satellite(26578,"THURAYA 1","","Oct-21-2000",R.mipmap.ic_united_arab_emirates_foreground));
         return UNITED_ARAB_EMIRATES_Sat_Obj;
     }
 
     public List<Satellite> UNITED_KINGDOM_Satellite_List() {
-
+        UNITED_KINGDOM_Sat_Obj=new ArrayList<>();
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(43510,"","","",R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(43115,"","","",R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(42765,"","","",R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(40719,"","","",R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(40718,"","","",R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(40717,"","","",R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(40716,"","","",R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(40715,"","","",R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(40076,"","","",R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(40074,"","","",R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(10,"","","",R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(10,"","","",R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(10,"","","",R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(10,"","","",R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(10,"","","",R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(10,"","","",R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(10,"","","",R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(10,"","","",R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(10,"","","",R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(10,"","","",R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(10,"","","",R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(10,"","","",R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(10,"","","",R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(10,"","","",R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(10,"","","",R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(10,"","","",R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(10,"","","",R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(10,"","","",R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(10,"","","",R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(10,"","","",R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(10,"","","",R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(10,"","","",R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(10,"","","",R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(10,"","","",R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(10,"","","",R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(10,"","","",R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(10,"","","",R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(10,"","","",R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(10,"","","",R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(10,"","","",R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(10,"","","",R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(10,"","","",R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(10,"","","",R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(10,"","","",R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(10,"","","",R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(10,"","","",R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite(10,"","","",R.mipmap.ic_united_kingdom_foreground));
         return UNITED_KINGDOM_Sat_Obj;
     }
 
