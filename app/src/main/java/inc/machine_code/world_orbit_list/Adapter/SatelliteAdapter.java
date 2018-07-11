@@ -16,6 +16,7 @@ import inc.machine_code.world_orbit_list.R;
 public class SatelliteAdapter extends RecyclerView.Adapter<SatelliteAdapter.ViewHolder> {
 
     private InterfaceCallback callback;
+    Satellite ass;
 
     public List<Satellite> SatelliteList;
 
@@ -53,6 +54,7 @@ public class SatelliteAdapter extends RecyclerView.Adapter<SatelliteAdapter.View
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                ass=new Satellite();
                 Satellite satellite = SatelliteList.get(position);
                 callback.inClickEvent(satellite);
 

@@ -20,12 +20,13 @@ public class Satellite extends LauncherActivity.ListItem implements Serializable
         Date = date;
         this.image = image;
     }
+    public Satellite(){}
 
-    public int getCode_No() {
+    public int getSatCat_No() {
         return SatCat_No;
     }
 
-    public void setCode_No(int SatCat_No) {
+    public void setSatCat_No(int SatCat_No) {
         SatCat_No = SatCat_No;
     }
 

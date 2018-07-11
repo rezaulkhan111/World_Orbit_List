@@ -21,7 +21,7 @@ public class SatelliteWebViewActivity extends AppCompatActivity {
 
         _Satellite_Show = findViewById(R.id.wb_satellite_show);
 
-        _Satellite_Show.loadUrl(a);
+        _Satellite_Show.loadUrl("http://www."+a+".com");
         _Satellite_Show.setWebViewClient(new WebViewClient());
     }
 }

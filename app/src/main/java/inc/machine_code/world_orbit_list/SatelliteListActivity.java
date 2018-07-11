@@ -27,8 +27,8 @@ public class SatelliteListActivity extends AppCompatActivity implements Satellit
         mRecyclerView.setHasFixedSize(true);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
         Intent intent = getIntent();
-        List<Satellite> satellite=(ArrayList<Satellite>) intent.getSerializableExtra("savedUser");
-        satellieList = satellite;
+        List<Satellite> satelli=(ArrayList<Satellite>) intent.getSerializableExtra("savedUser");
+        satellieList = satelli;
 
         SatelliteAdapter adapter = new SatelliteAdapter(this, satellieList);
         mRecyclerView.setAdapter(adapter);
@@ -38,13 +38,13 @@ public class SatelliteListActivity extends AppCompatActivity implements Satellit
     public void inClickEvent(Satellite satellite) {
         Intent intent = new Intent(getApplicationContext(), SatelliteWebViewActivity.class);
 
-        switch (satellite.getCode_No()) {
-            case 10:
-                intent.putExtra("WEB_LINK", "http://www.google.com");
+        switch (satellite.getName()) {
+            case "ALCOMSAT-1":
+                intent.putExtra("WEB_LINK", "google");
                 startActivity(intent);
                 break;
-            case 2:
-                intent.putExtra("WEB_LINK", "Link");
+            case "ALSAT 1N":
+                intent.putExtra("WEB_LINK", "yahoo");
                 startActivity(intent);
                 break;
 
