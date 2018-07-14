@@ -20,13 +20,13 @@
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
                                       <entry key="backgroundColor" value="f8fffd" />
-                                      <entry key="backgroundLayerName" value="ic_bangabandhu1_background" />
-                                      <entry key="foregroundImage" value="L:\Satellite photo\bangabandhu-1.jpg" />
-                                      <entry key="foregroundLayerName" value="ic_bangabandhu1_foreground" />
+                                      <entry key="backgroundLayerName" value="ic_nanoace_background" />
+                                      <entry key="foregroundImage" value="E:\Rezaul Khan(Internship)\ppppp\nanoace.jpg" />
+                                      <entry key="foregroundLayerName" value="ic_nanoace_foreground" />
                                       <entry key="generateLegacyIcon" value="false" />
                                       <entry key="generateRoundIcon" value="false" />
                                       <entry key="generateWebIcon" value="false" />
-                                      <entry key="outputName" value="bangabandhu1" />
+                                      <entry key="outputName" value="nanoace" />
                                     </map>
                                   </option>
                                 </PersistentState>
