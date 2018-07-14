@@ -1810,7 +1810,7 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         USA_Sat_Obj.add(new Satellite(42749,"ECHOSTAR 21","Communication","Jun-8-2017",R.mipmap.ic_echostar21_foreground));
         USA_Sat_Obj.add(new Satellite(42740,"VIASAT 2","Communication","Jun-1-2017",R.mipmap.ic_vrss2_foreground));
         USA_Sat_Obj.add(new Satellite(42723,"UNSW-ECO","","Nov-20-1998",R.mipmap.ic_unsw_eco_foreground));
-        USA_Sat_Obj.add(new Satellite(42715,"CSUNSAT1","","Nov-20-1998",R.mipmap.ic_csunsat_1_foreground));
+        USA_Sat_Obj.add(new Satellite(42715,"CSUNSAT1","","Nov-20-1998",R.mipmap.ic_csunsat1_foreground));
         USA_Sat_Obj.add(new Satellite(42712,"SHARC","","Nov-20-1998",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(42711,"ALTAIR PATHFINDER","","Nov-20-1998",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(42705,"ICECUBE","","Nov-20-1998",R.mipmap.ic_united_states_of_america_foreground));
