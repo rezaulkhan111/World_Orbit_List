@@ -20,13 +20,13 @@
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
                                       <entry key="backgroundColor" value="f8fffd" />
-                                      <entry key="backgroundLayerName" value="ic_dragon_crs15_background" />
-                                      <entry key="foregroundImage" value="E:\Rezaul Khan(Internship)\ppppp\dragon_crs15.jpg" />
-                                      <entry key="foregroundLayerName" value="ic_dragon_crs15_foreground" />
+                                      <entry key="backgroundLayerName" value="ic_navstar_gps_2f_62_73_background" />
+                                      <entry key="foregroundImage" value="L:\Satellite photo\navstar_gps_2f_62_73.jpg" />
+                                      <entry key="foregroundLayerName" value="ic_navstar_gps_2f_62_73_foreground" />
                                       <entry key="generateLegacyIcon" value="false" />
                                       <entry key="generateRoundIcon" value="false" />
                                       <entry key="generateWebIcon" value="false" />
-                                      <entry key="outputName" value="dragon_crs15" />
+                                      <entry key="outputName" value="navstar_gps_2f_62_73" />
                                     </map>
                                   </option>
                                 </PersistentState>
