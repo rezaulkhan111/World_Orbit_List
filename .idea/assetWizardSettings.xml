@@ -20,13 +20,13 @@
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
                                       <entry key="backgroundColor" value="f8fffd" />
-                                      <entry key="backgroundLayerName" value="ic_corvus_bc_background" />
-                                      <entry key="foregroundImage" value="L:\Satellite photo\corvus_bc.jpg" />
-                                      <entry key="foregroundLayerName" value="ic_corvus_bc_foreground" />
+                                      <entry key="backgroundLayerName" value="ic_spacebee5_background" />
+                                      <entry key="foregroundImage" value="E:\Rezaul Khan(Internship)\ppppp\spacebee5.jpg" />
+                                      <entry key="foregroundLayerName" value="ic_spacebee5_foreground" />
                                       <entry key="generateLegacyIcon" value="false" />
                                       <entry key="generateRoundIcon" value="false" />
                                       <entry key="generateWebIcon" value="false" />
-                                      <entry key="outputName" value="corvus_bc" />
+                                      <entry key="outputName" value="spacebee5" />
                                     </map>
                                   </option>
                                 </PersistentState>
