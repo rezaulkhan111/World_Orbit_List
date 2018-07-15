@@ -1600,7 +1600,7 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
 
     public List<Satellite> USA_Satellite_List() {
         USA_Sat_Obj=new ArrayList<>();
-        USA_Sat_Obj.add(new Satellite(43522,"DRAGON CRS-15","","",R.mipmap.ic_united_states_of_america_foreground));
+        USA_Sat_Obj.add(new Satellite(43522,"DRAGON CRS-15","ISS Resupply","",R.mipmap.ic_dragon_crs15_foreground));
         USA_Sat_Obj.add(new Satellite(43482,"IRIDIUM 162","","",R.mipmap.ic_iridium_foreground));
         USA_Sat_Obj.add(new Satellite(43481,"IRIDIUM 110","","",R.mipmap.ic_iridium_foreground));
         USA_Sat_Obj.add(new Satellite(43480,"IRIDIUM 147","","",R.mipmap.ic_iridium_foreground));
