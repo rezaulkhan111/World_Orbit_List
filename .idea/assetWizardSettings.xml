@@ -20,13 +20,13 @@
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
                                       <entry key="backgroundColor" value="f8fffd" />
-                                      <entry key="backgroundLayerName" value="ic_flock_1_1b_1c_1d_1d_1e_1f_2_2b_2c_2d_2e_2e_2k_2p_3m_3p_3p_background" />
-                                      <entry key="foregroundImage" value="E:\Rezaul Khan(Internship)\ppppp\flock_1_1b_1c_1d_1d_1e_1f_2_2b_2c_2d_2e_2e_2k_2p_3m_3p_3p.jpg" />
-                                      <entry key="foregroundLayerName" value="ic_flock_1_1b_1c_1d_1d_1e_1f_2_2b_2c_2d_2e_2e_2k_2p_3m_3p_3p_foreground" />
+                                      <entry key="backgroundLayerName" value="ic_iridium_04_98_background" />
+                                      <entry key="foregroundImage" value="E:\Rezaul Khan(Internship)\ppppp\iridium_04_98.jpg" />
+                                      <entry key="foregroundLayerName" value="ic_iridium_04_98_foreground" />
                                       <entry key="generateLegacyIcon" value="false" />
                                       <entry key="generateRoundIcon" value="false" />
                                       <entry key="generateWebIcon" value="false" />
-                                      <entry key="outputName" value="flock_1_1b_1c_1d_1d_1e_1f_2_2b_2c_2d_2e_2e_2k_2p_3m_3p_3p" />
+                                      <entry key="outputName" value="iridium_04_98" />
                                     </map>
                                   </option>
                                 </PersistentState>
