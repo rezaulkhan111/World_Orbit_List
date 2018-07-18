@@ -20,13 +20,13 @@
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
                                       <entry key="backgroundColor" value="f8fffd" />
-                                      <entry key="backgroundLayerName" value="ic_iridium_04_98_background" />
-                                      <entry key="foregroundImage" value="E:\Rezaul Khan(Internship)\ppppp\iridium_04_98.jpg" />
-                                      <entry key="foregroundLayerName" value="ic_iridium_04_98_foreground" />
+                                      <entry key="backgroundLayerName" value="ic_orbcomm_fm101_119og2_background" />
+                                      <entry key="foregroundImage" value="E:\Rezaul Khan(Internship)\ppppp\orbcomm_fm101_119og2.jpg" />
+                                      <entry key="foregroundLayerName" value="ic_orbcomm_fm101_119og2_foreground" />
                                       <entry key="generateLegacyIcon" value="false" />
                                       <entry key="generateRoundIcon" value="false" />
                                       <entry key="generateWebIcon" value="false" />
-                                      <entry key="outputName" value="iridium_04_98" />
+                                      <entry key="outputName" value="orbcomm_fm101_119og2" />
                                     </map>
                                   </option>
                                 </PersistentState>
