@@ -2057,7 +2057,7 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         USA_Sat_Obj.add(new Satellite(40044,"LEMUR 1","","Jul-19-2014",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(40041,"FLOCK 1C 3","","Jul-19-2014",R.mipmap.ic_flock_1_1b_1c_1d_1d_1e_1f_2_2b_2c_2d_2e_2e_2k_2p_3m_3p_3p_foreground));
         USA_Sat_Obj.add(new Satellite(40040,"FLOCK 1C 8","","Jul-19-2014",R.mipmap.ic_flock_1_1b_1c_1d_1d_1e_1f_2_2b_2c_2d_2e_2e_2k_2p_3m_3p_3p_foreground));
-        USA_Sat_Obj.add(new Satellite(40038,"FLOCK 1C 5","","Jul-19-2014",R.mipmap.ic_flock_1_1b_1c_1d_1d_1e_1f_2_2b_2c_2d_2e_2e_2k_2p_3m_3p_3p_foreground));
+        USA_Sat_Obj.add(new Satellite(40038,"FLOCK 1C 5","Te","Jul-19-2014",R.mipmap.ic_flock_1_1b_1c_1d_1d_1e_1f_2_2b_2c_2d_2e_2e_2k_2p_3m_3p_3p_foreground));
         USA_Sat_Obj.add(new Satellite(40036,"FLOCK 1C 6","","Jul-19-2014",R.mipmap.ic_flock_1_1b_1c_1d_1d_1e_1f_2_2b_2c_2d_2e_2e_2k_2p_3m_3p_3p_foreground));
         USA_Sat_Obj.add(new Satellite(40035,"FLOCK 1C 9","","Jul-19-2014",R.mipmap.ic_flock_1_1b_1c_1d_1d_1e_1f_2_2b_2c_2d_2e_2e_2k_2p_3m_3p_3p_foreground));
         USA_Sat_Obj.add(new Satellite(40033,"FLOCK 1C 11","","Jul-19-2014",R.mipmap.ic_flock_1_1b_1c_1d_1d_1e_1f_2_2b_2c_2d_2e_2e_2k_2p_3m_3p_3p_foreground));
