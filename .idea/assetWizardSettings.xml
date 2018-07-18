@@ -19,14 +19,14 @@
                                   <option name="values">
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
-                                      <entry key="backgroundColor" value="f8fffd" />
-                                      <entry key="backgroundLayerName" value="ic_orbcomm_fm101_119og2_background" />
-                                      <entry key="foregroundImage" value="E:\Rezaul Khan(Internship)\ppppp\orbcomm_fm101_119og2.jpg" />
-                                      <entry key="foregroundLayerName" value="ic_orbcomm_fm101_119og2_foreground" />
+                                      <entry key="backgroundColor" value="d8ffef" />
+                                      <entry key="backgroundLayerName" value="ic_tdrs_7_background" />
+                                      <entry key="foregroundImage" value="L:\Satellite photo\tdrs_7.jpg" />
+                                      <entry key="foregroundLayerName" value="ic_tdrs_7_foreground" />
                                       <entry key="generateLegacyIcon" value="false" />
                                       <entry key="generateRoundIcon" value="false" />
                                       <entry key="generateWebIcon" value="false" />
-                                      <entry key="outputName" value="orbcomm_fm101_119og2" />
+                                      <entry key="outputName" value="tdrs_7" />
                                     </map>
                                   </option>
                                 </PersistentState>

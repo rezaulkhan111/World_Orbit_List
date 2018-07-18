@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@color/ic_sbirs_geo_1_2_3_4_usa_230_241_273_282_background"/>
+    <foreground android:drawable="@mipmap/ic_sbirs_geo_1_2_3_4_usa_230_241_273_282_foreground"/>
+</adaptive-icon>
