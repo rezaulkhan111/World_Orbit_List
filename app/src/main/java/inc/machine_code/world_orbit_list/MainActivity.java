@@ -16,6 +16,7 @@ import inc.machine_code.world_orbit_list.Country.Satellite;
 
 public class MainActivity extends AppCompatActivity implements CountryAdapter.ICallback {
 
+    private RecyclerView mRecyclerView;
     List<Country> countryList = new ArrayList<>();
     List<Satellite> ALGERIA_Sat_Obj,
             ARGENTINA_Sat_Obj,
@@ -79,7 +80,6 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
             URUGUAY_Sat_Obj,
             VENEZUELA_Sat_Obj,
             VIETNAM_Sat_Obj;
-    private RecyclerView mRecyclerView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -1940,15 +1940,15 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         USA_Sat_Obj.add(new Satellite(41884,"CYGFM05","Earth Sciences","Dec-15-2016",R.mipmap.ic_cygfm_1_2_3_4_6_7_8_foreground));
         USA_Sat_Obj.add(new Satellite(41879,"WGS 8(USA 272)","Communication","Dec-7-2016",R.mipmap.ic_wgs_8_9_usa_272_275_foreground));
         USA_Sat_Obj.add(new Satellite(41866,"GOES 16","Meteorology","Nov-19-2016",R.mipmap.ic_goes_16_to_19_foreground));
-        USA_Sat_Obj.add(new Satellite(41855,"PROMETHEUS 2-3","","Nov-11-2016",R.mipmap.ic_united_states_of_america_foreground));
-        USA_Sat_Obj.add(new Satellite(41854,"PROMETHEUS 2-1","","Nov-11-2016",R.mipmap.ic_united_states_of_america_foreground));
-        USA_Sat_Obj.add(new Satellite(41853,"AEROCUBE 8C","","Nov-11-2016",R.mipmap.ic_united_states_of_america_foreground));
-        USA_Sat_Obj.add(new Satellite(41852,"AEROCUBE 8D","","Nov-11-2016",R.mipmap.ic_united_states_of_america_foreground));
-        USA_Sat_Obj.add(new Satellite(41851,"OPTICUBE 04","","Nov-11-2016",R.mipmap.ic_united_states_of_america_foreground));
-        USA_Sat_Obj.add(new Satellite(41850,"CELTEE 1","","Nov-11-2016",R.mipmap.ic_united_states_of_america_foreground));
-        USA_Sat_Obj.add(new Satellite(41849,"RAVAN","","Nov-11-2016",R.mipmap.ic_united_states_of_america_foreground));
-        USA_Sat_Obj.add(new Satellite(41848,"WORLDVIEW-4","","Nov-11-2016",R.mipmap.ic_united_states_of_america_foreground));
-        USA_Sat_Obj.add(new Satellite(41787,"PATHFINDER 1","","Sep-26-2016",R.mipmap.ic_united_states_of_america_foreground));
+        USA_Sat_Obj.add(new Satellite(41855,"PROMETHEUS 2-3","Technology","Nov-11-2016",R.mipmap.ic_prometheus_2_3_2_1_foreground));
+        USA_Sat_Obj.add(new Satellite(41854,"PROMETHEUS 2-1","Technology","Nov-11-2016",R.mipmap.ic_prometheus_2_3_2_1_foreground));
+        USA_Sat_Obj.add(new Satellite(41853,"AEROCUBE 8C","Technology","Nov-11-2016",R.mipmap.ic_aerocube_8_a_b_c_foreground));
+        USA_Sat_Obj.add(new Satellite(41852,"AEROCUBE 8D","Technology","Nov-11-2016",R.mipmap.ic_aerocube_8_a_b_c_foreground));
+        USA_Sat_Obj.add(new Satellite(41851,"OPTICUBE 04","Calibration","Nov-11-2016",R.mipmap.ic_opticube_01_to_03_4_foreground));
+        USA_Sat_Obj.add(new Satellite(41850,"CELTEE 1","Calibration","Nov-11-2016",R.mipmap.ic_celtee_1_foreground));
+        USA_Sat_Obj.add(new Satellite(41849,"RAVAN","ES,Technology","Nov-11-2016",R.mipmap.ic_flock_1_1b_1c_1d_1d_1e_1f_2_2b_2c_2d_2e_2e_2k_2p_3m_3p_3p_foreground));
+        USA_Sat_Obj.add(new Satellite(41848,"WORLDVIEW 4","Earth Observing","Nov-11-2016",R.mipmap.ic_worldview_4_foreground));
+        USA_Sat_Obj.add(new Satellite(41787,"PATHFINDER 1","Earth Observation","Sep-26-2016",R.mipmap.ic_blacksky_pathfinder_1_foreground));
         USA_Sat_Obj.add(new Satellite(41782,"FLOCK 2EP 20","Commercial","Nov-20-1998",R.mipmap.ic_flock_1_1b_1c_1d_1d_1e_1f_2_2b_2c_2d_2e_2e_2k_2p_3m_3p_3p_foreground));
         USA_Sat_Obj.add(new Satellite(41774,"SKYSAT C3","","Sep-16-2016",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(41773,"SKYSAT C2","","Sep-16-2016",R.mipmap.ic_united_states_of_america_foreground));
@@ -2004,7 +2004,7 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         USA_Sat_Obj.add(new Satellite(40968,"BISONSAT","","Oct-8-2015",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(40967,"FOX-1A(AO-85)","","Oct-8-2015",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(40966,"AEROCUBE 7","","Oct-8-2015",R.mipmap.ic_united_states_of_america_foreground));
-        USA_Sat_Obj.add(new Satellite(40965,"AEROCUBE 5C","","Oct-8-2015",R.mipmap.ic_united_states_of_america_foreground));
+        USA_Sat_Obj.add(new Satellite(40965,"AEROCUBE 5C","Technology","Oct-8-2015",R.mipmap.ic_aerocube_5_a_b_c_foreground));
         USA_Sat_Obj.add(new Satellite(40964,"USA 264","","Oct-8-2015",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(40935,"LEMUR-2 PETER","Commercial","Sep-28-2015",R.mipmap.ic_lemur_foreground));
         USA_Sat_Obj.add(new Satellite(40934,"LEMUR-2 JEROEN","Commercial","Sep-28-2015",R.mipmap.ic_lemur_foreground));
@@ -2014,14 +2014,14 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         USA_Sat_Obj.add(new Satellite(40746,"WGS F7(USA 263)","","Jul-15-2015",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(40730,"NAVSTAR 74(USA 262)","","May-27-2015",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(40663,"DIRECTV 15","","May-20-2015",R.mipmap.ic_united_states_of_america_foreground));
-        USA_Sat_Obj.add(new Satellite(40660,"AEROCUBE 8B","","May-20-2015",R.mipmap.ic_united_states_of_america_foreground));
-        USA_Sat_Obj.add(new Satellite(40659,"AEROCUBE 8A","","May-20-2015",R.mipmap.ic_united_states_of_america_foreground));
-        USA_Sat_Obj.add(new Satellite(40658,"OPTICUBE 03","","May-20-2015",R.mipmap.ic_united_states_of_america_foreground));
+        USA_Sat_Obj.add(new Satellite(40660,"AEROCUBE 8B","","May-20-2015",R.mipmap.ic_aerocube_8_a_b_c_foreground));
+        USA_Sat_Obj.add(new Satellite(40659,"AEROCUBE 8A","","May-20-2015",R.mipmap.ic_aerocube_8_a_b_c_foreground));
+        USA_Sat_Obj.add(new Satellite(40658,"OPTICUBE 03","Calibration","May-20-2015",R.mipmap.ic_opticube_01_to_03_4_foreground));
         USA_Sat_Obj.add(new Satellite(40657,"GEARRS-2","","May-20-2015",R.mipmap.ic_united_states_of_america_foreground));
-        USA_Sat_Obj.add(new Satellite(40656,"OPTICUBE 02","","May-20-2015",R.mipmap.ic_united_states_of_america_foreground));
+        USA_Sat_Obj.add(new Satellite(40656,"OPTICUBE 02","Calibration","May-20-2015",R.mipmap.ic_opticube_01_to_03_4_foreground));
         USA_Sat_Obj.add(new Satellite(40655,"BRICSAT-P(NO-83)","","May-20-2015",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(40654,"PARKINSONSAT (PSAT...NO-84)","","May-20-2015",R.mipmap.ic_united_states_of_america_foreground));
-        USA_Sat_Obj.add(new Satellite(40653,"OPTICUBE 01","","May-20-2015",R.mipmap.ic_united_states_of_america_foreground));
+        USA_Sat_Obj.add(new Satellite(40653,"OPTICUBE 01","Calibration","May-20-2015",R.mipmap.ic_opticube_01_to_03_4_foreground));
         USA_Sat_Obj.add(new Satellite(40652,"USS LANGLEY","","May-20-2015",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(40534,"NAVSTAR 73(USA 260)","Navigation","Mar-25-2015",R.mipmap.ic_navstar_gps_2f_62_73_foreground));
         USA_Sat_Obj.add(new Satellite(40485,"MMS 4","","Mar-13-2015",R.mipmap.ic_united_states_of_america_foreground));
@@ -2039,7 +2039,7 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         USA_Sat_Obj.add(new Satellite(40333,"DIRECTV 14","","Dec-6-2014",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(40294,"NAVSTAR 72(USA 258)","Navigation","Oct-29-2014",R.mipmap.ic_navstar_gps_2f_62_73_foreground));
         USA_Sat_Obj.add(new Satellite(40208,"USA 257(CLIO)","","Sep-17-2014",R.mipmap.ic_united_states_of_america_foreground));
-        USA_Sat_Obj.add(new Satellite(40115,"WORLDVIEW-3(WV-3)","","Aug-13-2014",R.mipmap.ic_united_states_of_america_foreground));
+        USA_Sat_Obj.add(new Satellite(40115,"WORLDVIEW 3(WV-3)","Earth Observing","Aug-13-2014",R.mipmap.ic_worldview_2_3_2009_14_foreground));
         USA_Sat_Obj.add(new Satellite(40105,"NAVSTAR 71(USA 256)","","Aug-2-2014",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(40101,"USA 255","","Jul-28-2014",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(40100,"USA 254","","Jul-28-2014",R.mipmap.ic_united_states_of_america_foreground));
@@ -2052,8 +2052,8 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         USA_Sat_Obj.add(new Satellite(40086,"ORBCOMM FM 109","Comm: Traffic Monitoring","Jul-14-2014",R.mipmap.ic_orbcomm_fm101_119og2_foreground));
         USA_Sat_Obj.add(new Satellite(40072,"SKYSAT 2","","Jul-8-2014",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(40059,"OCO 2","","Jul-2-2014",R.mipmap.ic_united_states_of_america_foreground));
-        USA_Sat_Obj.add(new Satellite(40046,"AEROCUBE 6B","","Jul-19-2014",R.mipmap.ic_united_states_of_america_foreground));
-        USA_Sat_Obj.add(new Satellite(40045,"AEROCUBE 6A","","Jul-19-2014",R.mipmap.ic_united_states_of_america_foreground));
+        USA_Sat_Obj.add(new Satellite(40046,"AEROCUBE 6B","Technology","Jul-19-2014",R.mipmap.ic_aerocube_6_a_b_foreground));
+        USA_Sat_Obj.add(new Satellite(40045,"AEROCUBE 6A","Technology","Jul-19-2014",R.mipmap.ic_aerocube_6_a_b_foreground));
         USA_Sat_Obj.add(new Satellite(40044,"LEMUR 1","","Jul-19-2014",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(40041,"FLOCK 1C 3","","Jul-19-2014",R.mipmap.ic_flock_1_1b_1c_1d_1d_1e_1f_2_2b_2c_2d_2e_2e_2k_2p_3m_3p_3p_foreground));
         USA_Sat_Obj.add(new Satellite(40040,"FLOCK 1C 8","","Jul-19-2014",R.mipmap.ic_flock_1_1b_1c_1d_1d_1e_1f_2_2b_2c_2d_2e_2e_2k_2p_3m_3p_3p_foreground));
@@ -2082,8 +2082,8 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         USA_Sat_Obj.add(new Satellite(39469,"MCUBED-2","","Dec-6-2013",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(39468,"SNAP-3","","Dec-6-2013",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(39467,"ALICE","","Dec-6-2013",R.mipmap.ic_united_states_of_america_foreground));
-        USA_Sat_Obj.add(new Satellite(39466,"AEROCUBE 5B","","Dec-6-2013",R.mipmap.ic_united_states_of_america_foreground));
-        USA_Sat_Obj.add(new Satellite(39465,"AEROCUBE 5A","","Dec-6-2013",R.mipmap.ic_united_states_of_america_foreground));
+        USA_Sat_Obj.add(new Satellite(39466,"AEROCUBE 5B","","Dec-6-2013",R.mipmap.ic_aerocube_5_a_b_c_foreground));
+        USA_Sat_Obj.add(new Satellite(39465,"AEROCUBE 5A","","Dec-6-2013",R.mipmap.ic_aerocube_5_a_b_c_foreground));
         USA_Sat_Obj.add(new Satellite(39464,"FIREBIRD B","","Dec-6-2013",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(39463,"FIREBIRD A","","Dec-6-2013",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(39462,"USA 247(NROL-39)","FIA-Radar","Dec-6-2013",R.mipmap.ic_united_states_of_america_foreground));
@@ -2120,10 +2120,10 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         USA_Sat_Obj.add(new Satellite(39070,"TDRS 11","Comm:,Data Relay","Jan-31-2013",R.mipmap.ic_tdrs8_9_10_11_12_13_foreground));
         USA_Sat_Obj.add(new Satellite(39008,"ECHOSTAR 16","","Nov-20-2012",R.mipmap.ic_echostar_1_to_12_14_24_and_105_foreground));
         USA_Sat_Obj.add(new Satellite(38833,"NAVSTAR 67(USA 239)","","Oct-4-2012",R.mipmap.ic_united_states_of_america_foreground));
-        USA_Sat_Obj.add(new Satellite(38769,"AEROCUBE 4","","Sep-13-2012",R.mipmap.ic_united_states_of_america_foreground));
-        USA_Sat_Obj.add(new Satellite(38768,"AEROCUBE 4.5B","","Sep-13-2012",R.mipmap.ic_united_states_of_america_foreground));
-        USA_Sat_Obj.add(new Satellite(38767,"AEROCUBE 4.5A","","Sep-13-2012",R.mipmap.ic_united_states_of_america_foreground));
-        USA_Sat_Obj.add(new Satellite(38766,"SMDC ONE 1.1","","Sep-13-2012",R.mipmap.ic_united_states_of_america_foreground));
+        USA_Sat_Obj.add(new Satellite(38769,"AEROCUBE 4","Technology","Sep-13-2012",R.mipmap.ic_aerocube_4_a_b_c_foreground));
+        USA_Sat_Obj.add(new Satellite(38768,"AEROCUBE 4.5B","Technology","Sep-13-2012",R.mipmap.ic_aerocube_4_a_b_c_foreground));
+        USA_Sat_Obj.add(new Satellite(38767,"AEROCUBE 4.5A","Technology","Sep-13-2012",R.mipmap.ic_aerocube_4_a_b_c_foreground));
+        USA_Sat_Obj.add(new Satellite(38766,"SMDC ONE 1.1","Technology","Sep-13-2012",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(38765,"RE","","Sep-13-2012",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(38764,"CINEMA","","Sep-13-2012",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(38763,"CP5","","Sep-13-2012",R.mipmap.ic_united_states_of_america_foreground));
@@ -2184,7 +2184,7 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         USA_Sat_Obj.add(new Satellite(36119,"WISE","","Dec-14-2009",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(36108,"WGS F3(USA 211)","","Dec-6-2009",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(35951,"DMSP 5D-3 F18(USA 210)","","Oct-18-2009",R.mipmap.ic_united_states_of_america_foreground));
-        USA_Sat_Obj.add(new Satellite(35946,"WORLDVIEW 2","","Oct-8-2009",R.mipmap.ic_united_states_of_america_foreground));
+        USA_Sat_Obj.add(new Satellite(35946,"WORLDVIEW 2","Earth Observing","Oct-8-2009",R.mipmap.ic_worldview_2_3_2009_14_foreground));
         USA_Sat_Obj.add(new Satellite(35938,"STSS DEMO 2(USA 209)","","Sep-25-2009",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(35937,"STSS DEMO 1(USA 208)","","Sep-25-2009",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(35815,"USA 207","","Sep-8-2009",R.mipmap.ic_united_states_of_america_foreground));
@@ -2219,14 +2219,14 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         USA_Sat_Obj.add(new Satellite(32260,"NAVSTAR 60(USA 196)","","Oct-17-2007",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(32258,"WGS F1(USA 195)","","Oct-11-2007",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(32249,"DAWN","","Sep-27-2007",R.mipmap.ic_united_states_of_america_foreground));
-        USA_Sat_Obj.add(new Satellite(32060,"WORLDVIEW 1","","Sep-18-2007",R.mipmap.ic_united_states_of_america_foreground));
+        USA_Sat_Obj.add(new Satellite(32060,"WORLDVIEW 1","Earth Observing","Sep-18-2007",R.mipmap.ic_worldview_1_2007_foreground));
         USA_Sat_Obj.add(new Satellite(32018,"SPACEWAY 3","","Aug-14-2007",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(31862,"DIRECTV 10","","Jul-7-2007",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(31789,"GENESIS 2","","Jun-28-2007",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(31701,"USA 194","","Jun-15-2007",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(31307,"GALAXY 17","","May-4-2007",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(31304,"AIM","","Apr-25-2007",R.mipmap.ic_united_states_of_america_foreground));
-        USA_Sat_Obj.add(new Satellite(31133,"AEROCUBE 2","","Apr-17-2007",R.mipmap.ic_united_states_of_america_foreground));
+        USA_Sat_Obj.add(new Satellite(31133,"AEROCUBE 2","Technology","Apr-17-2007",R.mipmap.ic_aerocube_1_to_3_foreground));
         USA_Sat_Obj.add(new Satellite(31132,"CP4","","Apr-17-2007",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(31130,"CAPE 1","","Apr-17-2007",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(31129,"CP3","","Apr-17-2007",R.mipmap.ic_united_states_of_america_foreground));
