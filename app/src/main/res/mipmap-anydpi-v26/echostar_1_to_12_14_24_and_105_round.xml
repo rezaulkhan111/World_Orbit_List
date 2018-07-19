@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
-    <background android:drawable="@color/ic_echostar_1_to_12_14_24_and_105_background"/>
-    <foreground android:drawable="@mipmap/ic_echostar_1_to_12_14_24_and_105_foreground"/>
-</adaptive-icon>
