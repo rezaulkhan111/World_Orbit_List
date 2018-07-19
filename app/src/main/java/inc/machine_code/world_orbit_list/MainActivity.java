@@ -1629,7 +1629,7 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         USA_Sat_Obj.add(new Satellite(43250,"IRIDIUM 149","Comm: Traffic Monitoring","Mar-30-2018",R.mipmap.ic_iridium_next101_181_foreground));
         USA_Sat_Obj.add(new Satellite(43249,"IRIDIUM 144","Comm: Traffic Monitoring","Mar-30-2018",R.mipmap.ic_iridium_next101_181_foreground));
         USA_Sat_Obj.add(new Satellite(43229,"PODSAT","Technology","Mar-6-2018",R.mipmap.ic_united_states_of_america_foreground));
-        USA_Sat_Obj.add(new Satellite(43226,"GOES 17","Meteorology","Mar-1-2018",R.mipmap.ic_goes_17_foreground));
+        USA_Sat_Obj.add(new Satellite(43226,"GOES 17","Meteorology","Mar-1-2018",R.mipmap.ic_goes_16_to_19_foreground));
         USA_Sat_Obj.add(new Satellite(43217,"TINTIN B","Comm: Experimental","Feb-22-2018",R.mipmap.ic_microsat_a_b_foreground));
         USA_Sat_Obj.add(new Satellite(43216,"TINTIN A","","Feb-22-2018",R.mipmap.ic_microsat_a_b_foreground));
         USA_Sat_Obj.add(new Satellite(43205,"TESLA ROADSTER","Vehicle evaluation","Feb-6-2018",R.mipmap.ic_tesla_roadster_foreground));
@@ -1939,7 +1939,7 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         USA_Sat_Obj.add(new Satellite(41885,"CYGFM04","Earth Sciences","Dec-15-2016",R.mipmap.ic_cygfm_1_2_3_4_6_7_8_foreground));
         USA_Sat_Obj.add(new Satellite(41884,"CYGFM05","Earth Sciences","Dec-15-2016",R.mipmap.ic_cygfm_1_2_3_4_6_7_8_foreground));
         USA_Sat_Obj.add(new Satellite(41879,"WGS 8(USA 272)","Communication","Dec-7-2016",R.mipmap.ic_wgs_8_9_usa_272_275_foreground));
-        USA_Sat_Obj.add(new Satellite(41866,"GOES 16","","Nov-19-2016",R.mipmap.ic_united_states_of_america_foreground));
+        USA_Sat_Obj.add(new Satellite(41866,"GOES 16","Meteorology","Nov-19-2016",R.mipmap.ic_goes_16_to_19_foreground));
         USA_Sat_Obj.add(new Satellite(41855,"PROMETHEUS 2-3","","Nov-11-2016",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(41854,"PROMETHEUS 2-1","","Nov-11-2016",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(41853,"AEROCUBE 8C","","Nov-11-2016",R.mipmap.ic_united_states_of_america_foreground));
@@ -2178,7 +2178,7 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         USA_Sat_Obj.add(new Satellite(36792,"ECHOSTAR 15","Communication(DB)","Jul-10-2010",R.mipmap.ic_echostar_1_to_12_14_24_and_105_foreground));
         USA_Sat_Obj.add(new Satellite(36585,"NAVSTAR 65(USA 213)","","May-28-2010",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(36499,"ECHOSTAR 14","Communication(DB)","Mar-20-2010",R.mipmap.ic_echostar_1_to_12_14_24_and_105_foreground));
-        USA_Sat_Obj.add(new Satellite(36411,"GOES 15","","Mar-4-2010",R.mipmap.ic_united_states_of_america_foreground));
+        USA_Sat_Obj.add(new Satellite(36411,"GOES 15","Meteorology","Mar-4-2010",R.mipmap.ic_goes_13_to_15_foreground));
         USA_Sat_Obj.add(new Satellite(36395,"SDO","","Feb-11-2010",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(36131,"DIRECTV 12","","Dec-29-2009",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(36119,"WISE","","Dec-14-2009",R.mipmap.ic_united_states_of_america_foreground));
@@ -2193,7 +2193,7 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         USA_Sat_Obj.add(new Satellite(35684,"APRIZESAT 4","","Jul-29-2009",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(35496,"TERRESTAR 1","","Jul-1-2009",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(35493,"SIRIUS FM-5","","Jun-30-2009",R.mipmap.ic_united_states_of_america_foreground));
-        USA_Sat_Obj.add(new Satellite(35491,"GOES 14","","Jun-27-2009",R.mipmap.ic_united_states_of_america_foreground));
+        USA_Sat_Obj.add(new Satellite(35491,"GOES 14","Meteorology","Jun-27-2009",R.mipmap.ic_goes_13_to_15_foreground));
         USA_Sat_Obj.add(new Satellite(35315,"LRO","","Jun-18-2009",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(34903,"STSS ATRR(USA 205)","","May-5-2009",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(34713,"WGS F2(USA 204)","","Apr-4-2009",R.mipmap.ic_united_states_of_america_foreground));
@@ -2256,7 +2256,7 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         USA_Sat_Obj.add(new Satellite(29241,"USA 188","","Jun-21-2006",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(29240,"USA 187","","Jun-21-2006",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(29236,"GALAXY 16","","Jun-18-2006",R.mipmap.ic_united_states_of_america_foreground));
-        USA_Sat_Obj.add(new Satellite(29155,"GOES 13","","May-24-2006",R.mipmap.ic_united_states_of_america_foreground));
+        USA_Sat_Obj.add(new Satellite(29155,"GOES 13","Meteorology","May-24-2006",R.mipmap.ic_goes_13_to_15_foreground));
         USA_Sat_Obj.add(new Satellite(29108,"CALIPSO","","Apr-28-2006",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(29107,"CLOUDSAT","","Apr-28-2006",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(28982,"ST5-C","","Mar-22-2006",R.mipmap.ic_united_states_of_america_foreground));
@@ -2340,7 +2340,7 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         USA_Sat_Obj.add(new Satellite(26905,"USA 160","","Sep-8-2001",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(26884,"GENESIS","","Aug-8-2001",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(26880,"USA 159","","Aug-6-2001",R.mipmap.ic_united_states_of_america_foreground));
-        USA_Sat_Obj.add(new Satellite(26871,"GOES 12","","Jul-23-2001",R.mipmap.ic_united_states_of_america_foreground));
+        USA_Sat_Obj.add(new Satellite(26871,"GOES 12","Meteorology","Jul-23-2001",R.mipmap.ic_goes_8_to_12_foreground));
         USA_Sat_Obj.add(new Satellite(26859,"MAP","","Jun-30-2001",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(26770,"USA 158","","May-18-2001",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(26766,"INTELSAT 10(PAS 10)","","May-15-2001",R.mipmap.ic_united_states_of_america_foreground));
@@ -2368,7 +2368,7 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         USA_Sat_Obj.add(new Satellite(26374,"TSX-5","","Jun-7-2000",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(26360,"NAVSTAR 47(USA 150)","","May-11-2000",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(26356,"USA 149","","May-8-2000",R.mipmap.ic_united_states_of_america_foreground));
-        USA_Sat_Obj.add(new Satellite(26352,"GOES 11","","May-3-2000",R.mipmap.ic_united_states_of_america_foreground));
+        USA_Sat_Obj.add(new Satellite(26352,"GOES 11","Meteorology","May-3-2000",R.mipmap.ic_goes_8_to_12_foreground));
         USA_Sat_Obj.add(new Satellite(26298,"GALAXY 4R","","Apr-19-2000",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(26113,"IMAGE","","Mar-25-2000",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(26107,"ASIASTAR","","Mar-21-2000",R.mipmap.ic_united_states_of_america_foreground));
@@ -2504,7 +2504,7 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         USA_Sat_Obj.add(new Satellite(24796,"IRIDIUM 4","","May-5-1997",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(24795,"IRIDIUM 5","","May-5-1997",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(24793,"IRIDIUM 7","","May-5-1997",R.mipmap.ic_united_states_of_america_foreground));
-        USA_Sat_Obj.add(new Satellite(24786,"GOES 10","","Apr-25-1997",R.mipmap.ic_united_states_of_america_foreground));
+        USA_Sat_Obj.add(new Satellite(24786,"GOES 10","Meteorology","Apr-25-1997",R.mipmap.ic_goes_8_to_12_foreground));
         USA_Sat_Obj.add(new Satellite(24753,"DMSP 5D-2 F14(USA 131)","","Apr-4-1997",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(24748,"DIRECTV 6(TEMPO 2)","","Mar-8-1997",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(24737,"USA 130","","Feb-23-1997",R.mipmap.ic_united_states_of_america_foreground));
@@ -2542,7 +2542,7 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         USA_Sat_Obj.add(new Satellite(23609,"USA 112","","Jul-10-1995",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(23598,"DIRECTV 3(DBS/NIMIQ 3)","","Jul-10-1995",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(23589,"UFO 5(USA 111)","","May-31-1995",R.mipmap.ic_united_states_of_america_foreground));
-        USA_Sat_Obj.add(new Satellite(23581,"GOES 9","","May-23-1995",R.mipmap.ic_united_states_of_america_foreground));
+        USA_Sat_Obj.add(new Satellite(23581,"GOES 9","Meteorology","May-23-1995",R.mipmap.ic_goes_8_to_12_foreground));
         USA_Sat_Obj.add(new Satellite(23567,"USA 110","","May-14-1995",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(23553,"AMSC 1","","Apr-7-1995",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(23547,"ORBVIEW 1(MICROLAB)","","Apr-3-1995",R.mipmap.ic_united_states_of_america_foreground));
@@ -2562,7 +2562,7 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         USA_Sat_Obj.add(new Satellite(23132,"UFO 3(USA 104)","","Jun-24-1994",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(23105,"STEP 2","","May-19-1994",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(23097,"USA 103","","May-3-1994",R.mipmap.ic_united_states_of_america_foreground));
-        USA_Sat_Obj.add(new Satellite(23051,"GOES 8","","Apr-13-1994",R.mipmap.ic_united_states_of_america_foreground));
+        USA_Sat_Obj.add(new Satellite(23051,"GOES 8","Meteorology","Apr-13-1994",R.mipmap.ic_goes_8_to_12_foreground));
         USA_Sat_Obj.add(new Satellite(23031,"USA 102","","Mar-13-1994",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(23030,"USA 101","","Mar-13-1994",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(23027,"NAVSTAR 36(USA 100)","","Mar-10-1994",R.mipmap.ic_united_states_of_america_foreground));
@@ -2705,7 +2705,7 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         USA_Sat_Obj.add(new Satellite(18010,"USA 24","","May-15-1987",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(18009,"USA 23","","May-15-1987",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(17997,"USA 22","","May-15-1987",R.mipmap.ic_united_states_of_america_foreground));
-        USA_Sat_Obj.add(new Satellite(17561,"GOES 7","","Feb-26-1987",R.mipmap.ic_united_states_of_america_foreground));
+        USA_Sat_Obj.add(new Satellite(17561,"GOES 7","Meteorology","Feb-26-1987",R.mipmap.ic_goes_4_to_7_foreground));
         USA_Sat_Obj.add(new Satellite(17506,"USA 21","","Feb-12-1987",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(17181,"FLTSATCOM 7(USA 20)","","Dec-5-1986",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(17070,"POLAR BEAR","","Nov-14-1986",R.mipmap.ic_united_states_of_america_foreground));
@@ -2764,7 +2764,7 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         USA_Sat_Obj.add(new Satellite(14143,"GB 1","","Jun-9-1983",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(14139,"OPS 3899","","Jun-20-1983",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(14112,"OPS 6432","","Jun-9-1983",R.mipmap.ic_united_states_of_america_foreground));
-        USA_Sat_Obj.add(new Satellite(14050,"GOES 6","","Apr-28-1983",R.mipmap.ic_united_states_of_america_foreground));
+        USA_Sat_Obj.add(new Satellite(14050,"GOES 6","Meteorology","Apr-28-1983",R.mipmap.ic_goes_4_to_7_foreground));
         USA_Sat_Obj.add(new Satellite(13984,"SATCOM 1R","","Apr-11-1983",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(13969,"TDRS 1","","Apr-4-1983",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(13923,"NOAA 8","","Mar-28-1983",R.mipmap.ic_united_states_of_america_foreground));
@@ -2792,7 +2792,7 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         USA_Sat_Obj.add(new Satellite(12635,"FLTSATCOM 5","","Aug-6-1981",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(12624,"DYNAMICS EXPLORER 1","","Aug-3-1981",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(12553,"NOAA 7","","Jun-23-1981",R.mipmap.ic_united_states_of_america_foreground));
-        USA_Sat_Obj.add(new Satellite(12472,"GOES 5","","May-22-1981",R.mipmap.ic_united_states_of_america_foreground));
+        USA_Sat_Obj.add(new Satellite(12472,"GOES 5","Meteorology","May-22-1981",R.mipmap.ic_goes_4_to_7_foreground));
         USA_Sat_Obj.add(new Satellite(12458,"NOVA 1","","May-15-1981",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(12418,"OPS 7225","","Apr-24-1981",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(12339,"OPS 7350","","Mar-16-1981",R.mipmap.ic_united_states_of_america_foreground));
@@ -2800,7 +2800,7 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         USA_Sat_Obj.add(new Satellite(12093,"OPS 5805","","Dec-13-1980",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(12065,"SBS 1","","Nov-15-1980",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(12046,"OPS 6394(FLTSATCOM 4)","","Oct-31-1980",R.mipmap.ic_united_states_of_america_foreground));
-        USA_Sat_Obj.add(new Satellite(11964,"GOES 4","","Sep-9-1980",R.mipmap.ic_united_states_of_america_foreground));
+        USA_Sat_Obj.add(new Satellite(11964,"GOES 4","Meteorology","Sep-9-1980",R.mipmap.ic_goes_4_to_7_foreground));
         USA_Sat_Obj.add(new Satellite(11852,"OPS 1292","","Jun-18-1980",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(11783,"OPS 5118(NAVSTAR 6)","","Apr-26-1980",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(11745,"EP 3","","Mar-3-1980",R.mipmap.ic_united_states_of_america_foreground));
@@ -2829,7 +2829,7 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         USA_Sat_Obj.add(new Satellite(11004,"ISEE 3(ICE)","","Aug-12-1978",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(10975,"COMSTAR 3","","Jun-29-1978",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(10967,"SEASAT 1","","Jun-27-1978",R.mipmap.ic_united_states_of_america_foreground));
-        USA_Sat_Obj.add(new Satellite(10953,"GOES 3","","Jun-16-1978",R.mipmap.ic_united_states_of_america_foreground));
+        USA_Sat_Obj.add(new Satellite(10953,"GOES 3","Meteorology","Jun-16-1978",R.mipmap.ic_goes_1_to_3_foreground));
         USA_Sat_Obj.add(new Satellite(10941,"OPS 9454","","Jun-10-1978",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(10893,"OPS 5112(NAVSTAR 2)","","May-13-1978",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(10820,"OPS 6182(DMSP 5D-1 F2)","","May-1-1978",R.mipmap.ic_united_states_of_america_foreground));
@@ -2850,7 +2850,7 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         USA_Sat_Obj.add(new Satellite(10321,"VOYAGER 1","","Sep-5-1977",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(10271,"VOYAGER 2","","Aug-20-1977",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(10091,"NTS 2","","Jun-23-1977",R.mipmap.ic_united_states_of_america_foreground));
-        USA_Sat_Obj.add(new Satellite(10061,"GOES 2","","Jun-16-1977",R.mipmap.ic_united_states_of_america_foreground));
+        USA_Sat_Obj.add(new Satellite(10061,"GOES 2","","Jun-16-1977",R.mipmap.ic_goes_1_to_3_foreground));
         USA_Sat_Obj.add(new Satellite(10033,"OPS 5644","","Jun-5-1977",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(10016,"OPS 9751","","May-23-1977",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(10001,"OPS 9438(DSCS 2-8)","","May-12-1977",R.mipmap.ic_united_states_of_america_foreground));
@@ -2880,7 +2880,7 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         USA_Sat_Obj.add(new Satellite(8697,"MARISAT 1","","Feb-19-1976",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(8482,"OPS 3165","","Dec-14-1975",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(8476,"SATCOM 1","","Dec-13-1975",R.mipmap.ic_united_states_of_america_foreground));
-        USA_Sat_Obj.add(new Satellite(8366,"GOES 1(SMS-C)","","Oct-16-1975",R.mipmap.ic_united_states_of_america_foreground));
+        USA_Sat_Obj.add(new Satellite(8366,"GOES 1(SMS-C)","Meteorology","Oct-16-1975",R.mipmap.ic_goes_1_to_3_foreground));
         USA_Sat_Obj.add(new Satellite(8199,"VIKING 2 ORBITER","","Sep-9-1975",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(8108,"VIKING 1 ORBITER","","Aug-20-1975",R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(7963,"OPS 4966","","Jun-18-1975",R.mipmap.ic_united_states_of_america_foreground));

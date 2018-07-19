@@ -20,13 +20,13 @@
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
                                       <entry key="backgroundColor" value="f9f5f9" />
-                                      <entry key="backgroundLayerName" value="ic_echostar_1_to_12_14_24_and_105_background" />
-                                      <entry key="foregroundImage" value="E:\Rezaul Khan(Internship)\ppppp\echostar_1_to_12_14_24_and_105.jpg" />
-                                      <entry key="foregroundLayerName" value="ic_echostar_1_to_12_14_24_and_105_foreground" />
+                                      <entry key="backgroundLayerName" value="ic_goes_13_to_15_background" />
+                                      <entry key="foregroundImage" value="E:\Rezaul Khan(Internship)\ppppp\goes_13_to_15.jpg" />
+                                      <entry key="foregroundLayerName" value="ic_goes_13_to_15_foreground" />
                                       <entry key="generateLegacyIcon" value="false" />
                                       <entry key="generateRoundIcon" value="false" />
                                       <entry key="generateWebIcon" value="false" />
-                                      <entry key="outputName" value="echostar_1_to_12_14_24_and_105" />
+                                      <entry key="outputName" value="goes_13_to_15" />
                                     </map>
                                   </option>
                                 </PersistentState>
