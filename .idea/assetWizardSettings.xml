@@ -19,14 +19,14 @@
                                   <option name="values">
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
-                                      <entry key="backgroundColor" value="d8ffef" />
-                                      <entry key="backgroundLayerName" value="ic_tdrs_7_background" />
-                                      <entry key="foregroundImage" value="L:\Satellite photo\tdrs_7.jpg" />
-                                      <entry key="foregroundLayerName" value="ic_tdrs_7_foreground" />
+                                      <entry key="backgroundColor" value="f9f5f9" />
+                                      <entry key="backgroundLayerName" value="ic_echostar_1_to_12_14_24_and_105_background" />
+                                      <entry key="foregroundImage" value="E:\Rezaul Khan(Internship)\ppppp\echostar_1_to_12_14_24_and_105.jpg" />
+                                      <entry key="foregroundLayerName" value="ic_echostar_1_to_12_14_24_and_105_foreground" />
                                       <entry key="generateLegacyIcon" value="false" />
                                       <entry key="generateRoundIcon" value="false" />
                                       <entry key="generateWebIcon" value="false" />
-                                      <entry key="outputName" value="tdrs_7" />
+                                      <entry key="outputName" value="echostar_1_to_12_14_24_and_105" />
                                     </map>
                                   </option>
                                 </PersistentState>
