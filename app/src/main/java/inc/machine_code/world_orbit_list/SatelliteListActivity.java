@@ -13,6 +13,7 @@ import inc.machine_code.world_orbit_list.Adapter.SatelliteAdapter;
 import inc.machine_code.world_orbit_list.Country.Satellite;
 
 public class SatelliteListActivity extends AppCompatActivity implements SatelliteAdapter.InterfaceCallback {
+    List<Satellite> List_Receive;
     List<Satellite> satellieList = new ArrayList<>();
 
 
@@ -27,8 +28,8 @@ public class SatelliteListActivity extends AppCompatActivity implements Satellit
         mRecyclerView.setHasFixedSize(true);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
         Intent intent = getIntent();
-        List<Satellite> satelli = (ArrayList<Satellite>) intent.getSerializableExtra("savedUser");
-        satellieList = satelli;
+        List_Receive = (ArrayList<Satellite>) intent.getSerializableExtra("savedUser");
+        satellieList = List_Receive;
 
         SatelliteAdapter adapter = new SatelliteAdapter(this, satellieList);
         mRecyclerView.setAdapter(adapter);
