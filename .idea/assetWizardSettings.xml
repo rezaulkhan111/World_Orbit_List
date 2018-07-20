@@ -19,15 +19,14 @@
                                   <option name="values">
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
-                                      <entry key="backgroundColor" value="fcfff2" />
-                                      <entry key="backgroundLayerName" value="ic_echostar_11_14_to17_19_23_24_background" />
-                                      <entry key="foregroundImage" value="L:\Satellite photo\echostar_11_14_to17_19_23_24.jpg" />
-                                      <entry key="foregroundLayerName" value="ic_echostar_11_14_to17_19_23_24_foreground" />
+                                      <entry key="backgroundColor" value="fafffb" />
+                                      <entry key="backgroundLayerName" value="ic_mms_1_4_background" />
+                                      <entry key="foregroundImage" value="L:\Satellite photo\mms_1_4.jpg" />
+                                      <entry key="foregroundLayerName" value="ic_mms_1_4_foreground" />
                                       <entry key="generateLegacyIcon" value="false" />
                                       <entry key="generateRoundIcon" value="false" />
                                       <entry key="generateWebIcon" value="false" />
-                                      <entry key="outputName" value="echostar_11_14_to17_19_23_24" />
-                                      <entry key="webIconShape" value="NONE" />
+                                      <entry key="outputName" value="mms_1_4" />
                                     </map>
                                   </option>
                                 </PersistentState>
