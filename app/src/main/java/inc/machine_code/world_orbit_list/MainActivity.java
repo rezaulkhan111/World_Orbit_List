@@ -110,6 +110,7 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         countryList.add(new Country(11, "CHILE", "3", R.mipmap.ic_chile_foreground));
         countryList.add(new Country(12, "CHINA", "296", R.mipmap.ic_china_foreground));
         countryList.add(new Country(13, "CZECH", "3", R.mipmap.ic_czechia_foreground));
+        countryList.add(new Country(84,"FORMER CZECHOSLOVAKIA","2",R.mipmap.ic_czechia_foreground));
         countryList.add(new Country(14, "DENMARK", "9", R.mipmap.ic_denmark_foreground));
         countryList.add(new Country(15, "ECUADOR", "2", R.mipmap.ic_ecuador_foreground));
         countryList.add(new Country(16, "EGYPT", "5", R.mipmap.ic_egypt_foreground));
@@ -158,6 +159,27 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         countryList.add(new Country(59, "URUGUAY", "1", R.mipmap.ic_uruguay_foreground));
         countryList.add(new Country(60, "VENEZUELA", "3", R.mipmap.ic_venezuela_foreground));
         countryList.add(new Country(61, "VIETNAM", "3", R.mipmap.ic_vietnam_foreground));
+        countryList.add(new Country(63,"NATO","",R.mipmap.ic_nato_foreground));
+        countryList.add(new Country(64,"CHINA/BRAZIL","3",R.mipmap.ic_china_brazil_foreground));
+        countryList.add(new Country(65,"FRANCE/GERMANY","",R.mipmap.ic_france_germany_foreground));
+        countryList.add(new Country(66,"FRANCE/ITALY","",R.mipmap.ic_franc_italian_foreground));
+        countryList.add(new Country(68,"SINGAPORE/TAIWAN","",R.mipmap.ic_singapore_taiwan_foreground));
+        countryList.add(new Country(69,"TURKMENISTAN/MONACO","",R.mipmap.ic_turkmenistan_monaco_foreground));
+        countryList.add(new Country(70,"UNITED STATES/BRAZIL","",R.mipmap.ic_usa_brazil_foreground));
+        countryList.add(new Country(71,"ARABSCO","",R.mipmap.ic_arabsat_foreground));
+        countryList.add(new Country(72,"ASIASAT","",R.mipmap.ic_asiasat_foreground));
+        countryList.add(new Country(73,"EUMETSAT","",R.mipmap.ic_eumetsat_foreground));
+        countryList.add(new Country(74,"ESA","",R.mipmap.ic_esa_foreground));
+        countryList.add(new Country(75,"EUTELSAT","",R.mipmap.ic_eumetsat_foreground));
+        countryList.add(new Country(76,"GLOBALSTAR","",R.mipmap.ic_globalstar_foreground));
+        countryList.add(new Country(77,"INMARSAT","",R.mipmap.ic_inmarsat_foreground));
+        countryList.add(new Country(78,"ITSO","",R.mipmap.ic_itso_foreground));
+        countryList.add(new Country(79,"O3B Network","",R.mipmap.ic_o_3_b_network_foreground));
+        countryList.add(new Country(80,"ORBCOMM","",R.mipmap.ic_orbcomm_foreground));
+        countryList.add(new Country(81,"RASCOOM","",R.mipmap.ic_rascom_foreground));
+        countryList.add(new Country(82,"SEA","",R.mipmap.ic_sea_launch_foreground));
+        countryList.add(new Country(83,"SES","",R.mipmap.ic_ses_foreground));
+        countryList.add(new Country(67,"NEW ICO","",R.mipmap.ic_new_ico_foreground));
 
     }
 
