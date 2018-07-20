@@ -20,13 +20,13 @@
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
                                       <entry key="backgroundColor" value="fafffb" />
-                                      <entry key="backgroundLayerName" value="ic_mms_1_4_background" />
-                                      <entry key="foregroundImage" value="L:\Satellite photo\mms_1_4.jpg" />
-                                      <entry key="foregroundLayerName" value="ic_mms_1_4_foreground" />
+                                      <entry key="backgroundLayerName" value="ic_smdc_one_2_3_4_background" />
+                                      <entry key="foregroundImage" value="L:\Satellite photo\smdc_one_2_3_4.jpg" />
+                                      <entry key="foregroundLayerName" value="ic_smdc_one_2_3_4_foreground" />
                                       <entry key="generateLegacyIcon" value="false" />
                                       <entry key="generateRoundIcon" value="false" />
                                       <entry key="generateWebIcon" value="false" />
-                                      <entry key="outputName" value="mms_1_4" />
+                                      <entry key="outputName" value="smdc_one_2_3_4" />
                                     </map>
                                   </option>
                                 </PersistentState>
