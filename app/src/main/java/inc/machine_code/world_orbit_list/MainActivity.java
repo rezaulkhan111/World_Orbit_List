@@ -185,12 +185,12 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
 
     public List<Satellite> ALGERIA_Satellite_List() {
         ALGERIA_Sat_Obj = new ArrayList<>();
-        ALGERIA_Sat_Obj.add(new Satellite(43039, "ALCOMSAT-1", "Communication", "Dec-10-2017", R.mipmap.ic_algeria_foreground));
-        ALGERIA_Sat_Obj.add(new Satellite(41789, "ALSAT 1N", "Technology", "Sep-26-2016", R.mipmap.ic_algeria_foreground));
-        ALGERIA_Sat_Obj.add(new Satellite(41786, "ALSAT 2B", "Earth Observation", "Sep-26-2016", R.mipmap.ic_algeria_foreground));
-        ALGERIA_Sat_Obj.add(new Satellite(41785, "ALSAT 1B", "Earth Observation", "Sep-26-2016", R.mipmap.ic_algeria_foreground));
-        ALGERIA_Sat_Obj.add(new Satellite(36798, "ALSAT 2A", "army", "July-12-2010", R.mipmap.ic_algeria_foreground));
-        ALGERIA_Sat_Obj.add(new Satellite(27559, "ALSAT 1", "Earth Observation", "Nov-28-2002", R.mipmap.ic_algeria_foreground));
+        ALGERIA_Sat_Obj.add(new Satellite(43039, "ALCOMSAT-1", "Communication", "Dec-10-2017", R.mipmap.ic_alcomsat_1_foreground));
+        ALGERIA_Sat_Obj.add(new Satellite(41789, "ALSAT 1N", "Technology", "Sep-26-2016", R.mipmap.ic_alsat_1n_foreground));
+        ALGERIA_Sat_Obj.add(new Satellite(41786, "ALSAT 2B", "Earth Observation", "Sep-26-2016", R.mipmap.ic_alsat_2_a_b_foreground));
+        ALGERIA_Sat_Obj.add(new Satellite(41785, "ALSAT 1B", "Earth Observation", "Sep-26-2016", R.mipmap.ic_alsat_1b_foreground));
+        ALGERIA_Sat_Obj.add(new Satellite(36798, "ALSAT 2A", "Earth Observation", "July-12-2010", R.mipmap.ic_alsat_2_a_b_foreground));
+        ALGERIA_Sat_Obj.add(new Satellite(27559, "ALSAT 1", "Earth Observation", "Nov-28-2002", R.mipmap.ic_alsat_1_foreground));
         return ALGERIA_Sat_Obj;
     }
 

@@ -34,16 +34,14 @@
                                   <option name="values">
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
-                                      <entry key="backgroundColor" value="fafffb" />
-                                      <entry key="backgroundLayerName" value="ic_angels_usa_255_background" />
-                                      <entry key="foregroundImage" value="E:\Rezaul Khan(Internship)\ppppp\angels_usa_255.jpg" />
-                                      <entry key="foregroundLayerName" value="ic_angels_usa_255_foreground" />
+                                      <entry key="backgroundColor" value="f9f5f9" />
+                                      <entry key="backgroundLayerName" value="ic_alsat_1_background" />
+                                      <entry key="foregroundImage" value="E:\Rezaul Khan(Internship)\ppppp\alsat_1.jpg" />
+                                      <entry key="foregroundLayerName" value="ic_alsat_1_foreground" />
                                       <entry key="generateLegacyIcon" value="false" />
                                       <entry key="generateRoundIcon" value="false" />
                                       <entry key="generateWebIcon" value="false" />
-                                      <entry key="legacyIconShape" value="NONE" />
-                                      <entry key="outputName" value="angels_usa_255" />
-                                      <entry key="webIconShape" value="NONE" />
+                                      <entry key="outputName" value="alsat_1" />
                                     </map>
                                   </option>
                                 </PersistentState>
