@@ -35,14 +35,15 @@
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
                                       <entry key="backgroundColor" value="fafffb" />
-                                      <entry key="backgroundLayerName" value="ic_new_ico_background" />
-                                      <entry key="foregroundAssetType" value="TEXT" />
-                                      <entry key="foregroundImage" value="L:\o_3_b_network.jpg" />
-                                      <entry key="foregroundLayerName" value="ic_new_ico_foreground" />
+                                      <entry key="backgroundLayerName" value="ic_angels_usa_255_background" />
+                                      <entry key="foregroundImage" value="E:\Rezaul Khan(Internship)\ppppp\angels_usa_255.jpg" />
+                                      <entry key="foregroundLayerName" value="ic_angels_usa_255_foreground" />
                                       <entry key="generateLegacyIcon" value="false" />
                                       <entry key="generateRoundIcon" value="false" />
                                       <entry key="generateWebIcon" value="false" />
-                                      <entry key="outputName" value="new_ico" />
+                                      <entry key="legacyIconShape" value="NONE" />
+                                      <entry key="outputName" value="angels_usa_255" />
+                                      <entry key="webIconShape" value="NONE" />
                                     </map>
                                   </option>
                                 </PersistentState>

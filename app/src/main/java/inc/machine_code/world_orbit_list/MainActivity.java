@@ -2063,9 +2063,9 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         USA_Sat_Obj.add(new Satellite(40208, "USA 257(CLIO)", "", "Sep-17-2014", R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(40115, "WORLDVIEW 3(WV-3)", "Earth Observing", "Aug-13-2014", R.mipmap.ic_worldview_2_3_2009_14_foreground));
         USA_Sat_Obj.add(new Satellite(40105, "NAVSTAR 71(USA 256)", "Navigation", "Aug-2-2014", R.mipmap.ic_navstar_2f_62_73_2010_to_2016_foreground));
-        USA_Sat_Obj.add(new Satellite(40101, "USA 255", "Space Surveillance", "Jul-28-2014", R.mipmap.ic_usa_2_53_54_70_71_foreground));
-        USA_Sat_Obj.add(new Satellite(40100, "USA 254", "Space Surveillance", "Jul-28-2014", R.mipmap.ic_usa_2_53_54_70_71_foreground));
-        USA_Sat_Obj.add(new Satellite(40099, "USA 253", "Space Surveillance", "Jul-28-2014", R.mipmap.ic_usa_2_53_54_70_71_foreground));
+        USA_Sat_Obj.add(new Satellite(40101, "USA 255", "Space Surveillance", "Jul-28-2014", R.mipmap.ic_angels_usa_255_foreground));
+        USA_Sat_Obj.add(new Satellite(40100, "USA 254", "Space Surveillance", "Jul-28-2014", R.mipmap.ic_gssap1_to_4_usa_253_54_70_71_foreground));
+        USA_Sat_Obj.add(new Satellite(40099, "USA 253", "Space Surveillance", "Jul-28-2014", R.mipmap.ic_gssap1_to_4_usa_253_54_70_71_foreground));
         USA_Sat_Obj.add(new Satellite(40091, "ORBCOMM FM 103", "Comm: Traffic Monitoring", "Jul-14-2014", R.mipmap.ic_orbcomm_fm101_119og2_foreground));
         USA_Sat_Obj.add(new Satellite(40090, "ORBCOMM FM 104", "Comm: Traffic Monitoring", "Jul-14-2014", R.mipmap.ic_orbcomm_fm101_119og2_foreground));
         USA_Sat_Obj.add(new Satellite(40089, "ORBCOMM FM 111", "Comm: Traffic Monitoring", "Jul-14-2014", R.mipmap.ic_orbcomm_fm101_119og2_foreground));
