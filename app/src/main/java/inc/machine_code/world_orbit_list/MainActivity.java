@@ -79,7 +79,29 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
             USA_Sat_Obj,
             URUGUAY_Sat_Obj,
             VENEZUELA_Sat_Obj,
-            VIETNAM_Sat_Obj;
+            VIETNAM_Sat_Obj,
+            FORMER_CZECHOSLOVAKIA_Sat_Obj,
+            CHINA_BRAZIL_Sat_Obj,
+            ARAB_SAT_COMM_ORG_Sat_Obj,
+            ASIASAT_Sat_Obj,
+            EUMETSAT_Sat_Obj,
+            FRANCE_GERMANY_Sat_Obj,
+            FRANCE_ITALY_Sat_Obj,
+            GLOBALSTAR_Sat_Obj,
+            INMARSAT_Sat_Obj,
+            ITSO_Sat_Obj,
+            NEW_ICO_Sat_Obj,
+            EUTELSAT_Sat_Obj,
+            NORTH_ATLANTIC_TREATY_ORGANIZATION_Sat_Obj,
+            O3B_NETWORKS_Sat_Obj,
+            ORBCOMM_Sat_Obj,
+            RASCO_Sat_Obj,
+            EUROPEAN_SPACE_AGENCY_Sat_Obj,
+            SEA_LAUNCH_Sat_Obj,
+            SINGAPORE_TAIWAN_Sat_Obj,
+            SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj,
+            TURKMENISTAN_MONACO,
+            UNITED_STATES_BRAZIL_Sat_Obj;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -110,7 +132,7 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         countryList.add(new Country(11, "CHILE", "3", R.mipmap.ic_chile_foreground));
         countryList.add(new Country(12, "CHINA", "296", R.mipmap.ic_china_foreground));
         countryList.add(new Country(13, "CZECH", "3", R.mipmap.ic_czechia_foreground));
-        countryList.add(new Country(84,"FORMER CZECHOSLOVAKIA","2",R.mipmap.ic_czechia_foreground));
+        countryList.add(new Country(84, "FORMER CZECHOSLOVAKIA", "2", R.mipmap.ic_czechia_foreground));
         countryList.add(new Country(14, "DENMARK", "9", R.mipmap.ic_denmark_foreground));
         countryList.add(new Country(15, "ECUADOR", "2", R.mipmap.ic_ecuador_foreground));
         countryList.add(new Country(16, "EGYPT", "5", R.mipmap.ic_egypt_foreground));
@@ -159,27 +181,27 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         countryList.add(new Country(59, "URUGUAY", "1", R.mipmap.ic_uruguay_foreground));
         countryList.add(new Country(60, "VENEZUELA", "3", R.mipmap.ic_venezuela_foreground));
         countryList.add(new Country(61, "VIETNAM", "3", R.mipmap.ic_vietnam_foreground));
-        countryList.add(new Country(63,"NATO","",R.mipmap.ic_nato_foreground));
-        countryList.add(new Country(64,"CHINA/BRAZIL","3",R.mipmap.ic_china_brazil_foreground));
-        countryList.add(new Country(65,"FRANCE/GERMANY","",R.mipmap.ic_france_germany_foreground));
-        countryList.add(new Country(66,"FRANCE/ITALY","",R.mipmap.ic_franc_italian_foreground));
-        countryList.add(new Country(68,"SINGAPORE/TAIWAN","",R.mipmap.ic_singapore_taiwan_foreground));
-        countryList.add(new Country(69,"TURKMENISTAN/MONACO","",R.mipmap.ic_turkmenistan_monaco_foreground));
-        countryList.add(new Country(70,"UNITED STATES/BRAZIL","",R.mipmap.ic_usa_brazil_foreground));
-        countryList.add(new Country(71,"ARABSCO","",R.mipmap.ic_arabsat_foreground));
-        countryList.add(new Country(72,"ASIASAT","",R.mipmap.ic_asiasat_foreground));
-        countryList.add(new Country(73,"EUMETSAT","",R.mipmap.ic_eumetsat_foreground));
-        countryList.add(new Country(74,"ESA","",R.mipmap.ic_esa_foreground));
-        countryList.add(new Country(75,"EUTELSAT","",R.mipmap.ic_eumetsat_foreground));
-        countryList.add(new Country(76,"GLOBALSTAR","",R.mipmap.ic_globalstar_foreground));
-        countryList.add(new Country(77,"INMARSAT","",R.mipmap.ic_inmarsat_foreground));
-        countryList.add(new Country(78,"ITSO","",R.mipmap.ic_itso_foreground));
-        countryList.add(new Country(79,"O3B Network","",R.mipmap.ic_o_3_b_network_foreground));
-        countryList.add(new Country(80,"ORBCOMM","",R.mipmap.ic_orbcomm_foreground));
-        countryList.add(new Country(81,"RASCOOM","",R.mipmap.ic_rascom_foreground));
-        countryList.add(new Country(82,"SEA","",R.mipmap.ic_sea_launch_foreground));
-        countryList.add(new Country(83,"SES","",R.mipmap.ic_ses_foreground));
-        countryList.add(new Country(67,"NEW ICO","",R.mipmap.ic_new_ico_foreground));
+        countryList.add(new Country(63, "NATO", "", R.mipmap.ic_nato_foreground));
+        countryList.add(new Country(64, "CHINA/BRAZIL", "3", R.mipmap.ic_china_brazil_foreground));
+        countryList.add(new Country(65, "FRANCE/GERMANY", "", R.mipmap.ic_france_germany_foreground));
+        countryList.add(new Country(66, "FRANCE/ITALY", "", R.mipmap.ic_franc_italian_foreground));
+        countryList.add(new Country(68, "SINGAPORE/TAIWAN", "", R.mipmap.ic_singapore_taiwan_foreground));
+        countryList.add(new Country(69, "TURKMENISTAN/MONACO", "", R.mipmap.ic_turkmenistan_monaco_foreground));
+        countryList.add(new Country(70, "UNITED STATES/BRAZIL", "", R.mipmap.ic_usa_brazil_foreground));
+        countryList.add(new Country(71, "ARABSCO", "", R.mipmap.ic_arabsat_foreground));
+        countryList.add(new Country(72, "ASIASAT", "", R.mipmap.ic_asiasat_foreground));
+        countryList.add(new Country(73, "EUMETSAT", "", R.mipmap.ic_eumetsat_foreground));
+        countryList.add(new Country(74, "ESA", "", R.mipmap.ic_esa_foreground));
+        countryList.add(new Country(75, "EUTELSAT", "", R.mipmap.ic_eumetsat_foreground));
+        countryList.add(new Country(76, "GLOBALSTAR", "", R.mipmap.ic_globalstar_foreground));
+        countryList.add(new Country(77, "INMARSAT", "", R.mipmap.ic_inmarsat_foreground));
+        countryList.add(new Country(78, "ITSO", "", R.mipmap.ic_itso_foreground));
+        countryList.add(new Country(79, "O3B NETWORK", "", R.mipmap.ic_o_3_b_network_foreground));
+        countryList.add(new Country(80, "ORBCOMM", "", R.mipmap.ic_orbcomm_foreground));
+        countryList.add(new Country(81, "RASCOOM", "", R.mipmap.ic_rascom_foreground));
+        countryList.add(new Country(82, "SEA LAUNCH", "", R.mipmap.ic_sea_launch_foreground));
+        countryList.add(new Country(83, "SES", "", R.mipmap.ic_ses_foreground));
+        countryList.add(new Country(67, "NEW ICO", "", R.mipmap.ic_new_ico_foreground));
 
     }
 
@@ -196,25 +218,25 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
 
     public List<Satellite> ARGENTINA_Satellite_List() {
         ARGENTINA_Sat_Obj = new ArrayList<>();
-        ARGENTINA_Sat_Obj.add(new Satellite(43204, "NUSAT 5", "", "Feb-02-18", R.mipmap.ic_argentina_foreground));
-        ARGENTINA_Sat_Obj.add(new Satellite(43195, "NUSAT 4", "", "Feb-02-18", R.mipmap.ic_argentina_foreground));
-        ARGENTINA_Sat_Obj.add(new Satellite(42760, "NUSAT 3", "", "Jun-15-2017", R.mipmap.ic_argentina_foreground));
-        ARGENTINA_Sat_Obj.add(new Satellite(41558, "NUSAT 2(BATATA)", "", "May-30-2016", R.mipmap.ic_argentina_foreground));
-        ARGENTINA_Sat_Obj.add(new Satellite(41557, "NUSAT 1(FRESCO)", "", "May-30-2016", R.mipmap.ic_argentina_foreground));
-        ARGENTINA_Sat_Obj.add(new Satellite(40941, "ARSAT 2", "", "Sep-30-2015", R.mipmap.ic_argentina_foreground));
-        ARGENTINA_Sat_Obj.add(new Satellite(40272, "ARSAT 1", "", "Oct-16-2014", R.mipmap.ic_argentina_foreground));
-        ARGENTINA_Sat_Obj.add(new Satellite(40014, "BUGSAT 1", "", "Jun-19-2014", R.mipmap.ic_argentina_foreground));
-        ARGENTINA_Sat_Obj.add(new Satellite(39440, "CUBEBUG 2", "", "Nov-21-2013", R.mipmap.ic_argentina_foreground));
-        ARGENTINA_Sat_Obj.add(new Satellite(39153, "CUBEBUG 1", "", "Apr-26-2013", R.mipmap.ic_argentina_foreground));
-        ARGENTINA_Sat_Obj.add(new Satellite(37673, "SAC-D (AQUARIUS)", "", "Jun-10-2011", R.mipmap.ic_argentina_foreground));
-        ARGENTINA_Sat_Obj.add(new Satellite(29712, "PEHUENSAT 1", "", "Jan-10-2007", R.mipmap.ic_argentina_foreground));
-        ARGENTINA_Sat_Obj.add(new Satellite(27612, "LATINSAT A", "", "Dec-20-2002", R.mipmap.ic_argentina_foreground));
-        ARGENTINA_Sat_Obj.add(new Satellite(27606, "LATINSAT B", "", "Dec-20-2002", R.mipmap.ic_argentina_foreground));
-        ARGENTINA_Sat_Obj.add(new Satellite(26620, "SAC C", "", "Nov-21-2000", R.mipmap.ic_argentina_foreground));
-        ARGENTINA_Sat_Obj.add(new Satellite(24714, "NAHUEL 1A", "", "Jan-30-1997", R.mipmap.ic_argentina_foreground));
-        ARGENTINA_Sat_Obj.add(new Satellite(20442, "OSCAR 19 (LUSAT)", "", "Jan-22-1990", R.mipmap.ic_argentina_foreground));
-        ARGENTINA_Sat_Obj.add(new Satellite(15642, "NAHUEL I1 (ANIK C1)", "", "Apr-12-1985", R.mipmap.ic_argentina_foreground));
-        ARGENTINA_Sat_Obj.add(new Satellite(14133, "NAHUEL I2 (ANIK C2)", "", "Jun-18-1983", R.mipmap.ic_argentina_foreground));
+        ARGENTINA_Sat_Obj.add(new Satellite(43204, "NUSAT 5", "Earth Observation", "Feb-02-18", R.mipmap.ic_nusat_1_5_or_8_2016_18_foreground));
+        ARGENTINA_Sat_Obj.add(new Satellite(43195, "NUSAT 4", "Earth Observation", "Feb-02-18", R.mipmap.ic_nusat_1_5_or_8_2016_18_foreground));
+        ARGENTINA_Sat_Obj.add(new Satellite(42760, "NUSAT 3", "Earth Observation", "Jun-15-2017", R.mipmap.ic_nusat_1_5_or_8_2016_18_foreground));
+        ARGENTINA_Sat_Obj.add(new Satellite(41558, "NUSAT 2(BATATA)", "Earth Observation", "May-30-2016", R.mipmap.ic_nusat_1_5_or_8_2016_18_foreground));
+        ARGENTINA_Sat_Obj.add(new Satellite(41557, "NUSAT 1(FRESCO)", "Earth Observation", "May-30-2016", R.mipmap.ic_nusat_1_5_or_8_2016_18_foreground));
+        ARGENTINA_Sat_Obj.add(new Satellite(40941, "ARSAT 2", "Communication", "Sep-30-2015", R.mipmap.ic_arsat_2_foreground));
+        ARGENTINA_Sat_Obj.add(new Satellite(40272, "ARSAT 1", "Communication", "Oct-16-2014", R.mipmap.ic_arsat_1_foreground));
+        ARGENTINA_Sat_Obj.add(new Satellite(40014, "BUGSAT 1", "Technology,EO", "Jun-19-2014", R.mipmap.ic_bugsat_1_foreground));
+        ARGENTINA_Sat_Obj.add(new Satellite(39440, "CUBEBUG 2", "Technology", "Nov-21-2013", R.mipmap.ic_cubebug_1_2_foreground));
+        ARGENTINA_Sat_Obj.add(new Satellite(39153, "CUBEBUG 1", "Technology", "Apr-26-2013", R.mipmap.ic_cubebug_1_2_foreground));
+        ARGENTINA_Sat_Obj.add(new Satellite(37673, "SAC-D (AQUARIUS)", "ES(Ocean salinity)", "Jun-10-2011", R.mipmap.ic_sac_d_aquarius_foreground));
+        ARGENTINA_Sat_Obj.add(new Satellite(29712, "PEHUENSAT 1", "Technology", "Jan-10-2007", R.mipmap.ic_pehuensat_1_foreground));
+        ARGENTINA_Sat_Obj.add(new Satellite(27612, "LATINSAT A", "Comm:,Traffic Monitoring", "Dec-20-2002", R.mipmap.ic_aprizesat_3_10_foreground));
+        ARGENTINA_Sat_Obj.add(new Satellite(27606, "LATINSAT B", "Comm:,Traffic Monitoring", "Dec-20-2002", R.mipmap.ic_aprizesat_3_10_foreground));
+        ARGENTINA_Sat_Obj.add(new Satellite(26620, "SAC C", "Scientific", "Nov-21-2000", R.mipmap.ic_sac_c_foreground));
+        ARGENTINA_Sat_Obj.add(new Satellite(24714, "NAHUEL 1A", "Communication", "Jan-30-1997", R.mipmap.ic_nahuel_1a_foreground));
+        ARGENTINA_Sat_Obj.add(new Satellite(20442, "OSCAR 19 (LUSAT)", "Amateur Radio Comm:", "Jan-22-1990", R.mipmap.ic_lusat_oscar_19_foreground));
+        ARGENTINA_Sat_Obj.add(new Satellite(15642, "NAHUEL I1 (ANIK C1)", "Communication", "Apr-12-1985", R.mipmap.ic_nahul_i1_2_or_anik_c1_2_foreground));
+        ARGENTINA_Sat_Obj.add(new Satellite(14133, "NAHUEL I2 (ANIK C2)", "Communication", "Jun-18-1983", R.mipmap.ic_nahul_i1_2_or_anik_c1_2_foreground));
 
         return ARGENTINA_Sat_Obj;
     }
@@ -1993,7 +2015,7 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         USA_Sat_Obj.add(new Satellite(41611, "FLOCK 2P 4", "Earth Imagery", "Jun-22-2016", R.mipmap.ic_flock_1_1b_1c_1d_1d_1e_1f_2_2b_2c_2d_2e_2e_2k_2p_3m_3p_3p_foreground));
         USA_Sat_Obj.add(new Satellite(41610, "FLOCK 2P 9", "Earth Imagery", "Jun-22-2016", R.mipmap.ic_flock_1_1b_1c_1d_1d_1e_1f_2_2b_2c_2d_2e_2e_2k_2p_3m_3p_3p_foreground));
         USA_Sat_Obj.add(new Satellite(41609, "FLOCK 2P 2", "Earth Imagery", "Jun-22-2016", R.mipmap.ic_flock_1_1b_1c_1d_1d_1e_1f_2_2b_2c_2d_2e_2e_2k_2p_3m_3p_3p_foreground));
-        USA_Sat_Obj.add(new Satellite(41608, "FLOCK 2P 11","Earth Imagery", "Jun-22-2016", R.mipmap.ic_flock_1_1b_1c_1d_1d_1e_1f_2_2b_2c_2d_2e_2e_2k_2p_3m_3p_3p_foreground));
+        USA_Sat_Obj.add(new Satellite(41608, "FLOCK 2P 11", "Earth Imagery", "Jun-22-2016", R.mipmap.ic_flock_1_1b_1c_1d_1d_1e_1f_2_2b_2c_2d_2e_2e_2k_2p_3m_3p_3p_foreground));
         USA_Sat_Obj.add(new Satellite(41601, "SKYSAT C1", "", "Jun-22-2016", R.mipmap.ic_skysat_c1_to_2_foreground));
         USA_Sat_Obj.add(new Satellite(41592, "ECHOSTAR XVIII", "", "Jun-18-2016", R.mipmap.ic_echostar_1_to_10_12_16_18_foreground));
         USA_Sat_Obj.add(new Satellite(41584, "USA 268", "SIGINT,ELINT,COMINT", "Jun-11-2016", R.mipmap.ic_orion_5_to_9_2003_9_10_12_16_foreground));
@@ -3267,6 +3289,96 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         return VIETNAM_Sat_Obj;
     }
 
+    public List<Satellite> FORMER_CZECHOSLOVAKIA_List() {
+        return FORMER_CZECHOSLOVAKIA_Sat_Obj;
+    }
+
+    public List<Satellite> CHINA_BRAZIL_List() {
+
+        return CHINA_BRAZIL_Sat_Obj;
+    }
+
+    public List<Satellite> FRANCE_GERMANY_List() {
+
+        return FRANCE_GERMANY_Sat_Obj;
+    }
+
+    public List<Satellite> FRANCE_ITALY_List() {
+        return FRANCE_ITALY_Sat_Obj;
+    }
+
+    public List<Satellite> SINGAPORE_TAIWAN_List() {
+        return SINGAPORE_TAIWAN_Sat_Obj;
+    }
+
+    public List<Satellite> TURKMENISTAN_MONACO_List() {
+        return TURKMENISTAN_MONACO;
+    }
+
+    public List<Satellite> UNITED_STATES_BRAZIL_List() {
+        return UNITED_STATES_BRAZIL_Sat_Obj;
+    }
+
+    public List<Satellite> ARAB_SATELLITE_COMMUNICATIONS_ORGANIZATION_List() {
+        return ARAB_SAT_COMM_ORG_Sat_Obj;
+    }
+
+    public List<Satellite> ASIA_SATELLITE_TELECOMMUNICATIONS_COMPANY_ASIASAT_List() {
+        return ASIASAT_Sat_Obj;
+    }
+
+    public List<Satellite> EUROPEAN_ORGANISATION_FOR_THE_EXPLOITATION_List() {
+        return EUMETSAT_Sat_Obj;
+    }
+
+    public List<Satellite> EUROPEAN_SPACE_AGENCY_List() {
+        return EUROPEAN_SPACE_AGENCY_Sat_Obj;
+    }
+
+    public List<Satellite> EUROPEAN_TELECOMMUNICATIONS_SATELLITE_ORGANIZATION_List() {
+        return EUTELSAT_Sat_Obj;
+    }
+
+    public List<Satellite> INTERNATIONAL_MOBILE_SATELLITE_ORGANIZATION_List() {
+        return INMARSAT_Sat_Obj;
+    }
+
+    public List<Satellite> INTERNATIONAL_TELECOMMUNICATIONS_SATELLITE_ORGANIZATION_List() {
+        return ITSO_Sat_Obj;
+    }
+
+    public List<Satellite> NEW_ICO_List() {
+        return NEW_ICO_Sat_Obj;
+    }
+
+    public List<Satellite> GLOBALSTAR_List() {
+        return GLOBALSTAR_Sat_Obj;
+    }
+
+    public List<Satellite> NORTH_ATLANTIC_TREATY_ORGANIZATION_List() {
+        return NORTH_ATLANTIC_TREATY_ORGANIZATION_Sat_Obj;
+    }
+
+    public List<Satellite> O3B_NETWORKS_List() {
+        return O3B_NETWORKS_Sat_Obj;
+    }
+
+    public List<Satellite> ORBCOMM_List() {
+        return ORBCOMM_Sat_Obj;
+    }
+
+    public List<Satellite> REGIONAL_AFRICAN_SATELLITE_COMMUNICATIONS_ORGANIZATION_List() {
+        return RASCO_Sat_Obj;
+    }
+
+    public List<Satellite> SEA_LAUNCH_List() {
+        return SEA_LAUNCH_Sat_Obj;
+    }
+
+    public List<Satellite> SOCIETE_EUROPEENNE_DES_SATELLITES_List() {
+        return SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj;
+    }
+
     public void inClickEvent(Country country) {
 
         Intent intent = new Intent(getApplicationContext(), SatelliteListActivity.class);
@@ -3520,6 +3632,87 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
                 intent.putExtra("savedUser", (Serializable) BANGLADESH_Satellite_List());
                 startActivity(intent);
                 break;
+            case "FORMER CZECHOSLOVAKIA":
+                intent.putExtra("savedUser", (Serializable) BANGLADESH_Satellite_List());
+                startActivity(intent);
+                break;
+            case "CHINA/BRAZIL":
+                intent.putExtra("savedUser", (Serializable) BANGLADESH_Satellite_List());
+                startActivity(intent);
+                break;
+            case "FRANCE/GERMANY":
+                intent.putExtra("savedUser", (Serializable) BANGLADESH_Satellite_List());
+                startActivity(intent);
+                break;
+            case "FRANCE/ITALY":
+                intent.putExtra("savedUser", (Serializable) BANGLADESH_Satellite_List());
+                startActivity(intent);
+                break;
+            case "SINGAPORE/TAIWAN":
+                intent.putExtra("savedUser", (Serializable) BANGLADESH_Satellite_List());
+                startActivity(intent);
+                break;
+            case "TURKMENISTAN/MONACO":
+                intent.putExtra("savedUser", (Serializable) BANGLADESH_Satellite_List());
+                startActivity(intent);
+                break;
+            case "UNITED STATES/BRAZIL":
+                intent.putExtra("savedUser", (Serializable) BANGLADESH_Satellite_List());
+                startActivity(intent);
+                break;
+            case "NATO":
+                intent.putExtra("savedUser", (Serializable) BANGLADESH_Satellite_List());
+                startActivity(intent);
+                break;
+            case "ARABSCO":
+                intent.putExtra("savedUser", (Serializable) BANGLADESH_Satellite_List());
+                startActivity(intent);
+                break;
+            case "ASIASAT":
+                intent.putExtra("savedUser", (Serializable) BANGLADESH_Satellite_List());
+                startActivity(intent);
+                break;
+            case "EUMETSAT":
+                intent.putExtra("savedUser", (Serializable) BANGLADESH_Satellite_List());
+                startActivity(intent);
+                break;
+            case "GLOBALSTAR":
+                intent.putExtra("savedUser", (Serializable) BANGLADESH_Satellite_List());
+                startActivity(intent);
+                break;
+            case "INMARSAT":
+                intent.putExtra("savedUser", (Serializable) BANGLADESH_Satellite_List());
+                startActivity(intent);
+                break;
+            case "ITSO":
+                intent.putExtra("savedUser", (Serializable) BANGLADESH_Satellite_List());
+                startActivity(intent);
+                break;
+            case "O3B NETWORK":
+                intent.putExtra("savedUser", (Serializable) BANGLADESH_Satellite_List());
+                startActivity(intent);
+                break;
+            case "ORBCOMM":
+                intent.putExtra("savedUser", (Serializable) BANGLADESH_Satellite_List());
+                startActivity(intent);
+                break;
+            case "RASCOOM":
+                intent.putExtra("savedUser", (Serializable) BANGLADESH_Satellite_List());
+                startActivity(intent);
+                break;
+            case "SEA LAUNCH":
+                intent.putExtra("savedUser", (Serializable) BANGLADESH_Satellite_List());
+                startActivity(intent);
+                break;
+            case "SES":
+                intent.putExtra("savedUser", (Serializable) BANGLADESH_Satellite_List());
+                startActivity(intent);
+                break;
+            case "NEW ICO":
+                intent.putExtra("savedUser", (Serializable) BANGLADESH_Satellite_List());
+                startActivity(intent);
+                break;
+
         }
     }
 }
