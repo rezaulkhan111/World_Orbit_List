@@ -35,13 +35,13 @@
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
                                       <entry key="backgroundColor" value="f9f5f9" />
-                                      <entry key="backgroundLayerName" value="ic_lusat_oscar_19_background" />
-                                      <entry key="foregroundImage" value="E:\Rezaul Khan(Internship)\ppppp\lusat_oscar_19.jpg" />
-                                      <entry key="foregroundLayerName" value="ic_lusat_oscar_19_foreground" />
+                                      <entry key="backgroundLayerName" value="ic_nato_2a_b_background" />
+                                      <entry key="foregroundImage" value="E:\Rezaul Khan(Internship)\ppppp\nato_2a_b.jpg" />
+                                      <entry key="foregroundLayerName" value="ic_nato_2a_b_foreground" />
                                       <entry key="generateLegacyIcon" value="false" />
                                       <entry key="generateRoundIcon" value="false" />
                                       <entry key="generateWebIcon" value="false" />
-                                      <entry key="outputName" value="lusat_oscar_19" />
+                                      <entry key="outputName" value="nato_2a_b" />
                                     </map>
                                   </option>
                                 </PersistentState>

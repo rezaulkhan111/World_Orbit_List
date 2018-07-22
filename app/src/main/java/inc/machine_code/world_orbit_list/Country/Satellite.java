@@ -13,11 +13,10 @@ public class Satellite extends LauncherActivity.ListItem implements Serializable
     private int image;
 
     public Satellite(int SatCat_No, String name, String satellite_Type, String date, int image) {
-        SatCat_No = SatCat_No;
-        Name = name;
-
-        Satellite_Type = satellite_Type;
-        Date = date;
+        this.SatCat_No = SatCat_No;
+        this.Name = name;
+        this.Satellite_Type = satellite_Type;
+        this.Date = date;
         this.image = image;
     }
     public Satellite(){}
@@ -26,9 +25,9 @@ public class Satellite extends LauncherActivity.ListItem implements Serializable
         return SatCat_No;
     }
 
-    public void setSatCat_No(int SatCat_No) {
-        SatCat_No = SatCat_No;
-    }
+//    public void setSatCat_No(int SatCat_No) {
+//        this.SatCat_No = SatCat_No;
+//    }
 
     public String getName() {
         return Name;
@@ -42,9 +41,9 @@ public class Satellite extends LauncherActivity.ListItem implements Serializable
         return Satellite_Type;
     }
 
-    public void setSatellite_Type(String satellite_Type) {
-        Satellite_Type = satellite_Type;
-    }
+//    public void setSatellite_Type(String satellite_Type) {
+//        Satellite_Type = satellite_Type;
+//    }
 
     public String getDate() {
         return Date;
