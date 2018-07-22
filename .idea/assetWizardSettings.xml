@@ -18,6 +18,17 @@
                                 <PersistentState>
                                   <option name="children">
                                     <map>
+                                      <entry key="backgroundImage">
+                                        <value>
+                                          <PersistentState>
+                                            <option name="values">
+                                              <map>
+                                                <entry key="scalingPercent" value="0" />
+                                              </map>
+                                            </option>
+                                          </PersistentState>
+                                        </value>
+                                      </entry>
                                       <entry key="foregroundTextAsset">
                                         <value>
                                           <PersistentState>
@@ -35,13 +46,13 @@
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
                                       <entry key="backgroundColor" value="f9f5f9" />
-                                      <entry key="backgroundLayerName" value="ic_nato_2a_b_background" />
-                                      <entry key="foregroundImage" value="E:\Rezaul Khan(Internship)\ppppp\nato_2a_b.jpg" />
-                                      <entry key="foregroundLayerName" value="ic_nato_2a_b_foreground" />
+                                      <entry key="backgroundLayerName" value="ic_globalstar_73_86_88_97_2010_to_2013_background" />
+                                      <entry key="foregroundImage" value="E:\Rezaul Khan(Internship)\ppppp\globalstar_73_86_88_97_2010_to_2013.jpg" />
+                                      <entry key="foregroundLayerName" value="ic_globalstar_73_86_88_97_2010_to_2013_foreground" />
                                       <entry key="generateLegacyIcon" value="false" />
                                       <entry key="generateRoundIcon" value="false" />
                                       <entry key="generateWebIcon" value="false" />
-                                      <entry key="outputName" value="nato_2a_b" />
+                                      <entry key="outputName" value="globalstar_73_86_88_97_2010_to_2013" />
                                     </map>
                                   </option>
                                 </PersistentState>

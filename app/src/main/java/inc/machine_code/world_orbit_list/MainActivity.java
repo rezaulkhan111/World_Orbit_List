@@ -3291,8 +3291,8 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
 
     public List<Satellite> FORMER_CZECHOSLOVAKIA_List() {
         FORMER_CZECHOSLOVAKIA_Sat_Obj = new ArrayList<>();
-        FORMER_CZECHOSLOVAKIA_Sat_Obj.add(new Satellite(21835, "MAGION 3", "", "December 18, 1991", R.mipmap.ic_czechia_foreground));
-        FORMER_CZECHOSLOVAKIA_Sat_Obj.add(new Satellite(20281, "MAGION 2", "", "September 28, 1989", R.mipmap.ic_czechia_foreground));
+        FORMER_CZECHOSLOVAKIA_Sat_Obj.add(new Satellite(21835, "MAGION 3", "", "Dec-18-1991", R.mipmap.ic_czechia_foreground));
+        FORMER_CZECHOSLOVAKIA_Sat_Obj.add(new Satellite(20281, "MAGION 2", "", "Sep-28-1989", R.mipmap.ic_czechia_foreground));
         return FORMER_CZECHOSLOVAKIA_Sat_Obj;
     }
 
@@ -3313,8 +3313,8 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
 
     public List<Satellite> FRANCE_ITALY_List() {
         FRANCE_ITALY_Sat_Obj = new ArrayList<>();
-        FRANCE_ITALY_Sat_Obj.add(new Satellite(10, "", "", "", R.mipmap.ic_franc_italian_foreground));
-        FRANCE_ITALY_Sat_Obj.add(new Satellite(10, "", "", "", R.mipmap.ic_franc_italian_foreground));
+        FRANCE_ITALY_Sat_Obj.add(new Satellite(40614, "SICRAL 2", "", "Apr-26-2015", R.mipmap.ic_franc_italian_foreground));
+        FRANCE_ITALY_Sat_Obj.add(new Satellite(39509, "ATHENA-FIDUS", "", "Feb-6-2014", R.mipmap.ic_franc_italian_foreground));
         return FRANCE_ITALY_Sat_Obj;
     }
 
@@ -3547,7 +3547,92 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
     }
 
     public List<Satellite> INTERNATIONAL_TELECOMMUNICATIONS_SATELLITE_ORGANIZATION_ITSO_List() {
-        ITSO_Sat_Obj.add(new Satellite());
+        ITSO_Sat_Obj=new ArrayList<>();
+        ITSO_Sat_Obj.add(new Satellite(42950,"INTELSAT-37E","","Sep-29-2017",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(41945,"INTELSAT 32E (SKY BRASIL 1)","","Feb-14-2017",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(41581,"INTELSAT 31","","Jun-9-2016",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(41308,"INTELSAT 29E","","Jan-27-2016",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(40874,"INTELSAT 34","","Aug-20-2015",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(40271,"INTELSAT 30 (IS-30)","","Oct-16-2014",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(38867,"INTELSAT 23","","Oct-14-2012",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(38749,"INTELSAT 21","","Aug-19-2012",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(38740,"INTELSAT 20","","Aug-2-2012",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(38356,"INTELSAT 19","","Jun-1-2012",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(38098,"INTELSAT 22","","Mar-25-2012",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(37834,"INTELSAT 18","","Oct-5-2011",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(37392,"INTELSAT NEW DAWN","","Apr-22-2011",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(37238,"INTELSAT 17","","Nov-26-2010",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(36397,"INTELSAT 16","","Feb-12-2010",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(36106,"INTELSAT 15","","Nov-30-2009",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(36097,"INTELSAT 14","","Nov-23-2009",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(33153,"INTELSAT 25(PROTOSTAR 1)","","Jul-7-2008",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(32388,"HORIZONS 2","","Dec-21-2007",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(32253,"INTELSAT 11 (PAS 11)","","Oct-5-2007",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(28884,"GALAXY 15","","Oct-13-2005",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(28702,"GALAXY 28 (IA 8)","","Jun-23-2005",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(28358,"INTELSAT 1002","","Jun-16-2004",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(27683,"INTELSAT 907","","Feb-15-2003",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(27513,"INTELSAT 906","","Sep-6-2002",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(27438,"INTELSAT 905","","Jun-5-2002",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(27403,"INTELSAT 903","","Mar-30-2002",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(27380,"INTELSAT 904","","Feb-23-2002",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(26900,"INTELSAT 902","","Aug-30-2001",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(26824,"INTELSAT 901","","Jun-9-2001",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(25922,"GALAXY 27 (TELSTAR 7)","","Sep-25-1999",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(25371,"INTELSAT 805","","Jun-18-1998",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(25110,"INTELSAT 804","","Dec-21-1997",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(24846,"INTELSAT 802","","Jun-25-1997",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(24742,"INTELSAT 801","","Mar-1-1997",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(24732,"INTELSAT 26 (JCSAT 4)","","Feb-17-1997",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(23915,"INTELSAT 709","","Jun-15-1996",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(23865,"INTELSAT 24 (AMOS 1)","","May-16-1996",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(23816,"INTELSAT 707","","Mar-14-1996",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(23636,"INTELSAT 4 (PAS 4)","","Aug-3-1995",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(23571,"INTELSAT 706","","May-17-1995",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(23528,"INTELSAT 705","","Mar-22-1995",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(23461,"INTELSAT 704","","Jan-10-1995",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(23124,"INTELSAT 702","","Jun-17-1994",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(22871,"INTELSAT 701","","Oct-22-1993",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(21765,"INTELSAT 601","","Oct-29-1991",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(21653,"INTELSAT 605","","Aug-14-1991",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(20667,"INTELSAT 604","","Jun-23-1990",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(20523,"INTELSAT 603","","Mar-14-1990",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(20315,"INTELSAT 602","","Oct-27-1989",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(19772,"INTELSAT 515","","Jan-27-1989",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(16101,"INTELSAT 512","","Sep-28-1985",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(15873,"INTELSAT 511","","Jun-30-1985",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(15629,"INTELSAT 510","","Mar-22-1985",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(14786,"INTELSAT 508","","Mar-5-1984",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(14421,"INTELSAT 507","","Oct-19-1983",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(14077,"INTELSAT 506","","May-19-1983",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(13595,"INTELSAT 505","","Sep-28-1982",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(13083,"INTELSAT 504","","Mar-5-1982",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(12994,"INTELSAT 503","","Dec-15-1981",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(12474,"INTELSAT 501","","May-23-1981",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(12089,"INTELSAT 502","","Dec-6-1980",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(10778,"INTELSAT 4A-F6","","Mar-31-1978",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(10557,"INTELSAT 4A-F3","","Jan-7-1978",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(10024,"INTELSAT 4A-F4","","May-26-1977",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(8620,"INTELSAT 4A-F2","","Jan-29-1976",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(8330,"INTELSAT 4A-F1","","Sep-26-1975",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(7815,"INTELSAT 4-F1","","May-22-1975",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(7544,"INTELSAT 4-F8","","Nov-21-1974",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(6796,"INTELSAT 4-F7","","Aug-23-1973",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(6052,"INTELSAT 4-F5","","Jun-13-1972",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(5775,"INTELSAT 4-F4","","Jan-23-1972",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(5709,"INTELSAT 4-F3","","Dec-20-1971",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(4881,"INTELSAT 4-F2","","Jan-26-1971",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(4478,"INTELSAT 3-F8","","Jul-23-1970",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(4376,"INTELSAT 3-F7","","Apr-23-1970",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(4297,"INTELSAT 3-F6","","Jan-15-1970",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(3947,"INTELSAT 3-F4","","May-22-1969",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(3674,"INTELSAT 3-F3","","Feb-6-1969",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(3623,"INTELSAT 3-F2","","Dec-19-1968",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(2969,"INTELSAT 2-F4","","Sep-28-1967",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(2717,"INTELSAT 2-F3","","Mar-23-1967",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(2639,"INTELSAT 2-F2","","Jan-11-1967",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(2514,"INTELSAT 2-F1","","Oct-26-1966",R.mipmap.ic_itso_foreground));
+        ITSO_Sat_Obj.add(new Satellite(1317,"INTELSAT 1-F1","","Apr-6-1965",R.mipmap.ic_itso_foreground));
         return ITSO_Sat_Obj;
     }
 
@@ -3558,6 +3643,91 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
     }
 
     public List<Satellite> GLOBALSTAR_List() {
+        GLOBALSTAR_Sat_Obj=new ArrayList<>();
+        GLOBALSTAR_Sat_Obj.add(new Satellite(39077,"GLOBALSTAR M095","Communication","Feb-6-2013",R.mipmap.ic_globalstar_73_86_88_97_2010_to_2013_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(39076,"GLOBALSTAR M078","Communication","Feb-6-2013",R.mipmap.ic_globalstar_73_86_88_97_2010_to_2013_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(39075,"GLOBALSTAR M096","Communication","Feb-6-2013",R.mipmap.ic_globalstar_73_86_88_97_2010_to_2013_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(39074,"GLOBALSTAR M094","Communication","Feb-6-2013",R.mipmap.ic_globalstar_73_86_88_97_2010_to_2013_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(39073,"GLOBALSTAR M093","Communication","Feb-6-2013",R.mipmap.ic_globalstar_73_86_88_97_2010_to_2013_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(39072,"GLOBALSTAR M097","Communication","Feb-6-2013",R.mipmap.ic_globalstar_73_86_88_97_2010_to_2013_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(38045,"GLOBALSTAR M086","Communication","Dec-28-2011",R.mipmap.ic_globalstar_73_86_88_97_2010_to_2013_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(38044,"GLOBALSTAR M090","Communication","Dec-28-2011",R.mipmap.ic_globalstar_73_86_88_97_2010_to_2013_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(38043,"GLOBALSTAR M092","Communication","Dec-28-2011",R.mipmap.ic_globalstar_73_86_88_97_2010_to_2013_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(38042,"GLOBALSTAR M082","Communication","Dec-28-2011",R.mipmap.ic_globalstar_73_86_88_97_2010_to_2013_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(38041,"GLOBALSTAR M080","Communication","Dec-28-2011",R.mipmap.ic_globalstar_73_86_88_97_2010_to_2013_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(38040,"GLOBALSTAR M084","Communication","Dec-28-2011",R.mipmap.ic_globalstar_73_86_88_97_2010_to_2013_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(37744,"GLOBALSTAR M089","Communication","Jul-13-2011",R.mipmap.ic_globalstar_73_86_88_97_2010_to_2013_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(37743,"GLOBALSTAR M081","Communication","Jul-13-2011",R.mipmap.ic_globalstar_73_86_88_97_2010_to_2013_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(37742,"GLOBALSTAR M085","Communication","Jul-13-2011",R.mipmap.ic_globalstar_73_86_88_97_2010_to_2013_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(37741,"GLOBALSTAR M091","Communication","Jul-13-2011",R.mipmap.ic_globalstar_73_86_88_97_2010_to_2013_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(37740,"GLOBALSTAR M088","Communication","Jul-13-2011",R.mipmap.ic_globalstar_73_86_88_97_2010_to_2013_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(37739,"GLOBALSTAR M083","Communication","Jul-13-2011",R.mipmap.ic_globalstar_73_86_88_97_2010_to_2013_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(37193,"GLOBALSTAR M073","Communication","Oct-19-2010",R.mipmap.ic_globalstar_73_86_88_97_2010_to_2013_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(37192,"GLOBALSTAR M075","Communication","Oct-19-2010",R.mipmap.ic_globalstar_73_86_88_97_2010_to_2013_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(37191,"GLOBALSTAR M077","Communication","Oct-19-2010",R.mipmap.ic_globalstar_73_86_88_97_2010_to_2013_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(37190,"GLOBALSTAR M076","Communication","Oct-19-2010",R.mipmap.ic_globalstar_73_86_88_97_2010_to_2013_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(37189,"GLOBALSTAR M074","Communication","Oct-19-2010",R.mipmap.ic_globalstar_73_86_88_97_2010_to_2013_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(37188,"GLOBALSTAR M079","Communication","Oct-19-2010",R.mipmap.ic_globalstar_73_86_88_97_2010_to_2013_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(32266,"GLOBALSTAR M068","Communication","Oct-20-2007",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(32265,"GLOBALSTAR M066","Communication","Oct-20-2007",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(32264,"GLOBALSTAR M070","Communication","Oct-20-2007",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(32263,"GLOBALSTAR M067","Communication","Oct-20-2007",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(31576,"GLOBALSTAR M071","Communication","May-29-2007",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(31574,"GLOBALSTAR M072","Communication","May-29-2007",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(31573,"GLOBALSTAR M069","Communication","May-29-2007",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(31571,"GLOBALSTAR M065","Communication","May-29-2007",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(26084,"GLOBALSTAR M064","Communication","Feb-8-2000",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(26083,"GLOBALSTAR M060","Communication","Feb-8-2000",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(26082,"GLOBALSTAR M062","Communication","Feb-8-2000",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(26081,"GLOBALSTAR M063","Communication","Feb-8-2000",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(25964,"GLOBALSTAR M061","Communication","Nov-22-1999",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(25963,"GLOBALSTAR M029","Communication","Nov-22-1999",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(25962,"GLOBALSTAR M034","Communication","Nov-22-1999",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(25961,"GLOBALSTAR M039","Communication","Nov-22-1999",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(25946,"GLOBALSTAR M031","Communication","Oct-18-1999",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(25945,"GLOBALSTAR M056","Communication","Oct-18-1999",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(25944,"GLOBALSTAR M059","Communication","Oct-18-1999",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(25943,"GLOBALSTAR M057","Communication","Oct-18-1999",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(25910,"GLOBALSTAR M055","Communication","Sep-22-1999",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(25909,"GLOBALSTAR M033","Communication","Sep-22-1999",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(25908,"GLOBALSTAR M050","Communication","Sep-22-1999",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(25907,"GLOBALSTAR M058","Communication","Sep-22-1999",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(25886,"GLOBALSTAR M053","Communication","Aug-17-1999",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(25885,"GLOBALSTAR M054","Communication","Aug-17-1999",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(25884,"GLOBALSTAR M027","Communication","Aug-17-1999",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(25883,"GLOBALSTAR M024","Communication","Aug-17-1999",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(25875,"GLOBALSTAR M028","Communication","Jul-25-1999",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(25874,"GLOBALSTAR M043","Communication","Jul-25-1999",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(25873,"GLOBALSTAR M026","Communication","Jul-25-1999",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(25872,"GLOBALSTAR M048","Communication","Jul-25-1999",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(25854,"GLOBALSTAR M030","Communication","Jul-10-1999",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(25853,"GLOBALSTAR M051","Communication","Jul-10-1999",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(25852,"GLOBALSTAR M032","Communication","Jul-10-1999",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(25851,"GLOBALSTAR M035","Communication","Jul-10-1999",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(25773,"GLOBALSTAR M052","Communication","Jul-10-1999",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(25772,"GLOBALSTAR M047","Communication","Jul-10-1999",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(25771,"GLOBALSTAR M049","Communication","Jul-10-1999",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(25770,"GLOBALSTAR M025","Communication","Jul-10-1999",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(25679,"GLOBALSTAR M042","Communication","Apr-15-1999",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(25678,"GLOBALSTAR M044","Communication","Apr-15-1999",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(25677,"GLOBALSTAR M019","Communication","Apr-15-1999",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(25676,"GLOBALSTAR M045","Communication","Apr-15-1999",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(25652,"GLOBALSTAR M037","Communication","Mar-15-1999",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(25651,"GLOBALSTAR M046","Communication","Mar-15-1999",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(25650,"GLOBALSTAR M041","Communication","Mar-15-1999",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(25649,"GLOBALSTAR M022","Communication","Mar-15-1999",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(25624,"GLOBALSTAR M038","Communication","Feb-9-1999",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(25623,"GLOBALSTAR M036","Communication","Feb-9-1999",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(25622,"GLOBALSTAR M040","Communication","Feb-9-1999",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(25621,"GLOBALSTAR M023","Communication","Feb-9-1999",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(25309,"GLOBALSTAR M008","Communication","Apr-24-1998",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(25308,"GLOBALSTAR M015","Communication","Apr-24-1998",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(25307,"GLOBALSTAR M006","Communication","Apr-24-1998",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(25306,"GLOBALSTAR M014","Communication","Apr-24-1998",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(25165,"GLOBALSTAR M003","Communication","Feb-14-1998",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(25164,"GLOBALSTAR M002","Communication","Feb-14-1998",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(25163,"GLOBALSTAR M004","Communication","Feb-14-1998",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
+        GLOBALSTAR_Sat_Obj.add(new Satellite(25162,"GLOBALSTAR M001","Communication","Feb-14-1998",R.mipmap.ic_globalstar_1_4_6_8_14_15_19_22_72_1998_to_2007_foreground));
         return GLOBALSTAR_Sat_Obj;
     }
 
@@ -3597,7 +3767,47 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
 
     public List<Satellite> ORBCOMM_List() {
         ORBCOMM_Sat_Obj=new ArrayList<>();
-
+        ORBCOMM_Sat_Obj.add(new Satellite(33065,"ORBCOMM FM 40","Comm:,Traffic Monitoring","Jun-19-2008",R.mipmap.ic_orbcomm_fm_37_to_41_foreground));
+        ORBCOMM_Sat_Obj.add(new Satellite(33064,"ORBCOMM FM 37","Comm:,Traffic Monitoring","Jun-19-2008",R.mipmap.ic_orbcomm_fm_37_to_41_foreground));
+        ORBCOMM_Sat_Obj.add(new Satellite(33063,"ORBCOMM FM 39","Comm:,Traffic Monitoring","Jun-19-2008",R.mipmap.ic_orbcomm_fm_37_to_41_foreground));
+        ORBCOMM_Sat_Obj.add(new Satellite(33062,"ORBCOMM FM 29","Experimental Comm:,Traffic Monitoring","Jun-19-2008",R.mipmap.ic_orbcomm_fm_29_foreground));
+        ORBCOMM_Sat_Obj.add(new Satellite(33061,"ORBCOMM FM 41","Comm:,Traffic Monitoring","Jun-19-2008",R.mipmap.ic_orbcomm_fm_37_to_41_foreground));
+        ORBCOMM_Sat_Obj.add(new Satellite(33060,"ORBCOMM FM 38","Comm:,Traffic Monitoring","Jun-19-2008",R.mipmap.ic_orbcomm_fm_37_to_41_foreground));
+        ORBCOMM_Sat_Obj.add(new Satellite(25986,"ORBCOMM FM 34","Communication(Data)","Dec-4-1999",R.mipmap.ic_orbcomm_fm_1_to_28__30_to36_fgabcd_foreground));
+        ORBCOMM_Sat_Obj.add(new Satellite(25985,"ORBCOMM FM 35","Communication(Data)","Dec-4-1999",R.mipmap.ic_orbcomm_fm_1_to_28__30_to36_fgabcd_foreground));
+        ORBCOMM_Sat_Obj.add(new Satellite(25984,"ORBCOMM FM 36","Communication(Data)","Dec-4-1999",R.mipmap.ic_orbcomm_fm_1_to_28__30_to36_fgabcd_foreground));
+        ORBCOMM_Sat_Obj.add(new Satellite(25983,"ORBCOMM FM 33","Communication(Data)","Dec-4-1999",R.mipmap.ic_orbcomm_fm_1_to_28__30_to36_fgabcd_foreground));
+        ORBCOMM_Sat_Obj.add(new Satellite(25982,"ORBCOMM FM 32","Communication(Data)","Dec-4-1999",R.mipmap.ic_orbcomm_fm_1_to_28__30_to36_fgabcd_foreground));
+        ORBCOMM_Sat_Obj.add(new Satellite(25981,"ORBCOMM FM 31","Communication(Data)","Dec-4-1999",R.mipmap.ic_orbcomm_fm_1_to_28__30_to36_fgabcd_foreground));
+        ORBCOMM_Sat_Obj.add(new Satellite(25980,"ORBCOMM FM 30","Communication(Data)","Dec-4-1999",R.mipmap.ic_orbcomm_fm_1_to_28__30_to36_fgabcd_foreground));
+        ORBCOMM_Sat_Obj.add(new Satellite(25482,"ORBCOMM FM 28","Communication(Data)","Sep-23-1998",R.mipmap.ic_orbcomm_fm_1_to_28__30_to36_fgabcd_foreground));
+        ORBCOMM_Sat_Obj.add(new Satellite(25481,"ORBCOMM FM 27","Communication(Data)","Sep-23-1998",R.mipmap.ic_orbcomm_fm_1_to_28__30_to36_fgabcd_foreground));
+        ORBCOMM_Sat_Obj.add(new Satellite(25480,"ORBCOMM FM 26","Communication(Data)","Sep-23-1998",R.mipmap.ic_orbcomm_fm_1_to_28__30_to36_fgabcd_foreground));
+        ORBCOMM_Sat_Obj.add(new Satellite(25479,"ORBCOMM FM 25","Communication(Data)","Sep-23-1998",R.mipmap.ic_orbcomm_fm_1_to_28__30_to36_fgabcd_foreground));
+        ORBCOMM_Sat_Obj.add(new Satellite(25478,"ORBCOMM FM 24","Communication(Data)","Sep-23-1998",R.mipmap.ic_orbcomm_fm_1_to_28__30_to36_fgabcd_foreground));
+        ORBCOMM_Sat_Obj.add(new Satellite(25477,"ORBCOMM FM 23","Communication(Data)","Sep-23-1998",R.mipmap.ic_orbcomm_fm_1_to_28__30_to36_fgabcd_foreground));
+        ORBCOMM_Sat_Obj.add(new Satellite(25476,"ORBCOMM FM 22","Communication(Data)","Sep-23-1998",R.mipmap.ic_orbcomm_fm_1_to_28__30_to36_fgabcd_foreground));
+        ORBCOMM_Sat_Obj.add(new Satellite(25475,"ORBCOMM FM 21","Communication(Data)","Sep-23-1998",R.mipmap.ic_orbcomm_fm_1_to_28__30_to36_fgabcd_foreground));
+        ORBCOMM_Sat_Obj.add(new Satellite(25420,"ORBCOMM FM 13","Communication(Data)","Aug-2-1998",R.mipmap.ic_orbcomm_fm_1_to_28__30_to36_fgabcd_foreground));
+        ORBCOMM_Sat_Obj.add(new Satellite(25419,"ORBCOMM FM 14","Communication(Data)","Aug-2-1998",R.mipmap.ic_orbcomm_fm_1_to_28__30_to36_fgabcd_foreground));
+        ORBCOMM_Sat_Obj.add(new Satellite(25418,"ORBCOMM FM 15","Communication(Data)","Aug-2-1998",R.mipmap.ic_orbcomm_fm_1_to_28__30_to36_fgabcd_foreground));
+        ORBCOMM_Sat_Obj.add(new Satellite(25417,"ORBCOMM FM 16","Communication(Data)","Aug-2-1998",R.mipmap.ic_orbcomm_fm_1_to_28__30_to36_fgabcd_foreground));
+        ORBCOMM_Sat_Obj.add(new Satellite(25416,"ORBCOMM FM 20","Communication(Data)","Aug-2-1998",R.mipmap.ic_orbcomm_fm_1_to_28__30_to36_fgabcd_foreground));
+        ORBCOMM_Sat_Obj.add(new Satellite(25415,"ORBCOMM FM 19","Communication(Data)","Aug-2-1998",R.mipmap.ic_orbcomm_fm_1_to_28__30_to36_fgabcd_foreground));
+        ORBCOMM_Sat_Obj.add(new Satellite(25414,"ORBCOMM FM 18","Communication(Data)","Aug-2-1998",R.mipmap.ic_orbcomm_fm_1_to_28__30_to36_fgabcd_foreground));
+        ORBCOMM_Sat_Obj.add(new Satellite(25413,"ORBCOMM FM 17","Communication(Data)","Aug-2-1998",R.mipmap.ic_orbcomm_fm_1_to_28__30_to36_fgabcd_foreground));
+        ORBCOMM_Sat_Obj.add(new Satellite(25159,"ORBCOMM FM 4","Communication(Data)","Feb-10-1998",R.mipmap.ic_orbcomm_fm_1_to_28__30_to36_fgabcd_foreground));
+        ORBCOMM_Sat_Obj.add(new Satellite(25158,"ORBCOMM FM 3","Communication(Data)","Feb-10-1998",R.mipmap.ic_orbcomm_fm_1_to_28__30_to36_fgabcd_foreground));
+        ORBCOMM_Sat_Obj.add(new Satellite(25119,"ORBCOMM FM 7","Communication(Data)","Dec-23-1997",R.mipmap.ic_orbcomm_fm_1_to_28__30_to36_fgabcd_foreground));
+        ORBCOMM_Sat_Obj.add(new Satellite(25118,"ORBCOMM FM 6","Communication(Data)","Dec-23-1997",R.mipmap.ic_orbcomm_fm_1_to_28__30_to36_fgabcd_foreground));
+        ORBCOMM_Sat_Obj.add(new Satellite(25117,"ORBCOMM FM 5","Communication(Data)","Dec-23-1997",R.mipmap.ic_orbcomm_fm_1_to_28__30_to36_fgabcd_foreground));
+        ORBCOMM_Sat_Obj.add(new Satellite(25116,"ORBCOMM FM 9","Communication(Data)","Dec-23-1997",R.mipmap.ic_orbcomm_fm_1_to_28__30_to36_fgabcd_foreground));
+        ORBCOMM_Sat_Obj.add(new Satellite(25115,"ORBCOMM FM 12","Communication(Data)","Dec-23-1997",R.mipmap.ic_orbcomm_fm_1_to_28__30_to36_fgabcd_foreground));
+        ORBCOMM_Sat_Obj.add(new Satellite(25114,"ORBCOMM FM 11","Communication(Data)","Dec-23-1997",R.mipmap.ic_orbcomm_fm_1_to_28__30_to36_fgabcd_foreground));
+        ORBCOMM_Sat_Obj.add(new Satellite(25113,"ORBCOMM FM 12","Communication(Data)","Dec-23-1997",R.mipmap.ic_orbcomm_fm_1_to_28__30_to36_fgabcd_foreground));
+        ORBCOMM_Sat_Obj.add(new Satellite(25112,"ORBCOMM FM 8","Communication(Data)","Dec-23-1997",R.mipmap.ic_orbcomm_fm_1_to_28__30_to36_fgabcd_foreground));
+        ORBCOMM_Sat_Obj.add(new Satellite(23546,"ORBCOMM FM 2","Communication(Data)","Apr-3-1995",R.mipmap.ic_orbcomm_fm_1_to_28__30_to36_fgabcd_foreground));
+        ORBCOMM_Sat_Obj.add(new Satellite(23545,"ORBCOMM FM 1","Communication(Data)","Apr-3-1995",R.mipmap.ic_orbcomm_fm_1_to_28__30_to36_fgabcd_foreground));
         return ORBCOMM_Sat_Obj;
     }
 
@@ -3903,7 +4113,7 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
                 intent.putExtra("savedUser", (Serializable) NORTH_ATLANTIC_TREATY_ORGANIZATION_NATO_List());
                 startActivity(intent);
                 break;
-            case "ARABSCO":
+            case "ARABSAT":
                 intent.putExtra("savedUser", (Serializable) ARAB_SATELLITE_COMMUNICATIONS_ORGANIZATION_ARABSAT_List());
                 startActivity(intent);
                 break;
