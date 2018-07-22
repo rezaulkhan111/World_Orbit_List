@@ -202,7 +202,6 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         countryList.add(new Country(82, "SEA LAUNCH", "1", R.mipmap.ic_sea_launch_foreground));
         countryList.add(new Country(83, "SES", "56", R.mipmap.ic_ses_foreground));
         countryList.add(new Country(67, "NEW ICO", "1", R.mipmap.ic_new_ico_foreground));
-
     }
 
     public List<Satellite> ALGERIA_Satellite_List() {
