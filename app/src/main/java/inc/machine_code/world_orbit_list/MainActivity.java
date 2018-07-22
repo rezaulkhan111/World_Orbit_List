@@ -3825,6 +3825,63 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
     }
 
     public List<Satellite> SOCIETE_EUROPEENNE_DES_SATELLITES_SES_List() {
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj=new ArrayList<>();
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(43488,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(43178,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(43175,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(42967,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(42709,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(42432,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(40364,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(39617,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(39285,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(39172,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(38778,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(38652,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(38087,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(37809,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(37775,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(36581,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(36516,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(36032,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(34941,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(33749,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(33436,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(33275,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(32299,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(31306,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(29644,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(29055,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(28526,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(28472,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(28446,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(28252,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(28154,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(27820,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(27603,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(27414,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(27400,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(26853,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(26639,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(26638,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(26580,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(26554,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(26495,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(26494,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(25954,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(25785,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(25516,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(25492,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(25462,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(25239,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(25071,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(24936,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(24713,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(24315,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(23842,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(23686,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(23305,"","","",R.mipmap.ic_ses_foreground));
+        SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj.add(new Satellite(22653,"","","",R.mipmap.ic_ses_foreground));
         return SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj;
     }
 
