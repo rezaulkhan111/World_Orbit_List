@@ -268,7 +268,7 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
 
     public List<Satellite> AZERBAIJAN_Satellite_List() {
         AZERBAIJAN_Sat_Obj = new ArrayList<>();
-        AZERBAIJAN_Sat_Obj.add(new Satellite(39079, "AZERSPACE 1", "", "Feb-7-2013", R.mipmap.ic_azerbaijan_foreground));
+        AZERBAIJAN_Sat_Obj.add(new Satellite(39079, "AZERSPACE 1", "Communication", "Feb-7-2013", R.mipmap.ic_azerspace_1a_foreground));
         return AZERBAIJAN_Sat_Obj;
     }
 
@@ -280,42 +280,42 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
 
     public List<Satellite> BELARUS_Satellite_List() {
         BELARUS_Sat_Obj = new ArrayList<>();
-        BELARUS_Sat_Obj.add(new Satellite(41238, "BELINTERSAT 1", "cccc", "Jan-15-2016", R.mipmap.ic_belarus_foreground));
-        BELARUS_Sat_Obj.add(new Satellite(38708, "BKA 2", "cccc", "Jul-22-2012", R.mipmap.ic_belarus_foreground));
+        BELARUS_Sat_Obj.add(new Satellite(41238, "BELINTERSAT 1", "Communication", "Jan-15-2016", R.mipmap.ic_belintersat_1_foreground));
+        BELARUS_Sat_Obj.add(new Satellite(38708, "BKA 2", "Earth Observation", "Jul-22-2012", R.mipmap.ic_bka_1_foreground));
         return BELARUS_Sat_Obj;
     }
 
     public List<Satellite> BOLIVIA_Satellite_List() {
         BOLIVIA_Sat_Obj = new ArrayList<>();
-        BOLIVIA_Sat_Obj.add(new Satellite(39481, "TUPAC KATARI", "", "Dec-20-2013", R.mipmap.ic_bolivia_foreground));
+        BOLIVIA_Sat_Obj.add(new Satellite(39481, "TUPAC KATARI", "Communication", "Dec-20-2013", R.mipmap.ic_tupac_katari_foreground));
         return BOLIVIA_Sat_Obj;
     }
 
     public List<Satellite> BRAZIL_Satellite_List() {
         BRAZIL_Sat_Obj = new ArrayList<>();
-        BRAZIL_Sat_Obj.add(new Satellite(42692, "SGDC", "", "May-4-2017", R.mipmap.ic_brazil_foreground));
-        BRAZIL_Sat_Obj.add(new Satellite(41904, "STARONE D1", "", "Dec-21-2016", R.mipmap.ic_brazil_foreground));
-        BRAZIL_Sat_Obj.add(new Satellite(40733, "STAR ONE C4", "", "Jul-15-2015", R.mipmap.ic_brazil_foreground));
-        BRAZIL_Sat_Obj.add(new Satellite(40024, "NANOSAT C BR1", "", "Jun-19-2014", R.mipmap.ic_brazil_foreground));
-        BRAZIL_Sat_Obj.add(new Satellite(38991, "STARONE C3", "", "Nov-10-2012", R.mipmap.ic_brazil_foreground));
-        BRAZIL_Sat_Obj.add(new Satellite(32768, "STAR ONE C2", "", "Apr-18-2008", R.mipmap.ic_brazil_foreground));
-        BRAZIL_Sat_Obj.add(new Satellite(32293, "STAR ONE C1", "", "Nov-14-2007", R.mipmap.ic_brazil_foreground));
-        BRAZIL_Sat_Obj.add(new Satellite(26469, "BRAZILSAT B4", "", "Aug-17-2000", R.mipmap.ic_brazil_foreground));
-        BRAZIL_Sat_Obj.add(new Satellite(25941, "SACI 1", "", "Oct-14-1999", R.mipmap.ic_brazil_foreground));
-        BRAZIL_Sat_Obj.add(new Satellite(25504, "SCD 2", "", "Oct-23-1998", R.mipmap.ic_brazil_foreground));
-        BRAZIL_Sat_Obj.add(new Satellite(25152, "BRAZILSAT B3", "", "Feb-4-1998", R.mipmap.ic_brazil_foreground));
-        BRAZIL_Sat_Obj.add(new Satellite(23536, "BRAZILSAT B2", "", "Mar-28-1995", R.mipmap.ic_brazil_foreground));
-        BRAZIL_Sat_Obj.add(new Satellite(23199, "BRAZILSAT B1", "", "Aug-10-1994", R.mipmap.ic_brazil_foreground));
-        BRAZIL_Sat_Obj.add(new Satellite(22490, "SCD 1", "", "Feb-9-1993", R.mipmap.ic_brazil_foreground));
-        BRAZIL_Sat_Obj.add(new Satellite(20440, "OSCAR 17 (DOVE)", "", "Jan-22-1990", R.mipmap.ic_brazil_foreground));
-        BRAZIL_Sat_Obj.add(new Satellite(16650, "BRAZILSAT 2", "", "Mar-28-1986", R.mipmap.ic_brazil_foreground));
-        BRAZIL_Sat_Obj.add(new Satellite(15561, "BRAZILSAT 1", "", "Feb-8-1985", R.mipmap.ic_brazil_foreground));
+        BRAZIL_Sat_Obj.add(new Satellite(42692, "SGDC", "Communication", "May-4-2017", R.mipmap.ic_sgdc_1_foreground));
+        BRAZIL_Sat_Obj.add(new Satellite(41904, "STAR ONE D1", "Communication", "Dec-21-2016", R.mipmap.ic_star_one_c4_d1_foreground));
+        BRAZIL_Sat_Obj.add(new Satellite(40733, "STAR ONE C4", "Communication", "Jul-15-2015", R.mipmap.ic_star_one_c4_d1_foreground));
+        BRAZIL_Sat_Obj.add(new Satellite(40024, "NANOSAT C BRl", "Science, magnetosphere", "Jun-19-2014", R.mipmap.ic_nanosat_c_br_1_foreground));
+        BRAZIL_Sat_Obj.add(new Satellite(38991, "STAR ONE C3", "Communication", "Nov-10-2012", R.mipmap.star_one_c_3));
+        BRAZIL_Sat_Obj.add(new Satellite(32768, "STAR ONE C2", "Communication", "Apr-18-2008", R.mipmap.ic_star_one_c_1_2_foreground));
+        BRAZIL_Sat_Obj.add(new Satellite(32293, "STAR ONE C1", "Communication", "Nov-14-2007", R.mipmap.ic_star_one_c_1_2_foreground));
+        BRAZIL_Sat_Obj.add(new Satellite(26469, "BRAZILSAT B4", "Communication", "Aug-17-2000", R.mipmap.ic_brasilsat_b_1_to_4_foreground));
+        BRAZIL_Sat_Obj.add(new Satellite(25941, "SACI 1", "Scientific,Cosmic rays,Magnetic field,plasma", "Oct-14-1999", R.mipmap.ic_saci_1_foreground));
+        BRAZIL_Sat_Obj.add(new Satellite(25504, "SCD 2", "Data Collection", "Oct-23-1998", R.mipmap.ic_scd_1_2_foreground));
+        BRAZIL_Sat_Obj.add(new Satellite(25152, "BRAZILSAT B3", "Communication", "Feb-4-1998", R.mipmap.ic_brasilsat_b_1_to_4_foreground));
+        BRAZIL_Sat_Obj.add(new Satellite(23536, "BRAZILSAT B2", "Communication", "Mar-28-1995", R.mipmap.ic_brasilsat_b_1_to_4_foreground));
+        BRAZIL_Sat_Obj.add(new Satellite(23199, "BRAZILSAT B1", "Communication", "Aug-10-1994", R.mipmap.ic_brasilsat_b_1_to_4_foreground));
+        BRAZIL_Sat_Obj.add(new Satellite(22490, "SCD 1", "Data Collection", "Feb-9-1993", R.mipmap.ic_scd_1_2_foreground));
+        BRAZIL_Sat_Obj.add(new Satellite(20440, "OSCAR 17 (DOVE)", "Amateur Radio Comm:", "Jan-22-1990", R.mipmap.ic_oscar_17_dove_foreground));
+        BRAZIL_Sat_Obj.add(new Satellite(16650, "BRAZILSAT 2", "Communication", "Mar-28-1986", R.mipmap.ic_brasilsat_a_1_2_foreground));
+        BRAZIL_Sat_Obj.add(new Satellite(15561, "BRAZILSAT 1", "Communication", "Feb-8-1985", R.mipmap.ic_brasilsat_a_1_2_foreground));
         return BRAZIL_Sat_Obj;
     }
 
     public List<Satellite> BULGARIA_Satellite_List() {
         BULGARIA_Sat_Obj = new ArrayList<>();
-        BULGARIA_Sat_Obj.add(new Satellite(42801, "BULGARIASAT-1", "Communication", "Jun-23-2017", R.mipmap.ic_bulgaria_foreground));
+        BULGARIA_Sat_Obj.add(new Satellite(42801, "BULGARIASAT-1", "Communication", "Jun-23-2017", R.mipmap.ic_bulgariasat_1_foreground));
         return BULGARIA_Sat_Obj;
     }
 

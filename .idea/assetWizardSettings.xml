@@ -20,13 +20,13 @@
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
                                       <entry key="backgroundColor" value="f9f5f9" />
-                                      <entry key="backgroundLayerName" value="ic_fedsat_1_background" />
-                                      <entry key="foregroundImage" value="E:\Rezaul Khan(Internship)\ppppp\fedsat_1.jpg" />
-                                      <entry key="foregroundLayerName" value="ic_fedsat_1_foreground" />
+                                      <entry key="backgroundLayerName" value="ic_bulgariasat_1_background" />
+                                      <entry key="foregroundImage" value="E:\Rezaul Khan(Internship)\ppppp\bulgariasat_1.jpg" />
+                                      <entry key="foregroundLayerName" value="ic_bulgariasat_1_foreground" />
                                       <entry key="generateLegacyIcon" value="false" />
                                       <entry key="generateRoundIcon" value="false" />
                                       <entry key="generateWebIcon" value="false" />
-                                      <entry key="outputName" value="fedsat_1" />
+                                      <entry key="outputName" value="bulgariasat_1" />
                                     </map>
                                   </option>
                                 </PersistentState>
