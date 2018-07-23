@@ -358,13 +358,13 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         CANADA_Sat_Obj.add(new Satellite(23710, "RADARSAT", "Earth Observing (Radar)", "Nov-4-1995", R.mipmap.ic_radarsat_1_foreground));
         CANADA_Sat_Obj.add(new Satellite(21726, "ANIK E1", "Communication", "Sep-26-1991", R.mipmap.ic_anik_e1_2_foreground));
         CANADA_Sat_Obj.add(new Satellite(21222, "ANIK E2", "Communication", "Apr-4-1991", R.mipmap.ic_anik_e1_2_foreground));
-        CANADA_Sat_Obj.add(new Satellite(13652, "ANIK C3 (TELESAT-5)", "Communication", "Nov-11-1982", R.mipmap.ic_anik_c1_2_3_foreground));
-        CANADA_Sat_Obj.add(new Satellite(13652, "ANIK D1 (TELESAT 6)", "Communication", "Aug-26-1982", R.mipmap.ic_anik_d1_2_foreground));
-        CANADA_Sat_Obj.add(new Satellite(11153, "ANIK B1 (TELESAT-4)", "Communication", "Dec-16-1978", R.mipmap.ic_anik_b1_foreground));
+        CANADA_Sat_Obj.add(new Satellite(13652, "ANIK C3(TELESAT-5)", "Communication", "Nov-11-1982", R.mipmap.ic_anik_c1_2_3_foreground));
+        CANADA_Sat_Obj.add(new Satellite(13652, "ANIK D1(TELESAT 6)", "Communication", "Aug-26-1982", R.mipmap.ic_anik_d1_2_foreground));
+        CANADA_Sat_Obj.add(new Satellite(11153, "ANIK B1(TELESAT-4)", "Communication", "Dec-16-1978", R.mipmap.ic_anik_b1_foreground));
         CANADA_Sat_Obj.add(new Satellite(8585, "CTS", "Comm:,Experimental", "Jan-17-1976", R.mipmap.ic_cts_foreground));
-        CANADA_Sat_Obj.add(new Satellite(7790, "ANIK A3 (TELESAT-3)", "Communication", "May-7-1975", R.mipmap.ic_anik_a_1_2_3_foreground));
-        CANADA_Sat_Obj.add(new Satellite(6437, "ANIK A2 (TELESAT 2)", "Communication", "Apr-20-1973", R.mipmap.ic_anik_a_1_2_3_foreground));
-        CANADA_Sat_Obj.add(new Satellite(6278, "ANIK A1 (TELESAT 1)", "Communication", "Nov-10-1972", R.mipmap.ic_anik_a_1_2_3_foreground));
+        CANADA_Sat_Obj.add(new Satellite(7790, "ANIK A3(TELESAT-3)", "Communication", "May-7-1975", R.mipmap.ic_anik_a_1_2_3_foreground));
+        CANADA_Sat_Obj.add(new Satellite(6437, "ANIK A2(TELESAT 2)", "Communication", "Apr-20-1973", R.mipmap.ic_anik_a_1_2_3_foreground));
+        CANADA_Sat_Obj.add(new Satellite(6278, "ANIK A1(TELESAT 1)", "Communication", "Nov-10-1972", R.mipmap.ic_anik_a_1_2_3_foreground));
         CANADA_Sat_Obj.add(new Satellite(5104, "ISIS 2", "Science", "Apr-1-1971", R.mipmap.ic_isis_1_2_foreground));
         CANADA_Sat_Obj.add(new Satellite(3669, "ISIS 1", "Science", "Jan-30-1969", R.mipmap.ic_isis_1_2_foreground));
         CANADA_Sat_Obj.add(new Satellite(1804, "ALOUETTE 2", "Science,Ionosphere", "Nov-29-1965", R.mipmap.ic_alouette_1_2_s27_foreground));
@@ -374,9 +374,9 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
 
     public List<Satellite> CHILE_Satellite_List() {
         CHILE_Sat_Obj = new ArrayList<>();
-        CHILE_Sat_Obj.add(new Satellite(42788, "SUCHAI", "", "Jun-23-2017", R.mipmap.ic_chile_foreground));
-        CHILE_Sat_Obj.add(new Satellite(38011, "SSOT", "", "Dec-17-2011", R.mipmap.ic_chile_foreground));
-        CHILE_Sat_Obj.add(new Satellite(25395, "FASAT B", "", "Jul-10-1998", R.mipmap.ic_chile_foreground));
+        CHILE_Sat_Obj.add(new Satellite(42788, "SUCHAI", "Technology,Education", "Jun-23-2017", R.mipmap.ic_suchai_foreground));
+        CHILE_Sat_Obj.add(new Satellite(38011, "SSOT", "Earth observation", "Dec-17-2011", R.mipmap.ic_ssot_foreground));
+        CHILE_Sat_Obj.add(new Satellite(25395, "FASAT B", "EO,Technology", "Jul-10-1998", R.mipmap.ic_fasat_b_foreground));
         return CHILE_Sat_Obj;
     }
 
