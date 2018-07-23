@@ -242,27 +242,27 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
 
     public List<Satellite> AUSTRALIA_Satellite_List() {
         AUSTRALIA_Sat_Obj = new ArrayList<>();
-        AUSTRALIA_Sat_Obj.add(new Satellite(42786, "DIAMOND BLUE", "", "Jun-23-2017", R.mipmap.ic_australia_foreground));
-        AUSTRALIA_Sat_Obj.add(new Satellite(42785, "DIAMOND GREEN", "", "Jun-23-2017", R.mipmap.ic_australia_foreground));
-        AUSTRALIA_Sat_Obj.add(new Satellite(42783, "DIAMOND RED", "", "Jun-23-2017", R.mipmap.ic_australia_foreground));
-        AUSTRALIA_Sat_Obj.add(new Satellite(42731, "I-INSPIRE II", "", "Nov-20-1998", R.mipmap.ic_australia_foreground));
-        AUSTRALIA_Sat_Obj.add(new Satellite(42730, "SUSAT", "", "Nov-20-1998", R.mipmap.ic_australia_foreground));
-        AUSTRALIA_Sat_Obj.add(new Satellite(42721, "CHALLENGER", "", "Nov-20-1998", R.mipmap.ic_australia_foreground));
-        AUSTRALIA_Sat_Obj.add(new Satellite(41794, "SKY MUSTER II", "", "Oct-5-2016", R.mipmap.ic_australia_foreground));
-        AUSTRALIA_Sat_Obj.add(new Satellite(40940, "SKY MUSTER", "", "Sep-30-2015", R.mipmap.ic_australia_foreground));
-        AUSTRALIA_Sat_Obj.add(new Satellite(40146, "OPTUS 10", "", "Sep-11-2014", R.mipmap.ic_australia_foreground));
-        AUSTRALIA_Sat_Obj.add(new Satellite(35756, "OPTUS D3", "", "Aug-21-2009", R.mipmap.ic_australia_foreground));
-        AUSTRALIA_Sat_Obj.add(new Satellite(32252, "OPTUS D2", "", "Oct-5-2007", R.mipmap.ic_australia_foreground));
-        AUSTRALIA_Sat_Obj.add(new Satellite(29495, "OPTUS D1", "", "Oct-13-2006", R.mipmap.ic_australia_foreground));
-        AUSTRALIA_Sat_Obj.add(new Satellite(27831, "OPTUS C1", "", "Jun-11-2003", R.mipmap.ic_australia_foreground));
-        AUSTRALIA_Sat_Obj.add(new Satellite(27598, "FEDSAT", "", "Dec-14-2002", R.mipmap.ic_australia_foreground));
-        AUSTRALIA_Sat_Obj.add(new Satellite(25398, "WESTPAC", "", "Jul-10-1998", R.mipmap.ic_australia_foreground));
-        AUSTRALIA_Sat_Obj.add(new Satellite(23227, "OPTUS B3", "", "Aug-27-1994", R.mipmap.ic_australia_foreground));
-        AUSTRALIA_Sat_Obj.add(new Satellite(22087, "OPTUS B1(AUSSAT B1)", "", "Aug-13-1992", R.mipmap.ic_australia_foreground));
-        AUSTRALIA_Sat_Obj.add(new Satellite(18350, "OPTUS A3(AUSSAT 3)", "", "Sep-16-1987", R.mipmap.ic_australia_foreground));
-        AUSTRALIA_Sat_Obj.add(new Satellite(16275, "OPTUS A2(AUSSAT 2)", "", "Nov-27-1985", R.mipmap.ic_australia_foreground));
-        AUSTRALIA_Sat_Obj.add(new Satellite(15993, "OPTUS A1(AUSSAT 1)", "", "Aug-27-1985", R.mipmap.ic_australia_foreground));
-        AUSTRALIA_Sat_Obj.add(new Satellite(4321, "OSCAR 5", "", "Jan-23-1970", R.mipmap.ic_australia_foreground));
+        AUSTRALIA_Sat_Obj.add(new Satellite(42786, "DIAMOND BLUE", "Communication", "Jun-23-2017", R.mipmap.ic_diamond_1_2_3_foreground));
+        AUSTRALIA_Sat_Obj.add(new Satellite(42785, "DIAMOND GREEN", "Communication", "Jun-23-2017", R.mipmap.ic_diamond_1_2_3_foreground));
+        AUSTRALIA_Sat_Obj.add(new Satellite(42783, "DIAMOND RED", "Communication", "Jun-23-2017", R.mipmap.ic_diamond_1_2_3_foreground));
+        AUSTRALIA_Sat_Obj.add(new Satellite(42731, "I-INSPIRE II", "Techs,Thermospheric research", "Nov-20-1998", R.mipmap.ic_i_inspire_2_challenger_foreground));
+        AUSTRALIA_Sat_Obj.add(new Satellite(42730, "SUSAT", "Technology,Atmosphere", "Nov-20-1998", R.mipmap.ic_susat_foreground));
+        AUSTRALIA_Sat_Obj.add(new Satellite(42721, "CHALLENGER", "Techs,Thermospheric research", "Nov-20-1998", R.mipmap.ic_i_inspire_2_challenger_foreground));
+        AUSTRALIA_Sat_Obj.add(new Satellite(41794, "SKY MUSTER II", "Communication", "Oct-5-2016", R.mipmap.ic_sky_muster_1_2_foreground));
+        AUSTRALIA_Sat_Obj.add(new Satellite(40940, "SKY MUSTER", "Communication", "Sep-30-2015", R.mipmap.ic_sky_muster_1_2_foreground));
+        AUSTRALIA_Sat_Obj.add(new Satellite(40146, "OPTUS 10", "Communication", "Sep-11-2014", R.mipmap.ic_optus_10_foreground));
+        AUSTRALIA_Sat_Obj.add(new Satellite(35756, "OPTUS D3", "Communication", "Aug-21-2009", R.mipmap.ic_optus_d1_2_3_foreground));
+        AUSTRALIA_Sat_Obj.add(new Satellite(32252, "OPTUS D2", "Communication", "Oct-5-2007", R.mipmap.ic_optus_d1_2_3_foreground));
+        AUSTRALIA_Sat_Obj.add(new Satellite(29495, "OPTUS D1", "Communication", "Oct-13-2006", R.mipmap.ic_optus_d1_2_3_foreground));
+        AUSTRALIA_Sat_Obj.add(new Satellite(27831, "OPTUS C1", "Communication", "Jun-11-2003", R.mipmap.ic_optus_c1_foreground));
+        AUSTRALIA_Sat_Obj.add(new Satellite(27598, "FEDSAT", "Science,Magnetosphere", "Dec-14-2002", R.mipmap.ic_fedsat_1_foreground));
+        AUSTRALIA_Sat_Obj.add(new Satellite(25398, "WESTPAC", "Geodesy", "Jul-10-1998", R.mipmap.ic_westpac_foreground));
+        AUSTRALIA_Sat_Obj.add(new Satellite(23227, "OPTUS B3", "Communication", "Aug-27-1994", R.mipmap.ic_optus_b1_3_foreground));
+        AUSTRALIA_Sat_Obj.add(new Satellite(22087, "OPTUS B1(AUSSAT B1)", "Communication", "Aug-13-1992", R.mipmap.ic_optus_b1_3_foreground));
+        AUSTRALIA_Sat_Obj.add(new Satellite(18350, "OPTUS A3(AUSSAT 3)", "Communication", "Sep-16-1987", R.mipmap.ic_optus_aussat_a1_2_3_foreground));
+        AUSTRALIA_Sat_Obj.add(new Satellite(16275, "OPTUS A2(AUSSAT 2)", "Communication", "Nov-27-1985", R.mipmap.ic_optus_aussat_a1_2_3_foreground));
+        AUSTRALIA_Sat_Obj.add(new Satellite(15993, "OPTUS A1(AUSSAT 1)", "Communication", "Aug-27-1985", R.mipmap.ic_optus_aussat_a1_2_3_foreground));
+        AUSTRALIA_Sat_Obj.add(new Satellite(4321, "OSCAR 5", "Amateur Radio Comm:", "Jan-23-1970", R.mipmap.ic_oscar_5_australis_foreground));
         return AUSTRALIA_Sat_Obj;
     }
 
