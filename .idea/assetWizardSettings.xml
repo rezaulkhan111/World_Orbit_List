@@ -16,17 +16,32 @@
                             <entry key="launcher">
                               <value>
                                 <PersistentState>
+                                  <option name="children">
+                                    <map>
+                                      <entry key="foregroundImage">
+                                        <value>
+                                          <PersistentState>
+                                            <option name="values">
+                                              <map>
+                                                <entry key="scalingPercent" value="86" />
+                                              </map>
+                                            </option>
+                                          </PersistentState>
+                                        </value>
+                                      </entry>
+                                    </map>
+                                  </option>
                                   <option name="values">
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
-                                      <entry key="backgroundColor" value="fafffb" />
-                                      <entry key="backgroundLayerName" value="ic_kuns_pe_background" />
-                                      <entry key="foregroundImage" value="L:\Satellite photo\kuns_pe.jpg" />
-                                      <entry key="foregroundLayerName" value="ic_kuns_pe_foreground" />
+                                      <entry key="backgroundColor" value="f9f5f9" />
+                                      <entry key="backgroundLayerName" value="ic_nahul_i1_2_or_anik_c1_2_background" />
+                                      <entry key="foregroundImage" value="E:\Rezaul Khan(Internship)\ppppp\nahul_i1_2_or_anik_c1_2.jpg" />
+                                      <entry key="foregroundLayerName" value="ic_nahul_i1_2_or_anik_c1_2_foreground" />
                                       <entry key="generateLegacyIcon" value="false" />
                                       <entry key="generateRoundIcon" value="false" />
                                       <entry key="generateWebIcon" value="false" />
-                                      <entry key="outputName" value="kuns_pe" />
+                                      <entry key="outputName" value="nahul_i1_2_or_anik_c1_2" />
                                     </map>
                                   </option>
                                 </PersistentState>

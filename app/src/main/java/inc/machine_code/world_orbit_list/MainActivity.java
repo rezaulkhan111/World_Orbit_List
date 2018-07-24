@@ -192,7 +192,7 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         countryList.add(new Country(72, "ASIASAT", "8", R.mipmap.ic_asiasat_foreground));
         countryList.add(new Country(73, "EUMETSAT", "8", R.mipmap.ic_eumetsat_foreground));
         countryList.add(new Country(74, "ESA", "82", R.mipmap.ic_esa_foreground));
-        countryList.add(new Country(75, "EUTELSAT", "51", R.mipmap.ic_eumetsat_foreground));
+        countryList.add(new Country(75, "EUTELSAT", "51", R.mipmap.ic_eutelsat_foreground));
         countryList.add(new Country(76, "GLOBALSTAR", "84", R.mipmap.ic_globalstar_foreground));
         countryList.add(new Country(77, "INMARSAT", "17", R.mipmap.ic_inmarsat_foreground));
         countryList.add(new Country(78, "ITSO", "85", R.mipmap.ic_itso_foreground));
@@ -3268,7 +3268,7 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
 
     public List<Satellite> URUGUAY_Satellite_List() {
         URUGUAY_Sat_Obj = new ArrayList<>();
-        URUGUAY_Sat_Obj.add(new Satellite(40034, "ANTELSAT", "Communication", "Jun-19-2014", R.mipmap.ic_uruguay_foreground));
+        URUGUAY_Sat_Obj.add(new Satellite(40034, "ANTELSAT", "Technology", "Jun-19-2014", R.mipmap.ic_antelsat_foreground));
         return URUGUAY_Sat_Obj;
     }
 
@@ -3297,42 +3297,42 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
 
     public List<Satellite> CHINA_BRAZIL_List() {
         CHINA_BRAZIL_Sat_Obj = new ArrayList<>();
-        CHINA_BRAZIL_Sat_Obj.add(new Satellite(32062, "CBERS 2B", "", "Sep-19-2007", R.mipmap.ic_china_brazil_foreground));
-        CHINA_BRAZIL_Sat_Obj.add(new Satellite(28057, "CBERS 2", "", "Oct-21-2003", R.mipmap.ic_china_brazil_foreground));
-        CHINA_BRAZIL_Sat_Obj.add(new Satellite(25940, "CBERS 1", "", "Oct-14-1999", R.mipmap.ic_china_brazil_foreground));
+        CHINA_BRAZIL_Sat_Obj.add(new Satellite(32062, "CBERS 2B", "Earth Observation", "Sep-19-2007", R.mipmap.ic_cbers_1_2_b_foreground));
+        CHINA_BRAZIL_Sat_Obj.add(new Satellite(28057, "CBERS 2", "Earth Observation", "Oct-21-2003", R.mipmap.ic_cbers_1_2_b_foreground));
+        CHINA_BRAZIL_Sat_Obj.add(new Satellite(25940, "CBERS 1", "Earth Observation", "Oct-14-1999", R.mipmap.ic_cbers_1_2_b_foreground));
         return CHINA_BRAZIL_Sat_Obj;
     }
 
     public List<Satellite> FRANCE_GERMANY_List() {
         FRANCE_GERMANY_Sat_Obj = new ArrayList<>();
-        FRANCE_GERMANY_Sat_Obj.add(new Satellite(8132, "SYMPHONIE 2", "", "Aug-27-1975", R.mipmap.ic_france_germany_foreground));
-        FRANCE_GERMANY_Sat_Obj.add(new Satellite(7578, "SYMPHONIE 1", "", "Dec-19-1974", R.mipmap.ic_france_germany_foreground));
+        FRANCE_GERMANY_Sat_Obj.add(new Satellite(8132, "SYMPHONIE 2", "Communication", "Aug-27-1975", R.mipmap.ic_symphonie_1_2_foreground));
+        FRANCE_GERMANY_Sat_Obj.add(new Satellite(7578, "SYMPHONIE 1", "Communication", "Dec-19-1974", R.mipmap.ic_symphonie_1_2_foreground));
         return FRANCE_GERMANY_Sat_Obj;
     }
 
     public List<Satellite> FRANCE_ITALY_List() {
         FRANCE_ITALY_Sat_Obj = new ArrayList<>();
-        FRANCE_ITALY_Sat_Obj.add(new Satellite(40614, "SICRAL 2", "", "Apr-26-2015", R.mipmap.ic_franc_italian_foreground));
-        FRANCE_ITALY_Sat_Obj.add(new Satellite(39509, "ATHENA-FIDUS", "", "Feb-6-2014", R.mipmap.ic_franc_italian_foreground));
+        FRANCE_ITALY_Sat_Obj.add(new Satellite(40614, "SICRAL 2", "Military Communication", "Apr-26-2015", R.mipmap.ic_sicral_2_athena_fidus_foreground));
+        FRANCE_ITALY_Sat_Obj.add(new Satellite(39509, "ATHENA-FIDUS", "Military Communication", "Feb-6-2014", R.mipmap.ic_sicral_2_athena_fidus_foreground));
         return FRANCE_ITALY_Sat_Obj;
     }
 
     public List<Satellite> SINGAPORE_TAIWAN_List() {
         SINGAPORE_TAIWAN_Sat_Obj = new ArrayList<>();
-        SINGAPORE_TAIWAN_Sat_Obj.add(new Satellite(37606, "ST 2", "", "May-20-2011", R.mipmap.ic_singapore_taiwan_foreground));
-        SINGAPORE_TAIWAN_Sat_Obj.add(new Satellite(25460, "ST 1", "", "Aug-25-1998", R.mipmap.ic_singapore_taiwan_foreground));
+        SINGAPORE_TAIWAN_Sat_Obj.add(new Satellite(37606, "ST 2", "Communication", "May-20-2011", R.mipmap.ic_st_2_foreground));
+        SINGAPORE_TAIWAN_Sat_Obj.add(new Satellite(25460, "ST 1", "Communication", "Aug-25-1998", R.mipmap.ic_st_1_foreground));
         return SINGAPORE_TAIWAN_Sat_Obj;
     }
 
     public List<Satellite> TURKMENISTAN_MONACO_List() {
         TURKMENISTAN_MONACO = new ArrayList<>();
-        TURKMENISTAN_MONACO.add(new Satellite(40617, "TURKMENALEM52E/MONACOSAT", "", "Apr-27-2015", R.mipmap.ic_turkmenistan_monaco_foreground));
+        TURKMENISTAN_MONACO.add(new Satellite(40617, "TURKMENALEM52E/MONACOSAT", "Communication", "Apr-27-2015", R.mipmap.ic_turkmenalem52e_monacosat_foreground));
         return TURKMENISTAN_MONACO;
     }
 
     public List<Satellite> UNITED_STATES_BRAZIL_List() {
         UNITED_STATES_BRAZIL_Sat_Obj = new ArrayList<>();
-        UNITED_STATES_BRAZIL_Sat_Obj.add(new Satellite(28137, "ESTRELA DU SOL-TELSTAR14", "", "Jan-11-2004", R.mipmap.ic_usa_brazil_foreground));
+        UNITED_STATES_BRAZIL_Sat_Obj.add(new Satellite(28137, "ESTRELA DU SOL-TELSTAR14", "Communication", "Jan-11-2004", R.mipmap.ic_estrela_do_sul_1_foreground));
         return UNITED_STATES_BRAZIL_Sat_Obj;
     }
 
@@ -3369,14 +3369,14 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
 
     public List<Satellite> EUROPEAN_ORGANISATION_FOR_THE_EXPLOITATION_EUMETSAT_List() {
         EUMETSAT_Sat_Obj = new ArrayList<>();
-        EUMETSAT_Sat_Obj.add(new Satellite(40732, "MSG 4", "", "Jul-15-2015", R.mipmap.ic_eumetsat_foreground));
-        EUMETSAT_Sat_Obj.add(new Satellite(38771, "METOP-B", "", "Sep-17-2012", R.mipmap.ic_eumetsat_foreground));
-        EUMETSAT_Sat_Obj.add(new Satellite(38552, "METEOSAT 10(MSG 3)", "", "Jul-5-2012", R.mipmap.ic_eumetsat_foreground));
-        EUMETSAT_Sat_Obj.add(new Satellite(29499, "METOP-A", "", "Oct-19-2006", R.mipmap.ic_eumetsat_foreground));
-        EUMETSAT_Sat_Obj.add(new Satellite(28912, "METEOSAT 9(MSG 2)", "", "Dec-21-2005", R.mipmap.ic_eumetsat_foreground));
-        EUMETSAT_Sat_Obj.add(new Satellite(27509, "METEOSAT 8(MSG 1)", "", "Aug-28-2002", R.mipmap.ic_eumetsat_foreground));
-        EUMETSAT_Sat_Obj.add(new Satellite(24932, "METEOSAT 7", "", "Sep-2-1997", R.mipmap.ic_eumetsat_foreground));
-        EUMETSAT_Sat_Obj.add(new Satellite(22912, "METEOSAT 6", "", "Nov-20-1993", R.mipmap.ic_eumetsat_foreground));
+        EUMETSAT_Sat_Obj.add(new Satellite(40732, "MSG 4", "Meteorology", "Jul-15-2015", R.mipmap.ic_msg_1_to_4_meteosat_8_to_11_foreground));
+        EUMETSAT_Sat_Obj.add(new Satellite(38771, "METOP-B", "Meteorology", "Sep-17-2012", R.mipmap.ic_metop_a_b_c_foreground));
+        EUMETSAT_Sat_Obj.add(new Satellite(38552, "METEOSAT 10(MSG 3)", "Meteorology", "Jul-5-2012", R.mipmap.ic_msg_1_to_4_meteosat_8_to_11_foreground));
+        EUMETSAT_Sat_Obj.add(new Satellite(29499, "METOP-A", "Meteorology", "Oct-19-2006", R.mipmap.ic_metop_a_b_c_foreground));
+        EUMETSAT_Sat_Obj.add(new Satellite(28912, "METEOSAT 9(MSG 2)", "Meteorology", "Dec-21-2005", R.mipmap.ic_msg_1_to_4_meteosat_8_to_11_foreground));
+        EUMETSAT_Sat_Obj.add(new Satellite(27509, "METEOSAT 8(MSG 1)", "Meteorology", "Aug-28-2002", R.mipmap.ic_msg_1_to_4_meteosat_8_to_11_foreground));
+        EUMETSAT_Sat_Obj.add(new Satellite(24932, "METEOSAT 7", "Meteorology", "Sep-2-1997", R.mipmap.ic_meteosat_1_to_6_7_foreground));
+        EUMETSAT_Sat_Obj.add(new Satellite(22912, "METEOSAT 6", "Meteorology", "Nov-20-1993", R.mipmap.ic_meteosat_1_to_6_7_foreground));
         return EUMETSAT_Sat_Obj;
     }
 
@@ -3525,23 +3525,23 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
 
     public List<Satellite> INTERNATIONAL_MOBILE_SATELLITE_ORGANIZATION_INMARSAT_List() {
         INMARSAT_Sat_Obj = new ArrayList<>();
-        INMARSAT_Sat_Obj.add(new Satellite(42698, "INMARSAT 5-F4", "", "May-15-2017", R.mipmap.ic_inmarsat_foreground));
-        INMARSAT_Sat_Obj.add(new Satellite(40882, "INMARSAT 5-F3", "", "Aug-28-2015", R.mipmap.ic_inmarsat_foreground));
-        INMARSAT_Sat_Obj.add(new Satellite(40384, "INMARSAT 5-F2", "", "Feb-1-2015", R.mipmap.ic_inmarsat_foreground));
-        INMARSAT_Sat_Obj.add(new Satellite(39476, "INMARSAT 5-F1", "", "Dec-8-2013", R.mipmap.ic_inmarsat_foreground));
-        INMARSAT_Sat_Obj.add(new Satellite(39215, "ALPHASAT(INMARSAT 4A-F4)", "", "Jul-25-2013", R.mipmap.ic_inmarsat_foreground));
-        INMARSAT_Sat_Obj.add(new Satellite(33278, "INMARSAT 4-F3", "", "Aug-18-2008", R.mipmap.ic_inmarsat_foreground));
-        INMARSAT_Sat_Obj.add(new Satellite(28899, "INMARSAT 4-F2", "", "Nov-8-2005", R.mipmap.ic_inmarsat_foreground));
-        INMARSAT_Sat_Obj.add(new Satellite(28628, "INMARSAT 4-F1", "", "Mar-11-2005", R.mipmap.ic_inmarsat_foreground));
-        INMARSAT_Sat_Obj.add(new Satellite(25153, "INMARSAT 3-F5", "", "Feb-4-1998", R.mipmap.ic_inmarsat_foreground));
-        INMARSAT_Sat_Obj.add(new Satellite(24819, "INMARSAT 3-F4", "", "Jun-3-1997", R.mipmap.ic_inmarsat_foreground));
-        INMARSAT_Sat_Obj.add(new Satellite(24674, "INMARSAT 3-F3", "", "Dec-18-1996", R.mipmap.ic_inmarsat_foreground));
-        INMARSAT_Sat_Obj.add(new Satellite(24307, "INMARSAT 3-F2", "", "Sep-6-1996", R.mipmap.ic_inmarsat_foreground));
-        INMARSAT_Sat_Obj.add(new Satellite(23839, "INMARSAT 3-F1", "", "Apr-3-1996", R.mipmap.ic_inmarsat_foreground));
-        INMARSAT_Sat_Obj.add(new Satellite(21940, "INMARSAT 2-F4", "", "Apr-15-1992", R.mipmap.ic_inmarsat_foreground));
-        INMARSAT_Sat_Obj.add(new Satellite(21814, "INMARSAT 2-F3", "", "Dec-16-1991", R.mipmap.ic_inmarsat_foreground));
-        INMARSAT_Sat_Obj.add(new Satellite(21149, "INMARSAT 2-F2", "", "Mar-8-1991", R.mipmap.ic_inmarsat_foreground));
-        INMARSAT_Sat_Obj.add(new Satellite(20918, "INMARSAT 2-F1", "", "Oct-30-1990", R.mipmap.ic_inmarsat_foreground));
+        INMARSAT_Sat_Obj.add(new Satellite(42698, "INMARSAT 5-F4", "Communication", "May-15-2017", R.mipmap.ic_inmarsat_5_f_1_to_4_foreground));
+        INMARSAT_Sat_Obj.add(new Satellite(40882, "INMARSAT 5-F3", "Communication", "Aug-28-2015", R.mipmap.ic_inmarsat_5_f_1_to_4_foreground));
+        INMARSAT_Sat_Obj.add(new Satellite(40384, "INMARSAT 5-F2", "Communication", "Feb-1-2015", R.mipmap.ic_inmarsat_5_f_1_to_4_foreground));
+        INMARSAT_Sat_Obj.add(new Satellite(39476, "INMARSAT 5-F1", "Communication", "Dec-8-2013", R.mipmap.ic_inmarsat_5_f_1_to_4_foreground));
+        INMARSAT_Sat_Obj.add(new Satellite(39215, "ALPHASAT(INMARSAT 4A-F4)", "Communication", "Jul-25-2013", R.mipmap.ic_inmarsat_4_f_1_2_3_foreground));
+        INMARSAT_Sat_Obj.add(new Satellite(33278, "INMARSAT 4-F3", "Communication", "Aug-18-2008", R.mipmap.ic_inmarsat_4_f_1_2_3_foreground));
+        INMARSAT_Sat_Obj.add(new Satellite(28899, "INMARSAT 4-F2", "Communication", "Nov-8-2005", R.mipmap.ic_inmarsat_4_f_1_2_3_foreground));
+        INMARSAT_Sat_Obj.add(new Satellite(28628, "INMARSAT 4-F1", "Communication", "Mar-11-2005", R.mipmap.ic_inmarsat_4_f_1_2_3_foreground));
+        INMARSAT_Sat_Obj.add(new Satellite(25153, "INMARSAT 3-F5", "Communication", "Feb-4-1998", R.mipmap.ic_inmarsat_3_f_1_to_5_foreground));
+        INMARSAT_Sat_Obj.add(new Satellite(24819, "INMARSAT 3-F4", "Communication", "Jun-3-1997", R.mipmap.ic_inmarsat_3_f_1_to_5_foreground));
+        INMARSAT_Sat_Obj.add(new Satellite(24674, "INMARSAT 3-F3", "Communication", "Dec-18-1996", R.mipmap.ic_inmarsat_3_f_1_to_5_foreground));
+        INMARSAT_Sat_Obj.add(new Satellite(24307, "INMARSAT 3-F2", "Communication", "Sep-6-1996", R.mipmap.ic_inmarsat_3_f_1_to_5_foreground));
+        INMARSAT_Sat_Obj.add(new Satellite(23839, "INMARSAT 3-F1", "Communication", "Apr-3-1996", R.mipmap.ic_inmarsat_3_f_1_to_5_foreground));
+        INMARSAT_Sat_Obj.add(new Satellite(21940, "INMARSAT 2-F4", "Communication", "Apr-15-1992", R.mipmap.ic_inmarsat_2_f_1_to_4_foreground));
+        INMARSAT_Sat_Obj.add(new Satellite(21814, "INMARSAT 2-F3", "Communication", "Dec-16-1991", R.mipmap.ic_inmarsat_2_f_1_to_4_foreground));
+        INMARSAT_Sat_Obj.add(new Satellite(21149, "INMARSAT 2-F2", "Communication", "Mar-8-1991", R.mipmap.ic_inmarsat_2_f_1_to_4_foreground));
+        INMARSAT_Sat_Obj.add(new Satellite(20918, "INMARSAT 2-F1", "Communication", "Oct-30-1990", R.mipmap.ic_inmarsat_2_f_1_to_4_foreground));
         return INMARSAT_Sat_Obj;
     }
 
