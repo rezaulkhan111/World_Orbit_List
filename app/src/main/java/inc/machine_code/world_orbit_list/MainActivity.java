@@ -1344,8 +1344,8 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
 
     public List<Satellite> NORTH_KOREA_Satellite_List() {
         NORTH_KOREA_Sat_Obj = new ArrayList<>();
-        NORTH_KOREA_Sat_Obj.add(new Satellite(41332, "KMS-4", "Earth Observation", "Feb-7-2016", R.mipmap.ic_north_korea_foreground));
-        NORTH_KOREA_Sat_Obj.add(new Satellite(39026, "KMS 3-2", "Earth Observation", "Dec-12-2012", R.mipmap.ic_north_korea_foreground));
+        NORTH_KOREA_Sat_Obj.add(new Satellite(41332, "KMS-4", "Earth Observation", "Feb-7-2016", R.mipmap.ic_kms_kwangmyongsong_4_foreground));
+        NORTH_KOREA_Sat_Obj.add(new Satellite(39026, "KMS 3-2", "EO,Technology", "Dec-12-2012", R.mipmap.ic_kms_kwangmyongsong_3_2_foreground));
         return NORTH_KOREA_Sat_Obj;
     }
 
@@ -1365,38 +1365,38 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
 
     public List<Satellite> PAKISTAN_Satellite_List() {
         PAKISTAN_Sat_Obj = new ArrayList<>();
-        PAKISTAN_Sat_Obj.add(new Satellite(39432, "ICUBE 1", "", "Nov-21-2013", R.mipmap.ic_pakistan_foreground));
-        PAKISTAN_Sat_Obj.add(new Satellite(37779, "PAKSAT 1R", "", "Aug-11-2011", R.mipmap.ic_pakistan_foreground));
-        PAKISTAN_Sat_Obj.add(new Satellite(27003, "BADR B", "", "Dec-10-2001", R.mipmap.ic_pakistan_foreground));
+        PAKISTAN_Sat_Obj.add(new Satellite(39432, "ICUBE 1", "Technology", "Nov-21-2013", R.mipmap.ic_icube_1_foreground));
+        PAKISTAN_Sat_Obj.add(new Satellite(37779, "PAKSAT 1R", "Communication", "Aug-11-2011", R.mipmap.ic_paksat_1r_foreground));
+        PAKISTAN_Sat_Obj.add(new Satellite(27003, "BADR B", "Technology", "Dec-10-2001", R.mipmap.ic_badr_b_foreground));
         PAKISTAN_Sat_Obj.add(new Satellite(23779, "PAKSAT 1(ANATOLIA 1)", "", "Feb-1-1996", R.mipmap.ic_pakistan_foreground));
         return PAKISTAN_Sat_Obj;
     }
 
     public List<Satellite> PERU_Satellite_List() {
         PERU_Sat_Obj = new ArrayList<>();
-        PERU_Sat_Obj.add(new Satellite(41770, "PERUSAT 1", "Earth Observation", "Sep-16-2016", R.mipmap.ic_peru_foreground));
-        PERU_Sat_Obj.add(new Satellite(39442, "PUCP-SAT 1", "Research", "Nov-21-2013", R.mipmap.ic_peru_foreground));
+        PERU_Sat_Obj.add(new Satellite(41770, "PERUSAT 1", "Earth Observation", "Sep-16-2016", R.mipmap.ic_perusat_1_foreground));
+        PERU_Sat_Obj.add(new Satellite(39442, "PUCP-SAT 1", "Technology", "Nov-21-2013", R.mipmap.ic_pucp_sat_1_foreground));
         return PERU_Sat_Obj;
     }
 
     public List<Satellite> PHILIPPINES_Satellite_List() {
         PHILIPPINES_Sat_Obj = new ArrayList<>();
-        PHILIPPINES_Sat_Obj.add(new Satellite(41463, "DIWATA-1", "Earth Observation", "Nov-20-1998", R.mipmap.ic_philippines_foreground));
+        PHILIPPINES_Sat_Obj.add(new Satellite(41463, "DIWATA-1", "Earth Observation", "Nov-20-1998", R.mipmap.ic_diwata_1_foreground));
         PHILIPPINES_Sat_Obj.add(new Satellite(17706, "AGILA 1(PALAPA B2P)", "Communication", "Mar-20-1987", R.mipmap.ic_philippines_foreground));
         return PHILIPPINES_Sat_Obj;
     }
 
     public List<Satellite> POLAND_Satellite_List() {
         POLAND_Sat_Obj = new ArrayList<>();
-        POLAND_Sat_Obj.add(new Satellite(40119, "BRITE-PL 2", "Astronomy", "Aug-19-2014", R.mipmap.ic_poland_foreground));
-        POLAND_Sat_Obj.add(new Satellite(39431, "BRITE-PL", "", "Nov-21-2013", R.mipmap.ic_poland_foreground));
+        POLAND_Sat_Obj.add(new Satellite(40119, "BRITE-PL 2", "Astronomy", "Aug-19-2014", R.mipmap.ic_brite_pl_1_2_foreground));
+        POLAND_Sat_Obj.add(new Satellite(39431, "BRITE-PL", "", "Nov-21-2013", R.mipmap.ic_brite_pl_1_2_foreground));
         return POLAND_Sat_Obj;
     }
 
     public List<Satellite> PORTUGAL_Satellite_List() {
         PORTUGAL_Sat_Obj = new ArrayList<>();
-        PORTUGAL_Sat_Obj.add(new Satellite(22829, "POSAT 1", "GPS", "Sep-26-1993", R.mipmap.ic_portugal_foreground));
-        PORTUGAL_Sat_Obj.add(new Satellite(22826, "ITAMSAT", "radio", "Sep-26-1993", R.mipmap.ic_portugal_foreground));
+        PORTUGAL_Sat_Obj.add(new Satellite(22829, "POSAT 1", "GPS", "Sep-26-1993", R.mipmap.ic_posat_1_foreground));
+        PORTUGAL_Sat_Obj.add(new Satellite(22826, "ITAMSAT", "Radio", "Sep-26-1993", R.mipmap.ic_itamsat_foreground));
         return PORTUGAL_Sat_Obj;
     }
 
@@ -1440,18 +1440,18 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
 
     public List<Satellite> SLOVAKIA_Satellite_List() {
         SLOVAKIA_Sat_Obj = new ArrayList<>();
-        SLOVAKIA_Sat_Obj.add(new Satellite(42789, "SKCUBE", "Education ", "Jun-23-2017", R.mipmap.ic_slovakia_foreground));
+        SLOVAKIA_Sat_Obj.add(new Satellite(42789, "SKCUBE", "Education,Technology", "Jun-23-2017", R.mipmap.ic_skcube_foreground));
         return SLOVAKIA_Sat_Obj;
     }
 
     public List<Satellite> SOUTH_AFRICA_Satellite_List() {
         SOUTH_AFRICA_Sat_Obj = new ArrayList<>();
-        SOUTH_AFRICA_Sat_Obj.add(new Satellite(42726, "NSIGHT-1", "", "Nov-20-1998", R.mipmap.ic_south_africa_foreground));
-        SOUTH_AFRICA_Sat_Obj.add(new Satellite(42713, "ZA-AEROSAT", "", "Nov-20-1998", R.mipmap.ic_south_africa_foreground));
-        SOUTH_AFRICA_Sat_Obj.add(new Satellite(40353, "KONDOR E", "", "Dec-19-2014", R.mipmap.ic_south_africa_foreground));
-        SOUTH_AFRICA_Sat_Obj.add(new Satellite(39417, "ZACUBE", "", "Nov-21-2013", R.mipmap.ic_south_africa_foreground));
-        SOUTH_AFRICA_Sat_Obj.add(new Satellite(35870, "SUMBANDILA", "", "Sep-17-2009", R.mipmap.ic_south_africa_foreground));
-        SOUTH_AFRICA_Sat_Obj.add(new Satellite(25636, "SUNSAT", "", "Feb-23-1999", R.mipmap.ic_south_africa_foreground));
+        SOUTH_AFRICA_Sat_Obj.add(new Satellite(42726, "NSIGHT-1", "Technology,Atmosphere,EO", "Nov-20-1998", R.mipmap.ic_nsight_1_foreground));
+        SOUTH_AFRICA_Sat_Obj.add(new Satellite(42713, "ZA-AEROSAT", "Technology,Atmosphere", "Nov-20-1998", R.mipmap.ic_za_aerosat_foreground));
+        SOUTH_AFRICA_Sat_Obj.add(new Satellite(40353, "KONDOR E", "Earth observation,Radar", "Dec-19-2014", R.mipmap.ic_kondor_e_foreground));
+        SOUTH_AFRICA_Sat_Obj.add(new Satellite(39417, "ZACUBE", "Technology", "Nov-21-2013", R.mipmap.ic_zacube_foreground));
+        SOUTH_AFRICA_Sat_Obj.add(new Satellite(35870, "SUMBANDILA", "Experimental", "Sep-17-2009", R.mipmap.ic_sumbandila_foreground));
+        SOUTH_AFRICA_Sat_Obj.add(new Satellite(25636, "SUNSAT", "Experimental", "Feb-23-1999", R.mipmap.ic_sunsat_foreground));
         return SOUTH_AFRICA_Sat_Obj;
     }
 

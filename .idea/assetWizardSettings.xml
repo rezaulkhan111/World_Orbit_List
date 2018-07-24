@@ -35,13 +35,13 @@
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
                                       <entry key="backgroundColor" value="f9f5f9" />
-                                      <entry key="backgroundLayerName" value="ic_nahul_i1_2_or_anik_c1_2_background" />
-                                      <entry key="foregroundImage" value="E:\Rezaul Khan(Internship)\ppppp\nahul_i1_2_or_anik_c1_2.jpg" />
-                                      <entry key="foregroundLayerName" value="ic_nahul_i1_2_or_anik_c1_2_foreground" />
+                                      <entry key="backgroundLayerName" value="ic_nsight_1_background" />
+                                      <entry key="foregroundImage" value="E:\Rezaul Khan(Internship)\ppppp\nsight_1.jpg" />
+                                      <entry key="foregroundLayerName" value="ic_nsight_1_foreground" />
                                       <entry key="generateLegacyIcon" value="false" />
                                       <entry key="generateRoundIcon" value="false" />
                                       <entry key="generateWebIcon" value="false" />
-                                      <entry key="outputName" value="nahul_i1_2_or_anik_c1_2" />
+                                      <entry key="outputName" value="nsight_1" />
                                     </map>
                                   </option>
                                 </PersistentState>
