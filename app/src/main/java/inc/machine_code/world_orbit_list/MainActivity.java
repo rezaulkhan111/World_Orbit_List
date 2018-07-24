@@ -1278,39 +1278,39 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
 
     public List<Satellite> LUXEMBOURG_Satellite_List() {
         LUXEMBOURG_Sat_Obj = new ArrayList<>();
-        LUXEMBOURG_Sat_Obj.add(new Satellite(37840, "VESSELSAT 1", "", "Oct-12-2011", R.mipmap.ic_luxembourg_foreground));
-        LUXEMBOURG_Sat_Obj.add(new Satellite(23331, "ASTRA 1D", "", "Nov-1-1994", R.mipmap.ic_luxembourg_foreground));
-        LUXEMBOURG_Sat_Obj.add(new Satellite(21139, "ASTRA 1B", "", "Mar-2-1991", R.mipmap.ic_luxembourg_foreground));
-        LUXEMBOURG_Sat_Obj.add(new Satellite(19688, "ASTRA 1A", "", "Dec-11-1988", R.mipmap.ic_luxembourg_foreground));
+        LUXEMBOURG_Sat_Obj.add(new Satellite(37840, "VESSELSAT 1", "Traffic Monitoring", "Oct-12-2011", R.mipmap.ic_vesselsat_1_2_foreground));
+        LUXEMBOURG_Sat_Obj.add(new Satellite(23331, "ASTRA 1D", "Communication(DB)", "Nov-1-1994", R.mipmap.ic_astra_1c_d_foreground));
+        LUXEMBOURG_Sat_Obj.add(new Satellite(21139, "ASTRA 1B", "Communication(DB)", "Mar-2-1991", R.mipmap.ic_astra_1b_foreground));
+        LUXEMBOURG_Sat_Obj.add(new Satellite(19688, "ASTRA 1A", "Communication(DB)", "Dec-11-1988", R.mipmap.ic_astra_1a_foreground));
         return LUXEMBOURG_Sat_Obj;
     }
 
     public List<Satellite> MALAYSIA_Satellite_List() {
         MALAYSIA_Sat_Obj = new ArrayList<>();
-        MALAYSIA_Sat_Obj.add(new Satellite(40147, "MEASAT 3B", "", "Sep-11-2014", R.mipmap.ic_malaysia_foreground));
-        MALAYSIA_Sat_Obj.add(new Satellite(35578, "RAZAKSAT", "", "Jul-14-2009", R.mipmap.ic_malaysia_foreground));
-        MALAYSIA_Sat_Obj.add(new Satellite(35362, "MEASAT 3A", "", "Jun-21-2009", R.mipmap.ic_malaysia_foreground));
-        MALAYSIA_Sat_Obj.add(new Satellite(29648, "MEASAT 3", "", "Dec-11-2006", R.mipmap.ic_malaysia_foreground));
-        MALAYSIA_Sat_Obj.add(new Satellite(26548, "TIUNGSAT 1", "", "Sep-26-2000", R.mipmap.ic_malaysia_foreground));
-        MALAYSIA_Sat_Obj.add(new Satellite(24653, "MEASAT 2", "", "Nov-13-1996", R.mipmap.ic_malaysia_foreground));
-        MALAYSIA_Sat_Obj.add(new Satellite(23765, "AFRICASAT 1 (MEASAT 1)", "", "Jan-12-1996", R.mipmap.ic_malaysia_foreground));
+        MALAYSIA_Sat_Obj.add(new Satellite(40147, "MEASAT 3B", "Communication", "Sep-11-2014", R.mipmap.ic_measat_3b_foreground));
+        MALAYSIA_Sat_Obj.add(new Satellite(35578, "RAZAKSAT", "Earth Observation", "Jul-14-2009", R.mipmap.ic_razaksat_foreground));
+        MALAYSIA_Sat_Obj.add(new Satellite(35362, "MEASAT 3A", "Communication", "Jun-21-2009", R.mipmap.ic_measat_3b_foreground));
+        MALAYSIA_Sat_Obj.add(new Satellite(29648, "MEASAT 3", "Communication", "Dec-11-2006", R.mipmap.ic_measat_3b_foreground));
+        MALAYSIA_Sat_Obj.add(new Satellite(26548, "TIUNGSAT 1", "", "Sep-26-2000", R.mipmap.ic_tigrisat_foreground));
+        MALAYSIA_Sat_Obj.add(new Satellite(24653, "MEASAT 2", "Communication", "Nov-13-1996", R.mipmap.ic_measat_1_2_foreground));
+        MALAYSIA_Sat_Obj.add(new Satellite(23765, "AFRICASAT 1(MEASAT 1)", "", "Jan-12-1996", R.mipmap.ic_measat_1_2_foreground));
         return MALAYSIA_Sat_Obj;
     }
 
     public List<Satellite> MEXICO_Satellite_List() {
         MEXICO_Sat_Obj = new ArrayList<>();
-        MEXICO_Sat_Obj.add(new Satellite(40946, "MORELOS 3", "", "Oct-2-2015", R.mipmap.ic_mexico_foreground));
-        MEXICO_Sat_Obj.add(new Satellite(40664, "SKY MEXICO-1", "", "May-27-2015", R.mipmap.ic_mexico_foreground));
-        MEXICO_Sat_Obj.add(new Satellite(39122, "SATMEX 8", "", "Mar-26-2013", R.mipmap.ic_mexico_foreground));
-        MEXICO_Sat_Obj.add(new Satellite(39035, "MEXSAT 3", "", "Dec-19-2012", R.mipmap.ic_mexico_foreground));
-        MEXICO_Sat_Obj.add(new Satellite(37826, "QUETZSAT 1", "", "Sep-29-2011", R.mipmap.ic_mexico_foreground));
-        MEXICO_Sat_Obj.add(new Satellite(29162, "SATMEX 6", "", "May-27-2006", R.mipmap.ic_mexico_foreground));
-        MEXICO_Sat_Obj.add(new Satellite(25558, "SATMEX 5", "", "Dec-6-1998", R.mipmap.ic_mexico_foreground));
-        MEXICO_Sat_Obj.add(new Satellite(24305, "UNAMSAT", "", "Sep-5-1996", R.mipmap.ic_mexico_foreground));
-        MEXICO_Sat_Obj.add(new Satellite(23313, "SOLIDARIDAD 2", "", "Oct-8-1994", R.mipmap.ic_mexico_foreground));
-        MEXICO_Sat_Obj.add(new Satellite(22911, "SOLIDARIDAD 1", "", "Nov-20-1993", R.mipmap.ic_mexico_foreground));
-        MEXICO_Sat_Obj.add(new Satellite(16274, "MORELOS 2", "", "Nov-27-1985", R.mipmap.ic_mexico_foreground));
-        MEXICO_Sat_Obj.add(new Satellite(15824, "MORELOS 1", "", "Jun-17-1985", R.mipmap.ic_mexico_foreground));
+        MEXICO_Sat_Obj.add(new Satellite(40946, "MORELOS 3", "Communication", "Oct-2-2015", R.mipmap.ic_morelos_3_foreground));
+        MEXICO_Sat_Obj.add(new Satellite(40664, "SKY MEXICO-1", "Communication", "May-27-2015", R.mipmap.ic_sky_mexico_1_foreground));
+        MEXICO_Sat_Obj.add(new Satellite(39122, "SATMEX 8", "Communication", "Mar-26-2013", R.mipmap.ic_echostar_11_14_to17_19_23_24_foreground));
+        MEXICO_Sat_Obj.add(new Satellite(39035, "MEXSAT 3", "Communication", "Dec-19-2012", R.mipmap.ic_nilesat_201_foreground));
+        MEXICO_Sat_Obj.add(new Satellite(37826, "QUETZSAT 1", "Communication", "Sep-29-2011", R.mipmap.ic_echostar_11_14_to17_19_23_24_foreground));
+        MEXICO_Sat_Obj.add(new Satellite(29162, "SATMEX 6", "Communication", "May-27-2006", R.mipmap.ic_nilesat_201_foreground));
+        MEXICO_Sat_Obj.add(new Satellite(25558, "SATMEX 5", "Communication", "Dec-6-1998", R.mipmap.ic_satmex_5_foreground));
+        MEXICO_Sat_Obj.add(new Satellite(24305, "UNAMSAT", "Technology", "Sep-5-1996", R.mipmap.ic_unamsat_foreground));
+        MEXICO_Sat_Obj.add(new Satellite(23313, "SOLIDARIDAD 2", "Communication", "Oct-8-1994", R.mipmap.ic_solidaridad_1_2_foreground));
+        MEXICO_Sat_Obj.add(new Satellite(22911, "SOLIDARIDAD 1", "Communication", "Nov-20-1993", R.mipmap.ic_solidaridad_1_2_foreground));
+        MEXICO_Sat_Obj.add(new Satellite(16274, "MORELOS 2", "Communication", "Nov-27-1985", R.mipmap.ic_measat_1_2_foreground));
+        MEXICO_Sat_Obj.add(new Satellite(15824, "MORELOS 1", "Communication", "Jun-17-1985", R.mipmap.ic_measat_1_2_foreground));
         return MEXICO_Sat_Obj;
     }
 
@@ -1322,23 +1322,23 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
 
     public List<Satellite> NETHERLANDS_Satellite_List() {
         NETHERLANDS_Sat_Obj = new ArrayList<>();
-        NETHERLANDS_Sat_Obj.add(new Satellite(42015, "PEASSS", "", "Feb-15-2017", R.mipmap.ic_netherlands_foreground));
-        NETHERLANDS_Sat_Obj.add(new Satellite(39428, "DELFI-N3XT", "", "Nov-21-2013", R.mipmap.ic_netherlands_foreground));
-        NETHERLANDS_Sat_Obj.add(new Satellite(32789, "DELFI C3", "", "Apr-28-2008", R.mipmap.ic_netherlands_foreground));
-        NETHERLANDS_Sat_Obj.add(new Satellite(24957, "NSS 5(INTELSAT 803)", "", "Sep-23-1997", R.mipmap.ic_netherlands_foreground));
-        NETHERLANDS_Sat_Obj.add(new Satellite(21989, "NSS K(INTELSAT K)", "", "Jun-10-1992", R.mipmap.ic_netherlands_foreground));
-        NETHERLANDS_Sat_Obj.add(new Satellite(19121, "NSS 513(INTELSAT 513)", "", "May-17-1988", R.mipmap.ic_netherlands_foreground));
+        NETHERLANDS_Sat_Obj.add(new Satellite(42015, "PEASSS", "Technology", "Feb-15-2017", R.mipmap.ic_peasss_foreground));
+        NETHERLANDS_Sat_Obj.add(new Satellite(39428, "DELFI-N3XT", "Technology", "Nov-21-2013", R.mipmap.ic_delfi_n3xt_foreground));
+        NETHERLANDS_Sat_Obj.add(new Satellite(32789, "DELFI C3", "Technology", "Apr-28-2008", R.mipmap.ic_delfi_c3_foreground));
+        NETHERLANDS_Sat_Obj.add(new Satellite(24957, "NSS 5(INTELSAT 803)", "Communication", "Sep-23-1997", R.mipmap.ic_laosat_1_foreground));
+        NETHERLANDS_Sat_Obj.add(new Satellite(21989, "NSS K(INTELSAT K)", "Communication", "Jun-10-1992", R.mipmap.ic_nss_k_intelsat_k_foreground));
+        NETHERLANDS_Sat_Obj.add(new Satellite(19121, "NSS 513(INTELSAT 513)", "Communication", "May-17-1988", R.mipmap.ic_nss_513_intelsat_513_foreground));
         return NETHERLANDS_Sat_Obj;
     }
 
     public List<Satellite> NIGERIA_Satellite_List() {
         NIGERIA_Sat_Obj = new ArrayList<>();
-        NIGERIA_Sat_Obj.add(new Satellite(42824, "BIRD NN", "", "Nov-20-1998", R.mipmap.ic_nigeria_foreground));
-        NIGERIA_Sat_Obj.add(new Satellite(38014, "NIGCOMSAT 1R", "", "Dec-19-2011", R.mipmap.ic_nigeria_foreground));
-        NIGERIA_Sat_Obj.add(new Satellite(37790, "NIGERIASAT X", "", "Aug-17-2011", R.mipmap.ic_nigeria_foreground));
-        NIGERIA_Sat_Obj.add(new Satellite(37789, "NIGERIASAT 2", "", "Aug-17-2011", R.mipmap.ic_nigeria_foreground));
-        NIGERIA_Sat_Obj.add(new Satellite(31395, "NIGCOMSAT 1", "", "May-13-2007", R.mipmap.ic_nigeria_foreground));
-        NIGERIA_Sat_Obj.add(new Satellite(27941, "NIGERIASAT 1", "", "Sep-27-2003", R.mipmap.ic_nigeria_foreground));
+        NIGERIA_Sat_Obj.add(new Satellite(42824, "BIRD NN", "Technology", "Nov-20-1998", R.mipmap.ic_bird_nn_foreground));
+        NIGERIA_Sat_Obj.add(new Satellite(38014, "NIGCOMSAT 1R", "", "Dec-19-2011", R.mipmap.ic_nigcomsat_1_r_foreground));
+        NIGERIA_Sat_Obj.add(new Satellite(37790, "NIGERIASAT X", "Training,EO", "Aug-17-2011", R.mipmap.ic_nigeriasat_x_foreground));
+        NIGERIA_Sat_Obj.add(new Satellite(37789, "NIGERIASAT 2", "Earth Observation", "Aug-17-2011", R.mipmap.ic_nigeriasat_2_foreground));
+        NIGERIA_Sat_Obj.add(new Satellite(31395, "NIGCOMSAT 1", "", "May-13-2007", R.mipmap.ic_nigcomsat_1_r_foreground));
+        NIGERIA_Sat_Obj.add(new Satellite(27941, "NIGERIASAT 1", "", "Sep-27-2003", R.mipmap.ic_nigeriasat_x_foreground));
         return NIGERIA_Sat_Obj;
     }
 
