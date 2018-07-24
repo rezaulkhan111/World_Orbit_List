@@ -294,6 +294,7 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
     public List<Satellite> BRAZIL_Satellite_List() {
         BRAZIL_Sat_Obj = new ArrayList<>();
         BRAZIL_Sat_Obj.add(new Satellite(42692, "SGDC", "Communication", "May-4-2017", R.mipmap.ic_sgdc_1_foreground));
+
         BRAZIL_Sat_Obj.add(new Satellite(41904, "STAR ONE D1", "Communication", "Dec-21-2016", R.mipmap.ic_star_one_c4_d1_foreground));
         BRAZIL_Sat_Obj.add(new Satellite(40733, "STAR ONE C4", "Communication", "Jul-15-2015", R.mipmap.ic_star_one_c4_d1_foreground));
         BRAZIL_Sat_Obj.add(new Satellite(40024, "NANOSAT C BRl", "Science, magnetosphere", "Jun-19-2014", R.mipmap.ic_nanosat_c_br_1_foreground));
