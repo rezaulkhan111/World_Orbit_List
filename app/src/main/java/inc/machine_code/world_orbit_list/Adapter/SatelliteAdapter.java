@@ -74,8 +74,8 @@ public class SatelliteAdapter extends RecyclerView.Adapter<SatelliteAdapter.View
     class SatelliteViewHolder extends RecyclerView.ViewHolder {
         ImageView p_satellite_photo;
         TextView p_satellite_name,
-                 p_launch_date,
-                 p_satellite_type;
+                p_launch_date,
+                p_satellite_type;
 
 
         SatelliteViewHolder(View view) {
@@ -92,8 +92,8 @@ public class SatelliteAdapter extends RecyclerView.Adapter<SatelliteAdapter.View
         ImageView satellite_photo;
 
         TextView satellite_name,
-                 launch_date,
-                 satellite_type;
+                launch_date,
+                satellite_type;
 
         ViewHolder(View v) {
             super(v);
