@@ -978,22 +978,22 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
 
     public List<Satellite> INDONESIA_Satellite_List() {
         INDONESIA_Sat_Obj = new ArrayList<>();
-        INDONESIA_Sat_Obj.add(new Satellite(41944, "TELKOM 3S", "", "Feb-14-2017", R.mipmap.ic_indonesia_foreground));
-        INDONESIA_Sat_Obj.add(new Satellite(41603, "LAPAN A3", "", "Jun-22-2016", R.mipmap.ic_indonesia_foreground));
-        INDONESIA_Sat_Obj.add(new Satellite(41591, "BRISAT", "", "Jun-18-2016", R.mipmap.ic_indonesia_foreground));
-        INDONESIA_Sat_Obj.add(new Satellite(40931, "LAPAN A2 (IO-86)", "", "Sep-28-2015", R.mipmap.ic_indonesia_foreground));
-        INDONESIA_Sat_Obj.add(new Satellite(38744, "TELKOM 3", "", "Aug-6-2012", R.mipmap.ic_indonesia_foreground));
-        INDONESIA_Sat_Obj.add(new Satellite(35812, "PALAPA D", "", "Aug-31-2009", R.mipmap.ic_indonesia_foreground));
-        INDONESIA_Sat_Obj.add(new Satellite(29709, "LAPAN-TUBSAT", "", "Jan-10-2007", R.mipmap.ic_indonesia_foreground));
-        INDONESIA_Sat_Obj.add(new Satellite(28902, "TELKOM 2", "", "Nov-16-2005", R.mipmap.ic_indonesia_foreground));
-        INDONESIA_Sat_Obj.add(new Satellite(26089, "GARUDA 1", "", "Feb-12-2000", R.mipmap.ic_indonesia_foreground));
-        INDONESIA_Sat_Obj.add(new Satellite(25880, "TELKOM 1", "", "Aug-12-1999", R.mipmap.ic_indonesia_foreground));
-        INDONESIA_Sat_Obj.add(new Satellite(25050, "INDOSTAR 1", "", "Nov-11-1997", R.mipmap.ic_indonesia_foreground));
-        INDONESIA_Sat_Obj.add(new Satellite(23864, "PALAPA C2", "", "May-16-1996", R.mipmap.ic_indonesia_foreground));
-        INDONESIA_Sat_Obj.add(new Satellite(21964, "PALAPA B4", "", "May-14-1992", R.mipmap.ic_indonesia_foreground));
-        INDONESIA_Sat_Obj.add(new Satellite(14134, "PALAPA B1", "", "Jun-18-1983", R.mipmap.ic_indonesia_foreground));
-        INDONESIA_Sat_Obj.add(new Satellite(9862, "PALAPA 2", "", "Mar-10-1977", R.mipmap.ic_indonesia_foreground));
-        INDONESIA_Sat_Obj.add(new Satellite(9009, "PALAPA 1", "", "Jul-8-1976", R.mipmap.ic_indonesia_foreground));
+        INDONESIA_Sat_Obj.add(new Satellite(41944, "TELKOM 3S", "Communication", "Feb-14-2017", R.mipmap.ic_telkom_3_3s_foreground));
+        INDONESIA_Sat_Obj.add(new Satellite(41603, "LAPAN A3", "EO,Comm:,Traffic Monitoring", "Jun-22-2016", R.mipmap.ic_lapan_a2_3_io_86_foreground));
+        INDONESIA_Sat_Obj.add(new Satellite(41591, "BRISAT", "Communication", "Jun-18-2016", R.mipmap.ic_echostar_1_to_10_12_16_18_foreground));
+        INDONESIA_Sat_Obj.add(new Satellite(40931, "LAPAN A2 (IO-86)", "EO,Comm:,Traffic Monitoring", "Sep-28-2015", R.mipmap.ic_lapan_a2_3_io_86_foreground));
+        INDONESIA_Sat_Obj.add(new Satellite(38744, "TELKOM 3", "Communication", "Aug-6-2012", R.mipmap.ic_telkom_3_3s_foreground));
+        INDONESIA_Sat_Obj.add(new Satellite(35812, "PALAPA D", "Communication", "Aug-31-2009", R.mipmap.ic_palapa_d_foreground));
+        INDONESIA_Sat_Obj.add(new Satellite(29709, "LAPAN-TUBSAT", "Earth Observing", "Jan-10-2007", R.mipmap.ic_lapan_tubsat_1_foreground));
+        INDONESIA_Sat_Obj.add(new Satellite(28902, "TELKOM 2", "Communication", "Nov-16-2005", R.mipmap.ic_telkom_2_foreground));
+        INDONESIA_Sat_Obj.add(new Satellite(26089, "GARUDA 1", "Communication", "Feb-12-2000", R.mipmap.ic_garuda_1_foreground));
+        INDONESIA_Sat_Obj.add(new Satellite(25880, "TELKOM 1", "Communication", "Aug-12-1999", R.mipmap.ic_telkom_1_foreground));
+        INDONESIA_Sat_Obj.add(new Satellite(25050, "INDOSTAR 1", "Communication", "Nov-11-1997", R.mipmap.ic_indostar_1_foreground));
+        INDONESIA_Sat_Obj.add(new Satellite(23864, "PALAPA C2", "Communication", "May-16-1996", R.mipmap.ic_palapa_c_1_2_foreground));
+        INDONESIA_Sat_Obj.add(new Satellite(21964, "PALAPA B4", "Communication", "May-14-1992", R.mipmap.ic_anik_d1_2_foreground));
+        INDONESIA_Sat_Obj.add(new Satellite(14134, "PALAPA B1", "Communication", "Jun-18-1983", R.mipmap.ic_anik_d1_2_foreground));
+        INDONESIA_Sat_Obj.add(new Satellite(9862, "PALAPA 2", "Communication", "Mar-10-1977", R.mipmap.ic_anik_a_1_2_3_foreground));
+        INDONESIA_Sat_Obj.add(new Satellite(9009, "PALAPA 1", "Communication", "Jul-8-1976", R.mipmap.ic_anik_a_1_2_3_foreground));
         return INDONESIA_Sat_Obj;
     }
 
@@ -1011,23 +1011,23 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
 
     public List<Satellite> ISRAEL_Satellite_List() {
         ISRAEL_Sat_Obj = new ArrayList<>();
-        ISRAEL_Sat_Obj.add(new Satellite(42901, "VENUS", "", "Aug-2-2017", R.mipmap.ic_israel_foreground));
-        ISRAEL_Sat_Obj.add(new Satellite(42000, "DIDO 2", "", "Feb-15-2017", R.mipmap.ic_israel_foreground));
-        ISRAEL_Sat_Obj.add(new Satellite(41999, "BGUSAT", "", "Feb-15-2017", R.mipmap.ic_israel_foreground));
-        ISRAEL_Sat_Obj.add(new Satellite(41759, "OFEQ 11", "", "Sep-13-2016", R.mipmap.ic_israel_foreground));
-        ISRAEL_Sat_Obj.add(new Satellite(40021, "DUCHIFAT-1", "", "Jun-19-2014", R.mipmap.ic_israel_foreground));
-        ISRAEL_Sat_Obj.add(new Satellite(39650, "OFEQ 10", "", "Apr-9-2014", R.mipmap.ic_israel_foreground));
-        ISRAEL_Sat_Obj.add(new Satellite(39237, "AMOS-4", "", "Aug-31-2013", R.mipmap.ic_israel_foreground));
-        ISRAEL_Sat_Obj.add(new Satellite(37950, "AMOS 5", "", "Dec-11-2011", R.mipmap.ic_israel_foreground));
-        ISRAEL_Sat_Obj.add(new Satellite(36608, "OFEQ 9", "", "Jun-22-2010", R.mipmap.ic_israel_foreground));
-        ISRAEL_Sat_Obj.add(new Satellite(32794, "AMOS 3", "", "Apr-28-2008", R.mipmap.ic_israel_foreground));
-        ISRAEL_Sat_Obj.add(new Satellite(32476, "TECSAR", "", "Jan-21-2008", R.mipmap.ic_israel_foreground));
-        ISRAEL_Sat_Obj.add(new Satellite(31601, "OFEQ 7", "", "Jun-10-2007", R.mipmap.ic_israel_foreground));
-        ISRAEL_Sat_Obj.add(new Satellite(29079, "EROS B", "", "Apr-25-2006", R.mipmap.ic_israel_foreground));
-        ISRAEL_Sat_Obj.add(new Satellite(28132, "AMOS 2", "", "Dec-27-2003", R.mipmap.ic_israel_foreground));
-        ISRAEL_Sat_Obj.add(new Satellite(27434, "OFEQ 5", "", "May-28-2002", R.mipmap.ic_israel_foreground));
-        ISRAEL_Sat_Obj.add(new Satellite(25397, "TECHSAT 1B", "", "Jul-10-1998", R.mipmap.ic_israel_foreground));
-        ISRAEL_Sat_Obj.add(new Satellite(23723, "AMOS 5I (ASIASAT 2)", "", "Nov-28-1995", R.mipmap.ic_israel_foreground));
+        ISRAEL_Sat_Obj.add(new Satellite(42901, "VENUS", "Earth Observation", "Aug-2-2017", R.mipmap.ic_venus_foreground));
+        ISRAEL_Sat_Obj.add(new Satellite(42000, "DIDO 2", "Micro-Gravity Research", "Feb-15-2017", R.mipmap.ic_dido_2_foreground));
+        ISRAEL_Sat_Obj.add(new Satellite(41999, "BGUSAT", "Technology", "Feb-15-2017", R.mipmap.ic_bgusat_foreground));
+        ISRAEL_Sat_Obj.add(new Satellite(41759, "OFEQ 11", "Earth Observing", "Sep-13-2016", R.mipmap.ic_ofeq_11_foreground));
+        ISRAEL_Sat_Obj.add(new Satellite(40021, "DUCHIFAT-1", "Science,Magnetosphere", "Jun-19-2014", R.mipmap.ic_duchifat_1_foreground));
+        ISRAEL_Sat_Obj.add(new Satellite(39650, "OFEQ 10", "EO(Radar)", "Apr-9-2014", R.mipmap.ic_ofeq_8_10_foreground));
+        ISRAEL_Sat_Obj.add(new Satellite(39237, "AMOS-4", "Communication", "Aug-31-2013", R.mipmap.ic_amos_4_foreground));
+        ISRAEL_Sat_Obj.add(new Satellite(37950, "AMOS 5", "Communication", "Dec-11-2011", R.mipmap.ic_amos_5_foreground));
+        ISRAEL_Sat_Obj.add(new Satellite(36608, "OFEQ 9", "Reconnaissance,Optical", "Jun-22-2010", R.mipmap.ic_ofeq_5_to_9_foreground));
+        ISRAEL_Sat_Obj.add(new Satellite(32794, "AMOS 3", "Communication", "Apr-28-2008", R.mipmap.ic_amos_3_foreground));
+        ISRAEL_Sat_Obj.add(new Satellite(32476, "TECSAR", "EO(Radar)", "Jan-21-2008", R.mipmap.ic_ofeq_8_10_foreground));
+        ISRAEL_Sat_Obj.add(new Satellite(31601, "OFEQ 7", "Reconnaissance,Optical", "Jun-10-2007", R.mipmap.ic_ofeq_5_to_9_foreground));
+        ISRAEL_Sat_Obj.add(new Satellite(29079, "EROS B", "Earth Observing", "Apr-25-2006", R.mipmap.ic_eros_b_foreground));
+        ISRAEL_Sat_Obj.add(new Satellite(28132, "AMOS 2", "Communication", "Dec-27-2003", R.mipmap.ic_amos_2_foreground));
+        ISRAEL_Sat_Obj.add(new Satellite(27434, "OFEQ 5", "Reconnaissance,Optical", "May-28-2002", R.mipmap.ic_ofeq_5_to_9_foreground));
+        ISRAEL_Sat_Obj.add(new Satellite(25397, "TECHSAT 1B", "Amateur Radio comm:", "Jul-10-1998", R.mipmap.ic_techsat_1b_foreground));
+        ISRAEL_Sat_Obj.add(new Satellite(23723, "AMOS 5I (ASIASAT 2)", "Communication", "Nov-28-1995", R.mipmap.ic_amos_5i_asiasat_2_foreground));
         return ISRAEL_Sat_Obj;
     }
 
