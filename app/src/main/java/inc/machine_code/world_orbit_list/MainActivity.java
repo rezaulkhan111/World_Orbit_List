@@ -16,7 +16,7 @@ import inc.machine_code.world_orbit_list.Country.Satellite;
 
 public class MainActivity extends AppCompatActivity implements CountryAdapter.ICallback {
 
-    private RecyclerView mRecyclerView;
+
     List<Country> countryList = new ArrayList<>();
     List<Satellite> ALGERIA_Sat_Obj,
             ARGENTINA_Sat_Obj,
@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
             SOCIETE_EUROPEENNE_DES_SATELLITES_Sat_Obj,
             TURKMENISTAN_MONACO,
             UNITED_STATES_BRAZIL_Sat_Obj;
-
+    private RecyclerView mRecyclerView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -1033,33 +1033,33 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
 
     public List<Satellite> ITALY_Satellite_List() {
         ITALY_Sat_Obj = new ArrayList<>();
-        ITALY_Sat_Obj.add(new Satellite(42900, "OPTSAT 3000", "", "Aug-2-2017", R.mipmap.ic_italy_foreground));
-        ITALY_Sat_Obj.add(new Satellite(42794, "DSAT", "", "Jun-23-2017", R.mipmap.ic_italy_foreground));
-        ITALY_Sat_Obj.add(new Satellite(42778, "MAX VALIER SAT", "Astronomy,X-Ray,Tech", "Jun-23-2017", R.mipmap.ic_italy_foreground));
-        ITALY_Sat_Obj.add(new Satellite(42776, "URSA MAIOR", "Tech,Thermospheric Research", "Jun-23-2017", R.mipmap.ic_italy_foreground));
-        ITALY_Sat_Obj.add(new Satellite(41459, "E-ST@R-II", "", "Apr-25-2016", R.mipmap.ic_italy_foreground));
-        ITALY_Sat_Obj.add(new Satellite(40012, "UNISAT 6", "", "Jun-19-2014", R.mipmap.ic_italy_foreground));
-        ITALY_Sat_Obj.add(new Satellite(39421, "UNISAT 5", "", "Nov-21-2013", R.mipmap.ic_italy_foreground));
-        ITALY_Sat_Obj.add(new Satellite(38078, "ALMASAT-1", "", "Feb-13-2012", R.mipmap.ic_italy_foreground));
-        ITALY_Sat_Obj.add(new Satellite(38077, "LARES", "", "Feb-13-2012", R.mipmap.ic_italy_foreground));
-        ITALY_Sat_Obj.add(new Satellite(37788, "EDUSAT", "", "Aug-17-2011", R.mipmap.ic_italy_foreground));
-        ITALY_Sat_Obj.add(new Satellite(37216, "SKYMED 4", "", "Nov-6-2010", R.mipmap.ic_italy_foreground));
-        ITALY_Sat_Obj.add(new Satellite(34810, "SICRAL 1B", "", "Apr-20-2009", R.mipmap.ic_italy_foreground));
-        ITALY_Sat_Obj.add(new Satellite(33412, "SKYMED 3", "", "Oct-25-2008", R.mipmap.ic_italy_foreground));
-        ITALY_Sat_Obj.add(new Satellite(32376, "SKYMED 2", "", "Dec-9-2007", R.mipmap.ic_italy_foreground));
-        ITALY_Sat_Obj.add(new Satellite(31598, "SKYMED 1", "", "Jun-8-2007", R.mipmap.ic_italy_foreground));
-        ITALY_Sat_Obj.add(new Satellite(31135, "AGILE", "", "Apr-23-2007", R.mipmap.ic_italy_foreground));
-        ITALY_Sat_Obj.add(new Satellite(28373, "UNISAT 3", "", "Jun-29-2004", R.mipmap.ic_italy_foreground));
-        ITALY_Sat_Obj.add(new Satellite(27608, "UNISAT 2", "", "Dec-20-2002", R.mipmap.ic_italy_foreground));
-        ITALY_Sat_Obj.add(new Satellite(26694, "SICRAL 1", "", "Feb-7-2001", R.mipmap.ic_italy_foreground));
-        ITALY_Sat_Obj.add(new Satellite(26547, "UNISAT", "", "Sep-26-2000", R.mipmap.ic_italy_foreground));
-        ITALY_Sat_Obj.add(new Satellite(26546, "MEGSAT 1", "", "Sep-26-2000", R.mipmap.ic_italy_foreground));
-        ITALY_Sat_Obj.add(new Satellite(24208, "ITALSAT 2", "", "Aug-8-1996", R.mipmap.ic_italy_foreground));
+        ITALY_Sat_Obj.add(new Satellite(42900, "OPTSAT 3000", "Reconnaissance,Optical", "Aug-2-2017", R.mipmap.ic_optsat_3000_foreground));
+        ITALY_Sat_Obj.add(new Satellite(42794, "DSAT", "Technology", "Jun-23-2017", R.mipmap.ic_dsat_foreground));
+        ITALY_Sat_Obj.add(new Satellite(42778, "MAX VALIER SAT", "Astronomy,X-Ray,Tech", "Jun-23-2017", R.mipmap.ic_max_valier_sat_foreground));
+        ITALY_Sat_Obj.add(new Satellite(42776, "URSA MAIOR", "Tech,Thermospheric Research", "Jun-23-2017", R.mipmap.ic_ursa_maior_foreground));
+        ITALY_Sat_Obj.add(new Satellite(41459, "E-ST@R-II", "Technology", "Apr-25-2016", R.mipmap.ic_e_star_2_foreground));
+        ITALY_Sat_Obj.add(new Satellite(40012, "UNISAT 6", "Technology", "Jun-19-2014", R.mipmap.ic_unisat_6_foreground));
+        ITALY_Sat_Obj.add(new Satellite(39421, "UNISAT 5", "Technology", "Nov-21-2013", R.mipmap.ic_unisat_5_foreground));
+        ITALY_Sat_Obj.add(new Satellite(38078, "ALMASAT-1", "Technology", "Feb-13-2012", R.mipmap.ic_almasat_1_foreground));
+        ITALY_Sat_Obj.add(new Satellite(38077, "LARES", "Basic Research,Geodesy", "Feb-13-2012", R.mipmap.ic_lares_foreground));
+        ITALY_Sat_Obj.add(new Satellite(37788, "EDUSAT", "Technology", "Aug-17-2011", R.mipmap.ic_edusat_foreground));
+        ITALY_Sat_Obj.add(new Satellite(37216, "SKYMED 4", "Earth Observing(Radar)", "Nov-6-2010", R.mipmap.ic_skymed_1_to_4_cosmo_foreground));
+        ITALY_Sat_Obj.add(new Satellite(34810, "SICRAL 1B", "Military Communication", "Apr-20-2009", R.mipmap.ic_sicral_1_b_foreground));
+        ITALY_Sat_Obj.add(new Satellite(33412, "SKYMED 3", "Earth Observing(Radar)", "Oct-25-2008", R.mipmap.ic_skymed_1_to_4_cosmo_foreground));
+        ITALY_Sat_Obj.add(new Satellite(32376, "SKYMED 2", "Earth Observing(Radar)", "Dec-9-2007", R.mipmap.ic_skymed_1_to_4_cosmo_foreground));
+        ITALY_Sat_Obj.add(new Satellite(31598, "SKYMED 1", "Earth Observing(Radar)", "Jun-8-2007", R.mipmap.ic_skymed_1_to_4_cosmo_foreground));
+        ITALY_Sat_Obj.add(new Satellite(31135, "AGILE", "Astronomy,Gamma", "Apr-23-2007", R.mipmap.ic_agile_foreground));
+        ITALY_Sat_Obj.add(new Satellite(28373, "UNISAT 3", "Technology", "Jun-29-2004", R.mipmap.ic_unisat_1_2_3_4_foreground));
+        ITALY_Sat_Obj.add(new Satellite(27608, "UNISAT 2", "Technology", "Dec-20-2002", R.mipmap.ic_unisat_1_2_3_4_foreground));
+        ITALY_Sat_Obj.add(new Satellite(26694, "SICRAL 1", "Military Communication", "Feb-7-2001", R.mipmap.ic_sicral_1_b_foreground));
+        ITALY_Sat_Obj.add(new Satellite(26547, "UNISAT", "Technology", "Sep-26-2000", R.mipmap.ic_unisat_1_2_3_4_foreground));
+        ITALY_Sat_Obj.add(new Satellite(26546, "MEGSAT 1", "Comm:(store forward)", "Sep-26-2000", R.mipmap.ic_megsat_1_foreground));
+        ITALY_Sat_Obj.add(new Satellite(24208, "ITALSAT 2", "Communication", "Aug-8-1996", R.mipmap.ic_italsat1_2_foreground));
         ITALY_Sat_Obj.add(new Satellite(22828, "KITSAT 2", "", "Sep-26-1993", R.mipmap.ic_italy_foreground));
-        ITALY_Sat_Obj.add(new Satellite(22783, "TEMISAT", "", "Aug-31-1993", R.mipmap.ic_italy_foreground));
-        ITALY_Sat_Obj.add(new Satellite(22195, "LAGEOS 2", "", "Oct-22-1992", R.mipmap.ic_italy_foreground));
-        ITALY_Sat_Obj.add(new Satellite(21055, "ITALSAT 1", "", "Jan-15-1991", R.mipmap.ic_italy_foreground));
-        ITALY_Sat_Obj.add(new Satellite(10294, "SIRIO", "", "Aug-25-1977", R.mipmap.ic_italy_foreground));
+        ITALY_Sat_Obj.add(new Satellite(22783, "TEMISAT", "Environmental Data Collection & Relay", "Aug-31-1993", R.mipmap.ic_temisat_foreground));
+        ITALY_Sat_Obj.add(new Satellite(22195, "LAGEOS 2", "Geodesy", "Oct-22-1992", R.mipmap.ic_lageos_1_2_foreground));
+        ITALY_Sat_Obj.add(new Satellite(21055, "ITALSAT 1", "Communication", "Jan-15-1991", R.mipmap.ic_italsat1_2_foreground));
+        ITALY_Sat_Obj.add(new Satellite(10294, "SIRIO", "Communication", "Aug-25-1977", R.mipmap.ic_sirio_foreground));
         return ITALY_Sat_Obj;
     }
 
@@ -1476,11 +1476,11 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         SOUTH_KOREA_Sat_Obj.add(new Satellite(27945, "KAISTSAT 4", "", "Sep-27-2003", R.mipmap.ic_south_korea_foreground));
         SOUTH_KOREA_Sat_Obj.add(new Satellite(26032, "KOMPSAT", "", "Dec-21-1999", R.mipmap.ic_south_korea_foreground));
         SOUTH_KOREA_Sat_Obj.add(new Satellite(25894, "ABS-7 (KOREASAT 3)", "", "Sep-4-1999", R.mipmap.ic_south_korea_foreground));
-        SOUTH_KOREA_Sat_Obj.add(new Satellite(25756, "KITSAT 3", "", "May-26-1999", R.mipmap.ic_south_korea_foreground));
+        SOUTH_KOREA_Sat_Obj.add(new Satellite(25756, "KITSAT 3", "Technology", "May-26-1999", R.mipmap.ic_kitsat_3_foreground));
         SOUTH_KOREA_Sat_Obj.add(new Satellite(23768, "ABS-1A(KOREASAT 2)", "", "Jan-14-1996", R.mipmap.ic_south_korea_foreground));
         SOUTH_KOREA_Sat_Obj.add(new Satellite(23639, "KOREASAT 1", "", "Aug-5-1995", R.mipmap.ic_south_korea_foreground));
         SOUTH_KOREA_Sat_Obj.add(new Satellite(22825, "EYESAT-1", "", "Sept-26-1993", R.mipmap.ic_south_korea_foreground));
-        SOUTH_KOREA_Sat_Obj.add(new Satellite(22077, "OSCAR 23 (KITSAT 1)", "", "Aug-10-1992", R.mipmap.ic_south_korea_foreground));
+        SOUTH_KOREA_Sat_Obj.add(new Satellite(22077, "OSCAR 23 (KITSAT 1)", "EO,Technology", "Aug-10-1992", R.mipmap.ic_kitsat_1_2_foreground));
         return SOUTH_KOREA_Sat_Obj;
     }
 
@@ -2913,7 +2913,7 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         USA_Sat_Obj.add(new Satellite(8838, "COMSTAR 1", "", "May-13-1976", R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(8836, "SSU 2", "", "Apr-30-1976", R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(8835, "SSU 1", "", "Apr-30-1976", R.mipmap.ic_united_states_of_america_foreground));
-        USA_Sat_Obj.add(new Satellite(8820, "LAGEOS 1", "", "May-4-1976", R.mipmap.ic_united_states_of_america_foreground));
+        USA_Sat_Obj.add(new Satellite(8820, "LAGEOS 1", "Geodesy", "May-4-1976", R.mipmap.ic_lageos_1_2_foreground));
         USA_Sat_Obj.add(new Satellite(8818, "OPS 6431", "", "Apr-30-1976", R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(8774, "SATCOM 2", "", "Mar-26-1976", R.mipmap.ic_united_states_of_america_foreground));
         USA_Sat_Obj.add(new Satellite(8749, "SOLRAD 11B", "", "Mar-15-1976", R.mipmap.ic_united_states_of_america_foreground));
