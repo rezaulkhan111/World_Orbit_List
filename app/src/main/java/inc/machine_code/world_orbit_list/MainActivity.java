@@ -1035,8 +1035,8 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         ITALY_Sat_Obj = new ArrayList<>();
         ITALY_Sat_Obj.add(new Satellite(42900, "OPTSAT 3000", "", "Aug-2-2017", R.mipmap.ic_italy_foreground));
         ITALY_Sat_Obj.add(new Satellite(42794, "DSAT", "", "Jun-23-2017", R.mipmap.ic_italy_foreground));
-        ITALY_Sat_Obj.add(new Satellite(42778, "MAX VALIER SAT", "", "Jun-23-2017", R.mipmap.ic_italy_foreground));
-        ITALY_Sat_Obj.add(new Satellite(42776, "URSA MAIOR", "", "Jun-23-2017", R.mipmap.ic_italy_foreground));
+        ITALY_Sat_Obj.add(new Satellite(42778, "MAX VALIER SAT", "Astronomy,X-Ray,Tech", "Jun-23-2017", R.mipmap.ic_italy_foreground));
+        ITALY_Sat_Obj.add(new Satellite(42776, "URSA MAIOR", "Tech,Thermospheric Research", "Jun-23-2017", R.mipmap.ic_italy_foreground));
         ITALY_Sat_Obj.add(new Satellite(41459, "E-ST@R-II", "", "Apr-25-2016", R.mipmap.ic_italy_foreground));
         ITALY_Sat_Obj.add(new Satellite(40012, "UNISAT 6", "", "Jun-19-2014", R.mipmap.ic_italy_foreground));
         ITALY_Sat_Obj.add(new Satellite(39421, "UNISAT 5", "", "Nov-21-2013", R.mipmap.ic_italy_foreground));
