@@ -35,13 +35,13 @@
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
                                       <entry key="backgroundColor" value="f9f5f9" />
-                                      <entry key="backgroundLayerName" value="ic_viking_background" />
-                                      <entry key="foregroundImage" value="E:\Rezaul Khan(Internship)\ppppp\viking.jpg" />
-                                      <entry key="foregroundLayerName" value="ic_viking_foreground" />
+                                      <entry key="backgroundLayerName" value="ic_rocsat_1_2_background" />
+                                      <entry key="foregroundImage" value="E:\Rezaul Khan(Internship)\ppppp\rocsat_1_2.jpg" />
+                                      <entry key="foregroundLayerName" value="ic_rocsat_1_2_foreground" />
                                       <entry key="generateLegacyIcon" value="false" />
                                       <entry key="generateRoundIcon" value="false" />
                                       <entry key="generateWebIcon" value="false" />
-                                      <entry key="outputName" value="viking" />
+                                      <entry key="outputName" value="rocsat_1_2" />
                                     </map>
                                   </option>
                                 </PersistentState>

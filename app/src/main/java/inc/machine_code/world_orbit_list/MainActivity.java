@@ -1533,16 +1533,16 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
 
     public List<Satellite> TAIWAN_Satellite_List() {
         TAIWAN_Sat_Obj = new ArrayList<>();
-        TAIWAN_Sat_Obj.add(new Satellite("42920", "FORMOSAT-5", "", "Aug-24-2017", R.mipmap.ic_taiwan_foreground));
-        TAIWAN_Sat_Obj.add(new Satellite("40022", "PACE", "", "Jun-19-2014", R.mipmap.ic_taiwan_foreground));
-        TAIWAN_Sat_Obj.add(new Satellite("29052", "FORMOSAT 3F", "", "Ap-15-2006", R.mipmap.ic_taiwan_foreground));
-        TAIWAN_Sat_Obj.add(new Satellite("29051", "FORMOSAT 3E", "", "Ap-15-2006", R.mipmap.ic_taiwan_foreground));
-        TAIWAN_Sat_Obj.add(new Satellite("29050", "FORMOSAT 3D", "", "Ap-15-2006", R.mipmap.ic_taiwan_foreground));
-        TAIWAN_Sat_Obj.add(new Satellite("29049", "FORMOSAT 3C", "", "Ap-15-2006", R.mipmap.ic_taiwan_foreground));
-        TAIWAN_Sat_Obj.add(new Satellite("29048", "FORMOSAT 3B", "", "Ap-15-2006", R.mipmap.ic_taiwan_foreground));
-        TAIWAN_Sat_Obj.add(new Satellite("29047", "FORMOSAT 3A", "", "Ap-15-2006", R.mipmap.ic_taiwan_foreground));
-        TAIWAN_Sat_Obj.add(new Satellite("28254", "ROCSAT 2", "", "May-20-2004", R.mipmap.ic_taiwan_foreground));
-        TAIWAN_Sat_Obj.add(new Satellite("25616", "ROCSAT 1", "", "Jan-27-1999", R.mipmap.ic_taiwan_foreground));
+        TAIWAN_Sat_Obj.add(new Satellite("42920", "FORMOSAT-5", "Earth Observing", "Aug-24-2017", R.mipmap.ic_formosat_5_foreground));
+        TAIWAN_Sat_Obj.add(new Satellite("40022", "PACE", "Technology", "Jun-19-2014", R.mipmap.ic_pace_foreground));
+        TAIWAN_Sat_Obj.add(new Satellite("29052", "FORMOSAT 3F", "Earth Observing", "Apr-15-2006", R.mipmap.ic_formosat_3_a_to_f_foreground));
+        TAIWAN_Sat_Obj.add(new Satellite("29051", "FORMOSAT 3E", "Earth Observing", "Apr-15-2006", R.mipmap.ic_formosat_3_a_to_f_foreground));
+        TAIWAN_Sat_Obj.add(new Satellite("29050", "FORMOSAT 3D", "Earth Observing", "Apr-15-2006", R.mipmap.ic_formosat_3_a_to_f_foreground));
+        TAIWAN_Sat_Obj.add(new Satellite("29049", "FORMOSAT 3C", "Earth Observing", "Apr-15-2006", R.mipmap.ic_formosat_3_a_to_f_foreground));
+        TAIWAN_Sat_Obj.add(new Satellite("29048", "FORMOSAT 3B", "Earth Observing", "Apr-15-2006", R.mipmap.ic_formosat_3_a_to_f_foreground));
+        TAIWAN_Sat_Obj.add(new Satellite("29047", "FORMOSAT 3A", "Earth Observing", "Apr-15-2006", R.mipmap.ic_formosat_3_a_to_f_foreground));
+        TAIWAN_Sat_Obj.add(new Satellite("28254", "ROCSAT 2", "Earth Observing,Science", "May-20-2004", R.mipmap.ic_rocsat_1_2_foreground));
+        TAIWAN_Sat_Obj.add(new Satellite("25616", "ROCSAT 1", "Earth Observing, Science", "Jan-27-1999", R.mipmap.ic_rocsat_1_2_foreground));
         return TAIWAN_Sat_Obj;
     }
 
