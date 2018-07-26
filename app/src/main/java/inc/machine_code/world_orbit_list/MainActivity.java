@@ -742,7 +742,7 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         ESTONIA_Sat_Obj.add(new Satellite("39161", "ESTCUBE 1", "Technology,EO", "May-7-2013", R.mipmap.ic_estcube_1_foreground));
         return ESTONIA_Sat_Obj;
     }
-
+////wwww///
     public List<Satellite> FRANCE_Satellite_List() {
         FRANCE_Sat_Obj = new ArrayList<>();
         FRANCE_Sat_Obj.add(new Satellite("43272", "HYLAS 4", "", "Apr-5-2018", R.mipmap.ic_france_foreground));
@@ -815,7 +815,7 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         FRANCE_Sat_Obj.add(new Satellite("1778", "A-1(ASTERIX)", "", "Nov-26-1965", R.mipmap.ic_france_foreground));
         return FRANCE_Sat_Obj;
     }
-
+///lll///
     public List<Satellite> GERMANY_Satellite_List() {
         GERMANY_Sat_Obj = new ArrayList<>();
         GERMANY_Sat_Obj.add(new Satellite("42831", "FLYING LAPTOP", "", "Jul-14-2017", R.mipmap.ic_germany_foreground));
@@ -883,7 +883,7 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         GREECE_Sat_Obj.add(new Satellite("22175", "HELLAS SAT 1 (DFS 3)", "Communication", "Oct-12-1992", R.mipmap.ic_hellas_sat_1_2_foreground));
         return GREECE_Sat_Obj;
     }
-
+/////ffff///
     public List<Satellite> INDIA_Satellite_List() {
         INDIA_Sat_Obj = new ArrayList<>();
         INDIA_Sat_Obj.add(new Satellite("43286", "IRNSS 1I", "", "Apr-11-2018", R.mipmap.ic_india_foreground));
@@ -1063,7 +1063,7 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         ITALY_Sat_Obj.add(new Satellite("10294", "SIRIO", "Communication", "Aug-25-1977", R.mipmap.ic_sirio_foreground));
         return ITALY_Sat_Obj;
     }
-
+////uuuuu////
     public List<Satellite> JAPAN_Satellite_List() {
         JAPAN_Sat_Obj = new ArrayList<>();
         JAPAN_Sat_Obj.add(new Satellite("43495", "IGS R-6", "", "Jun-12-2018", R.mipmap.ic_japan_foreground));
@@ -1455,7 +1455,7 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         SOUTH_AFRICA_Sat_Obj.add(new Satellite("25636", "SUNSAT", "Experimental", "Feb-23-1999", R.mipmap.ic_sunsat_foreground));
         return SOUTH_AFRICA_Sat_Obj;
     }
-
+////lll///
     public List<Satellite> SOUTH_KOREA_Satellite_List() {
         SOUTH_KOREA_Sat_Obj = new ArrayList<>();
         SOUTH_KOREA_Sat_Obj.add(new Satellite("43138", "STEP CUBE LAB", "", "Jan-12-2018", R.mipmap.ic_south_korea_foreground));
@@ -1484,7 +1484,7 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         SOUTH_KOREA_Sat_Obj.add(new Satellite("22077", "OSCAR 23 (KITSAT 1)", "EO,Technology", "Aug-10-1992", R.mipmap.ic_kitsat_1_2_foreground));
         return SOUTH_KOREA_Sat_Obj;
     }
-
+////ggg///
     public List<Satellite> SPAIN_Satellite_List() {
         SPAIN_Sat_Obj = new ArrayList<>();
         SPAIN_Sat_Obj.add(new Satellite("43228", "HISPASAT 30W-6", "", "Mar-6-2018", R.mipmap.ic_spain_foreground));
@@ -1516,18 +1516,18 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
 
     public List<Satellite> SWEDEN_Satellite_List() {
         SWEDEN_Sat_Obj = new ArrayList<>();
-        SWEDEN_Sat_Obj.add(new Satellite("42708", "QBEE50-LTU-OC", "", "Nov-20-1998", R.mipmap.ic_sweden_foreground));
-        SWEDEN_Sat_Obj.add(new Satellite("36827", "PRISMA(TANGO)", "", "Jun-15-2010", R.mipmap.ic_sweden_foreground));
-        SWEDEN_Sat_Obj.add(new Satellite("36599", "PRISMA(MANGO)", "", "Jun-15-2010", R.mipmap.ic_sweden_foreground));
-        SWEDEN_Sat_Obj.add(new Satellite("26702", "ODIN", "", "Feb-20-2001", R.mipmap.ic_sweden_foreground));
-        SWEDEN_Sat_Obj.add(new Satellite("26621", "MUNIN", "", "Nov-21-2000", R.mipmap.ic_sweden_foreground));
-        SWEDEN_Sat_Obj.add(new Satellite("25568", "ASTRID 2", "", "Dec-10-1998", R.mipmap.ic_sweden_foreground));
-        SWEDEN_Sat_Obj.add(new Satellite("25049", "SIRIUS 2(GE-1E)", "", "Nov-11-1997", R.mipmap.ic_sweden_foreground));
-        SWEDEN_Sat_Obj.add(new Satellite("23464", "ASTRID", "", "Jan-24-1995", R.mipmap.ic_sweden_foreground));
-        SWEDEN_Sat_Obj.add(new Satellite("22161", "FREJA", "", "Oct-6-1992", R.mipmap.ic_sweden_foreground));
-        SWEDEN_Sat_Obj.add(new Satellite("20193", "SIRIUS W(MARCOPOLO 1)", "", "Aug-27-1989", R.mipmap.ic_sweden_foreground));
-        SWEDEN_Sat_Obj.add(new Satellite("19919", "TELE-X", "", "Apr-2-1989", R.mipmap.ic_sweden_foreground));
-        SWEDEN_Sat_Obj.add(new Satellite("16614", "VIKING", "", "Feb-22-1986", R.mipmap.ic_sweden_foreground));
+        SWEDEN_Sat_Obj.add(new Satellite("42708", "QBEE50-LTU-OC", "Tech:,Thermospheric Research", "Nov-20-1998", R.mipmap.ic_qbee50_ltu_oc_foreground));
+        SWEDEN_Sat_Obj.add(new Satellite("36827", "PRISMA(TANGO)", "Technology", "Jun-15-2010", R.mipmap.ic_prisma_tango_mango_foreground));
+        SWEDEN_Sat_Obj.add(new Satellite("36599", "PRISMA(MANGO)", "Technology", "Jun-15-2010", R.mipmap.ic_prisma_tango_mango_foreground));
+        SWEDEN_Sat_Obj.add(new Satellite("26702", "ODIN", "Science,Astronomy,Aeronomy", "Feb-20-2001", R.mipmap.ic_odin_foreground));
+        SWEDEN_Sat_Obj.add(new Satellite("26621", "MUNIN", "Scientific", "Nov-21-2000", R.mipmap.ic_munin_foreground));
+        SWEDEN_Sat_Obj.add(new Satellite("25568", "ASTRID 2", "Science", "Dec-10-1998", R.mipmap.ic_astrid_2_foreground));
+        SWEDEN_Sat_Obj.add(new Satellite("25049", "SIRIUS 2(GE-1E)", "Communication", "Nov-11-1997", R.mipmap.ic_sirius_2_ge_1e_foreground));
+        SWEDEN_Sat_Obj.add(new Satellite("23464", "ASTRID", "Science", "Jan-24-1995", R.mipmap.ic_astrid_1_foreground));
+        SWEDEN_Sat_Obj.add(new Satellite("22161", "FREJA", "Research,Magnetospheric", "Oct-6-1992", R.mipmap.ic_freja_foreground));
+        SWEDEN_Sat_Obj.add(new Satellite("20193", "SIRIUS W(MARCOPOLO 1)", "", "Aug-27-1989", R.mipmap.ic_brasilsat_a_1_2_foreground));
+        SWEDEN_Sat_Obj.add(new Satellite("19919", "TELE-X", "Communication", "Apr-2-1989", R.mipmap.ic_tele_x_foreground));
+        SWEDEN_Sat_Obj.add(new Satellite("16614", "VIKING", "Science,Magnetosphere", "Feb-22-1986", R.mipmap.ic_viking_foreground));
         return SWEDEN_Sat_Obj;
     }
 
@@ -1559,7 +1559,7 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         THAILAND_Sat_Obj.add(new Satellite("22931", "THAICOM 1", "", "Dec-18-1993", R.mipmap.ic_thailand_foreground));
         return THAILAND_Sat_Obj;
     }
-
+////ggg///
     public List<Satellite> TURKEY_Satellite_List() {
         TURKEY_Sat_Obj = new ArrayList<>();
         TURKEY_Sat_Obj.add(new Satellite("43466", "UBAKUSAT", "", "Nov-30-1998", R.mipmap.ic_turkey_foreground));
@@ -1593,7 +1593,7 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         UNITED_ARAB_EMIRATES_Sat_Obj.add(new Satellite("26578", "THURAYA 1", "Communication", "Oct-21-2000", R.mipmap.ic_thuraya_1_foreground));
         return UNITED_ARAB_EMIRATES_Sat_Obj;
     }
-
+////gghg///
     public List<Satellite> UNITED_KINGDOM_Satellite_List() {
         UNITED_KINGDOM_Sat_Obj = new ArrayList<>();
         UNITED_KINGDOM_Sat_Obj.add(new Satellite("43510", "REMOVEDEBRIS", "", "Nov-20-1998", R.mipmap.ic_united_kingdom_foreground));
@@ -1641,7 +1641,7 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         UNITED_KINGDOM_Sat_Obj.add(new Satellite("4250", "SKYNET 1", "", "Nov-22-1969", R.mipmap.ic_united_kingdom_foreground));
         return UNITED_KINGDOM_Sat_Obj;
     }
-
+////iiii////
     public List<Satellite> USA_Satellite_List() {
         USA_Sat_Obj = new ArrayList<>();
         USA_Sat_Obj.add(new Satellite("43522", "DRAGON CRS-15", "ISS Resupply", "June 29, 2018", R.mipmap.ic_dragon_crs15_foreground));
