@@ -1559,24 +1559,24 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         THAILAND_Sat_Obj.add(new Satellite("22931", "THAICOM 1", "Communication", "Dec-18-1993", R.mipmap.ic_brasilsat_a_1_2_foreground));
         return THAILAND_Sat_Obj;
     }
-////ggg///
+
     public List<Satellite> TURKEY_Satellite_List() {
         TURKEY_Sat_Obj = new ArrayList<>();
-        TURKEY_Sat_Obj.add(new Satellite("43466", "UBAKUSAT", "", "Nov-30-1998", R.mipmap.ic_turkey_foreground));
-        TURKEY_Sat_Obj.add(new Satellite("42736", "BEEAGLESAT", "", "Nov-20-1998", R.mipmap.ic_turkey_foreground));
-        TURKEY_Sat_Obj.add(new Satellite("42700", "HAVELSAT", "", "Nov-20-1998", R.mipmap.ic_turkey_foreground));
-        TURKEY_Sat_Obj.add(new Satellite("41875", "GOKTURK-1A", "", "Dec-5-2016", R.mipmap.ic_turkey_foreground));
-        TURKEY_Sat_Obj.add(new Satellite("40984", "TURKSAT 4B", "", "Oct-16-2015", R.mipmap.ic_turkey_foreground));
-        TURKEY_Sat_Obj.add(new Satellite("39522", "TURKSAT 4A", "", "Feb-14-2014", R.mipmap.ic_turkey_foreground));
-        TURKEY_Sat_Obj.add(new Satellite("39152", "TURKSAT 3U", "", "Apr-26-2013", R.mipmap.ic_turkey_foreground));
-        TURKEY_Sat_Obj.add(new Satellite("39030", "GOKTURK 2", "", "Dec-18-2012", R.mipmap.ic_turkey_foreground));
-        TURKEY_Sat_Obj.add(new Satellite("37791", "RASAT", "", "Aug-17-2011", R.mipmap.ic_turkey_foreground));
-        TURKEY_Sat_Obj.add(new Satellite("35935", "ITUPSAT 1", "", "Sep-23-2009", R.mipmap.ic_turkey_foreground));
-        TURKEY_Sat_Obj.add(new Satellite("33056", "TURKSAT 3A", "", "Jun-12-2008", R.mipmap.ic_turkey_foreground));
-        TURKEY_Sat_Obj.add(new Satellite("27943", "BILSAT 1", "", "Sep-27-2003", R.mipmap.ic_turkey_foreground));
-        TURKEY_Sat_Obj.add(new Satellite("26666", "TURKSAT 2A", "", "Jan-10-2001", R.mipmap.ic_turkey_foreground));
-        TURKEY_Sat_Obj.add(new Satellite("23949", "TURKSAT 1C", "", "Jul-9-1996", R.mipmap.ic_turkey_foreground));
-        TURKEY_Sat_Obj.add(new Satellite("23200", "TURKSAT 1B", "", "Aug-10-1994", R.mipmap.ic_turkey_foreground));
+        TURKEY_Sat_Obj.add(new Satellite("43466", "UBAKUSAT", "Technology,Comm:", "Nov-30-1998", R.mipmap.ic_ubakusat_foreground));
+        TURKEY_Sat_Obj.add(new Satellite("42736", "BEEAGLESAT", "Tech:,Atmospheric Science", "Nov-20-1998", R.mipmap.ic_beeaglesat_foreground));
+        TURKEY_Sat_Obj.add(new Satellite("42700", "HAVELSAT", "Tech:,Atmospheric Science", "Nov-20-1998", R.mipmap.ic_havelsat_foreground));
+        TURKEY_Sat_Obj.add(new Satellite("41875", "GOKTURK-1A", "Reconnaissance,Optical", "Dec-5-2016", R.mipmap.ic_gokturk_1a_foreground));
+        TURKEY_Sat_Obj.add(new Satellite("40984", "TURKSAT 4B", "Communication", "Oct-16-2015", R.mipmap.ic_turksat_4a_b_foreground));
+        TURKEY_Sat_Obj.add(new Satellite("39522", "TURKSAT 4A", "Communication", "Feb-14-2014", R.mipmap.ic_turksat_4a_b_foreground));
+        TURKEY_Sat_Obj.add(new Satellite("39152", "TURKSAT 3U", "Technology,Comm:", "Apr-26-2013", R.mipmap.ic_turksat_3u_foreground));
+        TURKEY_Sat_Obj.add(new Satellite("39030", "GOKTURK 2", "Reconnaissance,Optical", "Dec-18-2012", R.mipmap.ic_gokturk_2_foreground));
+        TURKEY_Sat_Obj.add(new Satellite("37791", "RASAT", "Earth Observation", "Aug-17-2011", R.mipmap.ic_rasat_foreground));
+        TURKEY_Sat_Obj.add(new Satellite("35935", "ITUPSAT 1", "Technology", "Sep-23-2009", R.mipmap.ic_itupsat_1_foreground));
+        TURKEY_Sat_Obj.add(new Satellite("33056", "TURKSAT 3A", "Communication", "Jun-12-2008", R.mipmap.ic_turksat_3a_foreground));
+        TURKEY_Sat_Obj.add(new Satellite("27943", "BILSAT 1", "Earth Observation", "Sep-27-2003", R.mipmap.ic_bilsat_1_foreground));
+        TURKEY_Sat_Obj.add(new Satellite("26666", "TURKSAT 2A", "Communication", "Jan-10-2001", R.mipmap.ic_turksat_2a_foreground));
+        TURKEY_Sat_Obj.add(new Satellite("23949", "TURKSAT 1C", "Communication", "Jul-9-1996", R.mipmap.ic_turksat_1a_b_c_foreground));
+        TURKEY_Sat_Obj.add(new Satellite("23200", "TURKSAT 1B", "Communication", "Aug-10-1994", R.mipmap.ic_turksat_1a_b_c_foreground));
         return TURKEY_Sat_Obj;
     }
 
