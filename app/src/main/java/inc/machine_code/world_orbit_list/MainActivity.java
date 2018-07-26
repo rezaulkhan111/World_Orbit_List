@@ -1636,7 +1636,7 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         UNITED_KINGDOM_Sat_Obj.add(new Satellite("14781", "OSCAR 11(UoSAT 2)", "Radio Comm:", "Mar-1-1984", R.mipmap.ic_oscar_11_uosat_2_foreground));
         UNITED_KINGDOM_Sat_Obj.add(new Satellite("7547", "SKYNET 2B", "Military Communication", "Nov-23-1974", R.mipmap.ic_skynet_2a_b_foreground));
         UNITED_KINGDOM_Sat_Obj.add(new Satellite("7213", "MIRANDA (X-4)", "Technology", "Mar-9-1974", R.mipmap.ic_miranda_x_4_foreground));
-        UNITED_KINGDOM_Sat_Obj.add(new Satellite("5580", "PROSPERO(BLACK ARROW)", "", "Oct-28-1971", R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite("5580", "PROSPERO(BLACK ARROW)", "Technology", "Oct-28-1971", R.mipmap.ic_prospero_foreground));
         UNITED_KINGDOM_Sat_Obj.add(new Satellite("4493", "SKYNET 1B", "Military Communication", "Aug-19-1970", R.mipmap.ic_skynet_1a_b_foreground));
         UNITED_KINGDOM_Sat_Obj.add(new Satellite("4250", "SKYNET 1", "Military Communication", "Nov-22-1969", R.mipmap.ic_skynet_1a_b_foreground));
         return UNITED_KINGDOM_Sat_Obj;
