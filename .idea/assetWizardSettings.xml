@@ -35,13 +35,13 @@
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
                                       <entry key="backgroundColor" value="f9f5f9" />
-                                      <entry key="backgroundLayerName" value="ic_kitsat_1_2_background" />
-                                      <entry key="foregroundImage" value="E:\Rezaul Khan(Internship)\ppppp\kitsat_1_2.jpg" />
-                                      <entry key="foregroundLayerName" value="ic_kitsat_1_2_foreground" />
+                                      <entry key="backgroundLayerName" value="ic_nayif_eo_88_background" />
+                                      <entry key="foregroundImage" value="E:\Rezaul Khan(Internship)\ppppp\nayif_eo_88.jpg" />
+                                      <entry key="foregroundLayerName" value="ic_nayif_eo_88_foreground" />
                                       <entry key="generateLegacyIcon" value="false" />
                                       <entry key="generateRoundIcon" value="false" />
                                       <entry key="generateWebIcon" value="false" />
-                                      <entry key="outputName" value="kitsat_1_2" />
+                                      <entry key="outputName" value="nayif_eo_88" />
                                     </map>
                                   </option>
                                 </PersistentState>

@@ -1352,15 +1352,15 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
 
     public List<Satellite> NORWAY_Satellite_List() {
         NORWAY_Sat_Obj = new ArrayList<>();
-        NORWAY_Sat_Obj.add(new Satellite("40613", "THOR 7", "", "Ap-26-2015", R.mipmap.ic_norway_foreground));
-        NORWAY_Sat_Obj.add(new Satellite("40075", "AISSAT 2", "", "Jul-8-2014", R.mipmap.ic_norway_foreground));
-        NORWAY_Sat_Obj.add(new Satellite("39445", "HINCUBE", "", "Nov-21-2013", R.mipmap.ic_norway_foreground));
-        NORWAY_Sat_Obj.add(new Satellite("36797", "AISSAT 1", "", "Jul-12-2010", R.mipmap.ic_norway_foreground));
-        NORWAY_Sat_Obj.add(new Satellite("36033", "THOR 6", "", "Oct-29-2009", R.mipmap.ic_norway_foreground));
-        NORWAY_Sat_Obj.add(new Satellite("32487", "THOR 5", "", "Feb-11-2008", R.mipmap.ic_norway_foreground));
-        NORWAY_Sat_Obj.add(new Satellite("25358", "THOR 3", "", "Jun-10-1998", R.mipmap.ic_norway_foreground));
-        NORWAY_Sat_Obj.add(new Satellite("24808", "THOR 2A", "", "May-20-1997", R.mipmap.ic_norway_foreground));
-        NORWAY_Sat_Obj.add(new Satellite("20762", "THOR 1(MARCOPOLO 2)", "Aug-18-1990", "", R.mipmap.ic_norway_foreground));
+        NORWAY_Sat_Obj.add(new Satellite("40613", "THOR 7", "Communication", "Apr-26-2015", R.mipmap.ic_thor_7_foreground));
+        NORWAY_Sat_Obj.add(new Satellite("40075", "AISSAT 2", "Traffic Monitoring", "Jul-8-2014", R.mipmap.ic_aissat_1_2_foreground));
+        NORWAY_Sat_Obj.add(new Satellite("39445", "HINCUBE", "Technology", "Nov-21-2013", R.mipmap.ic_hincube_foreground));
+        NORWAY_Sat_Obj.add(new Satellite("36797", "AISSAT 1", "Traffic Monitoring", "Jul-12-2010", R.mipmap.ic_aissat_1_2_foreground));
+        NORWAY_Sat_Obj.add(new Satellite("36033", "THOR 6", "Communication", "Oct-29-2009", R.mipmap.ic_thor_6_foreground));
+        NORWAY_Sat_Obj.add(new Satellite("32487", "THOR 5", "Communication", "Feb-11-2008", R.mipmap.ic_thor_5_foreground));
+        NORWAY_Sat_Obj.add(new Satellite("25358", "THOR 3", "Communication", "Jun-10-1998", R.mipmap.ic_brasilsat_a_1_2_foreground));
+        NORWAY_Sat_Obj.add(new Satellite("24808", "THOR 2A", "Communication", "May-20-1997", R.mipmap.ic_brasilsat_a_1_2_foreground));
+        NORWAY_Sat_Obj.add(new Satellite("20762", "THOR 1(MARCOPOLO 2)", "Communication(DB)", "Aug-18-1990", R.mipmap.ic_brasilsat_a_1_2_foreground));
         return NORWAY_Sat_Obj;
     }
 
@@ -1582,15 +1582,15 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
 
     public List<Satellite> UNITED_ARAB_EMIRATES_Satellite_List() {
         UNITED_ARAB_EMIRATES_Sat_Obj = new ArrayList<>();
-        UNITED_ARAB_EMIRATES_Sat_Obj.add(new Satellite("43174", "AL YAH 3", "", "Jan-25-2018", R.mipmap.ic_united_arab_emirates_foreground));
-        UNITED_ARAB_EMIRATES_Sat_Obj.add(new Satellite("42017", "NAYIF (EO-88)", "", "Feb-15-2017", R.mipmap.ic_united_arab_emirates_foreground));
-        UNITED_ARAB_EMIRATES_Sat_Obj.add(new Satellite("39419", "DUBSAISAT 2", "", "Nov-21-2013", R.mipmap.ic_united_arab_emirates_foreground));
-        UNITED_ARAB_EMIRATES_Sat_Obj.add(new Satellite("38245", "YAHSAT 1B", "", "Apr-23-2012", R.mipmap.ic_united_arab_emirates_foreground));
-        UNITED_ARAB_EMIRATES_Sat_Obj.add(new Satellite("37393", "YAHSAT 1A", "", "Apr-22-2011", R.mipmap.ic_united_arab_emirates_foreground));
-        UNITED_ARAB_EMIRATES_Sat_Obj.add(new Satellite("35682", "DUBAISAT 1", "", "Jul-29-2009", R.mipmap.ic_united_arab_emirates_foreground));
-        UNITED_ARAB_EMIRATES_Sat_Obj.add(new Satellite("32404", "THURAYA 3", "", "Jan-15-2008", R.mipmap.ic_united_arab_emirates_foreground));
-        UNITED_ARAB_EMIRATES_Sat_Obj.add(new Satellite("27825", "THURAYA 2", "", "Jun-10-2003", R.mipmap.ic_united_arab_emirates_foreground));
-        UNITED_ARAB_EMIRATES_Sat_Obj.add(new Satellite("26578", "THURAYA 1", "", "Oct-21-2000", R.mipmap.ic_united_arab_emirates_foreground));
+        UNITED_ARAB_EMIRATES_Sat_Obj.add(new Satellite("43174", "AL YAH 3", "Communication", "Jan-25-2018", R.mipmap.ic_al_yah_3_foreground));
+        UNITED_ARAB_EMIRATES_Sat_Obj.add(new Satellite("42017", "NAYIF (EO-88)", "Technology,Education", "Feb-15-2017", R.mipmap.ic_nayif_eo_88_foreground));
+        UNITED_ARAB_EMIRATES_Sat_Obj.add(new Satellite("39419", "DUBSAISAT 2", "Earth Observation,Tech:", "Nov-21-2013", R.mipmap.ic_dubaisat_2_foreground));
+        UNITED_ARAB_EMIRATES_Sat_Obj.add(new Satellite("38245", "YAHSAT 1B", "Communication", "Apr-23-2012", R.mipmap.ic_yahsat_1b_foreground));
+        UNITED_ARAB_EMIRATES_Sat_Obj.add(new Satellite("37393", "YAHSAT 1A", "Communication", "Apr-22-2011", R.mipmap.ic_yahsat_1a_foreground));
+        UNITED_ARAB_EMIRATES_Sat_Obj.add(new Satellite("35682", "DUBAISAT 1", "Earth Observation,Tech:", "Jul-29-2009", R.mipmap.ic_dubaisat_1_foreground));
+        UNITED_ARAB_EMIRATES_Sat_Obj.add(new Satellite("32404", "THURAYA 3", "Communication", "Jan-15-2008", R.mipmap.ic_thuraya_2_3_foreground));
+        UNITED_ARAB_EMIRATES_Sat_Obj.add(new Satellite("27825", "THURAYA 2", "Communication", "Jun-10-2003", R.mipmap.ic_thuraya_2_3_foreground));
+        UNITED_ARAB_EMIRATES_Sat_Obj.add(new Satellite("26578", "THURAYA 1", "Communication", "Oct-21-2000", R.mipmap.ic_thuraya_1_foreground));
         return UNITED_ARAB_EMIRATES_Sat_Obj;
     }
 
