@@ -1548,15 +1548,15 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
 
     public List<Satellite> THAILAND_Satellite_List() {
         THAILAND_Sat_Obj = new ArrayList<>();
-        THAILAND_Sat_Obj.add(new Satellite("41552", "THAICOM 8", "", "May-27-2016", R.mipmap.ic_thailand_foreground));
-        THAILAND_Sat_Obj.add(new Satellite("39500", "THAICOM 6", "", "Jan-6-2014", R.mipmap.ic_thailand_foreground));
-        THAILAND_Sat_Obj.add(new Satellite("33396", "THEOS", "", "Oct-1-2008", R.mipmap.ic_thailand_foreground));
-        THAILAND_Sat_Obj.add(new Satellite("29163", "THAICOM 5", "", "May-27-2006", R.mipmap.ic_thailand_foreground));
-        THAILAND_Sat_Obj.add(new Satellite("28786", "IPSTAR 1", "", "Aug-11-2005", R.mipmap.ic_thailand_foreground));
-        THAILAND_Sat_Obj.add(new Satellite("25396", "TMSAT", "", "Jul-10-1998", R.mipmap.ic_thailand_foreground));
-        THAILAND_Sat_Obj.add(new Satellite("24768", "THAICOM 3", "", "Apr-16-1997", R.mipmap.ic_thailand_foreground));
-        THAILAND_Sat_Obj.add(new Satellite("23314", "THAICOM 2", "", "Oct-8-1994", R.mipmap.ic_thailand_foreground));
-        THAILAND_Sat_Obj.add(new Satellite("22931", "THAICOM 1", "", "Dec-18-1993", R.mipmap.ic_thailand_foreground));
+        THAILAND_Sat_Obj.add(new Satellite("41552", "THAICOM 8", "Communication", "May-27-2016", R.mipmap.ic_thaicom_8_foreground));
+        THAILAND_Sat_Obj.add(new Satellite("39500", "THAICOM 6", "Communication", "Jan-6-2014", R.mipmap.ic_thaicom_6_foreground));
+        THAILAND_Sat_Obj.add(new Satellite("33396", "THEOS", "Earth Observing", "Oct-1-2008", R.mipmap.ic_theos_foreground));
+        THAILAND_Sat_Obj.add(new Satellite("29163", "THAICOM 5", "Communication", "May-27-2006", R.mipmap.ic_thaicom_3_5_foreground));
+        THAILAND_Sat_Obj.add(new Satellite("28786", "IPSTAR 1", "Communication", "Aug-11-2005", R.mipmap.ic_ipstar_1_foreground));
+        THAILAND_Sat_Obj.add(new Satellite("25396", "TMSAT", "Technology", "Jul-10-1998", R.mipmap.ic_tmsat_foreground));
+        THAILAND_Sat_Obj.add(new Satellite("24768", "THAICOM 3", "Communication", "Apr-16-1997", R.mipmap.ic_thaicom_3_5_foreground));
+        THAILAND_Sat_Obj.add(new Satellite("23314", "THAICOM 2", "Communication", "Oct-8-1994", R.mipmap.ic_brasilsat_a_1_2_foreground));
+        THAILAND_Sat_Obj.add(new Satellite("22931", "THAICOM 1", "Communication", "Dec-18-1993", R.mipmap.ic_brasilsat_a_1_2_foreground));
         return THAILAND_Sat_Obj;
     }
 ////ggg///
