@@ -1426,16 +1426,16 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
 
     public List<Satellite> SINGAPORE_Satellite_List() {
         SINGAPORE_Sat_Obj = new ArrayList<>();
-        SINGAPORE_Sat_Obj.add(new Satellite("41171", "VELOX 2", "", "Dec-16-2015", R.mipmap.ic_singapore_foreground));
-        SINGAPORE_Sat_Obj.add(new Satellite("41170", "GALASSIA", "", "Dec-16-2015", R.mipmap.ic_singapore_foreground));
-        SINGAPORE_Sat_Obj.add(new Satellite("41169", "TELEOS 1", "", "Dec-16-2015", R.mipmap.ic_singapore_foreground));
-        SINGAPORE_Sat_Obj.add(new Satellite("41168", "ATHENOXAT-1", "", "Dec-16-2015", R.mipmap.ic_singapore_foreground));
-        SINGAPORE_Sat_Obj.add(new Satellite("41167", "KENT RIDGE 1", "", "Dec-16-2015", R.mipmap.ic_singapore_foreground));
-        SINGAPORE_Sat_Obj.add(new Satellite("41166", "VELOX C1", "", "Dec-16-2015", R.mipmap.ic_singapore_foreground));
-        SINGAPORE_Sat_Obj.add(new Satellite("40057", "VELOX 1", "", "Jun-30-2014", R.mipmap.ic_singapore_foreground));
-        SINGAPORE_Sat_Obj.add(new Satellite("40028", "POPSAT HIP 1", "", "Jun-19-2014", R.mipmap.ic_singapore_foreground));
-        SINGAPORE_Sat_Obj.add(new Satellite("39438", "VELOX-P 2", "", "Nov-21-2013", R.mipmap.ic_singapore_foreground));
-        SINGAPORE_Sat_Obj.add(new Satellite("37389", "XSAT", "", "Apr-20-2011", R.mipmap.ic_singapore_foreground));
+        SINGAPORE_Sat_Obj.add(new Satellite("41171", "VELOX 2", "Technology", "Dec-16-2015", R.mipmap.ic_velox_2_foreground));
+        SINGAPORE_Sat_Obj.add(new Satellite("41170", "GALASSIA", "Technology", "Dec-16-2015", R.mipmap.ic_galassia_foreground));
+        SINGAPORE_Sat_Obj.add(new Satellite("41169", "TELEOS 1", "Earth Observation", "Dec-16-2015", R.mipmap.ic_teleos_1_foreground));
+        SINGAPORE_Sat_Obj.add(new Satellite("41168", "ATHENOXAT-1", "Technology", "Dec-16-2015", R.mipmap.ic_athenoxat_1_foreground));
+        SINGAPORE_Sat_Obj.add(new Satellite("41167", "KENT RIDGE 1", "Earth Observation", "Dec-16-2015", R.mipmap.ic_kent_ridge_1_foreground));
+        SINGAPORE_Sat_Obj.add(new Satellite("41166", "VELOX C1", "Technology", "Dec-16-2015", R.mipmap.ic_velox_c1_foreground));
+        SINGAPORE_Sat_Obj.add(new Satellite("40057", "VELOX 1", "Technology", "Jun-30-2014", R.mipmap.ic_velox_1_foreground));
+        SINGAPORE_Sat_Obj.add(new Satellite("40028", "POPSAT HIP 1", "Technology", "Jun-19-2014", R.mipmap.ic_popsat_hip_1_foreground));
+        SINGAPORE_Sat_Obj.add(new Satellite("39438", "VELOX-P 2", "Technology", "Nov-21-2013", R.mipmap.ic_velox_p_2_foreground));
+        SINGAPORE_Sat_Obj.add(new Satellite("37389", "XSAT", "Earth Observation,Tech:", "Apr-20-2011", R.mipmap.ic_xsat_foreground));
         return SINGAPORE_Sat_Obj;
     }
 
