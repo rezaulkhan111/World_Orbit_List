@@ -1408,19 +1408,19 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
 
     public List<Satellite> SAUDI_ARABIA_Satellite_List() {
         SAUDI_ARABIA_Sat_Obj = new ArrayList<>();
-        SAUDI_ARABIA_Sat_Obj.add(new Satellite("40016", "SAUDISAT 4", "", "Jun-19-2014", R.mipmap.ic_saudi_arabia_foreground));
-        SAUDI_ARABIA_Sat_Obj.add(new Satellite("31127", "SAUDICOMSAT 4", "", "Apr-17-2007", R.mipmap.ic_saudi_arabia_foreground));
-        SAUDI_ARABIA_Sat_Obj.add(new Satellite("31125", "SAUDICOMSAT 3", "", "Apr-17-2007", R.mipmap.ic_saudi_arabia_foreground));
-        SAUDI_ARABIA_Sat_Obj.add(new Satellite("31124", "SAUDICOMSAT 5", "", "Apr-17-2007", R.mipmap.ic_saudi_arabia_foreground));
-        SAUDI_ARABIA_Sat_Obj.add(new Satellite("31121", "SAUDICOMSAT 6", "", "Apr-17-2007", R.mipmap.ic_saudi_arabia_foreground));
-        SAUDI_ARABIA_Sat_Obj.add(new Satellite("31119", "SAUDICOMSAT 7", "", "Apr-17-2007", R.mipmap.ic_saudi_arabia_foreground));
-        SAUDI_ARABIA_Sat_Obj.add(new Satellite("31118", "SAUDISAT 3", "", "Apr-17-2007", R.mipmap.ic_saudi_arabia_foreground));
-        SAUDI_ARABIA_Sat_Obj.add(new Satellite("28371", "SAUDISAT 2", "", "Jun-29-2004", R.mipmap.ic_saudi_arabia_foreground));
-        SAUDI_ARABIA_Sat_Obj.add(new Satellite("28370", "SAUDICOMSAT 2", "", "Jun-29-2004", R.mipmap.ic_saudi_arabia_foreground));
-        SAUDI_ARABIA_Sat_Obj.add(new Satellite("28369", "SAUDICOMSAT 1", "", "Jun-29-2004", R.mipmap.ic_saudi_arabia_foreground));
-        SAUDI_ARABIA_Sat_Obj.add(new Satellite("27607", "SAUDISAT 1C", "", "Dec-20-2002", R.mipmap.ic_saudi_arabia_foreground));
-        SAUDI_ARABIA_Sat_Obj.add(new Satellite("26549", "SAUDISAT 1B", "", "Sep-26-2000", R.mipmap.ic_saudi_arabia_foreground));
-        SAUDI_ARABIA_Sat_Obj.add(new Satellite("26545", "SAUDISAT 1A", "", "Sep-26-2000", R.mipmap.ic_saudi_arabia_foreground));
+        SAUDI_ARABIA_Sat_Obj.add(new Satellite("40016", "SAUDISAT 4", "Technology", "Jun-19-2014", R.mipmap.ic_saudisat_4_foreground));
+        SAUDI_ARABIA_Sat_Obj.add(new Satellite("31127", "SAUDICOMSAT 4", "Technology", "Apr-17-2007", R.mipmap.ic_saudicomsat_1_to_7_foreground));
+        SAUDI_ARABIA_Sat_Obj.add(new Satellite("31125", "SAUDICOMSAT 3", "Technology", "Apr-17-2007", R.mipmap.ic_saudicomsat_1_to_7_foreground));
+        SAUDI_ARABIA_Sat_Obj.add(new Satellite("31124", "SAUDICOMSAT 5", "Technology", "Apr-17-2007", R.mipmap.ic_saudicomsat_1_to_7_foreground));
+        SAUDI_ARABIA_Sat_Obj.add(new Satellite("31121", "SAUDICOMSAT 6", "Technology", "Apr-17-2007", R.mipmap.ic_saudicomsat_1_to_7_foreground));
+        SAUDI_ARABIA_Sat_Obj.add(new Satellite("31119", "SAUDICOMSAT 7", "Technology", "Apr-17-2007", R.mipmap.ic_saudicomsat_1_to_7_foreground));
+        SAUDI_ARABIA_Sat_Obj.add(new Satellite("31118", "SAUDISAT 3", "Tech:,Earth Observation", "Apr-17-2007", R.mipmap.ic_saudisat_3_foreground));
+        SAUDI_ARABIA_Sat_Obj.add(new Satellite("28371", "SAUDISAT 2", "Technology", "Jun-29-2004", R.mipmap.ic_saudisat_2_foreground));
+        SAUDI_ARABIA_Sat_Obj.add(new Satellite("28370", "SAUDICOMSAT 2", "Technology", "Jun-29-2004", R.mipmap.ic_saudicomsat_1_to_7_foreground));
+        SAUDI_ARABIA_Sat_Obj.add(new Satellite("28369", "SAUDICOMSAT 1", "Technology", "Jun-29-2004", R.mipmap.ic_saudicomsat_1_to_7_foreground));
+        SAUDI_ARABIA_Sat_Obj.add(new Satellite("27607", "SAUDISAT 1C", "Technology", "Dec-20-2002", R.mipmap.ic_saudisat_1_a_b_c_foreground));
+        SAUDI_ARABIA_Sat_Obj.add(new Satellite("26549", "SAUDISAT 1B", "Technology", "Sep-26-2000", R.mipmap.ic_saudisat_1_a_b_c_foreground));
+        SAUDI_ARABIA_Sat_Obj.add(new Satellite("26545", "SAUDISAT 1A", "Technology", "Sep-26-2000", R.mipmap.ic_saudisat_1_a_b_c_foreground));
         return SAUDI_ARABIA_Sat_Obj;
     }
 
