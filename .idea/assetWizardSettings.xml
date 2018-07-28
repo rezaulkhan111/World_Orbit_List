@@ -35,13 +35,13 @@
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
                                       <entry key="backgroundColor" value="f9f5f9" />
-                                      <entry key="backgroundLayerName" value="ic_prospero_background" />
-                                      <entry key="foregroundImage" value="L:\Satellite photo\prospero.jpg" />
-                                      <entry key="foregroundLayerName" value="ic_prospero_foreground" />
+                                      <entry key="backgroundLayerName" value="ic_galaxy_28_background" />
+                                      <entry key="foregroundImage" value="E:\Rezaul Khan(Internship)\ppppp\intelsat\galaxy_28.jpg" />
+                                      <entry key="foregroundLayerName" value="ic_galaxy_28_foreground" />
                                       <entry key="generateLegacyIcon" value="false" />
                                       <entry key="generateRoundIcon" value="false" />
                                       <entry key="generateWebIcon" value="false" />
-                                      <entry key="outputName" value="prospero" />
+                                      <entry key="outputName" value="galaxy_28" />
                                     </map>
                                   </option>
                                 </PersistentState>
