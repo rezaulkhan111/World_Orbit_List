@@ -34,14 +34,14 @@
                                   <option name="values">
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
-                                      <entry key="backgroundColor" value="fafffb" />
-                                      <entry key="backgroundLayerName" value="ic_esa_geos_1_2_background" />
-                                      <entry key="foregroundImage" value="L:\Satellite photo\eutelsat\ESA\esa_geos_1_2.jpg" />
-                                      <entry key="foregroundLayerName" value="ic_esa_geos_1_2_foreground" />
+                                      <entry key="backgroundColor" value="f9f5f9" />
+                                      <entry key="backgroundLayerName" value="ic_paz_background" />
+                                      <entry key="foregroundImage" value="E:\Rezaul Khan(Internship)\ppppp\intelsat\spain\paz.jpg" />
+                                      <entry key="foregroundLayerName" value="ic_paz_foreground" />
                                       <entry key="generateLegacyIcon" value="false" />
                                       <entry key="generateRoundIcon" value="false" />
                                       <entry key="generateWebIcon" value="false" />
-                                      <entry key="outputName" value="esa_geos_1_2" />
+                                      <entry key="outputName" value="paz" />
                                     </map>
                                   </option>
                                 </PersistentState>

@@ -1574,24 +1574,24 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
 ////ggg///
     public List<Satellite> SPAIN_Satellite_List() {
         SPAIN_Sat_Obj = new ArrayList<>();
-        SPAIN_Sat_Obj.add(new Satellite("43228", "HISPASAT 30W-6", "", "Mar-6-2018", R.mipmap.ic_spain_foreground));
-        SPAIN_Sat_Obj.add(new Satellite("43215", "PAZ", "", "Feb-22-2018", R.mipmap.ic_spain_foreground));
-        SPAIN_Sat_Obj.add(new Satellite("42934", "AMAZONAS 5", "", "Sep-11-2017", R.mipmap.ic_spain_foreground));
+        SPAIN_Sat_Obj.add(new Satellite("43228", "HISPASAT 30W-6", "Communication", "Mar-6-2018", R.mipmap.ic_nimiq_5_foreground));
+        SPAIN_Sat_Obj.add(new Satellite("43215", "PAZ", "SAR", "Feb-22-2018", R.mipmap.ic_paz_foreground));
+        SPAIN_Sat_Obj.add(new Satellite("42934", "AMAZONAS 5", "Communication", "Sep-11-2017", R.mipmap.ic_anik_f1_r_2_3_g1_foreground));
         SPAIN_Sat_Obj.add(new Satellite("42728", "QBITO", "", "Nov-20-1998", R.mipmap.ic_spain_foreground));
-        SPAIN_Sat_Obj.add(new Satellite("41942", "HISPASAT 36W-1", "", "Jan-28-2017", R.mipmap.ic_spain_foreground));
+        SPAIN_Sat_Obj.add(new Satellite("41942", "HISPASAT 36W-1", "", "Jan-28-2017", R.mipmap.ic_hispasat_36w_1_foreground));
         SPAIN_Sat_Obj.add(new Satellite("41732", "3CAT-2", "", "Aug-15-2016", R.mipmap.ic_spain_foreground));
         SPAIN_Sat_Obj.add(new Satellite("40013", "DEIMOS 2", "", "Jun-19-2014", R.mipmap.ic_spain_foreground));
-        SPAIN_Sat_Obj.add(new Satellite("39616", "AMAZONAS 4A", "", "Mar-22-2014", R.mipmap.ic_spain_foreground));
+        SPAIN_Sat_Obj.add(new Satellite("39616", "AMAZONAS 4A", "", "Mar-22-2014", R.mipmap.ic_amazonas_4_4a_foreground));
         SPAIN_Sat_Obj.add(new Satellite("39433", "HUMSAT D", "", "Nov-21-2013", R.mipmap.ic_spain_foreground));
         SPAIN_Sat_Obj.add(new Satellite("39420", "OPTOS", "", "Nov-21-2013", R.mipmap.ic_spain_foreground));
-        SPAIN_Sat_Obj.add(new Satellite("39078", "AMAZONAS 3", "", "Feb-7-2013", R.mipmap.ic_spain_foreground));
+        SPAIN_Sat_Obj.add(new Satellite("39078", "AMAZONAS 3", "", "Feb-7-2013", R.mipmap.ic_nimiq_5_foreground));
         SPAIN_Sat_Obj.add(new Satellite("37264", "HISPASAT 1E", "", "Dec-29-2010", R.mipmap.ic_spain_foreground));
-        SPAIN_Sat_Obj.add(new Satellite("35942", "AMAZONAS 2", "", "Sep-30-2009", R.mipmap.ic_spain_foreground));
+        SPAIN_Sat_Obj.add(new Satellite("35942", "AMAZONAS 2", "", "Sep-30-2009", R.mipmap.ic_nimiq_4_foreground));
         SPAIN_Sat_Obj.add(new Satellite("35685", "NANOSAT 1B", "", "Jul-29-2009", R.mipmap.ic_spain_foreground));
         SPAIN_Sat_Obj.add(new Satellite("35681", "DEIMOS 1", "", "Jul-29-2009", R.mipmap.ic_spain_foreground));
         SPAIN_Sat_Obj.add(new Satellite("28945", "SPAINSAT", "", "Mar-11-2006", R.mipmap.ic_spain_foreground));
         SPAIN_Sat_Obj.add(new Satellite("28493", "NANOSAT(1)", "", "Dec-18-2004", R.mipmap.ic_spain_foreground));
-        SPAIN_Sat_Obj.add(new Satellite("28393", "AMAZONAS", "", "Aug-4-2004", R.mipmap.ic_spain_foreground));
+        SPAIN_Sat_Obj.add(new Satellite("28393", "AMAZONAS", "", "Aug-4-2004", R.mipmap.ic_nimiq_4_foreground));
         SPAIN_Sat_Obj.add(new Satellite("27528", "HISPASAT 1D", "", "Sep-18-2002", R.mipmap.ic_spain_foreground));
         SPAIN_Sat_Obj.add(new Satellite("26071", "HISPASAT 1C", "", "Feb-3-2000", R.mipmap.ic_spain_foreground));
         SPAIN_Sat_Obj.add(new Satellite("23607", "UPM/LBSAT", "", "Jul-7-1995", R.mipmap.ic_spain_foreground));
@@ -1680,10 +1680,10 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.IC
         UNITED_ARAB_EMIRATES_Sat_Obj.add(new Satellite("26578", "THURAYA 1", "Communication", "Oct-21-2000", R.mipmap.ic_thuraya_1_foreground));
         return UNITED_ARAB_EMIRATES_Sat_Obj;
     }
-////gghg///
+
     public List<Satellite> UNITED_KINGDOM_Satellite_List() {
         UNITED_KINGDOM_Sat_Obj = new ArrayList<>();
-        UNITED_KINGDOM_Sat_Obj.add(new Satellite("43510", "REMOVEDEBRIS", "", "Nov-20-1998", R.mipmap.ic_united_kingdom_foreground));
+        UNITED_KINGDOM_Sat_Obj.add(new Satellite("43510", "REMOVEDEBRIS", "Technology", "Nov-20-1998", R.mipmap.ic_removedebris_foreground));
         UNITED_KINGDOM_Sat_Obj.add(new Satellite("43115", "CARBONITE 2", "Technology,EO", "Jan-12-2018", R.mipmap.ic_carbonite_2_foreground));
         UNITED_KINGDOM_Sat_Obj.add(new Satellite("42765", "UCLSAT", "Technology,Atmosphere", "Jun-23-2017", R.mipmap.ic_uclsat_foreground));
         UNITED_KINGDOM_Sat_Obj.add(new Satellite("40719", "DEORBITSAIL", "Technology", "Jul-10-2015", R.mipmap.ic_deorbitsail_foreground));
